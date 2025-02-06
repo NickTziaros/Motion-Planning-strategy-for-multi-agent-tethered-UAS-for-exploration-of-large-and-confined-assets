@@ -1,0 +1,56 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:3[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:79:41:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [15][m[K’ and ‘[01m[KEigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, true>, 0>::CoeffReturnType[m[K’ {aka ‘[01m[Kdouble[m[K’} to binary ‘[01m[Koperator<<[m[K’
+   79 |   RCLCPP_INFO(logger, [32m[K"Translation: \n"[m[K [01;31m[K<<[m[K [34m[Kend_effector_state.translation().x()+0.1[m[K << "\n");
+      |                       [32m[K~~~~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                       [32m[K|[m[K                                                        [34m[K|[m[K
+      |                       [32m[Kconst char [15][m[K                                          [34m[KEigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, true>, 0>::CoeffReturnType {aka double}[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:79:80:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K+[m[K’ inside ‘[01m[K<<[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   79 |   RCLCPP_INFO(logger, "Translation: \n" << [01;35m[Kend_effector_state.translation().x()+0.1[m[K << "\n");
+      |                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:80:38:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kconst char [12][m[K’ and ‘[01m[KEigen::Transform<double, 3, 1>::RotationReturnType[m[K’ {aka ‘[01m[Kconst Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>[m[K’})
+   80 |   RCLCPP_INFO(logger, [32m[K"Rotation: \n"[m[K [01;31m[K<<[m[K [34m[Kend_effector_state.rotation()[m[K << "\n");
+      |                       [32m[K~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                       [32m[K|[m[K                                            [34m[K|[m[K
+      |                       [32m[Kconst char [12][m[K                              [34m[KEigen::Transform<double, 3, 1>::RotationReturnType {aka const Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>}[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:269[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model.h:46[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:4[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/IO.h:249:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived> std::ostream& Eigen::operator<<(std::ostream&, const Eigen::DenseBase<Derived>&)[m[K’
+  249 | std::ostream & [01;36m[Koperator[m[K <<
+      |                [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/IO.h:249:16:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:3[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:80:23:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K"Rotation: \012"[m[K’ (type ‘[01m[Kconst char [12][m[K’) to type ‘[01m[Kstd::ostream&[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>&[m[K’}
+   80 |   RCLCPP_INFO(logger, [01;36m[K"Rotation: \n"[m[K << end_effector_state.rotation() << "\n");
+      |                       [01;36m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,51 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_demo[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_test_node[0m
+[ 10%] Built target StateSubscriber_node
+[ 20%] Built target markers_node
+[ 30%] Built target visualization_node
+[ 40%] Built target tf_to_pos_node
+[ 50%] Built target isaac_sim_demo_library
+[ 60%] Built target spawn_scene
+[ 65%] [32mBuilding CXX object CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o[0m
+[ 75%] Built target cpp_demo
+[ 95%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:3[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:79:22:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+   79 |   RCLCPP_INFO_STREAM([01;31m[KLOGGER[m[K, "Translation: \n" << end_effector_state.translation().x()+0.1 << "\n");
+      |                      [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:79:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   79 |   [01;31m[KRCLCPP_INFO_STREAM[m[K(LOGGER, "Translation: \n" << end_effector_state.translation().x()+0.1 << "\n");
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:79:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   79 |   [01;31m[KRCLCPP_INFO_STREAM[m[K(LOGGER, "Translation: \n" << end_effector_state.translation().x()+0.1 << "\n");
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:79:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   79 |   [01;31m[KRCLCPP_INFO_STREAM[m[K(LOGGER, "Translation: \n" << end_effector_state.translation().x()+0.1 << "\n");
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:80:22:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+   80 |   RCLCPP_INFO_STREAM([01;31m[KLOGGER[m[K, "Rotation: \n" << end_effector_state.rotation() << "\n");
+      |                      [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:80:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   80 |   [01;31m[KRCLCPP_INFO_STREAM[m[K(LOGGER, "Rotation: \n" << end_effector_state.rotation() << "\n");
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:80:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   80 |   [01;31m[KRCLCPP_INFO_STREAM[m[K(LOGGER, "Rotation: \n" << end_effector_state.rotation() << "\n");
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:80:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   80 |   [01;31m[KRCLCPP_INFO_STREAM[m[K(LOGGER, "Rotation: \n" << end_effector_state.rotation() << "\n");
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,31 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:322:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  322 |           RCLCPP_ERROR(node->get_logger(), "NOT SATISFIED")[01;31m[K}[m[K
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:376:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kik_pose[m[K’ was not declared in this scope; did you mean ‘[01m[Kee_pose[m[K’?
+  376 |       box_pose.pose.position.x = [01;31m[Kik_pose[m[K.position.x;  // Box position (x, y, z)
+      |                                  [01;31m[K^~~~~~~[m[K
+      |                                  [32m[Kee_pose[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:387:12:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto future[m[K’
+  387 |       auto [01;31m[Kfuture[m[K = client_->async_send_request(request);
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:121:8:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Krclcpp::Client<moveit_msgs::srv::GetPlanningScene>::FutureAndRequestId future[m[K’
+  121 |   auto [01;36m[Kfuture[m[K = client_->async_send_request(request);
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:405:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisibility_constraint[m[K’ was not declared in this scope; did you mean ‘[01m[Kposition_constraint[m[K’?
+  405 |       constraints.visibility_constraints.push_back([01;31m[Kvisibility_constraint[m[K);
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                    [32m[Kposition_constraint[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K At global scope:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:445:21:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+  445 |   rclcpp::shutdown()[01;31m[K;[m[K
+      |                     [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:446:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  446 |   [01;31m[Kreturn[m[K 0;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:447:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  447 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

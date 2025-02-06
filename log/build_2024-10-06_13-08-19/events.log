@@ -1,0 +1,278 @@
+[0.000000] (-) TimerEvent: {}
+[0.000257] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000332] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000343] (-) JobUnselected: {'identifier': 'floating_moveit_config'}
+[0.000353] (-) JobUnselected: {'identifier': 'four_drone_demo'}
+[0.000361] (-) JobUnselected: {'identifier': 'isaac_twin_moveit_config'}
+[0.000370] (-) JobUnselected: {'identifier': 'launch_param_builder'}
+[0.000378] (-) JobUnselected: {'identifier': 'moveit'}
+[0.000387] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.000396] (-) JobUnselected: {'identifier': 'moveit_benchmark_resources'}
+[0.000405] (-) JobUnselected: {'identifier': 'moveit_chomp_optimizer_adapter'}
+[0.000413] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000488] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.000512] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.000520] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.000529] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.000538] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.000546] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.000564] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.000573] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.000582] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.000590] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.000598] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.000607] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.000616] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.000624] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.000633] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.000642] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.000653] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.000661] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.000669] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.000686] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.000695] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.000704] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.000712] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.000720] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.000737] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.000746] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.000755] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.000763] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.000771] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.000780] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.000789] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.000797] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.000805] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.000814] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.000822] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.000830] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.000839] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.000847] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.000855] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.000863] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.000871] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.000880] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.000888] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.000896] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.000905] (-) JobUnselected: {'identifier': 'pick_ik'}
+[0.000913] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.000930] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.000947] (-) JobUnselected: {'identifier': 'prismatic_moveit_config'}
+[0.000956] (-) JobUnselected: {'identifier': 'rosparam_shortcuts'}
+[0.000965] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.000973] (-) JobUnselected: {'identifier': 'srdfdom'}
+[0.000990] (-) JobUnselected: {'identifier': 'test_moveit_config'}
+[0.001000] (isaac_sim_demo) JobQueued: {'identifier': 'isaac_sim_demo', 'dependencies': OrderedDict([('custom_interfaces', '/home/ubuntu/ros2_ws/install/custom_interfaces'), ('launch_param_builder', '/home/ubuntu/ros2_ws/install/launch_param_builder'), ('moveit_common', '/home/ubuntu/ros2_ws/install/moveit_common'), ('moveit_resources_fanuc_description', '/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description'), ('moveit_resources_panda_description', '/home/ubuntu/ros2_ws/install/moveit_resources_panda_description'), ('moveit_resources_pr2_description', '/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description'), ('moveit_resources_prbt_support', '/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support'), ('srdfdom', '/home/ubuntu/ros2_ws/install/srdfdom'), ('moveit_configs_utils', '/home/ubuntu/ros2_ws/install/moveit_configs_utils'), ('moveit_resources_fanuc_moveit_config', '/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config'), ('moveit_resources_panda_moveit_config', '/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config'), ('moveit_core', '/home/ubuntu/ros2_ws/install/moveit_core'), ('moveit_resources_prbt_ikfast_manipulator_plugin', '/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin'), ('moveit_ros_occupancy_map_monitor', '/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor'), ('moveit_simple_controller_manager', '/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager'), ('pilz_industrial_motion_planner_testutils', '/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils'), ('moveit_ros_planning', '/home/ubuntu/ros2_ws/install/moveit_ros_planning'), ('moveit_kinematics', '/home/ubuntu/ros2_ws/install/moveit_kinematics'), ('moveit_planners_ompl', '/home/ubuntu/ros2_ws/install/moveit_planners_ompl'), ('moveit_ros_robot_interaction', '/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction'), ('moveit_ros_warehouse', '/home/ubuntu/ros2_ws/install/moveit_ros_warehouse'), ('moveit_visual_tools', '/home/ubuntu/ros2_ws/install/moveit_visual_tools'), ('moveit_ros_move_group', '/home/ubuntu/ros2_ws/install/moveit_ros_move_group'), ('moveit_resources_prbt_moveit_config', '/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config'), ('moveit_ros_planning_interface', '/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface'), ('moveit_resources_prbt_pg70_support', '/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support'), ('moveit_ros_visualization', '/home/ubuntu/ros2_ws/install/moveit_ros_visualization'), ('moveit_setup_framework', '/home/ubuntu/ros2_ws/install/moveit_setup_framework'), ('pilz_industrial_motion_planner', '/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner'), ('moveit_planners', '/home/ubuntu/ros2_ws/install/moveit_planners'), ('moveit_setup_app_plugins', '/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins'), ('moveit_setup_controllers', '/home/ubuntu/ros2_ws/install/moveit_setup_controllers'), ('moveit_setup_core_plugins', '/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins'), ('moveit_setup_srdf_plugins', '/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins'), ('moveit_setup_assistant', '/home/ubuntu/ros2_ws/install/moveit_setup_assistant')])}
+[0.001043] (isaac_sim_demo) JobStarted: {'identifier': 'isaac_sim_demo'}
+[0.072075] (isaac_sim_demo) JobProgress: {'identifier': 'isaac_sim_demo', 'progress': 'cmake'}
+[0.072616] (isaac_sim_demo) JobProgress: {'identifier': 'isaac_sim_demo', 'progress': 'build'}
+[0.073171] (isaac_sim_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/isaac_sim_demo', '--', '-j24', '-l24'], 'cwd': '/home/ubuntu/ros2_ws/build/isaac_sim_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'isaacsim-HP-Z2-Tower-G9-Workstation-Desktop-PC'), ('GIT_ASKPASS', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('ISAACSIM_PATH', '/isaac-sim'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_controllers/lib:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins/lib:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner/lib:/home/ubuntu/ros2_ws/install/moveit_setup_framework/lib:/home/ubuntu/ros2_ws/install/moveit_ros_visualization/lib:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/lib:/home/ubuntu/ros2_ws/install/moveit_ros_move_group/lib:/home/ubuntu/ros2_ws/install/moveit_visual_tools/lib:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse/lib:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction/lib:/home/ubuntu/ros2_ws/install/moveit_planners_ompl/lib:/home/ubuntu/ros2_ws/install/moveit_kinematics/lib:/home/ubuntu/ros2_ws/install/moveit_ros_planning/lib:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager/lib:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/ubuntu/ros2_ws/install/moveit_core/lib:/home/ubuntu/ros2_ws/install/srdfdom/lib:/home/ubuntu/ros2_ws/install/custom_interfaces/lib:/home/ubuntu/ros2_ws/install/pick_ik/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core/lib:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface/lib:/home/ubuntu/ros2_ws/install/moveit_setup_assistant/lib:/home/ubuntu/ros2_ws/install/moveit_servo/lib:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning/lib:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks/lib:/home/ubuntu/ros2_ws/install/moveit_ros_perception/lib:/home/ubuntu/ros2_ws/install/moveit_planners_chomp/lib:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/ubuntu/ros2_ws/install/chomp_motion_planner/lib:/home/ubuntu/ros2_ws/install/rviz_marker_tools/lib:/home/ubuntu/ros2_ws/install/rosparam_shortcuts/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b70afb6a-acee-4c3b-b7cc-b5f1b9cffe97.sock'), ('MIN_DRIVER_VERSION', '525.60.11'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a08ce231-a116-4e21-9e66-35ca2e4621ad.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ubuntu/ros2_ws/install/moveit_core/bin:/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('VK_DRIVER_FILES', '/etc/vulkan/icd.d/nvidia_icd.json'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a08ce231-a116-4e21-9e66-35ca2e4621ad.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7a75ec24d6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a08ce231-a116-4e21-9e66-35ca2e4621ad.sock'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/home/ubuntu/ros2_ws/install/prismatic_moveit_config:/home/ubuntu/ros2_ws/install/test_moveit_config:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/ubuntu/ros2_ws/install/moveit_runtime:/home/ubuntu/ros2_ws/install/moveit2_tutorials:/home/ubuntu/ros2_ws/install/moveit:/home/ubuntu/ros2_ws/install/isaac_twin_moveit_config:/home/ubuntu/ros2_ws/install/four_drone_demo:/home/ubuntu/ros2_ws/install/floating_moveit_config:/home/ubuntu/ros2_ws/install/chain_moveit_config:/home/ubuntu/ros2_ws/install/4_drone_demo:/home/ubuntu/ros2_ws/install/isaac_sim_demo:/home/ubuntu/ros2_ws/install/moveit_planners:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner:/home/ubuntu/ros2_ws/install/pick_ik:/home/ubuntu/ros2_ws/install/moveit_visual_tools:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface:/home/ubuntu/ros2_ws/install/moveit_plugins:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager:/home/ubuntu/ros2_ws/install/moveit_setup_assistant:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_controllers:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_framework:/home/ubuntu/ros2_ws/install/moveit_servo:/home/ubuntu/ros2_ws/install/moveit_ros:/home/ubuntu/ros2_ws/install/moveit_ros_visualization:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction:/home/ubuntu/ros2_ws/install/moveit_ros_perception:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/ubuntu/ros2_ws/install/moveit_ros_move_group:/home/ubuntu/ros2_ws/install/moveit_planners_ompl:/home/ubuntu/ros2_ws/install/moveit_ros_planning:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ubuntu/ros2_ws/install/moveit_planners_chomp:/home/ubuntu/ros2_ws/install/moveit_kinematics:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/ubuntu/ros2_ws/install/chomp_motion_planner:/home/ubuntu/ros2_ws/install/moveit_core:/home/ubuntu/ros2_ws/install/srdfdom:/home/ubuntu/ros2_ws/install/rviz_marker_tools:/home/ubuntu/ros2_ws/install/rosparam_shortcuts:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support:/home/ubuntu/ros2_ws/install/moveit_resources:/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description:/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_panda_description:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description:/home/ubuntu/ros2_ws/install/moveit_common:/home/ubuntu/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OMNI_PASS', 'admin'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ACCEPT_EULA', 'Y'), ('OMNI_SERVER', 'http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/2023.1.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/isaac_sim_demo'), ('OMNI_USER', 'admin'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/moveit_setup_assistant:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_controllers:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins:/home/ubuntu/ros2_ws/install/moveit_planners:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner:/home/ubuntu/ros2_ws/install/moveit_setup_framework:/home/ubuntu/ros2_ws/install/moveit_ros_visualization:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/ubuntu/ros2_ws/install/moveit_ros_move_group:/home/ubuntu/ros2_ws/install/moveit_visual_tools:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction:/home/ubuntu/ros2_ws/install/moveit_planners_ompl:/home/ubuntu/ros2_ws/install/moveit_kinematics:/home/ubuntu/ros2_ws/install/moveit_ros_planning:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ubuntu/ros2_ws/install/moveit_core:/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/ubuntu/ros2_ws/install/srdfdom:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support:/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description:/home/ubuntu/ros2_ws/install/moveit_resources_panda_description:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description:/home/ubuntu/ros2_ws/install/moveit_common:/home/ubuntu/ros2_ws/install/custom_interfaces:/home/ubuntu/ros2_ws/install/prismatic_moveit_config:/home/ubuntu/ros2_ws/install/test_moveit_config:/home/ubuntu/ros2_ws/install/moveit_runtime:/home/ubuntu/ros2_ws/install/moveit2_tutorials:/home/ubuntu/ros2_ws/install/moveit:/home/ubuntu/ros2_ws/install/isaac_twin_moveit_config:/home/ubuntu/ros2_ws/install/four_drone_demo:/home/ubuntu/ros2_ws/install/floating_moveit_config:/home/ubuntu/ros2_ws/install/chain_moveit_config:/home/ubuntu/ros2_ws/install/4_drone_demo:/home/ubuntu/ros2_ws/install/isaac_sim_demo:/home/ubuntu/ros2_ws/install/pick_ik:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface:/home/ubuntu/ros2_ws/install/moveit_plugins:/home/ubuntu/ros2_ws/install/moveit_servo:/home/ubuntu/ros2_ws/install/moveit_ros:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks:/home/ubuntu/ros2_ws/install/moveit_ros_perception:/home/ubuntu/ros2_ws/install/moveit_planners_chomp:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/ubuntu/ros2_ws/install/chomp_motion_planner:/home/ubuntu/ros2_ws/install/rviz_marker_tools:/home/ubuntu/ros2_ws/install/rosparam_shortcuts:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs:/home/ubuntu/ros2_ws/install/moveit_resources:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[0.099828] (-) TimerEvent: {}
+[0.132287] (isaac_sim_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target joint_space\x1b[0m\n'}
+[0.141140] (isaac_sim_demo) StdoutLine: {'line': b'[ 18%] Built target tf_to_pos_node\n'}
+[0.141319] (isaac_sim_demo) StdoutLine: {'line': b'[ 18%] Built target markers_node\n'}
+[0.141505] (isaac_sim_demo) StdoutLine: {'line': b'[ 27%] Built target StateSubscriber_node\n'}
+[0.142530] (isaac_sim_demo) StdoutLine: {'line': b'[ 36%] Built target visualization_node\n'}
+[0.149249] (isaac_sim_demo) StdoutLine: {'line': b'[ 45%] Built target cartesian\n'}
+[0.149458] (isaac_sim_demo) StdoutLine: {'line': b'[ 54%] Built target moveit_test_node\n'}
+[0.150442] (isaac_sim_demo) StdoutLine: {'line': b'[ 63%] Built target spawn_scene\n'}
+[0.151789] (isaac_sim_demo) StdoutLine: {'line': b'[ 72%] Built target isaac_sim_demo_library\n'}
+[0.167416] (isaac_sim_demo) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/joint_space.dir/src/joint_space.cpp.o\x1b[0m\n'}
+[0.188938] (isaac_sim_demo) StdoutLine: {'line': b'[ 95%] Built target ompl_controller_node\n'}
+[0.189088] (isaac_sim_demo) StdoutLine: {'line': b'[ 95%] Built target ompl_lifecycle\n'}
+[0.199888] (-) TimerEvent: {}
+[0.300100] (-) TimerEvent: {}
+[0.400368] (-) TimerEvent: {}
+[0.500693] (-) TimerEvent: {}
+[0.600978] (-) TimerEvent: {}
+[0.701258] (-) TimerEvent: {}
+[0.801586] (-) TimerEvent: {}
+[0.901906] (-) TimerEvent: {}
+[1.002204] (-) TimerEvent: {}
+[1.102484] (-) TimerEvent: {}
+[1.202763] (-) TimerEvent: {}
+[1.303044] (-) TimerEvent: {}
+[1.403327] (-) TimerEvent: {}
+[1.503592] (-) TimerEvent: {}
+[1.603857] (-) TimerEvent: {}
+[1.704125] (-) TimerEvent: {}
+[1.804484] (-) TimerEvent: {}
+[1.904759] (-) TimerEvent: {}
+[2.005028] (-) TimerEvent: {}
+[2.105345] (-) TimerEvent: {}
+[2.205756] (-) TimerEvent: {}
+[2.306020] (-) TimerEvent: {}
+[2.406290] (-) TimerEvent: {}
+[2.506513] (-) TimerEvent: {}
+[2.606737] (-) TimerEvent: {}
+[2.706967] (-) TimerEvent: {}
+[2.807198] (-) TimerEvent: {}
+[2.907510] (-) TimerEvent: {}
+[3.007829] (-) TimerEvent: {}
+[3.108071] (-) TimerEvent: {}
+[3.208295] (-) TimerEvent: {}
+[3.308530] (-) TimerEvent: {}
+[3.408753] (-) TimerEvent: {}
+[3.508981] (-) TimerEvent: {}
+[3.609198] (-) TimerEvent: {}
+[3.709419] (-) TimerEvent: {}
+[3.809645] (-) TimerEvent: {}
+[3.909874] (-) TimerEvent: {}
+[4.010103] (-) TimerEvent: {}
+[4.110331] (-) TimerEvent: {}
+[4.210586] (-) TimerEvent: {}
+[4.310844] (-) TimerEvent: {}
+[4.411108] (-) TimerEvent: {}
+[4.511339] (-) TimerEvent: {}
+[4.611571] (-) TimerEvent: {}
+[4.711809] (-) TimerEvent: {}
+[4.812117] (-) TimerEvent: {}
+[4.842737] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.842935] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:450:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<moveit_msgs::msg::PlanningScene_<std::allocator<void> > >::publish(std::shared_ptr<planning_scene::PlanningScene>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.843004] (isaac_sim_demo) StderrLine: {'line': b'  450 |     \x1b[01;31m\x1b[Kplanning_scene_diff_publisher->publish(planning_scene)\x1b[m\x1b[K;\n'}
+[4.843060] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.843095] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:29\x1b[m\x1b[K,\n'}
+[4.843131] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp:27\x1b[m\x1b[K,\n'}
+[4.843215] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:45\x1b[m\x1b[K,\n'}
+[4.843251] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h:43\x1b[m\x1b[K,\n'}
+[4.843329] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:42\x1b[m\x1b[K,\n'}
+[4.843357] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[4.843388] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40\x1b[m\x1b[K,\n'}
+[4.843420] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5\x1b[m\x1b[K:\n'}
+[4.843449] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:251:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::ros_message_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::ros_message_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type> >::type>) [with T = T; MessageT = moveit_msgs::msg::PlanningScene_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.843489] (isaac_sim_demo) StderrLine: {'line': b'  251 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(std::unique_ptr<T, ROSMessageTypeDeleter> msg)\n'}
+[4.843523] (isaac_sim_demo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.843556] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:251:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.843587] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:450:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<planning_scene::PlanningScene>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<T, std::default_delete<moveit_msgs::msg::PlanningScene_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.843621] (isaac_sim_demo) StderrLine: {'line': b'  450 |     \x1b[01;36m\x1b[Kplanning_scene_diff_publisher->publish(planning_scene)\x1b[m\x1b[K;\n'}
+[4.843652] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.843681] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:29\x1b[m\x1b[K,\n'}
+[4.843710] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp:27\x1b[m\x1b[K,\n'}
+[4.843743] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:45\x1b[m\x1b[K,\n'}
+[4.843773] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h:43\x1b[m\x1b[K,\n'}
+[4.843801] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:42\x1b[m\x1b[K,\n'}
+[4.843832] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[4.843864] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40\x1b[m\x1b[K,\n'}
+[4.843893] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5\x1b[m\x1b[K:\n'}
+[4.843921] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = moveit_msgs::msg::PlanningScene_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.843951] (isaac_sim_demo) StderrLine: {'line': b'  292 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const T & msg)\n'}
+[4.843983] (isaac_sim_demo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.844011] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.844041] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[4.844072] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[4.844099] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[4.844129] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tree.h:63\x1b[m\x1b[K,\n'}
+[4.844159] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/map:60\x1b[m\x1b[K,\n'}
+[4.844190] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:33\x1b[m\x1b[K,\n'}
+[4.844218] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[4.844247] (isaac_sim_demo) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.844278] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, moveit_msgs::msg::PlanningScene_<std::allocator<void> > >::value), void> rclcpp::Publisher<moveit_msgs::msg::PlanningScene_<std::allocator<void> > >::publish<T>(const T&) [with T = std::shared_ptr<planning_scene::PlanningScene>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.844308] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:450:43:\x1b[m\x1b[K   required from here\n'}
+[4.844338] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2579:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.844366] (isaac_sim_demo) StderrLine: {'line': b' 2579 |     using \x1b[01;31m\x1b[Kenable_if_t\x1b[m\x1b[K = typename enable_if<_Cond, _Tp>::type;\n'}
+[4.844394] (isaac_sim_demo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.844428] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:29\x1b[m\x1b[K,\n'}
+[4.844458] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp:27\x1b[m\x1b[K,\n'}
+[4.844485] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:45\x1b[m\x1b[K,\n'}
+[4.844512] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h:43\x1b[m\x1b[K,\n'}
+[4.844540] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:42\x1b[m\x1b[K,\n'}
+[4.844567] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[4.844594] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40\x1b[m\x1b[K,\n'}
+[4.844621] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5\x1b[m\x1b[K:\n'}
+[4.844647] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:322:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::custom_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::custom_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type> >::type>) [with T = T; MessageT = moveit_msgs::msg::PlanningScene_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.844683] (isaac_sim_demo) StderrLine: {'line': b'  322 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(std::unique_ptr<T, PublishedTypeDeleter> msg)\n'}
+[4.844712] (isaac_sim_demo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.844738] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:322:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.844765] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:450:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<planning_scene::PlanningScene>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<T, std::default_delete<moveit_msgs::msg::PlanningScene_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.844793] (isaac_sim_demo) StderrLine: {'line': b'  450 |     \x1b[01;36m\x1b[Kplanning_scene_diff_publisher->publish(planning_scene)\x1b[m\x1b[K;\n'}
+[4.844821] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.844848] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:29\x1b[m\x1b[K,\n'}
+[4.844875] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp:27\x1b[m\x1b[K,\n'}
+[4.844902] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:45\x1b[m\x1b[K,\n'}
+[4.844929] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h:43\x1b[m\x1b[K,\n'}
+[4.844955] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:42\x1b[m\x1b[K,\n'}
+[4.844981] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[4.845008] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40\x1b[m\x1b[K,\n'}
+[4.845034] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5\x1b[m\x1b[K:\n'}
+[4.845061] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:364:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = moveit_msgs::msg::PlanningScene_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.845089] (isaac_sim_demo) StderrLine: {'line': b'  364 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const T & msg)\n'}
+[4.845116] (isaac_sim_demo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.845141] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:364:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.845170] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:383:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = moveit_msgs::msg::PlanningScene_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_s]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.845198] (isaac_sim_demo) StderrLine: {'line': b'  383 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const rcl_serialized_message_t & serialized_msg)\n'}
+[4.845224] (isaac_sim_demo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.845251] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:383:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<planning_scene::PlanningScene>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_serialized_message_t&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcutils_uint8_array_s&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.845281] (isaac_sim_demo) StderrLine: {'line': b'  383 |   publish(\x1b[01;36m\x1b[Kconst rcl_serialized_message_t & serialized_msg\x1b[m\x1b[K)\n'}
+[4.845307] (isaac_sim_demo) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.845334] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:389:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = moveit_msgs::msg::PlanningScene_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.845368] (isaac_sim_demo) StderrLine: {'line': b'  389 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const SerializedMessage & serialized_msg)\n'}
+[4.845395] (isaac_sim_demo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.845422] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:389:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<planning_scene::PlanningScene>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::SerializedMessage&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.845450] (isaac_sim_demo) StderrLine: {'line': b'  389 |   publish(\x1b[01;36m\x1b[Kconst SerializedMessage & serialized_msg\x1b[m\x1b[K)\n'}
+[4.845477] (isaac_sim_demo) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.845505] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:403:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<typename rclcpp::TypeAdapter<MessageT>::ros_message_type, AllocatorT>&&) [with MessageT = moveit_msgs::msg::PlanningScene_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = moveit_msgs::msg::PlanningScene_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.845536] (isaac_sim_demo) StderrLine: {'line': b'  403 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)\n'}
+[4.845563] (isaac_sim_demo) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.845589] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:403:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<planning_scene::PlanningScene>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::LoanedMessage<moveit_msgs::msg::PlanningScene_<std::allocator<void> >, std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.845618] (isaac_sim_demo) StderrLine: {'line': b'  403 |   publish(\x1b[01;36m\x1b[Krclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg\x1b[m\x1b[K)\n'}
+[4.845644] (isaac_sim_demo) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.912230] (-) TimerEvent: {}
+[5.012464] (-) TimerEvent: {}
+[5.112689] (-) TimerEvent: {}
+[5.212912] (-) TimerEvent: {}
+[5.313135] (-) TimerEvent: {}
+[5.413378] (-) TimerEvent: {}
+[5.513614] (-) TimerEvent: {}
+[5.613866] (-) TimerEvent: {}
+[5.714113] (-) TimerEvent: {}
+[5.814343] (-) TimerEvent: {}
+[5.914576] (-) TimerEvent: {}
+[6.014808] (-) TimerEvent: {}
+[6.115066] (-) TimerEvent: {}
+[6.215323] (-) TimerEvent: {}
+[6.315598] (-) TimerEvent: {}
+[6.415850] (-) TimerEvent: {}
+[6.516113] (-) TimerEvent: {}
+[6.616386] (-) TimerEvent: {}
+[6.716600] (-) TimerEvent: {}
+[6.816844] (-) TimerEvent: {}
+[6.917087] (-) TimerEvent: {}
+[7.017326] (-) TimerEvent: {}
+[7.117570] (-) TimerEvent: {}
+[7.217823] (-) TimerEvent: {}
+[7.318105] (-) TimerEvent: {}
+[7.418351] (-) TimerEvent: {}
+[7.518599] (-) TimerEvent: {}
+[7.618847] (-) TimerEvent: {}
+[7.719092] (-) TimerEvent: {}
+[7.819359] (-) TimerEvent: {}
+[7.919612] (-) TimerEvent: {}
+[8.019836] (-) TimerEvent: {}
+[8.120124] (-) TimerEvent: {}
+[8.220353] (-) TimerEvent: {}
+[8.320583] (-) TimerEvent: {}
+[8.420806] (-) TimerEvent: {}
+[8.521028] (-) TimerEvent: {}
+[8.621260] (-) TimerEvent: {}
+[8.721581] (-) TimerEvent: {}
+[8.821899] (-) TimerEvent: {}
+[8.922165] (-) TimerEvent: {}
+[9.022417] (-) TimerEvent: {}
+[9.122637] (-) TimerEvent: {}
+[9.222950] (-) TimerEvent: {}
+[9.323181] (-) TimerEvent: {}
+[9.423401] (-) TimerEvent: {}
+[9.523731] (-) TimerEvent: {}
+[9.624047] (-) TimerEvent: {}
+[9.724377] (-) TimerEvent: {}
+[9.824619] (-) TimerEvent: {}
+[9.924860] (-) TimerEvent: {}
+[10.025093] (-) TimerEvent: {}
+[10.125376] (-) TimerEvent: {}
+[10.223302] (isaac_sim_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1\n'}
+[10.223572] (isaac_sim_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2\n'}
+[10.223789] (isaac_sim_demo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.225275] (isaac_sim_demo) CommandEnded: {'returncode': 2}
+[10.226202] (-) TimerEvent: {}
+[10.293886] (isaac_sim_demo) JobEnded: {'identifier': 'isaac_sim_demo', 'rc': 2}
+[10.304148] (-) EventReactorShutdown: {}

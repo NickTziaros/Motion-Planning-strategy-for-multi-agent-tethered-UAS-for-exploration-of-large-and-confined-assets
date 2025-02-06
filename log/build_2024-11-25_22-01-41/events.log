@@ -1,0 +1,268 @@
+[0.000000] (-) TimerEvent: {}
+[0.000121] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000141] (-) JobUnselected: {'identifier': 'floating_moveit_config'}
+[0.000152] (-) JobUnselected: {'identifier': 'four_drone_demo'}
+[0.000163] (-) JobUnselected: {'identifier': 'isaac_twin_moveit_config'}
+[0.000172] (-) JobUnselected: {'identifier': 'prismatic_moveit_config'}
+[0.000181] (-) JobUnselected: {'identifier': 'test_moveit_config'}
+[0.000192] (isaac_sim_demo) JobQueued: {'identifier': 'isaac_sim_demo', 'dependencies': OrderedDict([('custom_interfaces', '/home/ubuntu/ros2_ws/install/custom_interfaces')])}
+[0.000469] (isaac_sim_demo) JobStarted: {'identifier': 'isaac_sim_demo'}
+[0.011295] (isaac_sim_demo) JobProgress: {'identifier': 'isaac_sim_demo', 'progress': 'cmake'}
+[0.011822] (isaac_sim_demo) JobProgress: {'identifier': 'isaac_sim_demo', 'progress': 'build'}
+[0.012262] (isaac_sim_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/isaac_sim_demo', '--', '-j24', '-l24'], 'cwd': '/home/ubuntu/ros2_ws/build/isaac_sim_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'isaacsim-HP-Z2-Tower-G9-Workstation-Desktop-PC'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass.sh'), ('ISAACSIM_PATH', '/isaac-sim'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/custom_interfaces/lib:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner/lib:/home/ubuntu/ros2_ws/install/pick_ik/lib:/home/ubuntu/ros2_ws/install/moveit_visual_tools/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core/lib:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface/lib:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager/lib:/home/ubuntu/ros2_ws/install/moveit_setup_assistant/lib:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_controllers/lib:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_framework/lib:/home/ubuntu/ros2_ws/install/moveit_servo/lib:/home/ubuntu/ros2_ws/install/moveit_ros_visualization/lib:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning/lib:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/lib:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks/lib:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse/lib:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction/lib:/home/ubuntu/ros2_ws/install/moveit_ros_perception/lib:/home/ubuntu/ros2_ws/install/moveit_ros_move_group/lib:/home/ubuntu/ros2_ws/install/moveit_planners_ompl/lib:/home/ubuntu/ros2_ws/install/moveit_ros_planning/lib:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/ubuntu/ros2_ws/install/moveit_planners_chomp/lib:/home/ubuntu/ros2_ws/install/moveit_kinematics/lib:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/ubuntu/ros2_ws/install/chomp_motion_planner/lib:/home/ubuntu/ros2_ws/install/moveit_core/lib:/home/ubuntu/ros2_ws/install/srdfdom/lib:/home/ubuntu/ros2_ws/install/rviz_marker_tools/lib:/home/ubuntu/ros2_ws/install/rosparam_shortcuts/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.95.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-98b79a03-ef59-42d7-ad3e-9ad58a3cc46a.sock'), ('MIN_DRIVER_VERSION', '525.60.11'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-8729e0a5-e76c-49f0-b1c2-a80a633b8ae0.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ubuntu/ros2_ws/install/moveit_core/bin:/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('VK_DRIVER_FILES', '/etc/vulkan/icd.d/nvidia_icd.json'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-8729e0a5-e76c-49f0-b1c2-a80a633b8ae0.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7a75ec24d6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-8729e0a5-e76c-49f0-b1c2-a80a633b8ae0.sock'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/test_moveit_config:/home/ubuntu/ros2_ws/install/prismatic_moveit_config:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/ubuntu/ros2_ws/install/moveit_runtime:/home/ubuntu/ros2_ws/install/moveit2_tutorials:/home/ubuntu/ros2_ws/install/moveit:/home/ubuntu/ros2_ws/install/isaac_twin_moveit_config:/home/ubuntu/ros2_ws/install/four_drone_demo:/home/ubuntu/ros2_ws/install/floating_moveit_config:/home/ubuntu/ros2_ws/install/chain_moveit_config:/home/ubuntu/ros2_ws/install/4_drone_demo:/home/ubuntu/ros2_ws/install/isaac_sim_demo:/home/ubuntu/ros2_ws/install/moveit_planners:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner:/home/ubuntu/ros2_ws/install/pick_ik:/home/ubuntu/ros2_ws/install/moveit_visual_tools:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface:/home/ubuntu/ros2_ws/install/moveit_plugins:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager:/home/ubuntu/ros2_ws/install/moveit_setup_assistant:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_controllers:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_framework:/home/ubuntu/ros2_ws/install/moveit_servo:/home/ubuntu/ros2_ws/install/moveit_ros:/home/ubuntu/ros2_ws/install/moveit_ros_visualization:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction:/home/ubuntu/ros2_ws/install/moveit_ros_perception:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/ubuntu/ros2_ws/install/moveit_ros_move_group:/home/ubuntu/ros2_ws/install/moveit_planners_ompl:/home/ubuntu/ros2_ws/install/moveit_ros_planning:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ubuntu/ros2_ws/install/moveit_planners_chomp:/home/ubuntu/ros2_ws/install/moveit_kinematics:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/ubuntu/ros2_ws/install/chomp_motion_planner:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/srdfdom:/home/ubuntu/ros2_ws/install/rviz_marker_tools:/home/ubuntu/ros2_ws/install/rosparam_shortcuts:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support:/home/ubuntu/ros2_ws/install/moveit_resources:/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description:/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_panda_description:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description:/home/ubuntu/ros2_ws/install/moveit_common:/home/ubuntu/ros2_ws/install/launch_param_builder:/home/ubuntu/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OMNI_PASS', 'admin'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ACCEPT_EULA', 'Y'), ('OMNI_SERVER', 'http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/2023.1.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/isaac_sim_demo'), ('OMNI_USER', 'admin'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/custom_interfaces:/home/ubuntu/ros2_ws/install/test_moveit_config:/home/ubuntu/ros2_ws/install/prismatic_moveit_config:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/ubuntu/ros2_ws/install/moveit_runtime:/home/ubuntu/ros2_ws/install/moveit2_tutorials:/home/ubuntu/ros2_ws/install/moveit:/home/ubuntu/ros2_ws/install/isaac_twin_moveit_config:/home/ubuntu/ros2_ws/install/four_drone_demo:/home/ubuntu/ros2_ws/install/floating_moveit_config:/home/ubuntu/ros2_ws/install/chain_moveit_config:/home/ubuntu/ros2_ws/install/4_drone_demo:/home/ubuntu/ros2_ws/install/isaac_sim_demo:/home/ubuntu/ros2_ws/install/moveit_planners:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner:/home/ubuntu/ros2_ws/install/pick_ik:/home/ubuntu/ros2_ws/install/moveit_visual_tools:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface:/home/ubuntu/ros2_ws/install/moveit_plugins:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager:/home/ubuntu/ros2_ws/install/moveit_setup_assistant:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_controllers:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_framework:/home/ubuntu/ros2_ws/install/moveit_servo:/home/ubuntu/ros2_ws/install/moveit_ros:/home/ubuntu/ros2_ws/install/moveit_ros_visualization:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction:/home/ubuntu/ros2_ws/install/moveit_ros_perception:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/ubuntu/ros2_ws/install/moveit_ros_move_group:/home/ubuntu/ros2_ws/install/moveit_planners_ompl:/home/ubuntu/ros2_ws/install/moveit_ros_planning:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ubuntu/ros2_ws/install/moveit_planners_chomp:/home/ubuntu/ros2_ws/install/moveit_kinematics:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/ubuntu/ros2_ws/install/chomp_motion_planner:/home/ubuntu/ros2_ws/install/moveit_core:/home/ubuntu/ros2_ws/install/srdfdom:/home/ubuntu/ros2_ws/install/rviz_marker_tools:/home/ubuntu/ros2_ws/install/rosparam_shortcuts:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support:/home/ubuntu/ros2_ws/install/moveit_resources:/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description:/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_panda_description:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description:/home/ubuntu/ros2_ws/install/moveit_common:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[0.073897] (isaac_sim_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target joint_space\x1b[0m\n'}
+[0.079695] (isaac_sim_demo) StdoutLine: {'line': b'[ 16%] Built target markers_node\n'}
+[0.079884] (isaac_sim_demo) StdoutLine: {'line': b'[ 16%] Built target visualization_node\n'}
+[0.081788] (isaac_sim_demo) StdoutLine: {'line': b'[ 25%] Built target tf_to_pos_node\n'}
+[0.088909] (isaac_sim_demo) StdoutLine: {'line': b'[ 33%] Built target drone_marker_publisher\n'}
+[0.089782] (isaac_sim_demo) StdoutLine: {'line': b'[ 41%] Built target isaac_sim_demo_library\n'}
+[0.090778] (isaac_sim_demo) StdoutLine: {'line': b'[ 50%] Built target spawn_scene\n'}
+[0.090992] (isaac_sim_demo) StdoutLine: {'line': b'[ 66%] Built target moveit_test_node\n'}
+[0.091076] (isaac_sim_demo) StdoutLine: {'line': b'[ 66%] Built target StateSubscriber_node\n'}
+[0.096047] (isaac_sim_demo) StdoutLine: {'line': b'[ 75%] Built target cartesian\n'}
+[0.099806] (-) TimerEvent: {}
+[0.109022] (isaac_sim_demo) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/joint_space.dir/src/joint_space.cpp.o\x1b[0m\n'}
+[0.126859] (isaac_sim_demo) StdoutLine: {'line': b'[ 91%] Built target ompl_lifecycle\n'}
+[0.127039] (isaac_sim_demo) StdoutLine: {'line': b'[ 95%] Built target ompl_controller_node\n'}
+[0.199934] (-) TimerEvent: {}
+[0.300240] (-) TimerEvent: {}
+[0.400536] (-) TimerEvent: {}
+[0.500825] (-) TimerEvent: {}
+[0.601110] (-) TimerEvent: {}
+[0.701415] (-) TimerEvent: {}
+[0.801721] (-) TimerEvent: {}
+[0.902030] (-) TimerEvent: {}
+[1.002324] (-) TimerEvent: {}
+[1.102613] (-) TimerEvent: {}
+[1.202919] (-) TimerEvent: {}
+[1.303175] (-) TimerEvent: {}
+[1.403463] (-) TimerEvent: {}
+[1.503744] (-) TimerEvent: {}
+[1.604038] (-) TimerEvent: {}
+[1.704321] (-) TimerEvent: {}
+[1.804606] (-) TimerEvent: {}
+[1.904885] (-) TimerEvent: {}
+[2.005170] (-) TimerEvent: {}
+[2.105489] (-) TimerEvent: {}
+[2.205796] (-) TimerEvent: {}
+[2.306097] (-) TimerEvent: {}
+[2.406371] (-) TimerEvent: {}
+[2.506650] (-) TimerEvent: {}
+[2.606930] (-) TimerEvent: {}
+[2.707209] (-) TimerEvent: {}
+[2.807499] (-) TimerEvent: {}
+[2.907726] (-) TimerEvent: {}
+[3.007960] (-) TimerEvent: {}
+[3.108203] (-) TimerEvent: {}
+[3.208435] (-) TimerEvent: {}
+[3.308663] (-) TimerEvent: {}
+[3.408918] (-) TimerEvent: {}
+[3.509159] (-) TimerEvent: {}
+[3.609416] (-) TimerEvent: {}
+[3.709649] (-) TimerEvent: {}
+[3.809895] (-) TimerEvent: {}
+[3.910128] (-) TimerEvent: {}
+[4.010373] (-) TimerEvent: {}
+[4.110597] (-) TimerEvent: {}
+[4.210854] (-) TimerEvent: {}
+[4.311087] (-) TimerEvent: {}
+[4.411333] (-) TimerEvent: {}
+[4.511567] (-) TimerEvent: {}
+[4.611800] (-) TimerEvent: {}
+[4.712033] (-) TimerEvent: {}
+[4.812301] (-) TimerEvent: {}
+[4.912559] (-) TimerEvent: {}
+[5.012818] (-) TimerEvent: {}
+[5.113054] (-) TimerEvent: {}
+[5.213287] (-) TimerEvent: {}
+[5.313516] (-) TimerEvent: {}
+[5.413740] (-) TimerEvent: {}
+[5.513995] (-) TimerEvent: {}
+[5.614247] (-) TimerEvent: {}
+[5.714474] (-) TimerEvent: {}
+[5.814724] (-) TimerEvent: {}
+[5.914952] (-) TimerEvent: {}
+[6.015255] (-) TimerEvent: {}
+[6.115480] (-) TimerEvent: {}
+[6.215710] (-) TimerEvent: {}
+[6.315941] (-) TimerEvent: {}
+[6.416165] (-) TimerEvent: {}
+[6.516409] (-) TimerEvent: {}
+[6.616678] (-) TimerEvent: {}
+[6.716951] (-) TimerEvent: {}
+[6.817220] (-) TimerEvent: {}
+[6.917462] (-) TimerEvent: {}
+[7.017678] (-) TimerEvent: {}
+[7.117894] (-) TimerEvent: {}
+[7.218112] (-) TimerEvent: {}
+[7.318368] (-) TimerEvent: {}
+[7.418693] (-) TimerEvent: {}
+[7.518957] (-) TimerEvent: {}
+[7.619205] (-) TimerEvent: {}
+[7.719433] (-) TimerEvent: {}
+[7.819661] (-) TimerEvent: {}
+[7.919885] (-) TimerEvent: {}
+[8.020116] (-) TimerEvent: {}
+[8.120366] (-) TimerEvent: {}
+[8.220598] (-) TimerEvent: {}
+[8.320846] (-) TimerEvent: {}
+[8.421064] (-) TimerEvent: {}
+[8.521326] (-) TimerEvent: {}
+[8.621548] (-) TimerEvent: {}
+[8.721762] (-) TimerEvent: {}
+[8.821985] (-) TimerEvent: {}
+[8.922230] (-) TimerEvent: {}
+[9.022453] (-) TimerEvent: {}
+[9.122671] (-) TimerEvent: {}
+[9.222929] (-) TimerEvent: {}
+[9.323149] (-) TimerEvent: {}
+[9.423371] (-) TimerEvent: {}
+[9.523597] (-) TimerEvent: {}
+[9.623827] (-) TimerEvent: {}
+[9.724056] (-) TimerEvent: {}
+[9.824307] (-) TimerEvent: {}
+[9.924521] (-) TimerEvent: {}
+[10.024778] (-) TimerEvent: {}
+[10.124986] (-) TimerEvent: {}
+[10.225206] (-) TimerEvent: {}
+[10.325419] (-) TimerEvent: {}
+[10.425631] (-) TimerEvent: {}
+[10.525851] (-) TimerEvent: {}
+[10.626066] (-) TimerEvent: {}
+[10.726282] (-) TimerEvent: {}
+[10.826546] (-) TimerEvent: {}
+[10.926774] (-) TimerEvent: {}
+[11.027036] (-) TimerEvent: {}
+[11.127256] (-) TimerEvent: {}
+[11.227479] (-) TimerEvent: {}
+[11.327712] (-) TimerEvent: {}
+[11.427942] (-) TimerEvent: {}
+[11.528178] (-) TimerEvent: {}
+[11.628392] (-) TimerEvent: {}
+[11.728609] (-) TimerEvent: {}
+[11.828927] (-) TimerEvent: {}
+[11.929167] (-) TimerEvent: {}
+[12.029392] (-) TimerEvent: {}
+[12.129614] (-) TimerEvent: {}
+[12.229843] (-) TimerEvent: {}
+[12.330053] (-) TimerEvent: {}
+[12.430369] (-) TimerEvent: {}
+[12.530610] (-) TimerEvent: {}
+[12.630829] (-) TimerEvent: {}
+[12.731051] (-) TimerEvent: {}
+[12.831257] (-) TimerEvent: {}
+[12.931470] (-) TimerEvent: {}
+[13.031685] (-) TimerEvent: {}
+[13.131901] (-) TimerEvent: {}
+[13.232116] (-) TimerEvent: {}
+[13.332357] (-) TimerEvent: {}
+[13.432683] (-) TimerEvent: {}
+[13.532927] (-) TimerEvent: {}
+[13.633145] (-) TimerEvent: {}
+[13.733388] (-) TimerEvent: {}
+[13.833638] (-) TimerEvent: {}
+[13.933877] (-) TimerEvent: {}
+[14.034095] (-) TimerEvent: {}
+[14.134313] (-) TimerEvent: {}
+[14.234529] (-) TimerEvent: {}
+[14.334749] (-) TimerEvent: {}
+[14.434986] (-) TimerEvent: {}
+[14.535236] (-) TimerEvent: {}
+[14.635470] (-) TimerEvent: {}
+[14.735689] (-) TimerEvent: {}
+[14.835922] (-) TimerEvent: {}
+[14.936138] (-) TimerEvent: {}
+[15.036362] (-) TimerEvent: {}
+[15.136608] (-) TimerEvent: {}
+[15.236849] (-) TimerEvent: {}
+[15.337076] (-) TimerEvent: {}
+[15.437340] (-) TimerEvent: {}
+[15.440954] (isaac_sim_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable joint_space\x1b[0m\n'}
+[15.537449] (-) TimerEvent: {}
+[15.637685] (-) TimerEvent: {}
+[15.737953] (-) TimerEvent: {}
+[15.838195] (-) TimerEvent: {}
+[15.848242] (isaac_sim_demo) StdoutLine: {'line': b'[100%] Built target joint_space\n'}
+[15.856732] (isaac_sim_demo) CommandEnded: {'returncode': 0}
+[15.921279] (isaac_sim_demo) JobProgress: {'identifier': 'isaac_sim_demo', 'progress': 'install'}
+[15.928347] (isaac_sim_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/isaac_sim_demo'], 'cwd': '/home/ubuntu/ros2_ws/build/isaac_sim_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'isaacsim-HP-Z2-Tower-G9-Workstation-Desktop-PC'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass.sh'), ('ISAACSIM_PATH', '/isaac-sim'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/custom_interfaces/lib:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner/lib:/home/ubuntu/ros2_ws/install/pick_ik/lib:/home/ubuntu/ros2_ws/install/moveit_visual_tools/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core/lib:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface/lib:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager/lib:/home/ubuntu/ros2_ws/install/moveit_setup_assistant/lib:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_controllers/lib:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_framework/lib:/home/ubuntu/ros2_ws/install/moveit_servo/lib:/home/ubuntu/ros2_ws/install/moveit_ros_visualization/lib:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning/lib:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/lib:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks/lib:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse/lib:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction/lib:/home/ubuntu/ros2_ws/install/moveit_ros_perception/lib:/home/ubuntu/ros2_ws/install/moveit_ros_move_group/lib:/home/ubuntu/ros2_ws/install/moveit_planners_ompl/lib:/home/ubuntu/ros2_ws/install/moveit_ros_planning/lib:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/ubuntu/ros2_ws/install/moveit_planners_chomp/lib:/home/ubuntu/ros2_ws/install/moveit_kinematics/lib:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/ubuntu/ros2_ws/install/chomp_motion_planner/lib:/home/ubuntu/ros2_ws/install/moveit_core/lib:/home/ubuntu/ros2_ws/install/srdfdom/lib:/home/ubuntu/ros2_ws/install/rviz_marker_tools/lib:/home/ubuntu/ros2_ws/install/rosparam_shortcuts/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.95.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-98b79a03-ef59-42d7-ad3e-9ad58a3cc46a.sock'), ('MIN_DRIVER_VERSION', '525.60.11'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-8729e0a5-e76c-49f0-b1c2-a80a633b8ae0.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ubuntu/ros2_ws/install/moveit_core/bin:/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('VK_DRIVER_FILES', '/etc/vulkan/icd.d/nvidia_icd.json'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-8729e0a5-e76c-49f0-b1c2-a80a633b8ae0.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7a75ec24d6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-8729e0a5-e76c-49f0-b1c2-a80a633b8ae0.sock'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/test_moveit_config:/home/ubuntu/ros2_ws/install/prismatic_moveit_config:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/ubuntu/ros2_ws/install/moveit_runtime:/home/ubuntu/ros2_ws/install/moveit2_tutorials:/home/ubuntu/ros2_ws/install/moveit:/home/ubuntu/ros2_ws/install/isaac_twin_moveit_config:/home/ubuntu/ros2_ws/install/four_drone_demo:/home/ubuntu/ros2_ws/install/floating_moveit_config:/home/ubuntu/ros2_ws/install/chain_moveit_config:/home/ubuntu/ros2_ws/install/4_drone_demo:/home/ubuntu/ros2_ws/install/isaac_sim_demo:/home/ubuntu/ros2_ws/install/moveit_planners:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner:/home/ubuntu/ros2_ws/install/pick_ik:/home/ubuntu/ros2_ws/install/moveit_visual_tools:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface:/home/ubuntu/ros2_ws/install/moveit_plugins:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager:/home/ubuntu/ros2_ws/install/moveit_setup_assistant:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_controllers:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_framework:/home/ubuntu/ros2_ws/install/moveit_servo:/home/ubuntu/ros2_ws/install/moveit_ros:/home/ubuntu/ros2_ws/install/moveit_ros_visualization:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction:/home/ubuntu/ros2_ws/install/moveit_ros_perception:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/ubuntu/ros2_ws/install/moveit_ros_move_group:/home/ubuntu/ros2_ws/install/moveit_planners_ompl:/home/ubuntu/ros2_ws/install/moveit_ros_planning:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ubuntu/ros2_ws/install/moveit_planners_chomp:/home/ubuntu/ros2_ws/install/moveit_kinematics:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/ubuntu/ros2_ws/install/chomp_motion_planner:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/srdfdom:/home/ubuntu/ros2_ws/install/rviz_marker_tools:/home/ubuntu/ros2_ws/install/rosparam_shortcuts:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support:/home/ubuntu/ros2_ws/install/moveit_resources:/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description:/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_panda_description:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description:/home/ubuntu/ros2_ws/install/moveit_common:/home/ubuntu/ros2_ws/install/launch_param_builder:/home/ubuntu/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OMNI_PASS', 'admin'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ACCEPT_EULA', 'Y'), ('OMNI_SERVER', 'http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/2023.1.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/isaac_sim_demo'), ('OMNI_USER', 'admin'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/custom_interfaces:/home/ubuntu/ros2_ws/install/test_moveit_config:/home/ubuntu/ros2_ws/install/prismatic_moveit_config:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/ubuntu/ros2_ws/install/moveit_runtime:/home/ubuntu/ros2_ws/install/moveit2_tutorials:/home/ubuntu/ros2_ws/install/moveit:/home/ubuntu/ros2_ws/install/isaac_twin_moveit_config:/home/ubuntu/ros2_ws/install/four_drone_demo:/home/ubuntu/ros2_ws/install/floating_moveit_config:/home/ubuntu/ros2_ws/install/chain_moveit_config:/home/ubuntu/ros2_ws/install/4_drone_demo:/home/ubuntu/ros2_ws/install/isaac_sim_demo:/home/ubuntu/ros2_ws/install/moveit_planners:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner:/home/ubuntu/ros2_ws/install/pick_ik:/home/ubuntu/ros2_ws/install/moveit_visual_tools:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface:/home/ubuntu/ros2_ws/install/moveit_plugins:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager:/home/ubuntu/ros2_ws/install/moveit_setup_assistant:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_controllers:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_framework:/home/ubuntu/ros2_ws/install/moveit_servo:/home/ubuntu/ros2_ws/install/moveit_ros:/home/ubuntu/ros2_ws/install/moveit_ros_visualization:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction:/home/ubuntu/ros2_ws/install/moveit_ros_perception:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/ubuntu/ros2_ws/install/moveit_ros_move_group:/home/ubuntu/ros2_ws/install/moveit_planners_ompl:/home/ubuntu/ros2_ws/install/moveit_ros_planning:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ubuntu/ros2_ws/install/moveit_planners_chomp:/home/ubuntu/ros2_ws/install/moveit_kinematics:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/ubuntu/ros2_ws/install/chomp_motion_planner:/home/ubuntu/ros2_ws/install/moveit_core:/home/ubuntu/ros2_ws/install/srdfdom:/home/ubuntu/ros2_ws/install/rviz_marker_tools:/home/ubuntu/ros2_ws/install/rosparam_shortcuts:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support:/home/ubuntu/ros2_ws/install/moveit_resources:/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description:/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_panda_description:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description:/home/ubuntu/ros2_ws/install/moveit_common:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[15.936410] (isaac_sim_demo) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[15.936661] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//launch\n'}
+[15.936716] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//launch/robot_desc.py\n'}
+[15.936758] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//launch/joint_space.launch.py\n'}
+[15.936817] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//launch/test_moveit.launch.py\n'}
+[15.936849] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//launch/isaac_sim_demo_launch.py\n'}
+[15.936881] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//launch/moveit_rviz.launch.py\n'}
+[15.936912] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//launch/cartesian_space.launch.py\n'}
+[15.936949] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//launch/lifecycle_launch.py\n'}
+[15.936979] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//launch/test_launch.py\n'}
+[15.937009] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//launch/.setup_assistant\n'}
+[15.937080] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//launch/tf_to_pos_launch.py\n'}
+[15.937121] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//launch/prismatic.launch.py\n'}
+[15.937148] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config\n'}
+[15.937175] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/pilz_cartesian_limits.yaml\n'}
+[15.937203] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/hybrid_planning_manager.yaml\n'}
+[15.937234] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/moveit_controllers.yaml\n'}
+[15.937262] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/initial_positions.yaml\n'}
+[15.937289] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/rviz_config.rviz\n'}
+[15.937316] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/isaac_twin.ros2_control.xacro\n'}
+[15.937343] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/local_planner.yaml\n'}
+[15.937370] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/isaac_twin.urdf.xacro\n'}
+[15.937397] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/global_planner.yaml\n'}
+[15.937424] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/isaac_twin.srdf\n'}
+[15.937451] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/ros2_controllers.yaml\n'}
+[15.937478] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/kinematics.yaml\n'}
+[15.937505] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/par.yaml\n'}
+[15.937533] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/moveit.rviz\n'}
+[15.937560] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/joint_limits.yaml\n'}
+[15.937602] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/robot_desc.rviz\n'}
+[15.937630] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/ompl_planning.yaml\n'}
+[15.937657] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf\n'}
+[15.937684] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/two_drones.urdf\n'}
+[15.937709] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/4_drones_copy_2.urdf\n'}
+[15.937742] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/test.urdf\n'}
+[15.937768] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/4_drones copy.urdf\n'}
+[15.937795] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/4_drones.urdf\n'}
+[15.937988] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/link.xacro\n'}
+[15.938048] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/isaac_twinGroup1_base_linkDrone4_5000_1.000000_1.000000.ikcache\n'}
+[15.938102] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/twin.urdf\n'}
+[15.938132] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/two_drones.xacro\n'}
+[15.938170] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/chain.urdf\n'}
+[15.938199] (-) TimerEvent: {}
+[15.938263] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/chain_twin.xacro\n'}
+[15.938304] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/chain_twin.urdf\n'}
+[15.938336] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/spherical_joint.xacro\n'}
+[15.938366] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/4_drones.xacro\n'}
+[15.938397] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/chain.xacro\n'}
+[15.938428] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/cylinder_macro.xacro\n'}
+[15.938457] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/.setup_assistant\n'}
+[15.938502] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/tf_to_pos_node\n'}
+[15.938553] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/StateSubscriber_node\n'}
+[15.938701] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/markers_node\n'}
+[15.938854] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/ompl_controller_node\n'}
+[15.939009] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/visualization_node\n'}
+[15.939157] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/moveit_test_node\n'}
+[15.939352] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/ompl_lifecycle\n'}
+[15.939707] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/joint_space\n'}
+[15.940594] (isaac_sim_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/joint_space" to ""\n'}
+[15.940679] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/spawn_scene\n'}
+[15.940840] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/cartesian\n'}
+[15.941001] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/drone_marker_publisher\n'}
+[15.941097] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/ament_index/resource_index/package_run_dependencies/isaac_sim_demo\n'}
+[15.941138] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/ament_index/resource_index/parent_prefix_path/isaac_sim_demo\n'}
+[15.941187] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/environment/ament_prefix_path.sh\n'}
+[15.941236] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/environment/ament_prefix_path.dsv\n'}
+[15.941292] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/environment/path.sh\n'}
+[15.941339] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/environment/path.dsv\n'}
+[15.941371] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/local_setup.bash\n'}
+[15.941406] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/local_setup.sh\n'}
+[15.941437] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/local_setup.zsh\n'}
+[15.941467] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/local_setup.dsv\n'}
+[15.941498] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/package.dsv\n'}
+[15.941542] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/ament_index/resource_index/packages/isaac_sim_demo\n'}
+[15.941588] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/cmake/isaac_sim_demoConfig.cmake\n'}
+[15.941632] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/cmake/isaac_sim_demoConfig-version.cmake\n'}
+[15.941663] (isaac_sim_demo) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/package.xml\n'}
+[15.942758] (isaac_sim_demo) CommandEnded: {'returncode': 0}
+[16.016069] (isaac_sim_demo) JobEnded: {'identifier': 'isaac_sim_demo', 'rc': 0}
+[16.016518] (-) EventReactorShutdown: {}

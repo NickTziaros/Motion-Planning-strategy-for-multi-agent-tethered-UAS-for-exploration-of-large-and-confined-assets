@@ -1,0 +1,83 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kvoid configure_bullet(std::shared_ptr<planning_scene::PlanningScene>, moveit::core::RobotState&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:124:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+  124 |       std::cout <<  [01;31m[K<<[m[K std::endl;
+      |                     [01;31m[K^~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:126:158:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KbtQuaternion::btQuaternion(double&, double&, double&, Eigen::Quaterniond&)[m[K’
+  126 |       btDefaultMotionState* boxMotionState = new btDefaultMotionState(btTransform(btQuaternion(quaternion.x(), quaternion.y(), quaternion.z(), quaternion.2()[01;31m[K)[m[K,btVector3(object_pose.translation().x(),object_pose.translation().y(),object_pose.translation().z()))); // Position at origin
+      |                                                                                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/usr/include/bullet/LinearMath/btMatrix3x3.h:19[m[K,
+                 from [01m[K/usr/include/bullet/LinearMath/btTransform.h:18[m[K,
+                 from [01m[K/usr/include/bullet/BulletCollision/CollisionDispatch/btCollisionWorld.h:78[m[K,
+                 from [01m[K/usr/include/bullet/btBulletCollisionCommon.h:22[m[K,
+                 from [01m[K/usr/include/bullet/btBulletDynamicsCommon.h:20[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:32[m[K:
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:97:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KbtQuaternion::btQuaternion(const btScalar&, const btScalar&, const btScalar&)[m[K’
+   97 |         [01;36m[KbtQuaternion[m[K(const btScalar& yaw, const btScalar& pitch, const btScalar& roll)
+      |         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:97:9:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:89:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KbtQuaternion::btQuaternion(const btVector3&, const btScalar&)[m[K’
+   89 |         [01;36m[KbtQuaternion[m[K(const btVector3& _axis, const btScalar& _angle)
+      |         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:89:9:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:82:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KbtQuaternion::btQuaternion(const btScalar&, const btScalar&, const btScalar&, const btScalar&)[m[K’
+   82 |         [01;36m[KbtQuaternion[m[K(const btScalar& _x, const btScalar& _y, const btScalar& _z, const btScalar& _w)
+      |         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:82:98:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[KEigen::Quaterniond[m[K’ {aka ‘[01m[KEigen::Quaternion<double>[m[K’} to ‘[01m[Kconst btScalar&[m[K’ {aka ‘[01m[Kconst float&[m[K’}
+   82 |         btQuaternion(const btScalar& _x, const btScalar& _y, const btScalar& _z, [01;36m[Kconst btScalar& _w[m[K)
+      |                                                                                  [01;36m[K~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:53:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KbtQuaternion::btQuaternion()[m[K’
+   53 |         [01;36m[KbtQuaternion[m[K() {}
+      |         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:53:9:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:49:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr btQuaternion::btQuaternion(const btQuaternion&)[m[K’
+   49 | class [01;36m[KbtQuaternion[m[K : public btQuadWord
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:49:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:49:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr btQuaternion::btQuaternion(btQuaternion&&)[m[K’
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:49:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:126:82:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+  126 |       btDefaultMotionState* boxMotionState = new btDefaultMotionState(btTransform[01;31m[K([m[KbtQuaternion(quaternion.x(), quaternion.y(), quaternion.z(), quaternion.2()),btVector3(object_pose.translation().x(),object_pose.translation().y(),object_pose.translation().z()))); // Position at origin
+      |                                                                                  [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:126:158:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KbtQuaternion::btQuaternion(double&, double&, double&, Eigen::Quaterniond&)[m[K’
+  126 |       btDefaultMotionState* boxMotionState = new btDefaultMotionState(btTransform(btQuaternion(quaternion.x(), quaternion.y(), quaternion.z(), quaternion.2()[01;31m[K)[m[K,btVector3(object_pose.translation().x(),object_pose.translation().y(),object_pose.translation().z()))); // Position at origin
+      |                                                                                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/usr/include/bullet/LinearMath/btMatrix3x3.h:19[m[K,
+                 from [01m[K/usr/include/bullet/LinearMath/btTransform.h:18[m[K,
+                 from [01m[K/usr/include/bullet/BulletCollision/CollisionDispatch/btCollisionWorld.h:78[m[K,
+                 from [01m[K/usr/include/bullet/btBulletCollisionCommon.h:22[m[K,
+                 from [01m[K/usr/include/bullet/btBulletDynamicsCommon.h:20[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:32[m[K:
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:97:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KbtQuaternion::btQuaternion(const btScalar&, const btScalar&, const btScalar&)[m[K’
+   97 |         [01;36m[KbtQuaternion[m[K(const btScalar& yaw, const btScalar& pitch, const btScalar& roll)
+      |         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:97:9:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:89:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KbtQuaternion::btQuaternion(const btVector3&, const btScalar&)[m[K’
+   89 |         [01;36m[KbtQuaternion[m[K(const btVector3& _axis, const btScalar& _angle)
+      |         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:89:9:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 4 provided
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:82:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KbtQuaternion::btQuaternion(const btScalar&, const btScalar&, const btScalar&, const btScalar&)[m[K’
+   82 |         [01;36m[KbtQuaternion[m[K(const btScalar& _x, const btScalar& _y, const btScalar& _z, const btScalar& _w)
+      |         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:82:98:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[KEigen::Quaterniond[m[K’ {aka ‘[01m[KEigen::Quaternion<double>[m[K’} to ‘[01m[Kconst btScalar&[m[K’ {aka ‘[01m[Kconst float&[m[K’}
+   82 |         btQuaternion(const btScalar& _x, const btScalar& _y, const btScalar& _z, [01;36m[Kconst btScalar& _w[m[K)
+      |                                                                                  [01;36m[K~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:53:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KbtQuaternion::btQuaternion()[m[K’
+   53 |         [01;36m[KbtQuaternion[m[K() {}
+      |         [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:53:9:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 4 provided
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:49:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr btQuaternion::btQuaternion(const btQuaternion&)[m[K’
+   49 | class [01;36m[KbtQuaternion[m[K : public btQuadWord
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:49:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:49:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr btQuaternion::btQuaternion(btQuaternion&&)[m[K’
+[01m[K/usr/include/bullet/LinearMath/btQuaternion.h:49:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:126:95:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+  126 |       btDefaultMotionState* boxMotionState = new btDefaultMotionState(btTransform(btQuaternion[01;31m[K([m[Kquaternion.x(), quaternion.y(), quaternion.z(), quaternion.2()),btVector3(object_pose.translation().x(),object_pose.translation().y(),object_pose.translation().z()))); // Position at origin
+      |                                                                                               [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:126:154:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before numeric constant
+  126 |       btDefaultMotionState* boxMotionState = new btDefaultMotionState(btTransform(btQuaternion[34m[K([m[Kquaternion.x(), quaternion.y(), quaternion.z(), quaternion[01;31m[K.[m[K[32m[K2[m[K()),btVector3(object_pose.translation().x(),object_pose.translation().y(),object_pose.translation().z()))); // Position at origin
+      |                                                                                               [34m[K~[m[K                                                          [01;31m[K^[m[K[32m[K~[m[K
+      |                                                                                                                                                          [32m[K)[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

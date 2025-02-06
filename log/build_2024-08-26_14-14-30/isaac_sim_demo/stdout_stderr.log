@@ -1,0 +1,44 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_test[0m
+[ 25%] Built target markers_node
+[ 25%] Built target visualization_node
+[ 37%] Built target StateSubscriber_node
+[ 50%] Built target tf_to_pos_node
+[ 62%] Built target isaac_sim_demo_library
+[ 68%] [32mBuilding CXX object CMakeFiles/moveit_test.dir/src/moveit_demo.cpp.o[0m
+[ 93%] Built target ompl_controller_node
+[ 93%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:29:3:[m[K [01;31m[Kerror: [m[K‘[01m[KNext[m[K’ was not declared in this scope
+   29 |   [01;31m[KNext[m[K step goes here
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:31:31:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveGroupInterface[m[K’ was not declared in this scope; did you mean ‘[01m[Kmoveit::planning_interface::MoveGroupInterface[m[K’?
+   31 |   auto move_group_interface = [01;31m[KMoveGroupInterface[m[K(node, "Group1");
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                               [32m[Kmoveit::planning_interface::MoveGroupInterface[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:4[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:80:42:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit::planning_interface::MoveGroupInterface[m[K’ declared here
+   80 | class MOVEIT_MOVE_GROUP_INTERFACE_EXPORT [01;36m[KMoveGroupInterface[m[K
+      |                                          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:45:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id[m[K’ was not declared in this scope
+   45 |   collision_object.header.frame_id = [01;31m[Kframe_id[m[K;
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:73:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id[m[K’ was not declared in this scope
+   73 |   collision_object.header.frame_id = [01;31m[Kframe_id[m[K;
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:101:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id[m[K’ was not declared in this scope
+  101 |   collision_object.header.frame_id = [01;31m[Kframe_id[m[K;
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:130:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id[m[K’ was not declared in this scope
+  130 |   collision_object.header.frame_id = [01;31m[Kframe_id[m[K;
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:158:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id[m[K’ was not declared in this scope
+  158 |   collision_object.header.frame_id = [01;31m[Kframe_id[m[K;
+      |                                      [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_test.dir/build.make:76: CMakeFiles/moveit_test.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:307: CMakeFiles/moveit_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

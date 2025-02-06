@@ -1,0 +1,973 @@
+[0.000000] (-) TimerEvent: {}
+[0.000248] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000326] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000395] (-) JobUnselected: {'identifier': 'floating_moveit_config'}
+[0.000419] (-) JobUnselected: {'identifier': 'four_drone_demo'}
+[0.000427] (-) JobUnselected: {'identifier': 'isaac_twin_moveit_config'}
+[0.000445] (-) JobUnselected: {'identifier': 'launch_param_builder'}
+[0.000463] (-) JobUnselected: {'identifier': 'moveit'}
+[0.000472] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.000480] (-) JobUnselected: {'identifier': 'moveit_benchmark_resources'}
+[0.000488] (-) JobUnselected: {'identifier': 'moveit_chomp_optimizer_adapter'}
+[0.000505] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000513] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.000523] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.000531] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.000539] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.000548] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.000564] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.000572] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.000582] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.000590] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.000599] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.000615] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.000624] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.000632] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.000650] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.000659] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.000668] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.000676] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.000684] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.000702] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.000711] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.000719] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.000728] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.000736] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.000744] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.000761] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.000770] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.000786] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.000795] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.000804] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.000812] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.000820] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.000829] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.000846] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.000854] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.000863] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.000871] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.000879] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.000894] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.000902] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.000910] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.000931] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.000940] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.000984] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.000993] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.001001] (-) JobUnselected: {'identifier': 'pick_ik'}
+[0.001010] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.001028] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.001044] (-) JobUnselected: {'identifier': 'prismatic_moveit_config'}
+[0.001052] (-) JobUnselected: {'identifier': 'rosparam_shortcuts'}
+[0.001061] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.001070] (-) JobUnselected: {'identifier': 'srdfdom'}
+[0.001078] (-) JobUnselected: {'identifier': 'test_moveit_config'}
+[0.001117] (isaac_sim_demo) JobQueued: {'identifier': 'isaac_sim_demo', 'dependencies': OrderedDict([('custom_interfaces', '/home/ubuntu/ros2_ws/install/custom_interfaces'), ('launch_param_builder', '/home/ubuntu/ros2_ws/install/launch_param_builder'), ('moveit_common', '/home/ubuntu/ros2_ws/install/moveit_common'), ('moveit_resources_fanuc_description', '/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description'), ('moveit_resources_panda_description', '/home/ubuntu/ros2_ws/install/moveit_resources_panda_description'), ('moveit_resources_pr2_description', '/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description'), ('moveit_resources_prbt_support', '/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support'), ('srdfdom', '/home/ubuntu/ros2_ws/install/srdfdom'), ('moveit_configs_utils', '/home/ubuntu/ros2_ws/install/moveit_configs_utils'), ('moveit_resources_fanuc_moveit_config', '/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config'), ('moveit_resources_panda_moveit_config', '/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config'), ('moveit_core', '/home/ubuntu/ros2_ws/install/moveit_core'), ('moveit_resources_prbt_ikfast_manipulator_plugin', '/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin'), ('moveit_ros_occupancy_map_monitor', '/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor'), ('moveit_simple_controller_manager', '/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager'), ('pilz_industrial_motion_planner_testutils', '/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils'), ('moveit_ros_planning', '/home/ubuntu/ros2_ws/install/moveit_ros_planning'), ('moveit_kinematics', '/home/ubuntu/ros2_ws/install/moveit_kinematics'), ('moveit_planners_ompl', '/home/ubuntu/ros2_ws/install/moveit_planners_ompl'), ('moveit_ros_robot_interaction', '/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction'), ('moveit_ros_warehouse', '/home/ubuntu/ros2_ws/install/moveit_ros_warehouse'), ('moveit_visual_tools', '/home/ubuntu/ros2_ws/install/moveit_visual_tools'), ('moveit_ros_move_group', '/home/ubuntu/ros2_ws/install/moveit_ros_move_group'), ('moveit_resources_prbt_moveit_config', '/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config'), ('moveit_ros_planning_interface', '/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface'), ('moveit_resources_prbt_pg70_support', '/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support'), ('moveit_ros_visualization', '/home/ubuntu/ros2_ws/install/moveit_ros_visualization'), ('moveit_setup_framework', '/home/ubuntu/ros2_ws/install/moveit_setup_framework'), ('pilz_industrial_motion_planner', '/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner'), ('moveit_planners', '/home/ubuntu/ros2_ws/install/moveit_planners'), ('moveit_setup_app_plugins', '/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins'), ('moveit_setup_controllers', '/home/ubuntu/ros2_ws/install/moveit_setup_controllers'), ('moveit_setup_core_plugins', '/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins'), ('moveit_setup_srdf_plugins', '/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins'), ('moveit_setup_assistant', '/home/ubuntu/ros2_ws/install/moveit_setup_assistant')])}
+[0.001172] (isaac_sim_demo) JobStarted: {'identifier': 'isaac_sim_demo'}
+[0.065093] (isaac_sim_demo) JobProgress: {'identifier': 'isaac_sim_demo', 'progress': 'cmake'}
+[0.065566] (isaac_sim_demo) JobProgress: {'identifier': 'isaac_sim_demo', 'progress': 'build'}
+[0.066043] (isaac_sim_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/isaac_sim_demo', '--', '-j24', '-l24'], 'cwd': '/home/ubuntu/ros2_ws/build/isaac_sim_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'isaacsim-HP-Z2-Tower-G9-Workstation-Desktop-PC'), ('SSH_AGENT_PID', '1269807'), ('GIT_ASKPASS', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('ISAACSIM_PATH', '/isaac-sim'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_controllers/lib:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins/lib:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner/lib:/home/ubuntu/ros2_ws/install/moveit_setup_framework/lib:/home/ubuntu/ros2_ws/install/moveit_ros_visualization/lib:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/lib:/home/ubuntu/ros2_ws/install/moveit_ros_move_group/lib:/home/ubuntu/ros2_ws/install/moveit_visual_tools/lib:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse/lib:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction/lib:/home/ubuntu/ros2_ws/install/moveit_planners_ompl/lib:/home/ubuntu/ros2_ws/install/moveit_kinematics/lib:/home/ubuntu/ros2_ws/install/moveit_ros_planning/lib:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager/lib:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/ubuntu/ros2_ws/install/moveit_core/lib:/home/ubuntu/ros2_ws/install/srdfdom/lib:/home/ubuntu/ros2_ws/install/custom_interfaces/lib:/home/ubuntu/ros2_ws/install/pick_ik/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core/lib:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface/lib:/home/ubuntu/ros2_ws/install/moveit_setup_assistant/lib:/home/ubuntu/ros2_ws/install/moveit_servo/lib:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning/lib:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks/lib:/home/ubuntu/ros2_ws/install/moveit_ros_perception/lib:/home/ubuntu/ros2_ws/install/moveit_planners_chomp/lib:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/ubuntu/ros2_ws/install/chomp_motion_planner/lib:/home/ubuntu/ros2_ws/install/rviz_marker_tools/lib:/home/ubuntu/ros2_ws/install/rosparam_shortcuts/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/ubuntu/ros2_ws/src/isaac_sim_demo'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b70afb6a-acee-4c3b-b7cc-b5f1b9cffe97.sock'), ('MIN_DRIVER_VERSION', '525.60.11'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a08ce231-a116-4e21-9e66-35ca2e4621ad.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ubuntu/ros2_ws/install/moveit_core/bin:/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('VK_DRIVER_FILES', '/etc/vulkan/icd.d/nvidia_icd.json'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a08ce231-a116-4e21-9e66-35ca2e4621ad.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7a75ec24d6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXxMUvTS/agent.1269806'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/home/ubuntu/ros2_ws/install/prismatic_moveit_config:/home/ubuntu/ros2_ws/install/test_moveit_config:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/ubuntu/ros2_ws/install/moveit_runtime:/home/ubuntu/ros2_ws/install/moveit2_tutorials:/home/ubuntu/ros2_ws/install/moveit:/home/ubuntu/ros2_ws/install/isaac_twin_moveit_config:/home/ubuntu/ros2_ws/install/four_drone_demo:/home/ubuntu/ros2_ws/install/floating_moveit_config:/home/ubuntu/ros2_ws/install/chain_moveit_config:/home/ubuntu/ros2_ws/install/4_drone_demo:/home/ubuntu/ros2_ws/install/isaac_sim_demo:/home/ubuntu/ros2_ws/install/moveit_planners:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner:/home/ubuntu/ros2_ws/install/pick_ik:/home/ubuntu/ros2_ws/install/moveit_visual_tools:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface:/home/ubuntu/ros2_ws/install/moveit_plugins:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager:/home/ubuntu/ros2_ws/install/moveit_setup_assistant:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_controllers:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_framework:/home/ubuntu/ros2_ws/install/moveit_servo:/home/ubuntu/ros2_ws/install/moveit_ros:/home/ubuntu/ros2_ws/install/moveit_ros_visualization:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction:/home/ubuntu/ros2_ws/install/moveit_ros_perception:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/ubuntu/ros2_ws/install/moveit_ros_move_group:/home/ubuntu/ros2_ws/install/moveit_planners_ompl:/home/ubuntu/ros2_ws/install/moveit_ros_planning:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ubuntu/ros2_ws/install/moveit_planners_chomp:/home/ubuntu/ros2_ws/install/moveit_kinematics:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/ubuntu/ros2_ws/install/chomp_motion_planner:/home/ubuntu/ros2_ws/install/moveit_core:/home/ubuntu/ros2_ws/install/srdfdom:/home/ubuntu/ros2_ws/install/rviz_marker_tools:/home/ubuntu/ros2_ws/install/rosparam_shortcuts:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support:/home/ubuntu/ros2_ws/install/moveit_resources:/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description:/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_panda_description:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description:/home/ubuntu/ros2_ws/install/moveit_common:/home/ubuntu/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OMNI_PASS', 'admin'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ACCEPT_EULA', 'Y'), ('OMNI_SERVER', 'http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/2023.1.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/isaac_sim_demo'), ('OMNI_USER', 'admin'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/moveit_setup_assistant:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_controllers:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins:/home/ubuntu/ros2_ws/install/moveit_planners:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner:/home/ubuntu/ros2_ws/install/moveit_setup_framework:/home/ubuntu/ros2_ws/install/moveit_ros_visualization:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/ubuntu/ros2_ws/install/moveit_ros_move_group:/home/ubuntu/ros2_ws/install/moveit_visual_tools:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction:/home/ubuntu/ros2_ws/install/moveit_planners_ompl:/home/ubuntu/ros2_ws/install/moveit_kinematics:/home/ubuntu/ros2_ws/install/moveit_ros_planning:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ubuntu/ros2_ws/install/moveit_core:/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/ubuntu/ros2_ws/install/srdfdom:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support:/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description:/home/ubuntu/ros2_ws/install/moveit_resources_panda_description:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description:/home/ubuntu/ros2_ws/install/moveit_common:/home/ubuntu/ros2_ws/install/custom_interfaces:/home/ubuntu/ros2_ws/install/prismatic_moveit_config:/home/ubuntu/ros2_ws/install/test_moveit_config:/home/ubuntu/ros2_ws/install/moveit_runtime:/home/ubuntu/ros2_ws/install/moveit2_tutorials:/home/ubuntu/ros2_ws/install/moveit:/home/ubuntu/ros2_ws/install/isaac_twin_moveit_config:/home/ubuntu/ros2_ws/install/four_drone_demo:/home/ubuntu/ros2_ws/install/floating_moveit_config:/home/ubuntu/ros2_ws/install/chain_moveit_config:/home/ubuntu/ros2_ws/install/4_drone_demo:/home/ubuntu/ros2_ws/install/isaac_sim_demo:/home/ubuntu/ros2_ws/install/pick_ik:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface:/home/ubuntu/ros2_ws/install/moveit_plugins:/home/ubuntu/ros2_ws/install/moveit_servo:/home/ubuntu/ros2_ws/install/moveit_ros:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks:/home/ubuntu/ros2_ws/install/moveit_ros_perception:/home/ubuntu/ros2_ws/install/moveit_planners_chomp:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/ubuntu/ros2_ws/install/chomp_motion_planner:/home/ubuntu/ros2_ws/install/rviz_marker_tools:/home/ubuntu/ros2_ws/install/rosparam_shortcuts:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs:/home/ubuntu/ros2_ws/install/moveit_resources:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[0.099827] (-) TimerEvent: {}
+[0.118049] (isaac_sim_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target joint_space\x1b[0m\n'}
+[0.127188] (isaac_sim_demo) StdoutLine: {'line': b'[  9%] Built target StateSubscriber_node\n'}
+[0.127963] (isaac_sim_demo) StdoutLine: {'line': b'[ 18%] Built target markers_node\n'}
+[0.129523] (isaac_sim_demo) StdoutLine: {'line': b'[ 27%] Built target tf_to_pos_node\n'}
+[0.135379] (isaac_sim_demo) StdoutLine: {'line': b'[ 36%] Built target isaac_sim_demo_library\n'}
+[0.137245] (isaac_sim_demo) StdoutLine: {'line': b'[ 50%] Built target visualization_node\n'}
+[0.137336] (isaac_sim_demo) StdoutLine: {'line': b'[ 54%] Built target moveit_test_node\n'}
+[0.137771] (isaac_sim_demo) StdoutLine: {'line': b'[ 63%] Built target spawn_scene\n'}
+[0.145023] (isaac_sim_demo) StdoutLine: {'line': b'[ 72%] Built target cartesian\n'}
+[0.150701] (isaac_sim_demo) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/joint_space.dir/src/joint_space.cpp.o\x1b[0m\n'}
+[0.172828] (isaac_sim_demo) StdoutLine: {'line': b'[ 86%] Built target ompl_lifecycle\n'}
+[0.172980] (isaac_sim_demo) StdoutLine: {'line': b'[ 95%] Built target ompl_controller_node\n'}
+[0.199910] (-) TimerEvent: {}
+[0.300163] (-) TimerEvent: {}
+[0.400468] (-) TimerEvent: {}
+[0.500761] (-) TimerEvent: {}
+[0.601037] (-) TimerEvent: {}
+[0.701299] (-) TimerEvent: {}
+[0.801640] (-) TimerEvent: {}
+[0.901917] (-) TimerEvent: {}
+[1.002247] (-) TimerEvent: {}
+[1.102544] (-) TimerEvent: {}
+[1.202834] (-) TimerEvent: {}
+[1.303120] (-) TimerEvent: {}
+[1.403401] (-) TimerEvent: {}
+[1.503680] (-) TimerEvent: {}
+[1.603960] (-) TimerEvent: {}
+[1.704254] (-) TimerEvent: {}
+[1.804511] (-) TimerEvent: {}
+[1.904791] (-) TimerEvent: {}
+[2.005070] (-) TimerEvent: {}
+[2.105300] (-) TimerEvent: {}
+[2.205528] (-) TimerEvent: {}
+[2.305760] (-) TimerEvent: {}
+[2.405996] (-) TimerEvent: {}
+[2.506228] (-) TimerEvent: {}
+[2.606466] (-) TimerEvent: {}
+[2.706713] (-) TimerEvent: {}
+[2.806948] (-) TimerEvent: {}
+[2.907181] (-) TimerEvent: {}
+[3.007407] (-) TimerEvent: {}
+[3.107636] (-) TimerEvent: {}
+[3.207862] (-) TimerEvent: {}
+[3.308087] (-) TimerEvent: {}
+[3.408320] (-) TimerEvent: {}
+[3.508565] (-) TimerEvent: {}
+[3.608790] (-) TimerEvent: {}
+[3.709041] (-) TimerEvent: {}
+[3.809272] (-) TimerEvent: {}
+[3.909538] (-) TimerEvent: {}
+[4.009789] (-) TimerEvent: {}
+[4.110052] (-) TimerEvent: {}
+[4.210279] (-) TimerEvent: {}
+[4.310508] (-) TimerEvent: {}
+[4.410739] (-) TimerEvent: {}
+[4.510992] (-) TimerEvent: {}
+[4.611240] (-) TimerEvent: {}
+[4.711475] (-) TimerEvent: {}
+[4.811733] (-) TimerEvent: {}
+[4.911983] (-) TimerEvent: {}
+[5.012212] (-) TimerEvent: {}
+[5.112421] (-) TimerEvent: {}
+[5.212650] (-) TimerEvent: {}
+[5.312906] (-) TimerEvent: {}
+[5.413128] (-) TimerEvent: {}
+[5.432718] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid configure_bullet(std::shared_ptr<planning_scene::PlanningScene>, moveit::core::RobotState&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.432944] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator<<\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[5.432989] (isaac_sim_demo) StderrLine: {'line': b'  120 |       \x1b[32m\x1b[Kstd::cout\x1b[m\x1b[K \x1b[01;31m\x1b[K<<\x1b[m\x1b[K \x1b[34m\x1b[K*box\x1b[m\x1b[K << std::endl;\n'}
+[5.433189] (isaac_sim_demo) StderrLine: {'line': b'      |       \x1b[32m\x1b[K~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^~\x1b[m\x1b[K \x1b[34m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[5.433256] (isaac_sim_demo) StderrLine: {'line': b'      |            \x1b[32m\x1b[K|\x1b[m\x1b[K       \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[5.433289] (isaac_sim_demo) StderrLine: {'line': b'      |            \x1b[32m\x1b[K|\x1b[m\x1b[K       \x1b[34m\x1b[Kconst shapes::Box\x1b[m\x1b[K\n'}
+[5.433351] (isaac_sim_demo) StderrLine: {'line': b'      |            \x1b[32m\x1b[Kstd::ostream {aka std::basic_ostream<char>}\x1b[m\x1b[K\n'}
+[5.433489] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/istream:39\x1b[m\x1b[K,\n'}
+[5.433531] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[5.433562] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:44\x1b[m\x1b[K,\n'}
+[5.433592] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[5.433620] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.433681] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:108:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.433752] (isaac_sim_demo) StderrLine: {'line': b'  108 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(__ostream_type& (*__pf)(__ostream_type&))\n'}
+[5.433821] (isaac_sim_demo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.433964] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:108:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>& (*)(std::basic_ostream<char>&)\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[5.434230] (isaac_sim_demo) StderrLine: {'line': b'  108 |       operator<<(\x1b[01;36m\x1b[K__ostream_type& (*__pf)(__ostream_type&)\x1b[m\x1b[K)\n'}
+[5.434346] (isaac_sim_demo) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.434382] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:117:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.434418] (isaac_sim_demo) StderrLine: {'line': b'  117 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(__ios_type& (*__pf)(__ios_type&))\n'}
+[5.434450] (isaac_sim_demo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.434481] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:117:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ios<char>& (*)(std::basic_ios<char>&)\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[5.434513] (isaac_sim_demo) StderrLine: {'line': b'  117 |       operator<<(\x1b[01;36m\x1b[K__ios_type& (*__pf)(__ios_type&)\x1b[m\x1b[K)\n'}
+[5.434573] (isaac_sim_demo) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.434605] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.434744] (isaac_sim_demo) StderrLine: {'line': b'  127 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(ios_base& (*__pf) (ios_base&))\n'}
+[5.434779] (isaac_sim_demo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.434809] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:127:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::ios_base& (*)(std::ios_base&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.434896] (isaac_sim_demo) StderrLine: {'line': b'  127 |       operator<<(\x1b[01;36m\x1b[Kios_base& (*__pf) (ios_base&)\x1b[m\x1b[K)\n'}
+[5.434991] (isaac_sim_demo) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.435024] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:166:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.435057] (isaac_sim_demo) StderrLine: {'line': b'  166 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(long __n)\n'}
+[5.435088] (isaac_sim_demo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.435116] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:166:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.435221] (isaac_sim_demo) StderrLine: {'line': b'  166 |       operator<<(\x1b[01;36m\x1b[Klong __n\x1b[m\x1b[K)\n'}
+[5.435250] (isaac_sim_demo) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~^~~\x1b[m\x1b[K\n'}
+[5.435279] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:170:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.435365] (isaac_sim_demo) StderrLine: {'line': b'  170 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned long __n)\n'}
+[5.435397] (isaac_sim_demo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.435425] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:170:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.435454] (isaac_sim_demo) StderrLine: {'line': b'  170 |       operator<<(\x1b[01;36m\x1b[Kunsigned long __n\x1b[m\x1b[K)\n'}
+[5.435482] (isaac_sim_demo) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.435510] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:174:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.435539] (isaac_sim_demo) StderrLine: {'line': b'  174 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(bool __n)\n'}
+[5.435567] (isaac_sim_demo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.435649] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:174:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.435681] (isaac_sim_demo) StderrLine: {'line': b'  174 |       operator<<(\x1b[01;36m\x1b[Kbool __n\x1b[m\x1b[K)\n'}
+[5.435710] (isaac_sim_demo) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~^~~\x1b[m\x1b[K\n'}
+[5.435740] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ostream:829\x1b[m\x1b[K,\n'}
+[5.435768] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/istream:39\x1b[m\x1b[K,\n'}
+[5.435797] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[5.435826] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:44\x1b[m\x1b[K,\n'}
+[5.435854] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[5.435947] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.435978] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ostream.tcc:91:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_Ch, _Tr>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.436069] (isaac_sim_demo) StderrLine: {'line': b'   91 |     \x1b[01;36m\x1b[Kbasic_ostream<_CharT, _Traits>\x1b[m\x1b[K::\n'}
+[5.436100] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.436131] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ostream.tcc:92:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshort int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.436277] (isaac_sim_demo) StderrLine: {'line': b'   92 |     operator<<(\x1b[01;36m\x1b[Kshort __n\x1b[m\x1b[K)\n'}
+[5.436308] (isaac_sim_demo) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.436360] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/istream:39\x1b[m\x1b[K,\n'}
+[5.436387] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[5.436414] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:44\x1b[m\x1b[K,\n'}
+[5.436440] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[5.436465] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.436493] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:181:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.436521] (isaac_sim_demo) StderrLine: {'line': b'  181 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned short __n)\n'}
+[5.436546] (isaac_sim_demo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.436571] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:181:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshort unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.436598] (isaac_sim_demo) StderrLine: {'line': b'  181 |       operator<<(\x1b[01;36m\x1b[Kunsigned short __n\x1b[m\x1b[K)\n'}
+[5.436623] (isaac_sim_demo) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.436649] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ostream:829\x1b[m\x1b[K,\n'}
+[5.436675] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/istream:39\x1b[m\x1b[K,\n'}
+[5.436700] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[5.436728] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:44\x1b[m\x1b[K,\n'}
+[5.436753] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[5.436778] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.436804] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ostream.tcc:105:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_Ch, _Tr>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.436833] (isaac_sim_demo) StderrLine: {'line': b'  105 |     \x1b[01;36m\x1b[Kbasic_ostream<_CharT, _Traits>\x1b[m\x1b[K::\n'}
+[5.436859] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.436885] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ostream.tcc:106:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.436911] (isaac_sim_demo) StderrLine: {'line': b'  106 |     operator<<(\x1b[01;36m\x1b[Kint __n\x1b[m\x1b[K)\n'}
+[5.436937] (isaac_sim_demo) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[5.436962] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/istream:39\x1b[m\x1b[K,\n'}
+[5.436988] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[5.437013] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:44\x1b[m\x1b[K,\n'}
+[5.437038] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[5.437063] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.437089] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:192:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.437116] (isaac_sim_demo) StderrLine: {'line': b'  192 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned int __n)\n'}
+[5.437142] (isaac_sim_demo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.437167] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:192:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.437193] (isaac_sim_demo) StderrLine: {'line': b'  192 |       operator<<(\x1b[01;36m\x1b[Kunsigned int __n\x1b[m\x1b[K)\n'}
+[5.437220] (isaac_sim_demo) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.437246] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:201:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.437273] (isaac_sim_demo) StderrLine: {'line': b'  201 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(long long __n)\n'}
+[5.437302] (isaac_sim_demo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.437327] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:201:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.437353] (isaac_sim_demo) StderrLine: {'line': b'  201 |       operator<<(\x1b[01;36m\x1b[Klong long __n\x1b[m\x1b[K)\n'}
+[5.437380] (isaac_sim_demo) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.437405] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:205:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.437433] (isaac_sim_demo) StderrLine: {'line': b'  205 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned long long __n)\n'}
+[5.437460] (isaac_sim_demo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.437485] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:205:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.437510] (isaac_sim_demo) StderrLine: {'line': b'  205 |       operator<<(\x1b[01;36m\x1b[Kunsigned long long __n\x1b[m\x1b[K)\n'}
+[5.437536] (isaac_sim_demo) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.437561] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:220:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.437590] (isaac_sim_demo) StderrLine: {'line': b'  220 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(double __f)\n'}
+[5.437615] (isaac_sim_demo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.437640] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:220:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.437667] (isaac_sim_demo) StderrLine: {'line': b'  220 |       operator<<(\x1b[01;36m\x1b[Kdouble __f\x1b[m\x1b[K)\n'}
+[5.437693] (isaac_sim_demo) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.437719] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:224:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.437746] (isaac_sim_demo) StderrLine: {'line': b'  224 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(float __f)\n'}
+[5.437771] (isaac_sim_demo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.437797] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:224:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.437822] (isaac_sim_demo) StderrLine: {'line': b'  224 |       operator<<(\x1b[01;36m\x1b[Kfloat __f\x1b[m\x1b[K)\n'}
+[5.437847] (isaac_sim_demo) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.437874] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:232:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.437901] (isaac_sim_demo) StderrLine: {'line': b'  232 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(long double __f)\n'}
+[5.437926] (isaac_sim_demo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.437951] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:232:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong double\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.437977] (isaac_sim_demo) StderrLine: {'line': b'  232 |       operator<<(\x1b[01;36m\x1b[Klong double __f\x1b[m\x1b[K)\n'}
+[5.438003] (isaac_sim_demo) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.438032] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:245:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.438060] (isaac_sim_demo) StderrLine: {'line': b'  245 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(const void* __p)\n'}
+[5.438086] (isaac_sim_demo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.438111] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:245:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst void*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.438136] (isaac_sim_demo) StderrLine: {'line': b'  245 |       operator<<(\x1b[01;36m\x1b[Kconst void* __p\x1b[m\x1b[K)\n'}
+[5.438161] (isaac_sim_demo) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.438188] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:250:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::nullptr_t) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.438214] (isaac_sim_demo) StderrLine: {'line': b'  250 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(nullptr_t)\n'}
+[5.438240] (isaac_sim_demo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.438265] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:250:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.438293] (isaac_sim_demo) StderrLine: {'line': b'  250 |       operator<<(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K)\n'}
+[5.438319] (isaac_sim_demo) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.438344] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ostream:829\x1b[m\x1b[K,\n'}
+[5.438369] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/istream:39\x1b[m\x1b[K,\n'}
+[5.438394] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[5.438422] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:44\x1b[m\x1b[K,\n'}
+[5.438448] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[5.438473] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.438498] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ostream.tcc:119:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_Ch, _Tr>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.438525] (isaac_sim_demo) StderrLine: {'line': b'  119 |     \x1b[01;36m\x1b[Kbasic_ostream<_CharT, _Traits>\x1b[m\x1b[K::\n'}
+[5.438550] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.438576] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ostream.tcc:120:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>::__streambuf_type*\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_streambuf<char>*\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[5.438604] (isaac_sim_demo) StderrLine: {'line': b'  120 |     operator<<(\x1b[01;36m\x1b[K__streambuf_type* __sbin\x1b[m\x1b[K)\n'}
+[5.438630] (isaac_sim_demo) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.438655] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/regex:63\x1b[m\x1b[K,\n'}
+[5.438680] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/impl/split.hpp:33\x1b[m\x1b[K,\n'}
+[5.438707] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:60\x1b[m\x1b[K,\n'}
+[5.438733] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[5.438759] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.438784] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/regex.h:1671:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Ch_type, class _Ch_traits, class _Bi_iter> std::basic_ostream<_Ch, _Tr>& std::__cxx11::operator<<(std::basic_ostream<_Ch, _Tr>&, const std::__cxx11::sub_match<_Bi_iter>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.438810] (isaac_sim_demo) StderrLine: {'line': b' 1671 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_Ch_type, _Ch_traits>& __os,\n'}
+[5.438835] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.438861] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/regex.h:1671:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.438887] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::sub_match<_Bi_iter>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.438913] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.438941] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.438966] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[5.438991] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:34\x1b[m\x1b[K,\n'}
+[5.439017] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.439042] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:70:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, const std::__shared_ptr<_Tp, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.439071] (isaac_sim_demo) StderrLine: {'line': b'   70 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_Ch, _Tr>& __os,\n'}
+[5.439097] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.439123] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:70:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.439150] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.439176] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.439204] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.439230] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[5.439258] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[5.439283] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:35\x1b[m\x1b[K,\n'}
+[5.439308] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.439334] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:667:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.439360] (isaac_sim_demo) StderrLine: {'line': b'  667 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.439385] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.439411] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:667:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.439437] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kshapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.439463] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.439489] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.439519] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[5.439548] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:35\x1b[m\x1b[K,\n'}
+[5.439575] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.439601] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6531:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.439630] (isaac_sim_demo) StderrLine: {'line': b' 6531 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.439657] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.439685] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6531:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.439713] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.439742] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.439776] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.439806] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:35\x1b[m\x1b[K,\n'}
+[5.439834] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38\x1b[m\x1b[K,\n'}
+[5.439865] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.439894] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/cstddef:126:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IntegerType> constexpr std::__byte_op_t<_IntegerType> std::operator<<(std::byte, _IntegerType)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.439924] (isaac_sim_demo) StderrLine: {'line': b'  126 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(byte __b, _IntegerType __shift) noexcept\n'}
+[5.439952] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.439982] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/cstddef:126:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.440011] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::cout\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::byte\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.440046] (isaac_sim_demo) StderrLine: {'line': b'  120 |       \x1b[01;36m\x1b[Kstd::cout\x1b[m\x1b[K << *box << std::endl;\n'}
+[5.440078] (isaac_sim_demo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.440110] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[5.440138] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:40\x1b[m\x1b[K,\n'}
+[5.440166] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52\x1b[m\x1b[K,\n'}
+[5.440196] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38\x1b[m\x1b[K,\n'}
+[5.440224] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.440253] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:279:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, const std::error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.440282] (isaac_sim_demo) StderrLine: {'line': b'  279 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)\n'}
+[5.440309] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.440335] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:279:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.440363] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K* box\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.440391] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << \x1b[01;36m\x1b[K*box\x1b[m\x1b[K << std::endl;\n'}
+[5.440418] (isaac_sim_demo) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.440444] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/istream:39\x1b[m\x1b[K,\n'}
+[5.440474] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[5.440503] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:44\x1b[m\x1b[K,\n'}
+[5.440531] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[5.440558] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.440586] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:513:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, _CharT)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.440614] (isaac_sim_demo) StderrLine: {'line': b'  513 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)\n'}
+[5.440641] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.440667] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:513:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.440696] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[K_CharT\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kshapes::Box\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[5.440730] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.440757] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.440785] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/istream:39\x1b[m\x1b[K,\n'}
+[5.440814] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[5.440839] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:44\x1b[m\x1b[K,\n'}
+[5.440866] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[5.440894] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.440921] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:518:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.440948] (isaac_sim_demo) StderrLine: {'line': b'  518 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)\n'}
+[5.440976] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.441004] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:518:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.441031] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K* box\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.441058] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << \x1b[01;36m\x1b[K*box\x1b[m\x1b[K << std::endl;\n'}
+[5.441084] (isaac_sim_demo) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.441110] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/istream:39\x1b[m\x1b[K,\n'}
+[5.441137] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[5.441167] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:44\x1b[m\x1b[K,\n'}
+[5.441194] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[5.441221] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.441246] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:524:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.441274] (isaac_sim_demo) StderrLine: {'line': b'  524 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, char __c)\n'}
+[5.441301] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.441327] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:524:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.441356] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K* box\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.441383] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << \x1b[01;36m\x1b[K*box\x1b[m\x1b[K << std::endl;\n'}
+[5.441410] (isaac_sim_demo) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.441436] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/istream:39\x1b[m\x1b[K,\n'}
+[5.441463] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[5.441489] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:44\x1b[m\x1b[K,\n'}
+[5.441515] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[5.441541] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.441568] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:530:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.441594] (isaac_sim_demo) StderrLine: {'line': b'  530 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, signed char __c)\n'}
+[5.441620] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.441646] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:530:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.441672] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K* box\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Ksigned char\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.441699] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << \x1b[01;36m\x1b[K*box\x1b[m\x1b[K << std::endl;\n'}
+[5.441725] (isaac_sim_demo) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.441751] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/istream:39\x1b[m\x1b[K,\n'}
+[5.441779] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[5.441805] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:44\x1b[m\x1b[K,\n'}
+[5.441830] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[5.441856] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.441882] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:535:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.441910] (isaac_sim_demo) StderrLine: {'line': b'  535 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)\n'}
+[5.441936] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.441962] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:535:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.441989] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K* box\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.442015] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << \x1b[01;36m\x1b[K*box\x1b[m\x1b[K << std::endl;\n'}
+[5.442045] (isaac_sim_demo) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.442071] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/istream:39\x1b[m\x1b[K,\n'}
+[5.442096] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[5.442122] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:44\x1b[m\x1b[K,\n'}
+[5.442151] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[5.442176] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.442206] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:594:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.442235] (isaac_sim_demo) StderrLine: {'line': b'  594 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)\n'}
+[5.442263] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.442291] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:594:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.442319] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kshapes::Box\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.442348] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.442376] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.442403] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ostream:829\x1b[m\x1b[K,\n'}
+[5.442429] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/istream:39\x1b[m\x1b[K,\n'}
+[5.442455] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[5.442481] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:44\x1b[m\x1b[K,\n'}
+[5.442507] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[5.442534] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.442561] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ostream.tcc:321:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.442588] (isaac_sim_demo) StderrLine: {'line': b'  321 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)\n'}
+[5.442615] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.442642] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ostream.tcc:321:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.442668] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K* box\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.442695] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << \x1b[01;36m\x1b[K*box\x1b[m\x1b[K << std::endl;\n'}
+[5.442722] (isaac_sim_demo) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.442747] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/istream:39\x1b[m\x1b[K,\n'}
+[5.442773] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[5.442799] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:44\x1b[m\x1b[K,\n'}
+[5.442825] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[5.442851] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.442877] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:611:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.442904] (isaac_sim_demo) StderrLine: {'line': b'  611 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, const char* __s)\n'}
+[5.442931] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.442958] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:611:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.442985] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K* box\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.443011] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << \x1b[01;36m\x1b[K*box\x1b[m\x1b[K << std::endl;\n'}
+[5.443037] (isaac_sim_demo) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.443063] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/istream:39\x1b[m\x1b[K,\n'}
+[5.443091] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[5.443119] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:44\x1b[m\x1b[K,\n'}
+[5.443145] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[5.443172] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.443198] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:624:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.443227] (isaac_sim_demo) StderrLine: {'line': b'  624 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, const signed char* __s)\n'}
+[5.443254] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.443281] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:624:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.443308] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K* box\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst signed char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.443336] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << \x1b[01;36m\x1b[K*box\x1b[m\x1b[K << std::endl;\n'}
+[5.443364] (isaac_sim_demo) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.443390] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/istream:39\x1b[m\x1b[K,\n'}
+[5.443416] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[5.443442] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:44\x1b[m\x1b[K,\n'}
+[5.443468] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[5.443495] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.443523] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:629:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.443551] (isaac_sim_demo) StderrLine: {'line': b'  629 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)\n'}
+[5.443577] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.443602] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:629:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.443628] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K* box\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst unsigned char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.443655] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << \x1b[01;36m\x1b[K*box\x1b[m\x1b[K << std::endl;\n'}
+[5.443682] (isaac_sim_demo) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.443707] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/istream:39\x1b[m\x1b[K,\n'}
+[5.443733] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[5.443759] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:44\x1b[m\x1b[K,\n'}
+[5.443785] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[5.443810] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.443836] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:750:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.443863] (isaac_sim_demo) StderrLine: {'line': b'  750 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(_Ostream&& __os, const _Tp& __x)\n'}
+[5.443889] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.443916] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:750:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.443941] (isaac_sim_demo) StderrLine: {'line': b'/usr/include/c++/11/ostream: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = shapes::Box]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.443968] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K   required from here\n'}
+[5.443994] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:750:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.444022] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/regex:39\x1b[m\x1b[K,\n'}
+[5.444049] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/impl/split.hpp:33\x1b[m\x1b[K,\n'}
+[5.444075] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:60\x1b[m\x1b[K,\n'}
+[5.444101] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334\x1b[m\x1b[K,\n'}
+[5.444126] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1\x1b[m\x1b[K:\n'}
+[5.444151] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bitset:1540:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, long unsigned int _Nb> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, const std::bitset<_Nb>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.444178] (isaac_sim_demo) StderrLine: {'line': b' 1540 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.444205] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.444231] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bitset:1540:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.444258] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::bitset<_Nb>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.444285] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.444311] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.444337] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[5.444365] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp:15\x1b[m\x1b[K,\n'}
+[5.444391] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp:9\x1b[m\x1b[K,\n'}
+[5.444417] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model.h:44\x1b[m\x1b[K,\n'}
+[5.444443] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:40\x1b[m\x1b[K,\n'}
+[5.444469] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[5.444494] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40\x1b[m\x1b[K,\n'}
+[5.444520] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5\x1b[m\x1b[K:\n'}
+[5.444545] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:79:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Resetiosflags)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.444571] (isaac_sim_demo) StderrLine: {'line': b'   79 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)\n'}
+[5.444596] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.444621] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:79:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.444646] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K* box\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Resetiosflags\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.444672] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << \x1b[01;36m\x1b[K*box\x1b[m\x1b[K << std::endl;\n'}
+[5.444698] (isaac_sim_demo) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.444724] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[5.444751] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp:15\x1b[m\x1b[K,\n'}
+[5.444776] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp:9\x1b[m\x1b[K,\n'}
+[5.444804] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model.h:44\x1b[m\x1b[K,\n'}
+[5.444829] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:40\x1b[m\x1b[K,\n'}
+[5.444857] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[5.444883] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40\x1b[m\x1b[K,\n'}
+[5.444909] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5\x1b[m\x1b[K:\n'}
+[5.444935] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:109:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Setiosflags)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.444962] (isaac_sim_demo) StderrLine: {'line': b'  109 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)\n'}
+[5.444988] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.445013] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:109:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.445039] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K* box\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setiosflags\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.445066] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << \x1b[01;36m\x1b[K*box\x1b[m\x1b[K << std::endl;\n'}
+[5.445093] (isaac_sim_demo) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.445121] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[5.445147] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp:15\x1b[m\x1b[K,\n'}
+[5.445173] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp:9\x1b[m\x1b[K,\n'}
+[5.445199] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model.h:44\x1b[m\x1b[K,\n'}
+[5.445224] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:40\x1b[m\x1b[K,\n'}
+[5.445252] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[5.445278] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40\x1b[m\x1b[K,\n'}
+[5.445303] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5\x1b[m\x1b[K:\n'}
+[5.445330] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:143:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Setbase)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.445358] (isaac_sim_demo) StderrLine: {'line': b'  143 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)\n'}
+[5.445383] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.445409] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:143:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.445435] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K* box\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setbase\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.445462] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << \x1b[01;36m\x1b[K*box\x1b[m\x1b[K << std::endl;\n'}
+[5.445487] (isaac_sim_demo) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.445513] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[5.445540] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp:15\x1b[m\x1b[K,\n'}
+[5.445567] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp:9\x1b[m\x1b[K,\n'}
+[5.445593] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model.h:44\x1b[m\x1b[K,\n'}
+[5.445620] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:40\x1b[m\x1b[K,\n'}
+[5.445646] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[5.445672] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40\x1b[m\x1b[K,\n'}
+[5.445700] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5\x1b[m\x1b[K:\n'}
+[5.445726] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:178:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Setfill<_CharT>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.445753] (isaac_sim_demo) StderrLine: {'line': b'  178 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)\n'}
+[5.445780] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.445805] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:178:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.445832] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kshapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setfill<_CharT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.445859] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.445886] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.445912] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[5.445938] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp:15\x1b[m\x1b[K,\n'}
+[5.445964] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp:9\x1b[m\x1b[K,\n'}
+[5.445990] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model.h:44\x1b[m\x1b[K,\n'}
+[5.446018] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:40\x1b[m\x1b[K,\n'}
+[5.446049] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[5.446075] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40\x1b[m\x1b[K,\n'}
+[5.446102] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5\x1b[m\x1b[K:\n'}
+[5.446131] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:208:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Setprecision)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.446157] (isaac_sim_demo) StderrLine: {'line': b'  208 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)\n'}
+[5.446183] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.446209] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:208:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.446235] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K* box\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setprecision\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.446262] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << \x1b[01;36m\x1b[K*box\x1b[m\x1b[K << std::endl;\n'}
+[5.446287] (isaac_sim_demo) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.446312] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[5.446338] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp:15\x1b[m\x1b[K,\n'}
+[5.446363] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp:9\x1b[m\x1b[K,\n'}
+[5.446388] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model.h:44\x1b[m\x1b[K,\n'}
+[5.446413] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:40\x1b[m\x1b[K,\n'}
+[5.446441] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[5.446466] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40\x1b[m\x1b[K,\n'}
+[5.446493] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5\x1b[m\x1b[K:\n'}
+[5.446521] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:238:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Setw)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.446546] (isaac_sim_demo) StderrLine: {'line': b'  238 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)\n'}
+[5.446572] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.446597] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:238:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.446622] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K* box\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setw\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.446647] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << \x1b[01;36m\x1b[K*box\x1b[m\x1b[K << std::endl;\n'}
+[5.446673] (isaac_sim_demo) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.446697] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[5.446722] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp:15\x1b[m\x1b[K,\n'}
+[5.446747] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp:9\x1b[m\x1b[K,\n'}
+[5.446772] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model.h:44\x1b[m\x1b[K,\n'}
+[5.446797] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:40\x1b[m\x1b[K,\n'}
+[5.446822] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[5.446849] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40\x1b[m\x1b[K,\n'}
+[5.446875] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5\x1b[m\x1b[K:\n'}
+[5.446900] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:311:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Put_money<_MoneyT>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.446927] (isaac_sim_demo) StderrLine: {'line': b'  311 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)\n'}
+[5.446953] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.446978] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:311:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.447004] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kshapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Put_money<_MoneyT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.447029] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.447055] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.447079] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[5.447105] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__traits.hpp:15\x1b[m\x1b[K,\n'}
+[5.447130] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp:9\x1b[m\x1b[K,\n'}
+[5.447155] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model.h:44\x1b[m\x1b[K,\n'}
+[5.447180] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:40\x1b[m\x1b[K,\n'}
+[5.447206] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[5.447231] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40\x1b[m\x1b[K,\n'}
+[5.447258] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5\x1b[m\x1b[K:\n'}
+[5.447283] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:363:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Put_time<_CharT>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.447311] (isaac_sim_demo) StderrLine: {'line': b'  363 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)\n'}
+[5.447337] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.447362] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:363:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.447387] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kshapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Put_time<_CharT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.447412] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.447436] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.447461] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:50\x1b[m\x1b[K,\n'}
+[5.447486] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Geometry:11\x1b[m\x1b[K,\n'}
+[5.447512] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model.h:46\x1b[m\x1b[K,\n'}
+[5.447537] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:40\x1b[m\x1b[K,\n'}
+[5.447562] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[5.447587] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40\x1b[m\x1b[K,\n'}
+[5.447611] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5\x1b[m\x1b[K:\n'}
+[5.447636] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:555:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::complex<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.447664] (isaac_sim_demo) StderrLine: {'line': b'  555 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)\n'}
+[5.447688] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.447713] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:555:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.447738] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::complex<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.447765] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.447790] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.447815] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:23\x1b[m\x1b[K,\n'}
+[5.447840] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30\x1b[m\x1b[K,\n'}
+[5.447864] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:40\x1b[m\x1b[K,\n'}
+[5.447889] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h:43\x1b[m\x1b[K,\n'}
+[5.447916] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:42\x1b[m\x1b[K,\n'}
+[5.447941] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[5.447967] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40\x1b[m\x1b[K,\n'}
+[5.447992] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5\x1b[m\x1b[K:\n'}
+[5.448017] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/thread:92:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::thread::id)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.448044] (isaac_sim_demo) StderrLine: {'line': b'   92 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)\n'}
+[5.448070] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.448095] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/thread:92:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.448120] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K* box\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.448149] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << \x1b[01;36m\x1b[K*box\x1b[m\x1b[K << std::endl;\n'}
+[5.448174] (isaac_sim_demo) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.448200] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:49\x1b[m\x1b[K,\n'}
+[5.448224] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.448249] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.448275] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.448299] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.h:1309:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _RandomNumberEngine, long unsigned int __w, class _UIntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.448327] (isaac_sim_demo) StderrLine: {'line': b' 1309 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.448352] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.448377] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.h:1309:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.448402] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.448428] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.448454] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.448479] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.448504] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.448528] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.448552] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.448577] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:901:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::uniform_int_distribution<_IntType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.448605] (isaac_sim_demo) StderrLine: {'line': b'  901 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.448630] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.448655] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:901:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.448682] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::uniform_int_distribution<_IntType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.448708] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.448733] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.448759] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.448783] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.448810] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.448835] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.448860] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:959:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::uniform_real_distribution<_IntType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.448887] (isaac_sim_demo) StderrLine: {'line': b'  959 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.448912] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.448936] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:959:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.448960] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::uniform_real_distribution<_IntType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.448989] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.449013] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.449038] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.449063] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.449087] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.449112] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.449137] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:2144:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::cauchy_distribution<_RealType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.449166] (isaac_sim_demo) StderrLine: {'line': b' 2144 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.449190] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.449215] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:2144:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.449240] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::cauchy_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.449265] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.449292] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.449317] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.449342] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.449367] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.449391] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.449416] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:1020:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, const std::bernoulli_distribution&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.449442] (isaac_sim_demo) StderrLine: {'line': b' 1020 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.449467] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.449491] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:1020:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.449517] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K* box\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst std::bernoulli_distribution&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.449543] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << \x1b[01;36m\x1b[K*box\x1b[m\x1b[K << std::endl;\n'}
+[5.449568] (isaac_sim_demo) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.449592] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.449617] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.449643] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.449667] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.449694] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:1101:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::geometric_distribution<_IntType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.449721] (isaac_sim_demo) StderrLine: {'line': b' 1101 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.449749] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.449774] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:1101:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.449800] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::geometric_distribution<_IntType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.449825] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.449851] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.449875] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.449901] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.449926] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.449950] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.449974] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:1753:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::exponential_distribution<_RealType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.450000] (isaac_sim_demo) StderrLine: {'line': b' 1753 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.450028] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.450054] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:1753:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.450079] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::exponential_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.450105] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.450130] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.450154] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.450179] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.450204] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.450228] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.450252] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:2538:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::weibull_distribution<_RealType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.450280] (isaac_sim_demo) StderrLine: {'line': b' 2538 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.450306] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.450331] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:2538:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.450355] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::weibull_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.450381] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.450405] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.450429] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.450454] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.450478] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.450503] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.450527] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:2612:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::extreme_value_distribution<_RealType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.450554] (isaac_sim_demo) StderrLine: {'line': b' 2612 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.450580] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.450605] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:2612:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.450630] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::extreme_value_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.450655] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.450681] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.450705] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.450729] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.450754] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.450778] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.450806] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:154:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _UIntType, _UIntType __a, _UIntType __c, _UIntType __m, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::linear_congruential_engine<_UIntType, __a, __c, __m>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.450833] (isaac_sim_demo) StderrLine: {'line': b'  154 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.450858] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.450883] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:154:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.450908] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::linear_congruential_engine<_UIntType, __a, __c, __m>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.450933] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.450959] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.450983] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.451007] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.451032] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.451057] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.451082] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:474:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _UIntType1, long unsigned int __w1, long unsigned int __n1, long unsigned int __m1, long unsigned int __r1, _UIntType1 __a1, long unsigned int __u1, _UIntType1 __d1, long unsigned int __s1, _UIntType1 __b1, long unsigned int __t1, _UIntType1 __c1, long unsigned int __l1, _UIntType1 __f1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.451109] (isaac_sim_demo) StderrLine: {'line': b'  474 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.451135] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.451159] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:474:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.451184] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.451210] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.451236] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.451261] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.451287] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.451312] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.451337] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.451361] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:628:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _UIntType, long unsigned int __w, long unsigned int __s, long unsigned int __r, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::subtract_with_carry_engine<_UIntType, __w, __s, __r>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.451389] (isaac_sim_demo) StderrLine: {'line': b'  628 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.451414] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.451439] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:628:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.451463] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::subtract_with_carry_engine<_UIntType, __w, __s, __r>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.451490] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.451515] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.451539] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.451564] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.451588] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.451612] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.451636] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:696:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _RandomNumberEngine, long unsigned int __p, long unsigned int __r, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::discard_block_engine<_RandomNumberEngine, __p, __r>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.451663] (isaac_sim_demo) StderrLine: {'line': b'  696 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.451688] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.451714] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:696:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.451739] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::discard_block_engine<_RandomNumberEngine, __p, __r>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.451765] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.451792] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.451817] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.451841] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.451866] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.451891] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.451915] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:857:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _RandomNumberEngine, long unsigned int __k, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::shuffle_order_engine<_RandomNumberEngine, __k>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.451940] (isaac_sim_demo) StderrLine: {'line': b'  857 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.451965] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.451990] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:857:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.452016] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shuffle_order_engine<_RandomNumberEngine, __k>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.452041] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.452066] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.452091] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.452117] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.452142] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.452167] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.452192] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:1215:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::negative_binomial_distribution<_IntType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.452218] (isaac_sim_demo) StderrLine: {'line': b' 1215 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.452243] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.452267] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:1215:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.452292] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::negative_binomial_distribution<_IntType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.452320] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.452346] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.452371] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.452397] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.452422] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.452448] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.452472] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:1425:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::poisson_distribution<_IntType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.452499] (isaac_sim_demo) StderrLine: {'line': b' 1425 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.452525] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.452549] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:1425:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.452574] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::poisson_distribution<_IntType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.452598] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.452623] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.452647] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.452671] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.452695] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.452719] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.452745] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:1691:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::binomial_distribution<_IntType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.452771] (isaac_sim_demo) StderrLine: {'line': b' 1691 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.452795] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.452819] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:1691:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.452845] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::binomial_distribution<_IntType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.452871] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.452895] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.452921] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.452947] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.452973] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.452998] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.453023] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:1919:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _RealType1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::normal_distribution<_RealType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.453050] (isaac_sim_demo) StderrLine: {'line': b' 1919 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.453075] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.453100] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:1919:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.453126] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::normal_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.453151] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.453176] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.453200] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.453225] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.453251] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.453278] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.453302] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:1986:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::lognormal_distribution<_RealType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.453329] (isaac_sim_demo) StderrLine: {'line': b' 1986 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.453355] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.453381] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:1986:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.453405] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::lognormal_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.453431] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.453456] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.453480] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.453505] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.453529] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.453554] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.453578] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:2058:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::chi_squared_distribution<_RealType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.453604] (isaac_sim_demo) StderrLine: {'line': b' 2058 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.453629] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.453653] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:2058:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.453677] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::chi_squared_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.453702] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.453726] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.453751] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.453775] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.453800] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.453824] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.453849] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:2219:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::fisher_f_distribution<_RealType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.453875] (isaac_sim_demo) StderrLine: {'line': b' 2219 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.453900] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.453924] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:2219:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.453949] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::fisher_f_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.453975] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.453999] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.454026] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.454052] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.454077] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.454102] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.454129] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:2293:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::student_t_distribution<_RealType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.454155] (isaac_sim_demo) StderrLine: {'line': b' 2293 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.454181] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.454206] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:2293:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.454230] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::student_t_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.454256] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.454281] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.454307] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.454332] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.454358] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.454382] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.454407] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:2462:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _RealType1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::gamma_distribution<_RealType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.454432] (isaac_sim_demo) StderrLine: {'line': b' 2462 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.454457] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.454481] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:2462:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.454506] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::gamma_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.454533] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.454558] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.454582] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.454607] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.454632] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.454656] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.454681] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:2748:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::discrete_distribution<_IntType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.454706] (isaac_sim_demo) StderrLine: {'line': b' 2748 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.454730] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.454755] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:2748:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.454779] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::discrete_distribution<_IntType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.454804] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.454828] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.454853] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.454877] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.454903] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.454929] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.454954] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:2970:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::piecewise_constant_distribution<_RealType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.454983] (isaac_sim_demo) StderrLine: {'line': b' 2970 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.455008] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.455032] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:2970:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.455057] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::piecewise_constant_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.455084] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.455109] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.455135] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/random:51\x1b[m\x1b[K,\n'}
+[5.455159] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/math/rng.h:42\x1b[m\x1b[K,\n'}
+[5.455183] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/fcl/fcl.h:105\x1b[m\x1b[K,\n'}
+[5.455208] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:31\x1b[m\x1b[K:\n'}
+[5.455233] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:3176:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::piecewise_linear_distribution<_RealType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.455260] (isaac_sim_demo) StderrLine: {'line': b' 3176 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os,\n'}
+[5.455284] (isaac_sim_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.455309] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/random.tcc:3176:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.455333] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::piecewise_linear_distribution<_RealType>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.455358] (isaac_sim_demo) StderrLine: {'line': b'  120 |       std::cout << *\x1b[01;36m\x1b[Kbox\x1b[m\x1b[K << std::endl;\n'}
+[5.455384] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.455408] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometric_shapes/bodies.h:36\x1b[m\x1b[K,\n'}
+[5.455433] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematic_constraints/kinematic_constraint.h:45\x1b[m\x1b[K,\n'}
+[5.455458] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:45\x1b[m\x1b[K,\n'}
+[5.455483] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_request_adapter/planning_request_adapter.h:41\x1b[m\x1b[K,\n'}
+[5.455508] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:40\x1b[m\x1b[K,\n'}
+[5.455533] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:8\x1b[m\x1b[K:\n'}
+[5.455558] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometric_shapes/shapes.h:64:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream& shapes::operator<<(std::ostream&, shapes::ShapeType)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.455584] (isaac_sim_demo) StderrLine: {'line': b'   64 | std::ostream& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::ostream& ss, ShapeType type);\n'}
+[5.455608] (isaac_sim_demo) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.455634] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometric_shapes/shapes.h:64:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kconst shapes::Box\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshapes::ShapeType\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.455660] (isaac_sim_demo) StderrLine: {'line': b'   64 | std::ostream& operator<<(std::ostream& ss, \x1b[01;36m\x1b[KShapeType type\x1b[m\x1b[K);\n'}
+[5.455686] (isaac_sim_demo) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.513217] (-) TimerEvent: {}
+[5.613430] (-) TimerEvent: {}
+[5.713653] (-) TimerEvent: {}
+[5.813908] (-) TimerEvent: {}
+[5.914141] (-) TimerEvent: {}
+[6.014373] (-) TimerEvent: {}
+[6.114597] (-) TimerEvent: {}
+[6.214822] (-) TimerEvent: {}
+[6.315110] (-) TimerEvent: {}
+[6.415381] (-) TimerEvent: {}
+[6.515638] (-) TimerEvent: {}
+[6.615862] (-) TimerEvent: {}
+[6.716115] (-) TimerEvent: {}
+[6.816364] (-) TimerEvent: {}
+[6.916584] (-) TimerEvent: {}
+[7.016812] (-) TimerEvent: {}
+[7.117114] (-) TimerEvent: {}
+[7.217385] (-) TimerEvent: {}
+[7.317609] (-) TimerEvent: {}
+[7.417859] (-) TimerEvent: {}
+[7.518100] (-) TimerEvent: {}
+[7.618334] (-) TimerEvent: {}
+[7.718561] (-) TimerEvent: {}
+[7.818795] (-) TimerEvent: {}
+[7.919043] (-) TimerEvent: {}
+[8.019271] (-) TimerEvent: {}
+[8.056571] (isaac_sim_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1\n'}
+[8.056821] (isaac_sim_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2\n'}
+[8.056996] (isaac_sim_demo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.058446] (isaac_sim_demo) CommandEnded: {'returncode': 2}
+[8.119342] (-) TimerEvent: {}
+[8.124714] (isaac_sim_demo) JobEnded: {'identifier': 'isaac_sim_demo', 'rc': 2}
+[8.135069] (-) EventReactorShutdown: {}

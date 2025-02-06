@@ -1,0 +1,51 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_test_node[0m
+[ 10%] Built target StateSubscriber_node
+[ 20%] Built target visualization_node
+[ 30%] Built target markers_node
+[ 40%] Built target tf_to_pos_node
+[ 50%] Built target isaac_sim_demo_library
+[ 60%] Built target cpp_demo
+[ 70%] Built target spawn_scene
+[ 75%] [32mBuilding CXX object CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o[0m
+[ 85%] Built target ompl_lifecycle
+[ 95%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:117:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+  117 |   bool within_bounds = [01;31m[Kmove_group[m[K.setJointValueTarget(joint_values);
+      |                        [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:3[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:120:17:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+  120 |     RCLCPP_WARN([01;31m[KLOGGER[m[K, "Target joint position(s) were outside of limits, but we will plan and clamp to the limits ");
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:120:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  120 |     [01;31m[KRCLCPP_WARN[m[K(LOGGER, "Target joint position(s) were outside of limits, but we will plan and clamp to the limits ");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:120:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  120 |     [01;31m[KRCLCPP_WARN[m[K(LOGGER, "Target joint position(s) were outside of limits, but we will plan and clamp to the limits ");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:120:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  120 |     [01;31m[KRCLCPP_WARN[m[K(LOGGER, "Target joint position(s) were outside of limits, but we will plan and clamp to the limits ");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:122:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess[m[K’ was not declared in this scope; did you mean ‘[01m[Keaccess[m[K’?
+  122 |   [01;31m[Ksuccess[m[K = (move_group.plan(my_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |   [01;31m[K^~~~~~~[m[K
+      |   [32m[Keaccess[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:122:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_plan[m[K’ was not declared in this scope
+  122 |   success = (move_group.plan([01;31m[Kmy_plan[m[K) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:124:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ktext_pose[m[K’ was not declared in this scope
+  124 |   visual_tools.publishText([01;31m[Ktext_pose[m[K, "Joint_Space_Goal", rvt::WHITE, rvt::XXLARGE);
+      |                            [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

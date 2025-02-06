@@ -1,0 +1,33 @@
+# This config file is used by ros2_control
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    Chain_Group_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+Chain_Group_controller:
+  ros__parameters:
+    joints:
+      - spherical_1_x
+      - spherical_1_y
+      - spherical_1_z
+      - spherical_2_x
+      - spherical_2_y
+      - spherical_2_z
+      - spherical_3_x
+      - spherical_3_y
+      - spherical_3_z
+      - spherical_4_x
+      - spherical_4_y
+      - spherical_4_z
+    command_interfaces:
+      - position
+      - velocity
+    state_interfaces:
+      - position
+      - velocity

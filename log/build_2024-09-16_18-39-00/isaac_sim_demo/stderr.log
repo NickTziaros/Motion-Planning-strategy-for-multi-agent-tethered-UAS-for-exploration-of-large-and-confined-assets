@@ -1,0 +1,10 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:153:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kvisual_tools[m[K’
+  153 |     goal_state.setJointGroupPositions(joint_model_group,joint_values1)
+      |                                                                       [01;31m[K^[m[K
+      |                                                                       [32m[K;[m[K
+  154 |     [32m[Kvisual_tools[m[K.publishRobotState(joint_values1,joint_model_group,rviz_visual_tools::BLUE);
+      |     [32m[K~~~~~~~~~~~~[m[K                                                       
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

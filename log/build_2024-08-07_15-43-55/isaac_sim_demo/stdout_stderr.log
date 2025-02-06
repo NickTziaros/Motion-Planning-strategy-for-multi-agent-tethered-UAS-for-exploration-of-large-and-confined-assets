@@ -1,0 +1,48 @@
+[35m[1mConsolidate compiler generated dependencies of target ompl_lifecycle[0m
+[ 12%] Built target StateSubscriber_node
+[ 25%] Built target markers_node
+[ 37%] Built target visualization_node
+[ 50%] Built target tf_to_pos_node
+[ 62%] Built target moveit_test
+[ 75%] Built target isaac_sim_demo_library
+[ 81%] [32mBuilding CXX object CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o[0m
+[ 93%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:[m[K In member function ‘[01m[Kvoid LifecycleTalker::pose_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:315:23:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_x_type*[m[K’ {aka ‘[01m[Kdouble*[m[K’} to ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+  315 |         quad_pose[0]= [01;31m[K&msg->pose.position.x[m[K;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                       [01;31m[K|[m[K
+      |                       [01;31m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_x_type* {aka double*}[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:316:23:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_y_type*[m[K’ {aka ‘[01m[Kdouble*[m[K’} to ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+  316 |         quad_pose[1]= [01;31m[K&msg->pose.position.y[m[K;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                       [01;31m[K|[m[K
+      |                       [01;31m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_y_type* {aka double*}[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:317:23:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_z_type*[m[K’ {aka ‘[01m[Kdouble*[m[K’} to ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+  317 |         quad_pose[2]= [01;31m[K&msg->pose.position.z[m[K;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                       [01;31m[K|[m[K
+      |                       [01;31m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_z_type* {aka double*}[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:318:23:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_x_type*[m[K’ {aka ‘[01m[Kdouble*[m[K’} to ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+  318 |         quad_pose[3]= [01;31m[K&msg->pose.orientation.x[m[K;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                       [01;31m[K|[m[K
+      |                       [01;31m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_x_type* {aka double*}[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:319:23:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_y_type*[m[K’ {aka ‘[01m[Kdouble*[m[K’} to ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+  319 |         quad_pose[4]= [01;31m[K&msg->pose.orientation.y[m[K;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                       [01;31m[K|[m[K
+      |                       [01;31m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_y_type* {aka double*}[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:320:23:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_z_type*[m[K’ {aka ‘[01m[Kdouble*[m[K’} to ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+  320 |         quad_pose[5]= [01;31m[K&msg->pose.orientation.z[m[K;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                       [01;31m[K|[m[K
+      |                       [01;31m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_z_type* {aka double*}[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:321:23:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_w_type*[m[K’ {aka ‘[01m[Kdouble*[m[K’} to ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+  321 |         quad_pose[6]= [01;31m[K&msg->pose.orientation.w[m[K;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                       [01;31m[K|[m[K
+      |                       [01;31m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_w_type* {aka double*}[m[K
+gmake[2]: *** [CMakeFiles/ompl_lifecycle.dir/build.make:76: CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/ompl_lifecycle.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

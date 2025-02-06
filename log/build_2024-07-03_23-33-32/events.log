@@ -1,0 +1,536 @@
+[0.000000] (-) TimerEvent: {}
+[0.000823] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.000867] (isaac_sim_demo) JobQueued: {'identifier': 'isaac_sim_demo', 'dependencies': OrderedDict([('custom_interfaces', '/home/ubuntu/ros2_ws/install/custom_interfaces')])}
+[0.000883] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.006337] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.006462] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/custom_interfaces'], 'cwd': '/home/ubuntu/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'isaacsim-HP-Z2-Tower-G9-Workstation-Desktop-PC'), ('GIT_ASKPASS', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass.sh'), ('ISAACSIM_PATH', '/isaac-sim'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.91.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f29b9dfb-642b-4f15-8ded-4c8151c4e7bc.sock'), ('MIN_DRIVER_VERSION', '525.60.11'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-27b84d95-1fca-4c17-9eb2-bb1a116c0ac4.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('VK_DRIVER_FILES', '/etc/vulkan/icd.d/nvidia_icd.json'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-27b84d95-1fca-4c17-9eb2-bb1a116c0ac4.sock","/tmp/.X11-unix/X13","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-50db781326.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-27b84d95-1fca-4c17-9eb2-bb1a116c0ac4.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X13'), ('SHELL', '/bin/bash'), ('OMNI_PASS', 'admin'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ACCEPT_EULA', 'Y'), ('OMNI_SERVER', 'http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/2023.1.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/custom_interfaces'), ('OMNI_USER', 'admin'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.039929] (custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.076156] (custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.080567] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099997] (-) TimerEvent: {}
+[0.118663] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.123266] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.123389] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.123646] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.125611] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.173550] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.178732] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.178850] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.179199] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.182023] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200079] (-) TimerEvent: {}
+[0.281927] (custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.300168] (-) TimerEvent: {}
+[0.353755] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.400260] (-) TimerEvent: {}
+[0.412241] (custom_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.447328] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.452539] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.460203] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.470931] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.486542] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500348] (-) TimerEvent: {}
+[0.565977] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.600477] (-) TimerEvent: {}
+[0.700744] (-) TimerEvent: {}
+[0.713500] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.800960] (-) TimerEvent: {}
+[0.901314] (-) TimerEvent: {}
+[0.981245] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.001479] (-) TimerEvent: {}
+[1.084717] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.100005] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.101570] (-) TimerEvent: {}
+[1.102226] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.118958] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.119249] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.119332] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.119393] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.133108] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.172138] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.172637] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.175155] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.194977] (custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.196340] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/custom_interfaces\n'}
+[1.201940] (-) TimerEvent: {}
+[1.202340] (custom_interfaces) CommandEnded: {'returncode': 0}
+[1.202736] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[1.203260] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/custom_interfaces', '--', '-j24', '-l24'], 'cwd': '/home/ubuntu/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'isaacsim-HP-Z2-Tower-G9-Workstation-Desktop-PC'), ('GIT_ASKPASS', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass.sh'), ('ISAACSIM_PATH', '/isaac-sim'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.91.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f29b9dfb-642b-4f15-8ded-4c8151c4e7bc.sock'), ('MIN_DRIVER_VERSION', '525.60.11'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-27b84d95-1fca-4c17-9eb2-bb1a116c0ac4.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('VK_DRIVER_FILES', '/etc/vulkan/icd.d/nvidia_icd.json'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-27b84d95-1fca-4c17-9eb2-bb1a116c0ac4.sock","/tmp/.X11-unix/X13","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-50db781326.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-27b84d95-1fca-4c17-9eb2-bb1a116c0ac4.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X13'), ('SHELL', '/bin/bash'), ('OMNI_PASS', 'admin'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ACCEPT_EULA', 'Y'), ('OMNI_SERVER', 'http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/2023.1.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/custom_interfaces'), ('OMNI_USER', 'admin'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.226132] (custom_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.231437] (custom_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.235484] (custom_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_custom_interfaces\n'}
+[1.302158] (-) TimerEvent: {}
+[1.377803] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.378052] (custom_interfaces) StdoutLine: {'line': b'creating custom_interfaces.egg-info\n'}
+[1.378186] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[1.378272] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[1.378349] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[1.378468] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[1.379572] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[1.380085] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[1.388115] (custom_interfaces) StdoutLine: {'line': b'[  6%] Built target custom_interfaces__cpp\n'}
+[1.393942] (custom_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.394015] (custom_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.394070] (custom_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.394124] (custom_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/planner_workspace__functions.c.o\x1b[0m\n'}
+[1.394821] (custom_interfaces) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[1.402220] (-) TimerEvent: {}
+[1.435472] (custom_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.456559] (custom_interfaces) StdoutLine: {'line': b'[ 22%] Built target custom_interfaces__rosidl_generator_c\n'}
+[1.462095] (custom_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.462207] (custom_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.462620] (custom_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.502351] (-) TimerEvent: {}
+[1.532370] (custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/planner_workspace__type_support.cpp.o\x1b[0m\n'}
+[1.545913] (custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/planner_workspace__type_support.cpp.o\x1b[0m\n'}
+[1.550439] (custom_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/planner_workspace__type_support.cpp.o\x1b[0m\n'}
+[1.600446] (custom_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/planner_workspace__type_support.cpp.o\x1b[0m\n'}
+[1.602518] (-) TimerEvent: {}
+[1.616240] (custom_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/planner_workspace__type_support.c.o\x1b[0m\n'}
+[1.616383] (custom_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/planner_workspace__type_support_c.cpp.o\x1b[0m\n'}
+[1.618102] (custom_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.637367] (custom_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.641836] (custom_interfaces) StdoutLine: {'line': b'[ 58%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[1.655001] (custom_interfaces) StdoutLine: {'line': b'[ 58%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.678754] (custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.701972] (custom_interfaces) StdoutLine: {'line': b'[ 61%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[1.702585] (-) TimerEvent: {}
+[1.751220] (custom_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.771460] (custom_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.774241] (custom_interfaces) StdoutLine: {'line': b'[ 67%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.802709] (-) TimerEvent: {}
+[1.803131] (custom_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.813664] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.846870] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.857685] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces\n'}
+[1.868725] (custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.902822] (-) TimerEvent: {}
+[2.003065] (-) TimerEvent: {}
+[2.080010] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces__py\n'}
+[2.089458] (custom_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_planner_workspace_s.c.o\x1b[0m\n'}
+[2.103257] (-) TimerEvent: {}
+[2.163768] (custom_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[2.187282] (custom_interfaces) StdoutLine: {'line': b'[ 80%] Built target custom_interfaces__rosidl_generator_py\n'}
+[2.197476] (custom_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.197610] (custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.197757] (custom_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.203446] (-) TimerEvent: {}
+[2.256363] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.256542] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.256610] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.279342] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[2.279529] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.279598] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[2.285282] (custom_interfaces) CommandEnded: {'returncode': 0}
+[2.303569] (-) TimerEvent: {}
+[2.309451] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[2.314747] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/custom_interfaces'], 'cwd': '/home/ubuntu/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'isaacsim-HP-Z2-Tower-G9-Workstation-Desktop-PC'), ('GIT_ASKPASS', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass.sh'), ('ISAACSIM_PATH', '/isaac-sim'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.91.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f29b9dfb-642b-4f15-8ded-4c8151c4e7bc.sock'), ('MIN_DRIVER_VERSION', '525.60.11'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-27b84d95-1fca-4c17-9eb2-bb1a116c0ac4.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('VK_DRIVER_FILES', '/etc/vulkan/icd.d/nvidia_icd.json'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-27b84d95-1fca-4c17-9eb2-bb1a116c0ac4.sock","/tmp/.X11-unix/X13","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-50db781326.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-27b84d95-1fca-4c17-9eb2-bb1a116c0ac4.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X13'), ('SHELL', '/bin/bash'), ('OMNI_PASS', 'admin'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ACCEPT_EULA', 'Y'), ('OMNI_SERVER', 'http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/2023.1.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/custom_interfaces'), ('OMNI_USER', 'admin'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.319499] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.319606] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[2.319688] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[2.319758] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[2.319842] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/planner_workspace.h\n'}
+[2.319912] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[2.319986] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__struct.h\n'}
+[2.320054] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__type_support.h\n'}
+[2.320119] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__functions.h\n'}
+[2.320184] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__functions.c\n'}
+[2.320303] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[2.320359] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.320395] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[2.320430] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[2.320495] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[2.320577] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""\n'}
+[2.320614] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[2.320648] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[2.320679] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[2.320722] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__rosidl_typesupport_fastrtps_c.h\n'}
+[2.320767] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[2.320797] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.320826] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.320891] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.320934] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[2.320983] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[2.321014] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/planner_workspace.hpp\n'}
+[2.321061] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[2.321091] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__builder.hpp\n'}
+[2.321136] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__struct.hpp\n'}
+[2.321180] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__traits.hpp\n'}
+[2.321227] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[2.321269] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[2.321300] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[2.321341] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps\n'}
+[2.321390] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.321423] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[2.321454] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.321496] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.321611] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.321647] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[2.321688] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[2.321734] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[2.321765] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__rosidl_typesupport_introspection_c.h\n'}
+[2.321810] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__type_support.c\n'}
+[2.321842] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[2.321883] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.321927] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.322043] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.322083] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[2.322217] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[2.322262] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[2.322295] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[2.322340] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[2.322371] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.322411] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__type_support.cpp\n'}
+[2.322452] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.322581] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.322620] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.322755] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[2.322791] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[2.322844] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[2.322904] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info\n'}
+[2.322974] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.323025] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.323075] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.323127] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.323194] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces\n'}
+[2.323233] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv\n'}
+[2.323274] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_planner_workspace.py\n'}
+[2.323318] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py\n'}
+[2.323368] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_planner_workspace_s.c\n'}
+[2.323425] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.323482] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[2.323536] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py\n'}
+[2.323583] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.323644] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\n'}
+[2.323711] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.323771] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.323835] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.344761] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...\n"}
+[2.344875] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...\n"}
+[2.344913] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...\n"}
+[2.344944] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...\n"}
+[2.344975] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_planner_workspace.py'...\n"}
+[2.347727] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.348174] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.348293] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.348432] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.348525] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.348672] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.348720] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[2.348872] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""\n'}
+[2.348929] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/PlannerWorkspace.idl\n'}
+[2.348994] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/PlannerWorkspace.srv\n'}
+[2.349054] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/PlannerWorkspace_Request.msg\n'}
+[2.349113] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/PlannerWorkspace_Response.msg\n'}
+[2.349199] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[2.349277] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[2.349340] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[2.349399] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.349461] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[2.349520] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[2.349580] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[2.349639] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[2.349698] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[2.349756] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[2.349814] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[2.349890] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[2.349976] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.350046] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.350117] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.350184] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.350253] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.350321] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.350388] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.350457] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.350520] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.350588] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.350651] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.350722] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.350786] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.350856] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.350919] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.350992] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.351058] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.351119] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.351179] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.351245] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.351307] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.351371] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.351434] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.351494] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.351556] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[2.351609] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[2.351668] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[2.353100] (custom_interfaces) CommandEnded: {'returncode': 0}
+[2.387108] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[2.387709] (isaac_sim_demo) JobStarted: {'identifier': 'isaac_sim_demo'}
+[2.391570] (isaac_sim_demo) JobProgress: {'identifier': 'isaac_sim_demo', 'progress': 'cmake'}
+[2.391678] (isaac_sim_demo) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/isaac_sim_demo', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/isaac_sim_demo'], 'cwd': '/home/ubuntu/ros2_ws/build/isaac_sim_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'isaacsim-HP-Z2-Tower-G9-Workstation-Desktop-PC'), ('GIT_ASKPASS', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass.sh'), ('ISAACSIM_PATH', '/isaac-sim'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.91.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f29b9dfb-642b-4f15-8ded-4c8151c4e7bc.sock'), ('MIN_DRIVER_VERSION', '525.60.11'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-27b84d95-1fca-4c17-9eb2-bb1a116c0ac4.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('VK_DRIVER_FILES', '/etc/vulkan/icd.d/nvidia_icd.json'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-27b84d95-1fca-4c17-9eb2-bb1a116c0ac4.sock","/tmp/.X11-unix/X13","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-50db781326.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-27b84d95-1fca-4c17-9eb2-bb1a116c0ac4.sock'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X13'), ('SHELL', '/bin/bash'), ('OMNI_PASS', 'admin'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ACCEPT_EULA', 'Y'), ('OMNI_SERVER', 'http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/2023.1.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/isaac_sim_demo'), ('OMNI_USER', 'admin'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[2.403666] (-) TimerEvent: {}
+[2.423950] (isaac_sim_demo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.458426] (isaac_sim_demo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.462932] (isaac_sim_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.500884] (isaac_sim_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.503734] (-) TimerEvent: {}
+[2.505508] (isaac_sim_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.505619] (isaac_sim_demo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.505881] (isaac_sim_demo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.507926] (isaac_sim_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.553774] (isaac_sim_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.558783] (isaac_sim_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.558904] (isaac_sim_demo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.559217] (isaac_sim_demo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.562275] (isaac_sim_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.603948] (-) TimerEvent: {}
+[2.660439] (isaac_sim_demo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.704032] (-) TimerEvent: {}
+[2.731771] (isaac_sim_demo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.771026] (isaac_sim_demo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.776302] (isaac_sim_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.783932] (isaac_sim_demo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.794825] (isaac_sim_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.804089] (-) TimerEvent: {}
+[2.810380] (isaac_sim_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.866381] (isaac_sim_demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.869138] (isaac_sim_demo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.904174] (-) TimerEvent: {}
+[2.931382] (isaac_sim_demo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.952500] (isaac_sim_demo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.991157] (isaac_sim_demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.000952] (isaac_sim_demo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.004228] (-) TimerEvent: {}
+[3.042017] (isaac_sim_demo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.042210] (isaac_sim_demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.084992] (isaac_sim_demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.085697] (isaac_sim_demo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.104312] (-) TimerEvent: {}
+[3.199989] (isaac_sim_demo) StdoutLine: {'line': b'-- Found ompl: /opt/ros/humble/include/ompl-1.6;/usr/include;/usr/include/eigen3  \n'}
+[3.202261] (isaac_sim_demo) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.204379] (-) TimerEvent: {}
+[3.293015] (isaac_sim_demo) StdoutLine: {'line': b'-- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)\n'}
+[3.304494] (-) TimerEvent: {}
+[3.348914] (isaac_sim_demo) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[3.404637] (-) TimerEvent: {}
+[3.489860] (isaac_sim_demo) StdoutLine: {'line': b'-- Found custom_interfaces: 0.0.0 (/home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake)\n'}
+[3.504704] (-) TimerEvent: {}
+[3.534161] (isaac_sim_demo) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.542344] (isaac_sim_demo) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[3.559947] (isaac_sim_demo) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[3.574306] (isaac_sim_demo) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[3.575299] (isaac_sim_demo) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.575373] (isaac_sim_demo) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.604873] (-) TimerEvent: {}
+[3.705141] (-) TimerEvent: {}
+[3.805402] (-) TimerEvent: {}
+[3.870609] (isaac_sim_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.905482] (-) TimerEvent: {}
+[3.939350] (isaac_sim_demo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.939790] (isaac_sim_demo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ubuntu/ros2_ws/src/isaac_sim_demo/include;/home/ubuntu/ros2_ws/src/isaac_sim_demo/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces;/home/ubuntu/ros2_ws/src/isaac_sim_demo/include/isaac_sim_demo\n'}
+[3.939840] (isaac_sim_demo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.940788] (isaac_sim_demo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.941914] (isaac_sim_demo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.942586] (isaac_sim_demo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.946587] (isaac_sim_demo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.946644] (isaac_sim_demo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.947288] (isaac_sim_demo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.948020] (isaac_sim_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.970740] (isaac_sim_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[3.971962] (isaac_sim_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/isaac_sim_demo\n'}
+[3.979270] (isaac_sim_demo) CommandEnded: {'returncode': 0}
+[3.979616] (isaac_sim_demo) JobProgress: {'identifier': 'isaac_sim_demo', 'progress': 'build'}
+[3.979769] (isaac_sim_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/isaac_sim_demo', '--', '-j24', '-l24'], 'cwd': '/home/ubuntu/ros2_ws/build/isaac_sim_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'isaacsim-HP-Z2-Tower-G9-Workstation-Desktop-PC'), ('GIT_ASKPASS', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass.sh'), ('ISAACSIM_PATH', '/isaac-sim'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.91.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f29b9dfb-642b-4f15-8ded-4c8151c4e7bc.sock'), ('MIN_DRIVER_VERSION', '525.60.11'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-27b84d95-1fca-4c17-9eb2-bb1a116c0ac4.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('VK_DRIVER_FILES', '/etc/vulkan/icd.d/nvidia_icd.json'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-27b84d95-1fca-4c17-9eb2-bb1a116c0ac4.sock","/tmp/.X11-unix/X13","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-50db781326.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-27b84d95-1fca-4c17-9eb2-bb1a116c0ac4.sock'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X13'), ('SHELL', '/bin/bash'), ('OMNI_PASS', 'admin'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ACCEPT_EULA', 'Y'), ('OMNI_SERVER', 'http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/2023.1.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/isaac_sim_demo'), ('OMNI_USER', 'admin'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[4.005624] (-) TimerEvent: {}
+[4.007396] (isaac_sim_demo) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/isaac_sim_demo_library.dir/src/RRT_controller.cpp.o\x1b[0m\n'}
+[4.007542] (isaac_sim_demo) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/StateSubscriber_node.dir/src/StateSubscriber_node.cpp.o\x1b[0m\n'}
+[4.007631] (isaac_sim_demo) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/markers_node.dir/src/markers.cpp.o\x1b[0m\n'}
+[4.007796] (isaac_sim_demo) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/visualization_node.dir/src/visualization.cpp.o\x1b[0m\n'}
+[4.105730] (-) TimerEvent: {}
+[4.206081] (-) TimerEvent: {}
+[4.306460] (-) TimerEvent: {}
+[4.406777] (-) TimerEvent: {}
+[4.507072] (-) TimerEvent: {}
+[4.607394] (-) TimerEvent: {}
+[4.707722] (-) TimerEvent: {}
+[4.808021] (-) TimerEvent: {}
+[4.908324] (-) TimerEvent: {}
+[5.008637] (-) TimerEvent: {}
+[5.108983] (-) TimerEvent: {}
+[5.209292] (-) TimerEvent: {}
+[5.309633] (-) TimerEvent: {}
+[5.409969] (-) TimerEvent: {}
+[5.510269] (-) TimerEvent: {}
+[5.610638] (-) TimerEvent: {}
+[5.711013] (-) TimerEvent: {}
+[5.811333] (-) TimerEvent: {}
+[5.911661] (-) TimerEvent: {}
+[6.011956] (-) TimerEvent: {}
+[6.112233] (-) TimerEvent: {}
+[6.212506] (-) TimerEvent: {}
+[6.312804] (-) TimerEvent: {}
+[6.413098] (-) TimerEvent: {}
+[6.513490] (-) TimerEvent: {}
+[6.613860] (-) TimerEvent: {}
+[6.714234] (-) TimerEvent: {}
+[6.775860] (isaac_sim_demo) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable markers_node\x1b[0m\n'}
+[6.814363] (-) TimerEvent: {}
+[6.895830] (isaac_sim_demo) StdoutLine: {'line': b'[ 50%] Built target markers_node\n'}
+[6.914569] (-) TimerEvent: {}
+[7.014857] (-) TimerEvent: {}
+[7.074469] (isaac_sim_demo) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable visualization_node\x1b[0m\n'}
+[7.115071] (-) TimerEvent: {}
+[7.215340] (-) TimerEvent: {}
+[7.219610] (isaac_sim_demo) StdoutLine: {'line': b'[ 60%] Built target visualization_node\n'}
+[7.315469] (-) TimerEvent: {}
+[7.415862] (-) TimerEvent: {}
+[7.516242] (-) TimerEvent: {}
+[7.616598] (-) TimerEvent: {}
+[7.716882] (-) TimerEvent: {}
+[7.817249] (-) TimerEvent: {}
+[7.917629] (-) TimerEvent: {}
+[8.017994] (-) TimerEvent: {}
+[8.118373] (-) TimerEvent: {}
+[8.218754] (-) TimerEvent: {}
+[8.319123] (-) TimerEvent: {}
+[8.419473] (-) TimerEvent: {}
+[8.519828] (-) TimerEvent: {}
+[8.620118] (-) TimerEvent: {}
+[8.720530] (-) TimerEvent: {}
+[8.820896] (-) TimerEvent: {}
+[8.921157] (-) TimerEvent: {}
+[9.021526] (-) TimerEvent: {}
+[9.109006] (isaac_sim_demo) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX static library libisaac_sim_demo_library.a\x1b[0m\n'}
+[9.121735] (-) TimerEvent: {}
+[9.157101] (isaac_sim_demo) StdoutLine: {'line': b'[ 70%] Built target isaac_sim_demo_library\n'}
+[9.168711] (isaac_sim_demo) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/ompl_controller_node.dir/src/ompl_controller_node.cpp.o\x1b[0m\n'}
+[9.221926] (-) TimerEvent: {}
+[9.322325] (-) TimerEvent: {}
+[9.422705] (-) TimerEvent: {}
+[9.523078] (-) TimerEvent: {}
+[9.623447] (-) TimerEvent: {}
+[9.723826] (-) TimerEvent: {}
+[9.824094] (-) TimerEvent: {}
+[9.924358] (-) TimerEvent: {}
+[10.024719] (-) TimerEvent: {}
+[10.125097] (-) TimerEvent: {}
+[10.215554] (isaac_sim_demo) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable StateSubscriber_node\x1b[0m\n'}
+[10.225302] (-) TimerEvent: {}
+[10.325675] (-) TimerEvent: {}
+[10.426064] (-) TimerEvent: {}
+[10.519201] (isaac_sim_demo) StdoutLine: {'line': b'[ 90%] Built target StateSubscriber_node\n'}
+[10.526237] (-) TimerEvent: {}
+[10.626597] (-) TimerEvent: {}
+[10.726970] (-) TimerEvent: {}
+[10.827348] (-) TimerEvent: {}
+[10.927726] (-) TimerEvent: {}
+[11.028138] (-) TimerEvent: {}
+[11.128410] (-) TimerEvent: {}
+[11.228771] (-) TimerEvent: {}
+[11.329160] (-) TimerEvent: {}
+[11.429549] (-) TimerEvent: {}
+[11.529861] (-) TimerEvent: {}
+[11.630218] (-) TimerEvent: {}
+[11.730595] (-) TimerEvent: {}
+[11.830982] (-) TimerEvent: {}
+[11.931370] (-) TimerEvent: {}
+[12.031725] (-) TimerEvent: {}
+[12.132015] (-) TimerEvent: {}
+[12.232232] (-) TimerEvent: {}
+[12.332469] (-) TimerEvent: {}
+[12.432710] (-) TimerEvent: {}
+[12.532937] (-) TimerEvent: {}
+[12.633255] (-) TimerEvent: {}
+[12.733597] (-) TimerEvent: {}
+[12.833918] (-) TimerEvent: {}
+[12.934225] (-) TimerEvent: {}
+[13.034540] (-) TimerEvent: {}
+[13.134788] (-) TimerEvent: {}
+[13.235058] (-) TimerEvent: {}
+[13.335341] (-) TimerEvent: {}
+[13.435606] (-) TimerEvent: {}
+[13.535876] (-) TimerEvent: {}
+[13.636110] (-) TimerEvent: {}
+[13.736344] (-) TimerEvent: {}
+[13.836567] (-) TimerEvent: {}
+[13.936792] (-) TimerEvent: {}
+[14.037019] (-) TimerEvent: {}
+[14.137335] (-) TimerEvent: {}
+[14.237697] (-) TimerEvent: {}
+[14.338010] (-) TimerEvent: {}
+[14.438343] (-) TimerEvent: {}
+[14.538567] (-) TimerEvent: {}
+[14.638825] (-) TimerEvent: {}
+[14.739071] (-) TimerEvent: {}
+[14.839326] (-) TimerEvent: {}
+[14.939585] (-) TimerEvent: {}
+[15.039842] (-) TimerEvent: {}
+[15.140083] (-) TimerEvent: {}
+[15.240382] (-) TimerEvent: {}
+[15.340642] (-) TimerEvent: {}
+[15.440939] (-) TimerEvent: {}
+[15.541165] (-) TimerEvent: {}
+[15.641380] (-) TimerEvent: {}
+[15.741587] (-) TimerEvent: {}
+[15.841907] (-) TimerEvent: {}
+[15.942274] (-) TimerEvent: {}
+[16.042640] (-) TimerEvent: {}
+[16.143003] (-) TimerEvent: {}
+[16.243371] (-) TimerEvent: {}
+[16.343743] (-) TimerEvent: {}
+[16.444014] (-) TimerEvent: {}
+[16.544273] (-) TimerEvent: {}
+[16.644610] (-) TimerEvent: {}
+[16.744912] (-) TimerEvent: {}
+[16.845213] (-) TimerEvent: {}
+[16.945574] (-) TimerEvent: {}
+[17.045938] (-) TimerEvent: {}
+[17.146255] (-) TimerEvent: {}
+[17.246513] (-) TimerEvent: {}
+[17.306001] (isaac_sim_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ompl_controller_node\x1b[0m\n'}
+[17.346744] (-) TimerEvent: {}
+[17.447063] (-) TimerEvent: {}
+[17.547361] (-) TimerEvent: {}
+[17.647639] (-) TimerEvent: {}
+[17.667158] (isaac_sim_demo) StdoutLine: {'line': b'[100%] Built target ompl_controller_node\n'}
+[17.672924] (isaac_sim_demo) CommandEnded: {'returncode': 0}
+[17.690178] (isaac_sim_demo) JobProgress: {'identifier': 'isaac_sim_demo', 'progress': 'install'}
+[17.690389] (isaac_sim_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/isaac_sim_demo'], 'cwd': '/home/ubuntu/ros2_ws/build/isaac_sim_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'isaacsim-HP-Z2-Tower-G9-Workstation-Desktop-PC'), ('GIT_ASKPASS', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass.sh'), ('ISAACSIM_PATH', '/isaac-sim'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.91.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f29b9dfb-642b-4f15-8ded-4c8151c4e7bc.sock'), ('MIN_DRIVER_VERSION', '525.60.11'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-27b84d95-1fca-4c17-9eb2-bb1a116c0ac4.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/root/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('VK_DRIVER_FILES', '/etc/vulkan/icd.d/nvidia_icd.json'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-27b84d95-1fca-4c17-9eb2-bb1a116c0ac4.sock","/tmp/.X11-unix/X13","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-50db781326.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-27b84d95-1fca-4c17-9eb2-bb1a116c0ac4.sock'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X13'), ('SHELL', '/bin/bash'), ('OMNI_PASS', 'admin'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ACCEPT_EULA', 'Y'), ('OMNI_SERVER', 'http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/2023.1.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/isaac_sim_demo'), ('OMNI_USER', 'admin'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/custom_interfaces:/opt/ros/humble')]), 'shell': False}
+[17.695815] (isaac_sim_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.695935] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//launch\n'}
+[17.696067] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//launch/robot_desc.py\n'}
+[17.696186] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//launch/isaac_sim_demo.py\n'}
+[17.696259] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config\n'}
+[17.696324] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/rviz_config.rviz\n'}
+[17.697454] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/robot_desc.rviz\n'}
+[17.697640] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf\n'}
+[17.697696] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/link.xacro\n'}
+[17.697837] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/spherical_joint.xacro\n'}
+[17.697999] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/twin.urdf\n'}
+[17.698124] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/two_drones.xacro\n'}
+[17.698221] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/chain.urdf\n'}
+[17.698384] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/chain.xacro\n'}
+[17.698642] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/StateSubscriber_node\n'}
+[17.702251] (isaac_sim_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/StateSubscriber_node" to ""\n'}
+[17.702424] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/markers_node\n'}
+[17.703217] (isaac_sim_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/markers_node" to ""\n'}
+[17.703306] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/ompl_controller_node\n'}
+[17.706004] (isaac_sim_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/ompl_controller_node" to ""\n'}
+[17.706053] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/visualization_node\n'}
+[17.706974] (isaac_sim_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/visualization_node" to ""\n'}
+[17.707130] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/ament_index/resource_index/package_run_dependencies/isaac_sim_demo\n'}
+[17.707234] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/ament_index/resource_index/parent_prefix_path/isaac_sim_demo\n'}
+[17.707329] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/environment/ament_prefix_path.sh\n'}
+[17.707432] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/environment/ament_prefix_path.dsv\n'}
+[17.707509] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/environment/path.sh\n'}
+[17.707583] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/environment/path.dsv\n'}
+[17.707657] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/local_setup.bash\n'}
+[17.707731] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/local_setup.sh\n'}
+[17.707821] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/local_setup.zsh\n'}
+[17.707897] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/local_setup.dsv\n'}
+[17.707959] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/package.dsv\n'}
+[17.708020] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/ament_index/resource_index/packages/isaac_sim_demo\n'}
+[17.708080] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/cmake/isaac_sim_demoConfig.cmake\n'}
+[17.708140] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/cmake/isaac_sim_demoConfig-version.cmake\n'}
+[17.708209] (isaac_sim_demo) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/package.xml\n'}
+[17.709362] (isaac_sim_demo) CommandEnded: {'returncode': 0}
+[17.738210] (isaac_sim_demo) JobEnded: {'identifier': 'isaac_sim_demo', 'rc': 0}
+[17.738958] (-) EventReactorShutdown: {}

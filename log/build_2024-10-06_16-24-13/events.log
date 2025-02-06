@@ -1,0 +1,256 @@
+[0.000000] (-) TimerEvent: {}
+[0.000131] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000162] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000185] (-) JobUnselected: {'identifier': 'floating_moveit_config'}
+[0.000206] (-) JobUnselected: {'identifier': 'four_drone_demo'}
+[0.000245] (-) JobUnselected: {'identifier': 'isaac_sim_demo'}
+[0.000265] (-) JobUnselected: {'identifier': 'isaac_twin_moveit_config'}
+[0.000283] (-) JobUnselected: {'identifier': 'launch_param_builder'}
+[0.000308] (-) JobUnselected: {'identifier': 'moveit'}
+[0.000357] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.000373] (-) JobUnselected: {'identifier': 'moveit_benchmark_resources'}
+[0.000392] (-) JobUnselected: {'identifier': 'moveit_chomp_optimizer_adapter'}
+[0.000407] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000460] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.000478] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.000489] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.000501] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.000516] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.000543] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.000579] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.000592] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.000610] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.000653] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.000665] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.000680] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.000693] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.000706] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.000717] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.000738] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.000773] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.000785] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.000800] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.000813] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.000824] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.000836] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.000950] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.000977] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.001002] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.001057] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.001074] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.001109] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.001121] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.001136] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.001149] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.001161] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.001202] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.001214] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.001226] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.001241] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.001253] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.001266] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.001278] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.001301] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.001317] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.001351] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.001363] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.001378] (-) JobUnselected: {'identifier': 'pick_ik'}
+[0.001390] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.001429] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.001441] (-) JobUnselected: {'identifier': 'prismatic_moveit_config'}
+[0.001452] (-) JobUnselected: {'identifier': 'rosparam_shortcuts'}
+[0.001464] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.001476] (-) JobUnselected: {'identifier': 'srdfdom'}
+[0.001489] (-) JobUnselected: {'identifier': 'test_moveit_config'}
+[0.001502] (moveit_core) JobQueued: {'identifier': 'moveit_core', 'dependencies': OrderedDict([('moveit_common', '/home/ubuntu/ros2_ws/install/moveit_common'), ('moveit_resources_panda_description', '/home/ubuntu/ros2_ws/install/moveit_resources_panda_description'), ('moveit_resources_pr2_description', '/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description'), ('srdfdom', '/home/ubuntu/ros2_ws/install/srdfdom'), ('moveit_resources_panda_moveit_config', '/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config')])}
+[0.001528] (moveit_core) JobStarted: {'identifier': 'moveit_core'}
+[0.014474] (moveit_core) JobProgress: {'identifier': 'moveit_core', 'progress': 'cmake'}
+[0.014877] (moveit_core) JobProgress: {'identifier': 'moveit_core', 'progress': 'build'}
+[0.015307] (moveit_core) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/moveit_core', '--', '-j24', '-l24'], 'cwd': '/home/ubuntu/ros2_ws/build/moveit_core', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'isaacsim-HP-Z2-Tower-G9-Workstation-Desktop-PC'), ('GIT_ASKPASS', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('ISAACSIM_PATH', '/isaac-sim'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/srdfdom/lib:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner/lib:/home/ubuntu/ros2_ws/install/pick_ik/lib:/home/ubuntu/ros2_ws/install/moveit_visual_tools/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core/lib:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface/lib:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager/lib:/home/ubuntu/ros2_ws/install/moveit_setup_assistant/lib:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_controllers/lib:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_framework/lib:/home/ubuntu/ros2_ws/install/moveit_servo/lib:/home/ubuntu/ros2_ws/install/moveit_ros_visualization/lib:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning/lib:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/lib:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks/lib:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse/lib:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction/lib:/home/ubuntu/ros2_ws/install/moveit_ros_perception/lib:/home/ubuntu/ros2_ws/install/moveit_ros_move_group/lib:/home/ubuntu/ros2_ws/install/moveit_planners_ompl/lib:/home/ubuntu/ros2_ws/install/moveit_ros_planning/lib:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/ubuntu/ros2_ws/install/moveit_planners_chomp/lib:/home/ubuntu/ros2_ws/install/moveit_kinematics/lib:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/ubuntu/ros2_ws/install/chomp_motion_planner/lib:/home/ubuntu/ros2_ws/install/moveit_core/lib:/home/ubuntu/ros2_ws/install/rviz_marker_tools/lib:/home/ubuntu/ros2_ws/install/rosparam_shortcuts/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/ubuntu/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-a809826f-dc0a-45e1-9f71-c7b42088baba.sock'), ('MIN_DRIVER_VERSION', '525.60.11'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a08ce231-a116-4e21-9e66-35ca2e4621ad.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ubuntu/ros2_ws/install/moveit_core/bin:/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('VK_DRIVER_FILES', '/etc/vulkan/icd.d/nvidia_icd.json'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a08ce231-a116-4e21-9e66-35ca2e4621ad.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7a75ec24d6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a08ce231-a116-4e21-9e66-35ca2e4621ad.sock'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/prismatic_moveit_config:/home/ubuntu/ros2_ws/install/test_moveit_config:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/ubuntu/ros2_ws/install/moveit_runtime:/home/ubuntu/ros2_ws/install/moveit2_tutorials:/home/ubuntu/ros2_ws/install/moveit:/home/ubuntu/ros2_ws/install/isaac_twin_moveit_config:/home/ubuntu/ros2_ws/install/four_drone_demo:/home/ubuntu/ros2_ws/install/floating_moveit_config:/home/ubuntu/ros2_ws/install/chain_moveit_config:/home/ubuntu/ros2_ws/install/4_drone_demo:/home/ubuntu/ros2_ws/install/isaac_sim_demo:/home/ubuntu/ros2_ws/install/moveit_planners:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner:/home/ubuntu/ros2_ws/install/pick_ik:/home/ubuntu/ros2_ws/install/moveit_visual_tools:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface:/home/ubuntu/ros2_ws/install/moveit_plugins:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager:/home/ubuntu/ros2_ws/install/moveit_setup_assistant:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_controllers:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_framework:/home/ubuntu/ros2_ws/install/moveit_servo:/home/ubuntu/ros2_ws/install/moveit_ros:/home/ubuntu/ros2_ws/install/moveit_ros_visualization:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction:/home/ubuntu/ros2_ws/install/moveit_ros_perception:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/ubuntu/ros2_ws/install/moveit_ros_move_group:/home/ubuntu/ros2_ws/install/moveit_planners_ompl:/home/ubuntu/ros2_ws/install/moveit_ros_planning:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ubuntu/ros2_ws/install/moveit_planners_chomp:/home/ubuntu/ros2_ws/install/moveit_kinematics:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/ubuntu/ros2_ws/install/chomp_motion_planner:/home/ubuntu/ros2_ws/install/moveit_core:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/srdfdom:/home/ubuntu/ros2_ws/install/rviz_marker_tools:/home/ubuntu/ros2_ws/install/rosparam_shortcuts:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support:/home/ubuntu/ros2_ws/install/moveit_resources:/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description:/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_panda_description:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description:/home/ubuntu/ros2_ws/install/moveit_common:/home/ubuntu/ros2_ws/install/launch_param_builder:/home/ubuntu/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OMNI_PASS', 'admin'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ACCEPT_EULA', 'Y'), ('OMNI_SERVER', 'http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/2023.1.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/moveit_core'), ('OMNI_USER', 'admin'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config:/home/ubuntu/ros2_ws/install/srdfdom:/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description:/home/ubuntu/ros2_ws/install/moveit_resources_panda_description:/home/ubuntu/ros2_ws/install/moveit_common:/home/ubuntu/ros2_ws/install/prismatic_moveit_config:/home/ubuntu/ros2_ws/install/test_moveit_config:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/ubuntu/ros2_ws/install/moveit_runtime:/home/ubuntu/ros2_ws/install/moveit2_tutorials:/home/ubuntu/ros2_ws/install/moveit:/home/ubuntu/ros2_ws/install/isaac_twin_moveit_config:/home/ubuntu/ros2_ws/install/four_drone_demo:/home/ubuntu/ros2_ws/install/floating_moveit_config:/home/ubuntu/ros2_ws/install/chain_moveit_config:/home/ubuntu/ros2_ws/install/4_drone_demo:/home/ubuntu/ros2_ws/install/isaac_sim_demo:/home/ubuntu/ros2_ws/install/moveit_planners:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner:/home/ubuntu/ros2_ws/install/pick_ik:/home/ubuntu/ros2_ws/install/moveit_visual_tools:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface:/home/ubuntu/ros2_ws/install/moveit_plugins:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager:/home/ubuntu/ros2_ws/install/moveit_setup_assistant:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_controllers:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_framework:/home/ubuntu/ros2_ws/install/moveit_servo:/home/ubuntu/ros2_ws/install/moveit_ros:/home/ubuntu/ros2_ws/install/moveit_ros_visualization:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction:/home/ubuntu/ros2_ws/install/moveit_ros_perception:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/ubuntu/ros2_ws/install/moveit_ros_move_group:/home/ubuntu/ros2_ws/install/moveit_planners_ompl:/home/ubuntu/ros2_ws/install/moveit_ros_planning:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ubuntu/ros2_ws/install/moveit_planners_chomp:/home/ubuntu/ros2_ws/install/moveit_kinematics:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/ubuntu/ros2_ws/install/chomp_motion_planner:/home/ubuntu/ros2_ws/install/moveit_core:/home/ubuntu/ros2_ws/install/rviz_marker_tools:/home/ubuntu/ros2_ws/install/rosparam_shortcuts:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support:/home/ubuntu/ros2_ws/install/moveit_resources:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description:/home/ubuntu/ros2_ws/install/custom_interfaces:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[0.038366] (moveit_core) StdoutLine: {'line': b'-- Found moveit_common: 2.5.5 (/home/ubuntu/ros2_ws/install/moveit_common/share/moveit_common/cmake)\n'}
+[0.038564] (moveit_core) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099458] (-) TimerEvent: {}
+[0.168359] (moveit_core) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[0.188720] (moveit_core) StdoutLine: {'line': b'-- Found common_interfaces: 4.2.4 (/opt/ros/humble/share/common_interfaces/cmake)\n'}
+[0.188824] (moveit_core) StdoutLine: {'line': b'-- Found eigen_stl_containers: 1.0.0 (/opt/ros/humble/share/eigen_stl_containers/cmake)\n'}
+[0.189714] (moveit_core) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.191645] (moveit_core) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.3.8 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[0.192169] (moveit_core) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.199548] (-) TimerEvent: {}
+[0.207212] (moveit_core) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.208749] (moveit_core) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.212348] (moveit_core) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.219887] (moveit_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.229244] (moveit_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.252162] (moveit_core) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.254576] (moveit_core) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299656] (-) TimerEvent: {}
+[0.372036] (moveit_core) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399732] (-) TimerEvent: {}
+[0.408817] (moveit_core) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.419415] (moveit_core) StdoutLine: {'line': b'-- Found geometric_shapes: 2.1.3 (/opt/ros/humble/share/geometric_shapes/cmake)\n'}
+[0.422779] (moveit_core) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[0.467689] (moveit_core) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[0.499852] (-) TimerEvent: {}
+[0.502603] (moveit_core) StdoutLine: {'line': b'-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)\n'}
+[0.504809] (moveit_core) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.505782] (moveit_core) StdoutLine: {'line': b'-- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)\n'}
+[0.571584] (moveit_core) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[0.593471] (moveit_core) StdoutLine: {'line': b'-- Found srdfdom: 2.0.4 (/home/ubuntu/ros2_ws/install/srdfdom/share/srdfdom/cmake)\n'}
+[0.597685] (moveit_core) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.7 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[0.599959] (-) TimerEvent: {}
+[0.635703] (moveit_core) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.637268] (moveit_core) StdoutLine: {'line': b'-- Found tf2_kdl: 0.25.7 (/opt/ros/humble/share/tf2_kdl/cmake)\n'}
+[0.649841] (moveit_core) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.650639] (moveit_core) StdoutLine: {'line': b'--  *** Building MoveIt 2.5.5-Alpha ***\n'}
+[0.662205] (moveit_core) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[0.662712] (moveit_core) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.679976] (moveit_core) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.10 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[0.681555] (moveit_core) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[0.683629] (moveit_core) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[0.683992] (moveit_core) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.699574] (moveit_core) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[0.699994] (moveit_core) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.700065] (-) TimerEvent: {}
+[0.740625] (moveit_core) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[0.741114] (moveit_core) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.754884] (moveit_core) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.755277] (moveit_core) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[0.755752] (moveit_core) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.782222] (moveit_core) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[0.782614] (moveit_core) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.800193] (-) TimerEvent: {}
+[0.804665] (moveit_core) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[0.805140] (moveit_core) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.818479] (moveit_core) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[0.819068] (moveit_core) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.831501] (moveit_core) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.844138] (moveit_core) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.860265] (moveit_core) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[0.860687] (moveit_core) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.891124] (moveit_core) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.900282] (-) TimerEvent: {}
+[0.913440] (moveit_core) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.930769] (moveit_core) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.935398] (moveit_core) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.952589] (moveit_core) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.953393] (moveit_core) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ubuntu/ros2_ws/src/moveit2/moveit_core/exceptions/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection_fcl/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection_bullet/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/constraint_samplers/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/controller_manager/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/distance_field/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_distance_field/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/dynamics_solver/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematics_base/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematics_metrics/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/robot_model/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/transforms/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/robot_state/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/robot_trajectory/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/macros/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/online_signal_smoothing/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_interface/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_request_adapter/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/sensor_manager/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/trajectory_processing/include;/home/ubuntu/ros2_ws/src/moveit2/moveit_core/utils/include\n'}
+[0.953483] (moveit_core) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.955170] (moveit_core) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.956747] (moveit_core) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.958264] (moveit_core) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.000393] (-) TimerEvent: {}
+[1.100739] (-) TimerEvent: {}
+[1.200959] (-) TimerEvent: {}
+[1.301206] (-) TimerEvent: {}
+[1.398448] (moveit_core) StdoutLine: {'line': b'-- Generating done\n'}
+[1.401265] (-) TimerEvent: {}
+[1.403851] (moveit_core) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/moveit_core\n'}
+[1.454202] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_transforms\x1b[0m\n'}
+[1.455776] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_exceptions\x1b[0m\n'}
+[1.456225] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_utils\x1b[0m\n'}
+[1.457050] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_smoothing_base\x1b[0m\n'}
+[1.457135] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_version\x1b[0m\n'}
+[1.457707] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_kinematics_base\x1b[0m\n'}
+[1.458932] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[1.459629] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_distance_field\x1b[0m\n'}
+[1.466757] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gmock_main\x1b[0m\n'}
+[1.466926] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[1.468786] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gmock\x1b[0m\n'}
+[1.476980] (moveit_core) StdoutLine: {'line': b'[  1%] Built target moveit_exceptions\n'}
+[1.482546] (moveit_core) StdoutLine: {'line': b'[  3%] Built target moveit_utils\n'}
+[1.483016] (moveit_core) StdoutLine: {'line': b'[  4%] Built target gtest\n'}
+[1.484788] (moveit_core) StdoutLine: {'line': b'[  6%] Built target moveit_version\n'}
+[1.484903] (moveit_core) StdoutLine: {'line': b'[  7%] Built target moveit_butterworth_parameters\n'}
+[1.486779] (moveit_core) StdoutLine: {'line': b'[  8%] Built target moveit_kinematics_base\n'}
+[1.487856] (moveit_core) StdoutLine: {'line': b'[  9%] Built target gmock_main\n'}
+[1.488339] (moveit_core) StdoutLine: {'line': b'[ 11%] Built target gmock\n'}
+[1.488645] (moveit_core) StdoutLine: {'line': b'[ 12%] Built target moveit_smoothing_base\n'}
+[1.489131] (moveit_core) StdoutLine: {'line': b'[ 13%] Built target moveit_transforms\n'}
+[1.489486] (moveit_core) StdoutLine: {'line': b'[ 14%] Built target gtest_main\n'}
+[1.495298] (moveit_core) StdoutLine: {'line': b'[ 16%] Built target moveit_distance_field\n'}
+[1.498788] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_transforms\x1b[0m\n'}
+[1.501262] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_robot_model\x1b[0m\n'}
+[1.501344] (-) TimerEvent: {}
+[1.505409] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_voxel_grid\x1b[0m\n'}
+[1.505612] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_distance_field\x1b[0m\n'}
+[1.512408] (moveit_core) StdoutLine: {'line': b'[ 17%] Built target test_transforms\n'}
+[1.521091] (moveit_core) StdoutLine: {'line': b'[ 18%] Built target test_voxel_grid\n'}
+[1.525170] (moveit_core) StdoutLine: {'line': b'[ 19%] Built target test_distance_field\n'}
+[1.532675] (moveit_core) StdoutLine: {'line': b'[ 26%] Built target moveit_robot_model\n'}
+[1.544295] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_butterworth_filter\x1b[0m\n'}
+[1.544421] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_test_utils\x1b[0m\n'}
+[1.546401] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_robot_state\x1b[0m\n'}
+[1.562960] (moveit_core) StdoutLine: {'line': b'[ 27%] Built target moveit_butterworth_filter\n'}
+[1.564115] (moveit_core) StdoutLine: {'line': b'[ 28%] Built target moveit_test_utils\n'}
+[1.572467] (moveit_core) StdoutLine: {'line': b'[ 31%] Built target moveit_robot_state\n'}
+[1.573869] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_butterworth_filter\x1b[0m\n'}
+[1.574794] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_robot_model\x1b[0m\n'}
+[1.589358] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_robot_trajectory\x1b[0m\n'}
+[1.592182] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_kinematics_metrics\x1b[0m\n'}
+[1.593270] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_robot_state_benchmark\x1b[0m\n'}
+[1.596869] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_aabb\x1b[0m\n'}
+[1.597013] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_collision_detection\x1b[0m\n'}
+[1.597485] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_cartesian_interpolator\x1b[0m\n'}
+[1.600084] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_robot_state_complex\x1b[0m\n'}
+[1.600402] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_dynamics_solver\x1b[0m\n'}
+[1.600507] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_robot_state\x1b[0m\n'}
+[1.601424] (-) TimerEvent: {}
+[1.601875] (moveit_core) StdoutLine: {'line': b'[ 33%] Built target test_robot_model\n'}
+[1.601988] (moveit_core) StdoutLine: {'line': b'[ 33%] Built target test_butterworth_filter\n'}
+[1.612680] (moveit_core) StdoutLine: {'line': b'[ 34%] Built target moveit_robot_trajectory\n'}
+[1.614333] (moveit_core) StdoutLine: {'line': b'[ 35%] Built target test_robot_state_benchmark\n'}
+[1.614475] (moveit_core) StdoutLine: {'line': b'[ 36%] Built target moveit_kinematics_metrics\n'}
+[1.623118] (moveit_core) StdoutLine: {'line': b'[ 37%] Built target test_cartesian_interpolator\n'}
+[1.630111] (moveit_core) StdoutLine: {'line': b'[ 39%] Built target moveit_dynamics_solver\n'}
+[1.630293] (moveit_core) StdoutLine: {'line': b'[ 40%] Built target test_robot_state_complex\n'}
+[1.630631] (moveit_core) StdoutLine: {'line': b'[ 42%] Built target test_robot_state\n'}
+[1.631098] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_robot_trajectory\x1b[0m\n'}
+[1.632782] (moveit_core) StdoutLine: {'line': b'[ 43%] Built target test_aabb\n'}
+[1.634289] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_planning_interface\x1b[0m\n'}
+[1.637031] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_trajectory_processing\x1b[0m\n'}
+[1.647658] (moveit_core) StdoutLine: {'line': b'[ 49%] Built target moveit_collision_detection\n'}
+[1.649726] (moveit_core) StdoutLine: {'line': b'[ 50%] Built target test_robot_trajectory\n'}
+[1.657925] (moveit_core) StdoutLine: {'line': b'[ 52%] Built target moveit_planning_interface\n'}
+[1.663031] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_collision_detection_fcl\x1b[0m\n'}
+[1.663179] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_world_diff\x1b[0m\n'}
+[1.664362] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_all_valid\x1b[0m\n'}
+[1.665409] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_world\x1b[0m\n'}
+[1.665693] (moveit_core) StdoutLine: {'line': b'[ 56%] Built target moveit_trajectory_processing\n'}
+[1.671672] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_collision_detection_bullet\x1b[0m\n'}
+[1.679985] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_time_parameterization\x1b[0m\n'}
+[1.680844] (moveit_core) StdoutLine: {'line': b'[ 58%] Built target test_world_diff\n'}
+[1.681356] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_time_optimal_trajectory_generation\x1b[0m\n'}
+[1.682730] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_ruckig_traj_smoothing\x1b[0m\n'}
+[1.684790] (moveit_core) StdoutLine: {'line': b'[ 59%] Built target test_all_valid\n'}
+[1.685056] (moveit_core) StdoutLine: {'line': b'[ 60%] Built target test_world\n'}
+[1.688988] (moveit_core) StdoutLine: {'line': b'[ 62%] Built target moveit_collision_detection_fcl\n'}
+[1.701525] (-) TimerEvent: {}
+[1.703864] (moveit_core) StdoutLine: {'line': b'[ 63%] Built target test_time_parameterization\n'}
+[1.705961] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_fcl_collision_env\x1b[0m\n'}
+[1.706387] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_kinematic_constraints\x1b[0m\n'}
+[1.706547] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_fcl_collision_detection\x1b[0m\n'}
+[1.708990] (moveit_core) StdoutLine: {'line': b'[ 65%] Built target test_time_optimal_trajectory_generation\n'}
+[1.709996] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_fcl_collision_detection_panda\x1b[0m\n'}
+[1.711741] (moveit_core) StdoutLine: {'line': b'[ 66%] Built target test_ruckig_traj_smoothing\n'}
+[1.714106] (moveit_core) StdoutLine: {'line': b'[ 71%] Built target moveit_collision_detection_bullet\n'}
+[1.728416] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_bullet_collision_detection_panda\x1b[0m\n'}
+[1.728609] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_bullet_collision_detection\x1b[0m\n'}
+[1.730831] (moveit_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_bullet_continuous_collision_checking\x1b[0m\n'}
+[1.734253] (moveit_core) StdoutLine: {'line': b'[ 72%] Built target test_fcl_collision_detection\n'}
+[1.735639] (moveit_core) StdoutLine: {'line': b'[ 73%] Built target test_fcl_collision_detection_panda\n'}
+[1.736349] (moveit_core) StdoutLine: {'line': b'[ 75%] Built target test_fcl_collision_env\n'}
+[1.737761] (moveit_core) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_kinematic_constraints.so\x1b[0m\n'}
+[1.752428] (moveit_core) StdoutLine: {'line': b'[ 77%] Built target test_bullet_collision_detection\n'}
+[1.752601] (moveit_core) StdoutLine: {'line': b'[ 78%] Built target test_bullet_collision_detection_panda\n'}
+[1.752948] (moveit_core) StdoutLine: {'line': b'[ 80%] Built target test_bullet_continuous_collision_checking\n'}
+[1.755860] (moveit_core) StderrLine: {'line': b'/usr/bin/ld: cannot find -lplanning_scene: No such file or directory\n'}
+[1.801754] (-) TimerEvent: {}
+[1.819247] (moveit_core) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[1.820552] (moveit_core) StderrLine: {'line': b'gmake[2]: *** [kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/build.make:310: kinematic_constraints/libmoveit_kinematic_constraints.so.2.5.5] Error 1\n'}
+[1.820927] (moveit_core) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:1123: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/all] Error 2\n'}
+[1.821111] (moveit_core) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.822852] (moveit_core) CommandEnded: {'returncode': 2}
+[1.901951] (-) TimerEvent: {}
+[1.902653] (moveit_core) JobEnded: {'identifier': 'moveit_core', 'rc': 2}
+[1.912820] (-) EventReactorShutdown: {}

@@ -1,0 +1,248 @@
+[0.000000] (-) TimerEvent: {}
+[0.000177] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000320] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000332] (-) JobUnselected: {'identifier': 'floating_moveit_config'}
+[0.000342] (-) JobUnselected: {'identifier': 'four_drone_demo'}
+[0.000350] (-) JobUnselected: {'identifier': 'isaac_twin_moveit_config'}
+[0.000359] (-) JobUnselected: {'identifier': 'launch_param_builder'}
+[0.000367] (-) JobUnselected: {'identifier': 'moveit'}
+[0.000376] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.000384] (-) JobUnselected: {'identifier': 'moveit_benchmark_resources'}
+[0.000391] (-) JobUnselected: {'identifier': 'moveit_chomp_optimizer_adapter'}
+[0.000400] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000408] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.000417] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.000426] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.000434] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.000442] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.000451] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.000460] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.000468] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.000477] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.000485] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.000494] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.000502] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.000511] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.000519] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.000527] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.000536] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.000544] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.000552] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.000560] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.000568] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.000577] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.000585] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.000594] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.000602] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.000610] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.000618] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.000627] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.000634] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.000643] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.000651] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.000664] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.000672] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.000680] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.000688] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.000696] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.000705] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.000713] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.000721] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.000729] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.000737] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.000813] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.000822] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.000831] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.000840] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.000848] (-) JobUnselected: {'identifier': 'pick_ik'}
+[0.000856] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.001019] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.001050] (-) JobUnselected: {'identifier': 'prismatic_moveit_config'}
+[0.001075] (-) JobUnselected: {'identifier': 'rosparam_shortcuts'}
+[0.001135] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.001154] (-) JobUnselected: {'identifier': 'srdfdom'}
+[0.001171] (-) JobUnselected: {'identifier': 'test_moveit_config'}
+[0.001196] (isaac_sim_demo) JobQueued: {'identifier': 'isaac_sim_demo', 'dependencies': OrderedDict([('custom_interfaces', '/home/ubuntu/ros2_ws/install/custom_interfaces'), ('launch_param_builder', '/home/ubuntu/ros2_ws/install/launch_param_builder'), ('moveit_common', '/home/ubuntu/ros2_ws/install/moveit_common'), ('moveit_resources_fanuc_description', '/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description'), ('moveit_resources_panda_description', '/home/ubuntu/ros2_ws/install/moveit_resources_panda_description'), ('moveit_resources_pr2_description', '/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description'), ('moveit_resources_prbt_support', '/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support'), ('srdfdom', '/home/ubuntu/ros2_ws/install/srdfdom'), ('moveit_configs_utils', '/home/ubuntu/ros2_ws/install/moveit_configs_utils'), ('moveit_resources_fanuc_moveit_config', '/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config'), ('moveit_resources_panda_moveit_config', '/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config'), ('moveit_core', '/home/ubuntu/ros2_ws/install/moveit_core'), ('moveit_resources_prbt_ikfast_manipulator_plugin', '/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin'), ('moveit_ros_occupancy_map_monitor', '/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor'), ('moveit_simple_controller_manager', '/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager'), ('pilz_industrial_motion_planner_testutils', '/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils'), ('moveit_ros_planning', '/home/ubuntu/ros2_ws/install/moveit_ros_planning'), ('moveit_kinematics', '/home/ubuntu/ros2_ws/install/moveit_kinematics'), ('moveit_planners_ompl', '/home/ubuntu/ros2_ws/install/moveit_planners_ompl'), ('moveit_ros_robot_interaction', '/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction'), ('moveit_ros_warehouse', '/home/ubuntu/ros2_ws/install/moveit_ros_warehouse'), ('moveit_visual_tools', '/home/ubuntu/ros2_ws/install/moveit_visual_tools'), ('moveit_ros_move_group', '/home/ubuntu/ros2_ws/install/moveit_ros_move_group'), ('moveit_resources_prbt_moveit_config', '/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config'), ('moveit_ros_planning_interface', '/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface'), ('moveit_resources_prbt_pg70_support', '/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support'), ('moveit_ros_visualization', '/home/ubuntu/ros2_ws/install/moveit_ros_visualization'), ('moveit_setup_framework', '/home/ubuntu/ros2_ws/install/moveit_setup_framework'), ('pilz_industrial_motion_planner', '/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner'), ('moveit_planners', '/home/ubuntu/ros2_ws/install/moveit_planners'), ('moveit_setup_app_plugins', '/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins'), ('moveit_setup_controllers', '/home/ubuntu/ros2_ws/install/moveit_setup_controllers'), ('moveit_setup_core_plugins', '/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins'), ('moveit_setup_srdf_plugins', '/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins'), ('moveit_setup_assistant', '/home/ubuntu/ros2_ws/install/moveit_setup_assistant')])}
+[0.001239] (isaac_sim_demo) JobStarted: {'identifier': 'isaac_sim_demo'}
+[0.062102] (isaac_sim_demo) JobProgress: {'identifier': 'isaac_sim_demo', 'progress': 'cmake'}
+[0.062629] (isaac_sim_demo) JobProgress: {'identifier': 'isaac_sim_demo', 'progress': 'build'}
+[0.063290] (isaac_sim_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/isaac_sim_demo', '--', '-j24', '-l24'], 'cwd': '/home/ubuntu/ros2_ws/build/isaac_sim_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'isaacsim-HP-Z2-Tower-G9-Workstation-Desktop-PC'), ('SSH_AGENT_PID', '1269807'), ('GIT_ASKPASS', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('ISAACSIM_PATH', '/isaac-sim'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_controllers/lib:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins/lib:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner/lib:/home/ubuntu/ros2_ws/install/moveit_setup_framework/lib:/home/ubuntu/ros2_ws/install/moveit_ros_visualization/lib:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/lib:/home/ubuntu/ros2_ws/install/moveit_ros_move_group/lib:/home/ubuntu/ros2_ws/install/moveit_visual_tools/lib:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse/lib:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction/lib:/home/ubuntu/ros2_ws/install/moveit_planners_ompl/lib:/home/ubuntu/ros2_ws/install/moveit_kinematics/lib:/home/ubuntu/ros2_ws/install/moveit_ros_planning/lib:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager/lib:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/ubuntu/ros2_ws/install/moveit_core/lib:/home/ubuntu/ros2_ws/install/srdfdom/lib:/home/ubuntu/ros2_ws/install/custom_interfaces/lib:/home/ubuntu/ros2_ws/install/pick_ik/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core/lib:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface/lib:/home/ubuntu/ros2_ws/install/moveit_setup_assistant/lib:/home/ubuntu/ros2_ws/install/moveit_servo/lib:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning/lib:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks/lib:/home/ubuntu/ros2_ws/install/moveit_ros_perception/lib:/home/ubuntu/ros2_ws/install/moveit_planners_chomp/lib:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/ubuntu/ros2_ws/install/chomp_motion_planner/lib:/home/ubuntu/ros2_ws/install/rviz_marker_tools/lib:/home/ubuntu/ros2_ws/install/rosparam_shortcuts/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/ubuntu/ros2_ws/src/isaac_sim_demo'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b70afb6a-acee-4c3b-b7cc-b5f1b9cffe97.sock'), ('MIN_DRIVER_VERSION', '525.60.11'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a08ce231-a116-4e21-9e66-35ca2e4621ad.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ubuntu/ros2_ws/install/moveit_core/bin:/root/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('VK_DRIVER_FILES', '/etc/vulkan/icd.d/nvidia_icd.json'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a08ce231-a116-4e21-9e66-35ca2e4621ad.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7a75ec24d6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXxMUvTS/agent.1269806'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/home/ubuntu/ros2_ws/install/prismatic_moveit_config:/home/ubuntu/ros2_ws/install/test_moveit_config:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/ubuntu/ros2_ws/install/moveit_runtime:/home/ubuntu/ros2_ws/install/moveit2_tutorials:/home/ubuntu/ros2_ws/install/moveit:/home/ubuntu/ros2_ws/install/isaac_twin_moveit_config:/home/ubuntu/ros2_ws/install/four_drone_demo:/home/ubuntu/ros2_ws/install/floating_moveit_config:/home/ubuntu/ros2_ws/install/chain_moveit_config:/home/ubuntu/ros2_ws/install/4_drone_demo:/home/ubuntu/ros2_ws/install/isaac_sim_demo:/home/ubuntu/ros2_ws/install/moveit_planners:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner:/home/ubuntu/ros2_ws/install/pick_ik:/home/ubuntu/ros2_ws/install/moveit_visual_tools:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface:/home/ubuntu/ros2_ws/install/moveit_plugins:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager:/home/ubuntu/ros2_ws/install/moveit_setup_assistant:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_controllers:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_framework:/home/ubuntu/ros2_ws/install/moveit_servo:/home/ubuntu/ros2_ws/install/moveit_ros:/home/ubuntu/ros2_ws/install/moveit_ros_visualization:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction:/home/ubuntu/ros2_ws/install/moveit_ros_perception:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/ubuntu/ros2_ws/install/moveit_ros_move_group:/home/ubuntu/ros2_ws/install/moveit_planners_ompl:/home/ubuntu/ros2_ws/install/moveit_ros_planning:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ubuntu/ros2_ws/install/moveit_planners_chomp:/home/ubuntu/ros2_ws/install/moveit_kinematics:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/ubuntu/ros2_ws/install/chomp_motion_planner:/home/ubuntu/ros2_ws/install/moveit_core:/home/ubuntu/ros2_ws/install/srdfdom:/home/ubuntu/ros2_ws/install/rviz_marker_tools:/home/ubuntu/ros2_ws/install/rosparam_shortcuts:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support:/home/ubuntu/ros2_ws/install/moveit_resources:/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description:/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_panda_description:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description:/home/ubuntu/ros2_ws/install/moveit_common:/home/ubuntu/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OMNI_PASS', 'admin'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ACCEPT_EULA', 'Y'), ('OMNI_SERVER', 'http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/2023.1.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/isaac_sim_demo'), ('OMNI_USER', 'admin'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/moveit_setup_assistant:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_controllers:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins:/home/ubuntu/ros2_ws/install/moveit_planners:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner:/home/ubuntu/ros2_ws/install/moveit_setup_framework:/home/ubuntu/ros2_ws/install/moveit_ros_visualization:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/ubuntu/ros2_ws/install/moveit_ros_move_group:/home/ubuntu/ros2_ws/install/moveit_visual_tools:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction:/home/ubuntu/ros2_ws/install/moveit_planners_ompl:/home/ubuntu/ros2_ws/install/moveit_kinematics:/home/ubuntu/ros2_ws/install/moveit_ros_planning:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ubuntu/ros2_ws/install/moveit_core:/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/ubuntu/ros2_ws/install/srdfdom:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support:/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description:/home/ubuntu/ros2_ws/install/moveit_resources_panda_description:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description:/home/ubuntu/ros2_ws/install/moveit_common:/home/ubuntu/ros2_ws/install/custom_interfaces:/home/ubuntu/ros2_ws/install/prismatic_moveit_config:/home/ubuntu/ros2_ws/install/test_moveit_config:/home/ubuntu/ros2_ws/install/moveit_runtime:/home/ubuntu/ros2_ws/install/moveit2_tutorials:/home/ubuntu/ros2_ws/install/moveit:/home/ubuntu/ros2_ws/install/isaac_twin_moveit_config:/home/ubuntu/ros2_ws/install/four_drone_demo:/home/ubuntu/ros2_ws/install/floating_moveit_config:/home/ubuntu/ros2_ws/install/chain_moveit_config:/home/ubuntu/ros2_ws/install/4_drone_demo:/home/ubuntu/ros2_ws/install/isaac_sim_demo:/home/ubuntu/ros2_ws/install/pick_ik:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface:/home/ubuntu/ros2_ws/install/moveit_plugins:/home/ubuntu/ros2_ws/install/moveit_servo:/home/ubuntu/ros2_ws/install/moveit_ros:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks:/home/ubuntu/ros2_ws/install/moveit_ros_perception:/home/ubuntu/ros2_ws/install/moveit_planners_chomp:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/ubuntu/ros2_ws/install/chomp_motion_planner:/home/ubuntu/ros2_ws/install/rviz_marker_tools:/home/ubuntu/ros2_ws/install/rosparam_shortcuts:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs:/home/ubuntu/ros2_ws/install/moveit_resources:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[0.099831] (-) TimerEvent: {}
+[0.118785] (isaac_sim_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target joint_space\x1b[0m\n'}
+[0.123881] (isaac_sim_demo) StdoutLine: {'line': b'[  9%] Built target StateSubscriber_node\n'}
+[0.124123] (isaac_sim_demo) StdoutLine: {'line': b'[ 18%] Built target markers_node\n'}
+[0.125174] (isaac_sim_demo) StdoutLine: {'line': b'[ 27%] Built target visualization_node\n'}
+[0.131910] (isaac_sim_demo) StdoutLine: {'line': b'[ 36%] Built target tf_to_pos_node\n'}
+[0.132815] (isaac_sim_demo) StdoutLine: {'line': b'[ 45%] Built target isaac_sim_demo_library\n'}
+[0.133296] (isaac_sim_demo) StdoutLine: {'line': b'[ 54%] Built target moveit_test_node\n'}
+[0.139676] (isaac_sim_demo) StdoutLine: {'line': b'[ 63%] Built target spawn_scene\n'}
+[0.141647] (isaac_sim_demo) StdoutLine: {'line': b'[ 72%] Built target cartesian\n'}
+[0.148160] (isaac_sim_demo) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/joint_space.dir/src/joint_space.cpp.o\x1b[0m\n'}
+[0.170229] (isaac_sim_demo) StdoutLine: {'line': b'[ 95%] Built target ompl_controller_node\n'}
+[0.170419] (isaac_sim_demo) StdoutLine: {'line': b'[ 95%] Built target ompl_lifecycle\n'}
+[0.200010] (-) TimerEvent: {}
+[0.300290] (-) TimerEvent: {}
+[0.400577] (-) TimerEvent: {}
+[0.500857] (-) TimerEvent: {}
+[0.601127] (-) TimerEvent: {}
+[0.701375] (-) TimerEvent: {}
+[0.801606] (-) TimerEvent: {}
+[0.901878] (-) TimerEvent: {}
+[1.002129] (-) TimerEvent: {}
+[1.102377] (-) TimerEvent: {}
+[1.202695] (-) TimerEvent: {}
+[1.302926] (-) TimerEvent: {}
+[1.403183] (-) TimerEvent: {}
+[1.503493] (-) TimerEvent: {}
+[1.603755] (-) TimerEvent: {}
+[1.704015] (-) TimerEvent: {}
+[1.804250] (-) TimerEvent: {}
+[1.904478] (-) TimerEvent: {}
+[2.004705] (-) TimerEvent: {}
+[2.104939] (-) TimerEvent: {}
+[2.205251] (-) TimerEvent: {}
+[2.305637] (-) TimerEvent: {}
+[2.405899] (-) TimerEvent: {}
+[2.506168] (-) TimerEvent: {}
+[2.606433] (-) TimerEvent: {}
+[2.706726] (-) TimerEvent: {}
+[2.807002] (-) TimerEvent: {}
+[2.907275] (-) TimerEvent: {}
+[3.007616] (-) TimerEvent: {}
+[3.107986] (-) TimerEvent: {}
+[3.208257] (-) TimerEvent: {}
+[3.308539] (-) TimerEvent: {}
+[3.408857] (-) TimerEvent: {}
+[3.509122] (-) TimerEvent: {}
+[3.609431] (-) TimerEvent: {}
+[3.709731] (-) TimerEvent: {}
+[3.809998] (-) TimerEvent: {}
+[3.910359] (-) TimerEvent: {}
+[4.010712] (-) TimerEvent: {}
+[4.111049] (-) TimerEvent: {}
+[4.211355] (-) TimerEvent: {}
+[4.311652] (-) TimerEvent: {}
+[4.411955] (-) TimerEvent: {}
+[4.512201] (-) TimerEvent: {}
+[4.612479] (-) TimerEvent: {}
+[4.712709] (-) TimerEvent: {}
+[4.812939] (-) TimerEvent: {}
+[4.913193] (-) TimerEvent: {}
+[5.013442] (-) TimerEvent: {}
+[5.113659] (-) TimerEvent: {}
+[5.213880] (-) TimerEvent: {}
+[5.314130] (-) TimerEvent: {}
+[5.414363] (-) TimerEvent: {}
+[5.433492] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid configure_bullet(std::shared_ptr<planning_scene::PlanningScene>, moveit::core::RobotState&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.433633] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:124:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K<<\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.433679] (isaac_sim_demo) StderrLine: {'line': b'  124 |       std::cout <<  \x1b[01;31m\x1b[K<<\x1b[m\x1b[K std::endl;\n'}
+[5.433716] (isaac_sim_demo) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.433837] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:126:158:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KbtQuaternion::btQuaternion(double&, double&, double&, Eigen::Quaterniond&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.433935] (isaac_sim_demo) StderrLine: {'line': b'  126 |       btDefaultMotionState* boxMotionState = new btDefaultMotionState(btTransform(btQuaternion(quaternion.x(), quaternion.y(), quaternion.z(), quaternion.2()\x1b[01;31m\x1b[K)\x1b[m\x1b[K,\n'}
+[5.434009] (isaac_sim_demo) StderrLine: {'line': b'      |                                                                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.434042] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/bullet/LinearMath/btMatrix3x3.h:19\x1b[m\x1b[K,\n'}
+[5.434075] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/bullet/LinearMath/btTransform.h:18\x1b[m\x1b[K,\n'}
+[5.434107] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/bullet/BulletCollision/CollisionDispatch/btCollisionWorld.h:78\x1b[m\x1b[K,\n'}
+[5.434138] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/bullet/btBulletCollisionCommon.h:22\x1b[m\x1b[K,\n'}
+[5.434168] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/bullet/btBulletDynamicsCommon.h:20\x1b[m\x1b[K,\n'}
+[5.434197] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:32\x1b[m\x1b[K:\n'}
+[5.434229] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:97:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KbtQuaternion::btQuaternion(const btScalar&, const btScalar&, const btScalar&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.434261] (isaac_sim_demo) StderrLine: {'line': b'   97 |         \x1b[01;36m\x1b[KbtQuaternion\x1b[m\x1b[K(const btScalar& yaw, const btScalar& pitch, const btScalar& roll)\n'}
+[5.434291] (isaac_sim_demo) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.434320] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:97:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[5.434351] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:89:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KbtQuaternion::btQuaternion(const btVector3&, const btScalar&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.434380] (isaac_sim_demo) StderrLine: {'line': b'   89 |         \x1b[01;36m\x1b[KbtQuaternion\x1b[m\x1b[K(const btVector3& _axis, const btScalar& _angle)\n'}
+[5.434412] (isaac_sim_demo) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.434441] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:89:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 4 provided\n'}
+[5.434471] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:82:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KbtQuaternion::btQuaternion(const btScalar&, const btScalar&, const btScalar&, const btScalar&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.434500] (isaac_sim_demo) StderrLine: {'line': b'   82 |         \x1b[01;36m\x1b[KbtQuaternion\x1b[m\x1b[K(const btScalar& _x, const btScalar& _y, const btScalar& _z, const btScalar& _w)\n'}
+[5.434530] (isaac_sim_demo) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.434558] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:82:98:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 4 from \xe2\x80\x98\x1b[01m\x1b[KEigen::Quaterniond\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[KEigen::Quaternion<double>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst btScalar&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst float&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[5.434591] (isaac_sim_demo) StderrLine: {'line': b'   82 |         btQuaternion(const btScalar& _x, const btScalar& _y, const btScalar& _z, \x1b[01;36m\x1b[Kconst btScalar& _w\x1b[m\x1b[K)\n'}
+[5.434622] (isaac_sim_demo) StderrLine: {'line': b'      |                                                                                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[5.434651] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:53:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KbtQuaternion::btQuaternion()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.434684] (isaac_sim_demo) StderrLine: {'line': b'   53 |         \x1b[01;36m\x1b[KbtQuaternion\x1b[m\x1b[K() {}\n'}
+[5.434714] (isaac_sim_demo) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.434743] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:53:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 4 provided\n'}
+[5.434772] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr btQuaternion::btQuaternion(const btQuaternion&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.434801] (isaac_sim_demo) StderrLine: {'line': b'   49 | class \x1b[01;36m\x1b[KbtQuaternion\x1b[m\x1b[K : public btQuadWord\n'}
+[5.434833] (isaac_sim_demo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.434861] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 4 provided\n'}
+[5.434891] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr btQuaternion::btQuaternion(btQuaternion&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.434920] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 4 provided\n'}
+[5.434949] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:126:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.434981] (isaac_sim_demo) StderrLine: {'line': b'  126 |       btDefaultMotionState* boxMotionState = new btDefaultMotionState(btTransform\x1b[01;31m\x1b[K(\x1b[m\x1b[KbtQuaternion(quaternion.x(), quaternion.y(), quaternion.z(), quaternion.2()),\n'}
+[5.435011] (isaac_sim_demo) StderrLine: {'line': b'      |                                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.435039] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:126:158:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KbtQuaternion::btQuaternion(double&, double&, double&, Eigen::Quaterniond&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.435070] (isaac_sim_demo) StderrLine: {'line': b'  126 |       btDefaultMotionState* boxMotionState = new btDefaultMotionState(btTransform(btQuaternion(quaternion.x(), quaternion.y(), quaternion.z(), quaternion.2()\x1b[01;31m\x1b[K)\x1b[m\x1b[K,\n'}
+[5.435101] (isaac_sim_demo) StderrLine: {'line': b'      |                                                                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.435129] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/bullet/LinearMath/btMatrix3x3.h:19\x1b[m\x1b[K,\n'}
+[5.435159] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/bullet/LinearMath/btTransform.h:18\x1b[m\x1b[K,\n'}
+[5.435189] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/bullet/BulletCollision/CollisionDispatch/btCollisionWorld.h:78\x1b[m\x1b[K,\n'}
+[5.435218] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/bullet/btBulletCollisionCommon.h:22\x1b[m\x1b[K,\n'}
+[5.435246] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/bullet/btBulletDynamicsCommon.h:20\x1b[m\x1b[K,\n'}
+[5.435274] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:32\x1b[m\x1b[K:\n'}
+[5.435303] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:97:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KbtQuaternion::btQuaternion(const btScalar&, const btScalar&, const btScalar&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.435332] (isaac_sim_demo) StderrLine: {'line': b'   97 |         \x1b[01;36m\x1b[KbtQuaternion\x1b[m\x1b[K(const btScalar& yaw, const btScalar& pitch, const btScalar& roll)\n'}
+[5.435361] (isaac_sim_demo) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.435390] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:97:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[5.435419] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:89:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KbtQuaternion::btQuaternion(const btVector3&, const btScalar&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.435448] (isaac_sim_demo) StderrLine: {'line': b'   89 |         \x1b[01;36m\x1b[KbtQuaternion\x1b[m\x1b[K(const btVector3& _axis, const btScalar& _angle)\n'}
+[5.435477] (isaac_sim_demo) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.435507] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:89:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 4 provided\n'}
+[5.435537] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:82:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KbtQuaternion::btQuaternion(const btScalar&, const btScalar&, const btScalar&, const btScalar&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.435569] (isaac_sim_demo) StderrLine: {'line': b'   82 |         \x1b[01;36m\x1b[KbtQuaternion\x1b[m\x1b[K(const btScalar& _x, const btScalar& _y, const btScalar& _z, const btScalar& _w)\n'}
+[5.435598] (isaac_sim_demo) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.435627] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:82:98:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 4 from \xe2\x80\x98\x1b[01m\x1b[KEigen::Quaterniond\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[KEigen::Quaternion<double>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst btScalar&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst float&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[5.435661] (isaac_sim_demo) StderrLine: {'line': b'   82 |         btQuaternion(const btScalar& _x, const btScalar& _y, const btScalar& _z, \x1b[01;36m\x1b[Kconst btScalar& _w\x1b[m\x1b[K)\n'}
+[5.435691] (isaac_sim_demo) StderrLine: {'line': b'      |                                                                                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[5.435720] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:53:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KbtQuaternion::btQuaternion()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.435752] (isaac_sim_demo) StderrLine: {'line': b'   53 |         \x1b[01;36m\x1b[KbtQuaternion\x1b[m\x1b[K() {}\n'}
+[5.435782] (isaac_sim_demo) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.435810] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:53:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 4 provided\n'}
+[5.435840] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr btQuaternion::btQuaternion(const btQuaternion&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.435869] (isaac_sim_demo) StderrLine: {'line': b'   49 | class \x1b[01;36m\x1b[KbtQuaternion\x1b[m\x1b[K : public btQuadWord\n'}
+[5.435896] (isaac_sim_demo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.435925] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 4 provided\n'}
+[5.435953] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr btQuaternion::btQuaternion(btQuaternion&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.435982] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/bullet/LinearMath/btQuaternion.h:49:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 4 provided\n'}
+[5.436012] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:126:95:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.436041] (isaac_sim_demo) StderrLine: {'line': b'  126 |       btDefaultMotionState* boxMotionState = new btDefaultMotionState(btTransform(btQuaternion\x1b[01;31m\x1b[K(\x1b[m\x1b[Kquaternion.x(), quaternion.y(), quaternion.z(), quaternion.2()),\n'}
+[5.436069] (isaac_sim_demo) StderrLine: {'line': b'      |                                                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.436097] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:126:154:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before numeric constant\n'}
+[5.436127] (isaac_sim_demo) StderrLine: {'line': b'  126 |       btDefaultMotionState* boxMotionState = new btDefaultMotionState(btTransform(btQuaternion\x1b[34m\x1b[K(\x1b[m\x1b[Kquaternion.x(), quaternion.y(), quaternion.z(), quaternion\x1b[01;31m\x1b[K.\x1b[m\x1b[K\x1b[32m\x1b[K2\x1b[m\x1b[K()),\n'}
+[5.436163] (isaac_sim_demo) StderrLine: {'line': b'      |                                                                                               \x1b[34m\x1b[K~\x1b[m\x1b[K                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[5.436192] (isaac_sim_demo) StderrLine: {'line': b'      |                                                                                                                                                          \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[5.514469] (-) TimerEvent: {}
+[5.614727] (-) TimerEvent: {}
+[5.715005] (-) TimerEvent: {}
+[5.815263] (-) TimerEvent: {}
+[5.915490] (-) TimerEvent: {}
+[6.015742] (-) TimerEvent: {}
+[6.115969] (-) TimerEvent: {}
+[6.216220] (-) TimerEvent: {}
+[6.316463] (-) TimerEvent: {}
+[6.416716] (-) TimerEvent: {}
+[6.516958] (-) TimerEvent: {}
+[6.617204] (-) TimerEvent: {}
+[6.717533] (-) TimerEvent: {}
+[6.817832] (-) TimerEvent: {}
+[6.918109] (-) TimerEvent: {}
+[7.018373] (-) TimerEvent: {}
+[7.118625] (-) TimerEvent: {}
+[7.218948] (-) TimerEvent: {}
+[7.319231] (-) TimerEvent: {}
+[7.419470] (-) TimerEvent: {}
+[7.519825] (-) TimerEvent: {}
+[7.620096] (-) TimerEvent: {}
+[7.720376] (-) TimerEvent: {}
+[7.820656] (-) TimerEvent: {}
+[7.920930] (-) TimerEvent: {}
+[8.021207] (-) TimerEvent: {}
+[8.068212] (isaac_sim_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1\n'}
+[8.068382] (isaac_sim_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2\n'}
+[8.068599] (isaac_sim_demo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.070070] (isaac_sim_demo) CommandEnded: {'returncode': 2}
+[8.121292] (-) TimerEvent: {}
+[8.140514] (isaac_sim_demo) JobEnded: {'identifier': 'isaac_sim_demo', 'rc': 2}
+[8.150810] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+/usr/bin/ld: libmoveit_kinematic_constraints.so.2.5.5: undefined reference to `planning_scene::PlanningScene::~PlanningScene()'
+/usr/bin/ld: libmoveit_kinematic_constraints.so.2.5.5: undefined reference to `planning_scene::PlanningScene::~PlanningScene()'
+/usr/bin/ld: libmoveit_kinematic_constraints.so.2.5.5: undefined reference to `planning_scene::PlanningScene::PlanningScene(std::shared_ptr<moveit::core::RobotModel const> const&, std::shared_ptr<collision_detection::World> const&)'
+/usr/bin/ld: libmoveit_kinematic_constraints.so.2.5.5: undefined reference to `planning_scene::PlanningScene::PlanningScene(std::shared_ptr<moveit::core::RobotModel const> const&, std::shared_ptr<collision_detection::World> const&)'
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [kinematic_constraints/CMakeFiles/test_orientation_constraints.dir/build.make:298: kinematic_constraints/test_orientation_constraints] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1197: kinematic_constraints/CMakeFiles/test_orientation_constraints.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [kinematic_constraints/CMakeFiles/test_constraints.dir/build.make:298: kinematic_constraints/test_constraints] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1160: kinematic_constraints/CMakeFiles/test_constraints.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

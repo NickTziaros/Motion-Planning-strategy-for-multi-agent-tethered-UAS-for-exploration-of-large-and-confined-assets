@@ -1,0 +1,29 @@
+# MoveIt uses this configuration for controller management
+
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    - Group_controller
+
+  Group_controller:
+    type: FollowJointTrajectory
+    action_ns: follow_joint_trajectory
+    default: true
+    joints:
+      - spherical_1_x
+      - spherical_1_y
+      - spherical_1_z
+      - prismatic_joint_1
+      - spherical_2_x
+      - spherical_2_y
+      - spherical_2_z
+      - prismatic_joint_2
+      - spherical_3_x
+      - spherical_3_y
+      - spherical_3_z
+      - prismatic_joint_3
+      - spherical_4_x
+      - spherical_4_y
+      - spherical_4_z
+      - prismatic_joint_4

@@ -1,0 +1,10 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:393:44:[m[K [01;31m[Kerror: [m[Kbinding reference of type ‘[01m[Kmoveit::core::RobotState&[m[K’ to ‘[01m[Kconst moveit::core::RobotState[m[K’ discards qualifiers
+  393 |         bool LoS = checkRayBoxIntersection([01;31m[Krobot_state[m[K,dynamicsWorld);
+      |                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:99:56:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool checkRayBoxIntersection(moveit::core::RobotState&, btDynamicsWorld*)[m[K’
+   99 | bool checkRayBoxIntersection([01;36m[Kmoveit::core::RobotState& robot_state[m[K,btDynamicsWorld* dynamicsWorld)
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

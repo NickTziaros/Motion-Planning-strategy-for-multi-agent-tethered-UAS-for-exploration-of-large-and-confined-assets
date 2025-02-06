@@ -1,0 +1,64 @@
+[35m[1mConsolidate compiler generated dependencies of target joint_space[0m
+[  9%] Built target StateSubscriber_node
+[ 18%] Built target tf_to_pos_node
+[ 27%] Built target visualization_node
+[ 36%] Built target markers_node
+[ 45%] Built target isaac_sim_demo_library
+[ 54%] Built target cartesian
+[ 72%] Built target moveit_test_node
+[ 72%] Built target spawn_scene
+[ 77%] [32mBuilding CXX object CMakeFiles/joint_space.dir/src/joint_space.cpp.o[0m
+[ 95%] Built target ompl_lifecycle
+[ 95%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kvoid configure_bullet(std::shared_ptr<planning_scene::PlanningScene>, moveit::core::RobotState&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:149:68:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kstd::string&[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>&[m[K’} to an rvalue of type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+  149 |   bool intersects1 = checkRayBoxIntersection(dynamicsWorld, P3, P4,[01;31m[K"Drone3"[m[K,"Drone4");
+      |                                                                    [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:35[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:533:7:[m[K [01;36m[Knote: [m[K  after user-defined conversion: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with <template-parameter-2-1> = std::allocator<char>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  533 |       [01;36m[Kbasic_string[m[K(const _CharT* __s, const _Alloc& __a = _Alloc())
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:86:117:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kbool checkRayBoxIntersection(btDynamicsWorld*, const btVector3&, const btVector3&, std::string&, std::string&)[m[K’
+   86 | bool checkRayBoxIntersection(btDynamicsWorld* dynamicsWorld, const btVector3& P1, const btVector3& P2, [01;36m[Kstd::string& Start[m[K , std::string& End )
+      |                                                                                                        [01;36m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:150:68:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kstd::string&[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>&[m[K’} to an rvalue of type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+  150 |   bool intersects2 = checkRayBoxIntersection(dynamicsWorld, P2, P3,[01;31m[K"Drone2"[m[K,"Drone3");
+      |                                                                    [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:35[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:533:7:[m[K [01;36m[Knote: [m[K  after user-defined conversion: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with <template-parameter-2-1> = std::allocator<char>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  533 |       [01;36m[Kbasic_string[m[K(const _CharT* __s, const _Alloc& __a = _Alloc())
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:86:117:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kbool checkRayBoxIntersection(btDynamicsWorld*, const btVector3&, const btVector3&, std::string&, std::string&)[m[K’
+   86 | bool checkRayBoxIntersection(btDynamicsWorld* dynamicsWorld, const btVector3& P1, const btVector3& P2, [01;36m[Kstd::string& Start[m[K , std::string& End )
+      |                                                                                                        [01;36m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:151:68:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kstd::string&[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>&[m[K’} to an rvalue of type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+  151 |   bool intersects3 = checkRayBoxIntersection(dynamicsWorld, P1, P2,[01;31m[K"Drone1"[m[K,"Drone2");
+      |                                                                    [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:35[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:533:7:[m[K [01;36m[Knote: [m[K  after user-defined conversion: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with <template-parameter-2-1> = std::allocator<char>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  533 |       [01;36m[Kbasic_string[m[K(const _CharT* __s, const _Alloc& __a = _Alloc())
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:86:117:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kbool checkRayBoxIntersection(btDynamicsWorld*, const btVector3&, const btVector3&, std::string&, std::string&)[m[K’
+   86 | bool checkRayBoxIntersection(btDynamicsWorld* dynamicsWorld, const btVector3& P1, const btVector3& P2, [01;36m[Kstd::string& Start[m[K , std::string& End )
+      |                                                                                                        [01;36m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:152:72:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kstd::string&[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>&[m[K’} to an rvalue of type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+  152 |   bool intersects4 = checkRayBoxIntersection(dynamicsWorld, Origin, P1,[01;31m[K"Origin"[m[K,"Drone1");
+      |                                                                        [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:35[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:533:7:[m[K [01;36m[Knote: [m[K  after user-defined conversion: ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with <template-parameter-2-1> = std::allocator<char>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+  533 |       [01;36m[Kbasic_string[m[K(const _CharT* __s, const _Alloc& __a = _Alloc())
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:86:117:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kbool checkRayBoxIntersection(btDynamicsWorld*, const btVector3&, const btVector3&, std::string&, std::string&)[m[K’
+   86 | bool checkRayBoxIntersection(btDynamicsWorld* dynamicsWorld, const btVector3& P1, const btVector3& P2, [01;36m[Kstd::string& Start[m[K , std::string& End )
+      |                                                                                                        [01;36m[K~~~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,35 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:420:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kprimitive[m[K’ was not declared in this scope
+  420 |         cylinder_primitive.type = [01;31m[Kprimitive[m[K.CYLINDER;
+      |                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:427:56:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Transform<Scalar, Dim, Mode, _Options>::TranslationPart Eigen::Transform<Scalar, Dim, Mode, _Options>::translation() [with _Scalar = double; int _Dim = 3; int _Mode = 1; int _Options = 0; Eigen::Transform<Scalar, Dim, Mode, _Options>::TranslationPart = Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, true>][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  427 |         box_pose.position.x =  [01;31m[Kcylinder_info.transform.translation[m[K.x();
+      |                                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+      |                                                                   [32m[K()[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:428:56:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Transform<Scalar, Dim, Mode, _Options>::TranslationPart Eigen::Transform<Scalar, Dim, Mode, _Options>::translation() [with _Scalar = double; int _Dim = 3; int _Mode = 1; int _Options = 0; Eigen::Transform<Scalar, Dim, Mode, _Options>::TranslationPart = Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, true>][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  428 |         box_pose.position.y =  [01;31m[Kcylinder_info.transform.translation[m[K.y();
+      |                                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+      |                                                                   [32m[K()[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:429:56:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Transform<Scalar, Dim, Mode, _Options>::TranslationPart Eigen::Transform<Scalar, Dim, Mode, _Options>::translation() [with _Scalar = double; int _Dim = 3; int _Mode = 1; int _Options = 0; Eigen::Transform<Scalar, Dim, Mode, _Options>::TranslationPart = Eigen::Block<Eigen::Matrix<double, 4, 4>, 3, 1, true>][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  429 |         box_pose.position.z =  [01;31m[Kcylinder_info.transform.translation[m[K.z();
+      |                                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+      |                                                                   [32m[K()[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:430:58:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Transform<Scalar, Dim, Mode, _Options>::RotationReturnType Eigen::Transform<Scalar, Dim, Mode, _Options>::rotation() const [with _Scalar = double; int _Dim = 3; int _Mode = 1; int _Options = 0; Eigen::Transform<Scalar, Dim, Mode, _Options>::RotationReturnType = const Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  430 |         box_pose.orientation.z = [01;31m[Kcylinder_info.transform.rotation[m[K.z();
+      |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+      |                                                                  [32m[K()[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:431:58:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Transform<Scalar, Dim, Mode, _Options>::RotationReturnType Eigen::Transform<Scalar, Dim, Mode, _Options>::rotation() const [with _Scalar = double; int _Dim = 3; int _Mode = 1; int _Options = 0; Eigen::Transform<Scalar, Dim, Mode, _Options>::RotationReturnType = const Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  431 |         box_pose.orientation.x = [01;31m[Kcylinder_info.transform.rotation[m[K.x();
+      |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+      |                                                                  [32m[K()[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:432:58:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Transform<Scalar, Dim, Mode, _Options>::RotationReturnType Eigen::Transform<Scalar, Dim, Mode, _Options>::rotation() const [with _Scalar = double; int _Dim = 3; int _Mode = 1; int _Options = 0; Eigen::Transform<Scalar, Dim, Mode, _Options>::RotationReturnType = const Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  432 |         box_pose.orientation.y = [01;31m[Kcylinder_info.transform.rotation[m[K.y();
+      |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+      |                                                                  [32m[K()[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:433:58:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::Transform<Scalar, Dim, Mode, _Options>::RotationReturnType Eigen::Transform<Scalar, Dim, Mode, _Options>::rotation() const [with _Scalar = double; int _Dim = 3; int _Mode = 1; int _Options = 0; Eigen::Transform<Scalar, Dim, Mode, _Options>::RotationReturnType = const Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  433 |         box_pose.orientation.w = [01;31m[Kcylinder_info.transform.rotation[m[K.w();
+      |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+      |                                                                  [32m[K()[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,26 @@
+/usr/bin/ld: libmoveit_planning_scene.so.2.5.5: undefined reference to `kinematic_constraints::KinematicConstraintSet::clear()'
+/usr/bin/ld: libmoveit_planning_scene.so.2.5.5: undefined reference to `kinematic_constraints::KinematicConstraintSet::add(moveit_msgs::msg::Constraints_<std::allocator<void> > const&, moveit::core::Transforms const&)'
+/usr/bin/ld: libmoveit_planning_scene.so.2.5.5: undefined reference to `kinematic_constraints::KinematicConstraintSet::decide(moveit::core::RobotState const&, bool) const'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [planning_scene/CMakeFiles/test_collision_objects.dir/build.make:301: planning_scene/test_collision_objects] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1529: planning_scene/CMakeFiles/test_collision_objects.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: libmoveit_planning_scene.so.2.5.5: undefined reference to `kinematic_constraints::KinematicConstraintSet::clear()'
+/usr/bin/ld: libmoveit_planning_scene.so.2.5.5: undefined reference to `kinematic_constraints::KinematicConstraintSet::clear()'
+/usr/bin/ld: libmoveit_planning_scene.so.2.5.5: undefined reference to `kinematic_constraints::KinematicConstraintSet::add(moveit_msgs::msg::Constraints_<std::allocator<void> > const&, moveit::core::Transforms const&)'
+/usr/bin/ld: libmoveit_planning_scene.so.2.5.5: undefined reference to `kinematic_constraints::KinematicConstraintSet::decide(moveit::core::RobotState const&, bool) const'
+/usr/bin/ld: libmoveit_planning_scene.so.2.5.5: undefined reference to `kinematic_constraints::KinematicConstraintSet::add(moveit_msgs::msg::Constraints_<std::allocator<void> > const&, moveit::core::Transforms const&)'
+/usr/bin/ld: libmoveit_planning_scene.so.2.5.5: undefined reference to `kinematic_constraints::KinematicConstraintSet::decide(moveit::core::RobotState const&, bool) const'
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [planning_scene/CMakeFiles/test_multi_threaded.dir/build.make:301: planning_scene/test_multi_threaded] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1568: planning_scene/CMakeFiles/test_multi_threaded.dir/all] Error 2
+gmake[2]: *** [planning_scene/CMakeFiles/test_planning_scene.dir/build.make:301: planning_scene/test_planning_scene] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1490: planning_scene/CMakeFiles/test_planning_scene.dir/all] Error 2
+/usr/bin/ld: ../planning_scene/libmoveit_planning_scene.so.2.5.5: undefined reference to `kinematic_constraints::KinematicConstraintSet::clear()'
+/usr/bin/ld: ../planning_scene/libmoveit_planning_scene.so.2.5.5: undefined reference to `kinematic_constraints::KinematicConstraintSet::add(moveit_msgs::msg::Constraints_<std::allocator<void> > const&, moveit::core::Transforms const&)'
+/usr/bin/ld: ../planning_scene/libmoveit_planning_scene.so.2.5.5: undefined reference to `kinematic_constraints::KinematicConstraintSet::decide(moveit::core::RobotState const&, bool) const'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [collision_distance_field/CMakeFiles/test_collision_distance_field.dir/build.make:305: collision_distance_field/test_collision_distance_field] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:742: collision_distance_field/CMakeFiles/test_collision_distance_field.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,17 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:211:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+  211 |           [01;31m[Kresponse[m[K = res.getMessage()
+      |           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:211:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kplanning_interface::MotionPlanResponse::getMessage()[m[K’
+  211 |           response = [01;31m[Kres.getMessage()[m[K
+      |                      [01;31m[K~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_interface/planning_interface.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:39[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:10[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_interface/planning_response.h:52:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid planning_interface::MotionPlanResponse::getMessage(moveit_msgs::msg::MotionPlanResponse&) const[m[K’
+   52 |   void [01;36m[KgetMessage[m[K(moveit_msgs::msg::MotionPlanResponse& msg) const;
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_interface/planning_response.h:52:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

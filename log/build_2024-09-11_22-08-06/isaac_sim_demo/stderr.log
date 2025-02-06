@@ -1,0 +1,10 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:127:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksize[m[K’
+  127 |   for (std::size_t i = 0; i < waypoints.[01;31m[Ksize[m[K(); ++i)
+      |                                         [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:128:46:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} and ‘[01m[Kstd::size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’})
+  128 |     visual_tools.publishAxisLabeled(waypoints[01;31m[K[[m[Ki], "pt" + std::to_string(i), rvt::XXLARGE);
+      |                                              [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,100 @@
+[  1%] Built target gtest
+[  2%] Built target moveit_exceptions
+[  3%] Built target moveit_butterworth_parameters
+[  5%] Built target moveit_version
+[  6%] Built target moveit_transforms
+[  7%] Built target moveit_kinematics_base
+[  9%] Built target moveit_utils
+[ 10%] Built target gmock_main
+[ 11%] Built target gtest_main
+[ 13%] Built target gmock
+[ 15%] Built target moveit_distance_field
+[ 16%] Built target moveit_smoothing_base
+[ 17%] Built target test_transforms
+[ 18%] Built target test_voxel_grid
+[ 25%] Built target moveit_robot_model
+[ 26%] Built target test_distance_field
+[ 28%] Built target moveit_test_utils
+[ 28%] Built target moveit_butterworth_filter
+[ 31%] Built target moveit_robot_state
+[35m[1mConsolidate compiler generated dependencies of target moveit_collision_detection[0m
+[ 32%] Built target moveit_robot_trajectory
+[ 33%] Built target test_robot_model
+[ 35%] Built target test_robot_state
+[ 36%] Built target test_robot_state_benchmark
+[ 37%] Built target moveit_kinematics_metrics
+[ 38%] Built target test_butterworth_filter
+[ 40%] Built target moveit_dynamics_solver
+[ 41%] Built target test_aabb
+[ 42%] Built target test_cartesian_interpolator
+[ 43%] Built target test_robot_state_complex
+[ 43%] [32mBuilding CXX object collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_plugin_cache.cpp.o[0m
+[ 47%] Built target moveit_planning_interface
+[ 49%] Built target moveit_trajectory_processing
+[ 50%] Built target test_robot_trajectory
+[ 53%] Built target test_ruckig_traj_smoothing
+[ 53%] Built target test_time_parameterization
+[ 54%] Built target test_time_optimal_trajectory_generation
+[ 55%] [32m[1mLinking CXX shared library libmoveit_collision_detection.so[0m
+[ 60%] Built target moveit_collision_detection
+[35m[1mConsolidate compiler generated dependencies of target test_world_diff[0m
+[35m[1mConsolidate compiler generated dependencies of target test_world[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_collision_detection_fcl[0m
+[35m[1mConsolidate compiler generated dependencies of target test_all_valid[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_collision_detection_bullet[0m
+[ 61%] [32m[1mLinking CXX executable test_world_diff[0m
+[ 61%] [32m[1mLinking CXX executable test_world[0m
+[ 62%] [32m[1mLinking CXX executable test_all_valid[0m
+[ 63%] [32m[1mLinking CXX shared library libmoveit_collision_detection_fcl.so[0m
+[ 64%] [32m[1mLinking CXX shared library libmoveit_collision_detection_bullet.so[0m
+[ 65%] Built target test_world_diff
+[ 66%] Built target test_world
+[ 66%] Built target test_all_valid
+[ 67%] Built target moveit_collision_detection_fcl
+[ 71%] Built target moveit_collision_detection_bullet
+[35m[1mConsolidate compiler generated dependencies of target test_fcl_collision_detection_panda[0m
+[35m[1mConsolidate compiler generated dependencies of target test_fcl_collision_env[0m
+[35m[1mConsolidate compiler generated dependencies of target test_fcl_collision_detection[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_kinematic_constraints[0m
+[35m[1mConsolidate compiler generated dependencies of target test_bullet_collision_detection_panda[0m
+[35m[1mConsolidate compiler generated dependencies of target test_bullet_collision_detection[0m
+[35m[1mConsolidate compiler generated dependencies of target test_bullet_continuous_collision_checking[0m
+[ 72%] [32m[1mLinking CXX executable test_fcl_collision_detection_panda[0m
+[ 72%] [32m[1mLinking CXX executable test_fcl_collision_detection[0m
+[ 72%] [32m[1mLinking CXX executable test_fcl_collision_env[0m
+[ 72%] [32m[1mLinking CXX executable test_bullet_collision_detection_panda[0m
+[ 72%] [32m[1mLinking CXX executable test_bullet_collision_detection[0m
+[ 73%] [32m[1mLinking CXX executable test_bullet_continuous_collision_checking[0m
+[ 73%] [32mBuilding CXX object kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o[0m
+[ 74%] Built target test_bullet_collision_detection_panda
+[ 76%] Built target test_fcl_collision_detection
+[ 76%] Built target test_fcl_collision_env
+[ 77%] Built target test_fcl_collision_detection_panda
+[ 78%] Built target test_bullet_continuous_collision_checking
+[ 79%] Built target test_bullet_collision_detection
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:[m[K In member function ‘[01m[Kbool kinematic_constraints::VisibilityConstraint::configure(const VisibilityConstraint&, const moveit::core::Transforms&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:789:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene[m[K’ was not declared in this scope
+  789 |   std::shared_ptr<[01;31m[Kplanning_scene[m[K::PlanningScene> planning_scene = std::make_shared<planning_scene::PlanningScene>(robot_model_);
+      |                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:789:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  789 |   std::shared_ptr<planning_scene::PlanningScene[01;31m[K>[m[K planning_scene = std::make_shared<planning_scene::PlanningScene>(robot_model_);
+      |                                                [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:789:72:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+  789 |   std::shared_ptr<planning_scene::PlanningScene> planning_scene = std::[01;31m[Kmake_shared<planning_scene::PlanningScene>[m[K(robot_model_);
+      |                                                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:789:114:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<planning_scene>(moveit::core::RobotModelConstPtr&)[m[K’
+  789 |   std::shared_ptr<planning_scene::PlanningScene> planning_scene = [01;31m[Kstd::make_shared<planning_scene::PlanningScene>(robot_model_)[m[K;
+      |                                                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/macros/include/moveit/macros/declare_ptr.h:37[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/macros/include/moveit/macros/class_forward.h:39[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/robot_model/include/moveit/robot_model/robot_model.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:39[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:37[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+gmake[2]: *** [kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/build.make:76: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1123: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,18 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:292:92:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::core::RobotState::getFrameTransform()[m[K’
+  292 |       vis_constraint_checker.configure(visibility_constraint, [01;31m[Krobot_state.getFrameTransform()[m[K);
+      |                                                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_scene_monitor/current_state_monitor.h:53[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1723:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst Isometry3d& moveit::core::RobotState::getFrameTransform(const string&, bool*)[m[K’
+ 1723 |   const Eigen::Isometry3d& [01;36m[KgetFrameTransform[m[K(const std::string& frame_id, bool* frame_found = nullptr);
+      |                            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1723:28:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1730:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst Isometry3d& moveit::core::RobotState::getFrameTransform(const string&, bool*) const[m[K’
+ 1730 |   const Eigen::Isometry3d& [01;36m[KgetFrameTransform[m[K(const std::string& frame_id, bool* frame_found = nullptr) const;
+      |                            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1730:28:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

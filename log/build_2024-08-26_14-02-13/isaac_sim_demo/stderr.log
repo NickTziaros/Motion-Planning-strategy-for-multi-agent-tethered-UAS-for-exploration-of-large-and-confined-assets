@@ -1,0 +1,13 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:296:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kmoveit_msgs::msg::RobotTrajectory[m[K’ {aka ‘[01m[Kmoveit_msgs::msg::RobotTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan&[m[K’
+  296 |   move_group_interface.plan([01;31m[Ktrajectory[m[K);
+      |                             [01;31m[K^~~~~~~~~~[m[K
+      |                             [01;31m[K|[m[K
+      |                             [01;31m[Kmoveit_msgs::msg::RobotTrajectory {aka moveit_msgs::msg::RobotTrajectory_<std::allocator<void> >}[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:4[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:720:44:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kmoveit::core::MoveItErrorCode moveit::planning_interface::MoveGroupInterface::plan(moveit::planning_interface::MoveGroupInterface::Plan&)[m[K’
+  720 |   moveit::core::MoveItErrorCode plan([01;36m[KPlan& plan[m[K);
+      |                                      [01;36m[K~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_test.dir/build.make:76: CMakeFiles/moveit_test.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:307: CMakeFiles/moveit_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,31 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:138:23:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+  138 |     rclcpp::shutdown()[01;31m[K;[m[K  // <--- This will cause the spin function in the thread to return
+      |                       [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:139:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kspinner[m[K’ does not name a type
+  139 |     [01;31m[Kspinner[m[K.join();  // <--- Join the thread before exiting
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:140:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  140 |     [01;31m[Kreturn[m[K 0;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:141:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  141 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:167:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kconst auto[m[K’
+  167 |     [01;31m[Kauto[m[K const logger = rclcpp::get_logger("moveit_demo");
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:168:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kconst auto[m[K’
+  168 |     [01;31m[Kauto[m[K const collision_object = [frame_id =
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:197:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene_interface[m[K’ does not name a type
+  197 |       [01;31m[Kplanning_scene_interface[m[K.applyCollisionObject(collision_object);
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:211:80:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+  211 |     rclcpp::NodeOptions().automatically_declare_parameters_from_overrides(true)
+      |                                                                                [01;31m[K^[m[K
+      |                                                                                [32m[K;[m[K
+  212 |     [32m[Krclcpp[m[K::spin(std::make_shared<MyNode>());
+      |     [32m[K~~~~~~[m[K                                                                      
+gmake[2]: *** [CMakeFiles/moveit_test.dir/build.make:76: CMakeFiles/moveit_test.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/moveit_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

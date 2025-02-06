@@ -1,0 +1,8 @@
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:[m[K In member function ‘[01m[Kvirtual kinematic_constraints::ConstraintEvaluationResult kinematic_constraints::VisibilityConstraint::decide(const moveit::core::RobotState&, bool) const[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:1146:51:[m[K [01;31m[Kerror: [m[K‘[01m[Ksbox_shape[m[K’ was not declared in this scope; did you mean ‘[01m[Kbox_shape[m[K’?
+ 1146 |   collision_env_->getWorld()->addToObject("box1", [01;31m[Ksbox_shape[m[K, Eigen::Isometry3d::Identity());
+      |                                                   [01;31m[K^~~~~~~~~~[m[K
+      |                                                   [32m[Kbox_shape[m[K
+gmake[2]: *** [kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/build.make:76: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1123: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

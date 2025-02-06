@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target joint_space[0m
+[ 18%] Built target markers_node
+[ 18%] Built target visualization_node
+[ 27%] Built target tf_to_pos_node
+[ 36%] Built target isaac_sim_demo_library
+[ 45%] Built target moveit_test_node
+[ 63%] Built target spawn_scene
+[ 63%] Built target StateSubscriber_node
+[ 72%] Built target cartesian
+[ 77%] [32mBuilding CXX object CMakeFiles/joint_space.dir/src/joint_space.cpp.o[0m
+[ 95%] Built target ompl_lifecycle
+[ 95%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:315:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct kinematic_constraints::ConstraintEvaluationResult[m[K’ has no member named ‘[01m[Ksucceded[m[K’
+  315 |       if (vis_constraint_checker.decide(robot_state,true).[01;31m[Ksucceded[m[K())
+      |                                                           [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

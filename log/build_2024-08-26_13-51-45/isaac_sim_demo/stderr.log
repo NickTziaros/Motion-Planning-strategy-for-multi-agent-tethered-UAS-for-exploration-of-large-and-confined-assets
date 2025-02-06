@@ -1,0 +1,32 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:35:91:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(const std::shared_ptr<rclcpp::Node>&, const char [6], moveit::core::RobotModelConstPtr)[m[K’
+   35 |                                                       move_group_interface.getRobotModel()[01;31m[K)[m[K;
+      |                                                                                           [01;31m[K^[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:5[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:97:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(const SharedPtr&, const string&, const string&, moveit::core::RobotModelConstPtr)[m[K’
+   97 |   [01;36m[KMoveItVisualTools[m[K(const rclcpp::Node::SharedPtr& node, const std::string& base_frame,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:98:40:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kmoveit::core::RobotModelConstPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<const moveit::core::RobotModel>[m[K’} to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   98 |                     [01;36m[Kconst std::string& marker_topic = rviz_visual_tools::RVIZ_MARKER_TOPIC[m[K,
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:88:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(const SharedPtr&, const string&, const string&, planning_scene_monitor::PlanningSceneMonitorPtr)[m[K’
+   88 |   [01;36m[KMoveItVisualTools[m[K(const rclcpp::Node::SharedPtr& node, const std::string& base_frame, const std::string& marker_topic,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:88:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:79:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(const SharedPtr&)[m[K’
+   79 |   [01;36m[KMoveItVisualTools[m[K(const rclcpp::Node::SharedPtr& node);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:79:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:70:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(const moveit_visual_tools::MoveItVisualTools&)[m[K’
+   70 | class [01;36m[KMoveItVisualTools[m[K : public rviz_visual_tools::RvizVisualTools
+      |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:70:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:70:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(moveit_visual_tools::MoveItVisualTools&&)[m[K’
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:70:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:290:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ktext_pose[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_pose[m[K’?
+  290 |   visual_tools.publishText([01;31m[Ktext_pose[m[K, "Cartesian_Path", rvt::WHITE, rvt::XLARGE);
+      |                            [01;31m[K^~~~~~~~~[m[K
+      |                            [32m[Ktarget_pose[m[K
+gmake[2]: *** [CMakeFiles/moveit_test.dir/build.make:76: CMakeFiles/moveit_test.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:307: CMakeFiles/moveit_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

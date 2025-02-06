@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_test[0m
+[ 12%] Built target visualization_node
+[ 37%] Built target markers_node
+[ 37%] Built target StateSubscriber_node
+[ 50%] Built target tf_to_pos_node
+[ 62%] Built target isaac_sim_demo_library
+[ 68%] [32mBuilding CXX object CMakeFiles/moveit_test.dir/src/moveit_demo.cpp.o[0m
+[ 81%] Built target ompl_lifecycle
+[ 93%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:57:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ was not declared in this scope
+   57 |                                  [01;31m[Kmove_group_interface[m[K.getPlanningFrame()] {
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:59:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id[m[K’ was not declared in this scope
+   59 |   collision_object.header.frame_id = [01;31m[Kframe_id[m[K;
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:87:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id[m[K’ was not declared in this scope
+   87 |   collision_object.header.frame_id = [01;31m[Kframe_id[m[K;
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:115:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id[m[K’ was not declared in this scope
+  115 |   collision_object.header.frame_id = [01;31m[Kframe_id[m[K;
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:168:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id[m[K’ was not declared in this scope
+  168 |   collision_object.header.frame_id = [01;31m[Kframe_id[m[K;
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:196:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id[m[K’ was not declared in this scope
+  196 |   collision_object.header.frame_id = [01;31m[Kframe_id[m[K;
+      |                                      [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_test.dir/build.make:76: CMakeFiles/moveit_test.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:307: CMakeFiles/moveit_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

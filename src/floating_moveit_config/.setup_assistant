@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: isaac_sim_demo
+    relative_path: urdf/two_drones.urdf
+  srdf:
+    relative_path: config/isaac_twin.srdf
+  package_settings:
+    author_name: Nikolaos
+    author_email: tziaros.nikos@gmail.com
+    generated_timestamp: 1725535377
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

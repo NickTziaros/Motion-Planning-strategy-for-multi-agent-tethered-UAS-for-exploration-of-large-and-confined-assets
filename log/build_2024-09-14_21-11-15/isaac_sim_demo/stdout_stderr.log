@@ -1,0 +1,35 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_demo[0m
+[ 10%] Built target visualization_node
+[ 20%] Built target tf_to_pos_node
+[ 30%] Built target markers_node
+[ 40%] Built target StateSubscriber_node
+[ 50%] Built target isaac_sim_demo_library
+[ 60%] Built target moveit_test_node
+[ 70%] Built target spawn_scene
+[ 75%] [32mBuilding CXX object CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o[0m
+[ 95%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:186:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kplanning_pipeline::PlanningPipeline::generatePlan(planning_scene::PlanningScene&, planning_interface::MotionPlanRequest&, planning_interface::MotionPlanResponse&)[m[K’
+  186 |   if (![01;31m[Kplanning_pipeline->generatePlan(planning_scene, req, res)[m[K || res.error_code_.val != res.error_code_.SUCCESS)
+      |        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:9[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:133:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool planning_pipeline::PlanningPipeline::generatePlan(const PlanningSceneConstPtr&, const MotionPlanRequest&, planning_interface::MotionPlanResponse&) const[m[K’
+  133 |   bool [01;36m[KgeneratePlan[m[K(const planning_scene::PlanningSceneConstPtr& planning_scene,
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:133:66:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kplanning_scene::PlanningScene[m[K’ to ‘[01m[Kconst PlanningSceneConstPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const planning_scene::PlanningScene>&[m[K’}
+  133 |   bool generatePlan([01;36m[Kconst planning_scene::PlanningSceneConstPtr& planning_scene[m[K,
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:145:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool planning_pipeline::PlanningPipeline::generatePlan(const PlanningSceneConstPtr&, const MotionPlanRequest&, planning_interface::MotionPlanResponse&, std::vector<long unsigned int>&) const[m[K’
+  145 |   bool [01;36m[KgeneratePlan[m[K(const planning_scene::PlanningSceneConstPtr& planning_scene,
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:145:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:117:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KisValid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  117 |   bool [01;35m[KisValid[m[K = planning_scene.isStateValid(robot_state,"Group1");
+      |        [01;35m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:150:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_names[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  150 |   const std::vector<std::string>& [01;35m[Kjoint_names[m[K = joint_model_group->getVariableNames();
+      |                                   [01;35m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

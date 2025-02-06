@@ -1,0 +1,13 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:130:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_argument[m[K’ is not captured
+  130 |       std::cout << "Custom argument: " << [01;31m[Kcustom_argument[m[K << std::endl;
+      |                                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:128:75:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  128 |   moveit::core::GroupStateValidityCallbackFn callback_fn = [planning_scene[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values) {
+      |                                                                           [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:126:15:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string custom_argument[m[K’ declared here
+  126 |   std::string [01;36m[Kcustom_argument[m[K = "extra_data";
+      |               [01;36m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

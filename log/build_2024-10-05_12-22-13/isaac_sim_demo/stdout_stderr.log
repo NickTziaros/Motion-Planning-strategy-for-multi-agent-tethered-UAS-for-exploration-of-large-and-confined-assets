@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target joint_space[0m
+[  9%] Built target StateSubscriber_node
+[ 18%] Built target markers_node
+[ 27%] Built target visualization_node
+[ 36%] Built target tf_to_pos_node
+[ 45%] Built target spawn_scene
+[ 54%] Built target cartesian
+[ 63%] Built target moveit_test_node
+[ 72%] Built target isaac_sim_demo_library
+[ 77%] [32mBuilding CXX object CMakeFiles/joint_space.dir/src/joint_space.cpp.o[0m
+[ 95%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:427:70:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KEigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, true>, 0>::x[m[K’ from type ‘[01m[KEigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, true>, 0>::CoeffReturnType (Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, true>, 0>::)() const[m[K’ {aka ‘[01m[Kdouble (Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, true>, 0>::)() const[m[K’} to type ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+  427 |         box_pose.position.x =  cylinder_info.transform.translation().[01;31m[Kx[m[K;
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:428:70:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KEigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, true>, 0>::y[m[K’ from type ‘[01m[KEigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, true>, 0>::CoeffReturnType (Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, true>, 0>::)() const[m[K’ {aka ‘[01m[Kdouble (Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, true>, 0>::)() const[m[K’} to type ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+  428 |         box_pose.position.y =  cylinder_info.transform.translation().[01;31m[Ky[m[K;
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:429:70:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KEigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, true>, 0>::z[m[K’ from type ‘[01m[KEigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, true>, 0>::CoeffReturnType (Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, true>, 0>::)() const[m[K’ {aka ‘[01m[Kdouble (Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, true>, 0>::)() const[m[K’} to type ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+  429 |         box_pose.position.z =  cylinder_info.transform.translation().[01;31m[Kz[m[K;
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:430:69:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KEigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>::z[m[K’ from type ‘[01m[KEigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>::CoeffReturnType (Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>::)() const[m[K’ {aka ‘[01m[Kdouble (Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>::)() const[m[K’} to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+  430 |         box_pose.orientation.z = cylinder_info.transform.rotation().[01;31m[Kz[m[K;
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:431:69:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KEigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>::x[m[K’ from type ‘[01m[KEigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>::CoeffReturnType (Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>::)() const[m[K’ {aka ‘[01m[Kdouble (Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>::)() const[m[K’} to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+  431 |         box_pose.orientation.x = cylinder_info.transform.rotation().[01;31m[Kx[m[K;
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:432:69:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KEigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>::y[m[K’ from type ‘[01m[KEigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>::CoeffReturnType (Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>::)() const[m[K’ {aka ‘[01m[Kdouble (Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>::)() const[m[K’} to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+  432 |         box_pose.orientation.y = cylinder_info.transform.rotation().[01;31m[Ky[m[K;
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:433:69:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KEigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>::w[m[K’ from type ‘[01m[KEigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>::CoeffReturnType (Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>::)() const[m[K’ {aka ‘[01m[Kdouble (Eigen::DenseCoeffsBase<Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 3, false>, 0>::)() const[m[K’} to type ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::_w_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+  433 |         box_pose.orientation.w = cylinder_info.transform.rotation().[01;31m[Kw[m[K;
+      |                                                                     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

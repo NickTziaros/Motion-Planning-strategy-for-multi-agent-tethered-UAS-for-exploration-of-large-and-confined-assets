@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target ompl_lifecycle[0m
+[ 12%] Built target StateSubscriber_node
+[ 37%] Built target markers_node
+[ 37%] Built target visualization_node
+[ 50%] Built target tf_to_pos_node
+[ 62%] Built target isaac_sim_demo_library
+[ 75%] Built target moveit_test
+[ 81%] [32mBuilding CXX object CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o[0m
+[ 93%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn LifecycleTalker::on_cleanup(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:241:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_subscriber_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+  241 |     [01;31m[Kpose_subscriber_[m[K.reset();
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kcount_subscribers[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:242:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_subscriber_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+  242 |     [01;31m[Kgoal_subscriber_[m[K.reset();
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kcount_subscribers[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn LifecycleTalker::on_shutdown(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:274:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_subscriber_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+  274 |     [01;31m[Kpose_subscriber_[m[K.reset();
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kcount_subscribers[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:275:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_subscriber_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+  275 |     [01;31m[Kgoal_subscriber_[m[K.reset();
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kcount_subscribers[m[K
+gmake[2]: *** [CMakeFiles/ompl_lifecycle.dir/build.make:76: CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/ompl_lifecycle.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

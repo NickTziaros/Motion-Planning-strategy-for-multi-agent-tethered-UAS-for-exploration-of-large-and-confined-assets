@@ -1,0 +1,14 @@
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:[m[K In member function ‘[01m[Kvirtual kinematic_constraints::ConstraintEvaluationResult kinematic_constraints::VisibilityConstraint::decide(const moveit::core::RobotState&, bool) const[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:1113:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcollision_detection::World::getObject()[m[K’
+ 1113 |   [01;31m[Kcollision_env_->getWorld()->getObject()[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/collision_env.h:44[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:42[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:37[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/world.h:123:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcollision_detection::World::ObjectConstPtr collision_detection::World::getObject(const string&) const[m[K’
+  123 |   ObjectConstPtr [01;36m[KgetObject[m[K(const std::string& object_id) const;
+      |                  [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/world.h:123:18:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/build.make:76: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1123: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

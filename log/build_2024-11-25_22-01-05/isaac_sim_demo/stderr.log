@@ -1,0 +1,10 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:197:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > >::SharedPtr publisher_[m[K’
+  197 |   rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:196:53:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > >::SharedPtr publisher_[m[K’ previously declared here
+  196 |   rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr [01;36m[Kpublisher_[m[K;
+      |                                                     [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:341: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

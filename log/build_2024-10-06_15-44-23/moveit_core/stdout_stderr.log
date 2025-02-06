@@ -1,0 +1,66 @@
+[  2%] Built target moveit_utils
+[  4%] Built target moveit_version
+[  5%] Built target moveit_kinematics_base
+[  6%] Built target moveit_exceptions
+[  7%] Built target moveit_transforms
+[  8%] Built target moveit_butterworth_parameters
+[ 11%] Built target gtest_main
+[ 11%] Built target gmock
+[ 12%] Built target moveit_smoothing_base
+[ 13%] Built target gtest
+[ 15%] Built target moveit_distance_field
+[ 16%] Built target gmock_main
+[ 23%] Built target moveit_robot_model
+[ 24%] Built target test_transforms
+[ 25%] Built target test_voxel_grid
+[ 26%] Built target test_distance_field
+[ 27%] Built target moveit_butterworth_filter
+[ 28%] Built target moveit_test_utils
+[ 31%] Built target moveit_robot_state
+[35m[1mConsolidate compiler generated dependencies of target moveit_collision_detection[0m
+[ 33%] Built target moveit_dynamics_solver
+[ 34%] Built target moveit_robot_trajectory
+[ 36%] Built target test_robot_state
+[ 37%] Built target test_butterworth_filter
+[ 38%] Built target test_robot_state_complex
+[ 39%] Built target moveit_kinematics_metrics
+[ 40%] Built target test_robot_model
+[ 41%] Built target test_robot_state_benchmark
+[ 42%] Built target test_aabb
+[ 43%] Built target test_cartesian_interpolator
+[ 49%] Built target moveit_collision_detection
+[ 51%] Built target moveit_planning_interface
+[ 52%] Built target test_robot_trajectory
+[ 56%] Built target moveit_trajectory_processing
+[ 58%] Built target test_world_diff
+[ 59%] Built target test_world
+[ 60%] Built target test_all_valid
+[ 62%] Built target moveit_collision_detection_fcl
+[ 67%] Built target moveit_collision_detection_bullet
+[ 68%] Built target test_time_parameterization
+[ 70%] Built target test_time_optimal_trajectory_generation
+[ 71%] Built target test_ruckig_traj_smoothing
+[35m[1mConsolidate compiler generated dependencies of target moveit_kinematic_constraints[0m
+[ 75%] Built target test_bullet_collision_detection
+[ 75%] Built target test_fcl_collision_detection_panda
+[ 75%] Built target test_bullet_continuous_collision_checking
+[ 76%] Built target test_bullet_collision_detection_panda
+[ 78%] Built target test_fcl_collision_env
+[ 79%] Built target test_fcl_collision_detection
+[ 79%] [32mBuilding CXX object kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o[0m
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:781:73:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K)[m[K’ token
+  781 |                                      const moveit::core::Transforms& tf,[01;31m[K)[m[K
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:780:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool kinematic_constraints::VisibilityConstraint::configure(const VisibilityConstraint&, const moveit::core::Transforms&, int)[m[K’
+  780 | bool [01;31m[KVisibilityConstraint[m[K::configure(const moveit_msgs::msg::VisibilityConstraint& vc,
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:37[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:787:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kbool kinematic_constraints::VisibilityConstraint::configure(const VisibilityConstraint&, const moveit::core::Transforms&)[m[K’
+  787 |   bool [01;36m[Kconfigure[m[K(const moveit_msgs::msg::VisibilityConstraint& vc, const moveit::core::Transforms& tf);
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:762:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass kinematic_constraints::VisibilityConstraint[m[K’ defined here
+  762 | class [01;36m[KVisibilityConstraint[m[K : public KinematicConstraint
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/build.make:76: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1123: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

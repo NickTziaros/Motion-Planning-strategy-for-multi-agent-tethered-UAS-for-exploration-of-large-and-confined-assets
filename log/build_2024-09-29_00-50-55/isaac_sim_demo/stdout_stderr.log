@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target joint_space[0m
+[  9%] Built target markers_node
+[ 18%] Built target StateSubscriber_node
+[ 27%] Built target visualization_node
+[ 36%] Built target tf_to_pos_node
+[ 45%] Built target isaac_sim_demo_library
+[ 54%] Built target moveit_test_node
+[ 63%] Built target spawn_scene
+[ 72%] Built target cartesian
+[ 77%] [32mBuilding CXX object CMakeFiles/joint_space.dir/src/joint_space.cpp.o[0m
+[ 95%] Built target ompl_lifecycle
+[ 95%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:198:43:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ is not captured
+  198 |     if (planning_scene->isStateColliding(*[01;31m[Krobot_state[m[K,"Group1",true)){
+      |                                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state1, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:99:28:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit::core::RobotState robot_state[m[K’ declared here
+   99 |   moveit::core::RobotState [01;36m[Krobot_state[m[K(robot_model);
+      |                            [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:208:37:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ is not captured
+  208 |     visual_tools.publishRobotState(*[01;31m[Krobot_state[m[K);
+      |                                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state1, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:99:28:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit::core::RobotState robot_state[m[K’ declared here
+   99 |   moveit::core::RobotState [01;36m[Krobot_state[m[K(robot_model);
+      |                            [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

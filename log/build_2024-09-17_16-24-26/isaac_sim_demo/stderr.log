@@ -1,0 +1,21 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:172:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::publishAxisLabeled(__gnu_cxx::__alloc_traits<std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >, geometry_msgs::msg::PoseStamped_<std::allocator<void> > >::value_type&, std::__cxx11::basic_string<char>, rviz_visual_tools::Scales)[m[K’
+  172 |       [01;31m[Kvisual_tools.publishAxisLabeled(waypoints_vec[i], "point_" + std::to_string(i), rvt::XXLARGE)[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:38[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:16[m[K:
+[01m[K/opt/ros/humble/include/rviz_visual_tools/rviz_visual_tools.hpp:900:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishAxisLabeled(const Isometry3d&, const string&, rviz_visual_tools::Scales, rviz_visual_tools::Colors)[m[K’
+  900 |   bool [01;36m[KpublishAxisLabeled[m[K(const Eigen::Isometry3d& pose, const std::string& label,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_visual_tools/rviz_visual_tools.hpp:900:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >, geometry_msgs::msg::PoseStamped_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+  900 |   bool publishAxisLabeled([01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& label,
+      |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_visual_tools/rviz_visual_tools.hpp:902:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishAxisLabeled(const Pose&, const string&, rviz_visual_tools::Scales, rviz_visual_tools::Colors)[m[K’
+  902 |   bool [01;36m[KpublishAxisLabeled[m[K(const geometry_msgs::msg::Pose& pose, const std::string& label,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rviz_visual_tools/rviz_visual_tools.hpp:902:59:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >, geometry_msgs::msg::PoseStamped_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+  902 |   bool publishAxisLabeled([01;36m[Kconst geometry_msgs::msg::Pose& pose[m[K, const std::string& label,
+      |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

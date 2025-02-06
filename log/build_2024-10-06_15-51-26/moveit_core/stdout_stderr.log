@@ -1,0 +1,94 @@
+[  2%] Built target moveit_utils
+[  4%] Built target moveit_version
+[  6%] Built target gmock
+[  7%] Built target moveit_kinematics_base
+[ 10%] Built target gmock_main
+[ 10%] Built target moveit_smoothing_base
+[ 10%] Built target gtest
+[ 11%] Built target moveit_transforms
+[ 12%] Built target moveit_exceptions
+[ 13%] Built target moveit_butterworth_parameters
+[ 15%] Built target moveit_distance_field
+[ 16%] Built target gtest_main
+[ 17%] Built target test_transforms
+[ 18%] Built target test_voxel_grid
+[ 25%] Built target moveit_robot_model
+[ 26%] Built target test_distance_field
+[ 28%] Built target moveit_test_utils
+[ 28%] Built target moveit_butterworth_filter
+[ 31%] Built target moveit_robot_state
+[ 32%] Built target test_butterworth_filter
+[ 33%] Built target test_robot_model
+[ 34%] Built target moveit_kinematics_metrics
+[ 35%] Built target moveit_robot_trajectory
+[ 37%] Built target test_robot_state
+[ 38%] Built target test_cartesian_interpolator
+[ 39%] Built target test_robot_state_benchmark
+[ 40%] Built target test_robot_state_complex
+[ 41%] Built target test_aabb
+[ 43%] Built target moveit_dynamics_solver
+[ 49%] Built target moveit_collision_detection
+[ 51%] Built target moveit_planning_interface
+[ 52%] Built target test_robot_trajectory
+[ 56%] Built target moveit_trajectory_processing
+[ 57%] Built target test_world
+[ 59%] Built target test_world_diff
+[ 60%] Built target test_all_valid
+[ 62%] Built target moveit_collision_detection_fcl
+[ 67%] Built target moveit_collision_detection_bullet
+[35m[1mConsolidate compiler generated dependencies of target moveit_kinematic_constraints[0m
+[ 68%] Built target test_ruckig_traj_smoothing
+[ 70%] Built target test_time_optimal_trajectory_generation
+[ 71%] Built target test_time_parameterization
+[ 73%] Built target test_fcl_collision_env
+[ 74%] Built target test_fcl_collision_detection_panda
+[ 75%] Built target test_fcl_collision_detection
+[ 76%] Built target test_bullet_collision_detection_panda
+[ 78%] Built target test_bullet_continuous_collision_checking
+[ 79%] Built target test_bullet_collision_detection
+[ 79%] [32mBuilding CXX object kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library libmoveit_kinematic_constraints.so[0m
+[ 81%] Built target moveit_kinematic_constraints
+[35m[1mConsolidate compiler generated dependencies of target test_constraints[0m
+[35m[1mConsolidate compiler generated dependencies of target test_orientation_constraints[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_planning_scene[0m
+[ 82%] [32m[1mLinking CXX executable test_orientation_constraints[0m
+[ 83%] [32m[1mLinking CXX executable test_constraints[0m
+[ 83%] [32m[1mLinking CXX shared library libmoveit_planning_scene.so[0m
+[ 84%] Built target moveit_planning_scene
+/usr/bin/ld: libmoveit_kinematic_constraints.so.2.5.5: undefined reference to `planning_scene::PlanningScene::~PlanningScene()'
+/usr/bin/ld: libmoveit_kinematic_constraints.so.2.5.5: undefined reference to `planning_scene::PlanningScene::~PlanningScene()'
+/usr/bin/ld: libmoveit_kinematic_constraints.so.2.5.5: undefined reference to `planning_scene::PlanningScene::PlanningScene(std::shared_ptr<moveit::core::RobotModel const> const&, std::shared_ptr<collision_detection::World> const&)'
+/usr/bin/ld: libmoveit_kinematic_constraints.so.2.5.5: undefined reference to `planning_scene::PlanningScene::PlanningScene(std::shared_ptr<moveit::core::RobotModel const> const&, std::shared_ptr<collision_detection::World> const&)'
+[35m[1mConsolidate compiler generated dependencies of target moveit_planning_request_adapter[0m
+[35m[1mConsolidate compiler generated dependencies of target collision_detector_fcl_plugin[0m
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+[35m[1mConsolidate compiler generated dependencies of target moveit_collision_distance_field[0m
+[35m[1mConsolidate compiler generated dependencies of target test_planning_scene[0m
+gmake[2]: *** [kinematic_constraints/CMakeFiles/test_orientation_constraints.dir/build.make:298: kinematic_constraints/test_orientation_constraints] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1197: kinematic_constraints/CMakeFiles/test_orientation_constraints.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [kinematic_constraints/CMakeFiles/test_constraints.dir/build.make:298: kinematic_constraints/test_constraints] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1160: kinematic_constraints/CMakeFiles/test_constraints.dir/all] Error 2
+[35m[1mConsolidate compiler generated dependencies of target test_multi_threaded[0m
+[35m[1mConsolidate compiler generated dependencies of target test_collision_objects[0m
+[35m[1mConsolidate compiler generated dependencies of target collision_detector_bullet_plugin[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_constraint_samplers[0m
+[ 85%] [32m[1mLinking CXX shared library libmoveit_planning_request_adapter.so[0m
+[ 86%] [32m[1mLinking CXX executable test_multi_threaded[0m
+[ 86%] [32m[1mLinking CXX executable test_collision_objects[0m
+[ 86%] [32m[1mLinking CXX executable test_planning_scene[0m
+[ 87%] [32m[1mLinking CXX shared library libcollision_detector_fcl_plugin.so[0m
+[ 88%] [32m[1mLinking CXX shared library libcollision_detector_bullet_plugin.so[0m
+[ 89%] [32m[1mLinking CXX shared library libmoveit_collision_distance_field.so[0m
+[ 90%] [32m[1mLinking CXX shared library libmoveit_constraint_samplers.so[0m
+[ 90%] Built target collision_detector_fcl_plugin
+[ 90%] Built target moveit_planning_request_adapter
+[ 90%] Built target collision_detector_bullet_plugin
+[ 92%] Built target moveit_constraint_samplers
+[ 94%] Built target moveit_collision_distance_field
+[ 94%] Built target test_multi_threaded
+[ 95%] Built target test_planning_scene
+[ 96%] Built target test_collision_objects
+gmake: *** [Makefile:146: all] Error 2

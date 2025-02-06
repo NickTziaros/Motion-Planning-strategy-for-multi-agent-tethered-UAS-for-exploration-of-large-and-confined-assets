@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:include filename="$(find isaac_sim_demo)/urdf/link.xacro" />
+
+  <xacro:macro name="spherical_joint" params="prefix parent">
+
+
+
+
+  <xacro:temp_link name="${prefix}_x" origin_xyz="0 0 0" origin_rpy="0 0 0" size="0.1 0.1 0.1" mass="0.1" />
+  <xacro:temp_link name="${prefix}_y" origin_xyz="0 0 0" origin_rpy="0 0 0" size="0.1 0.1 0.1" mass="0.1" />
+  <xacro:temp_link name="${prefix}_z" origin_xyz="0 0 0" origin_rpy="0 0 0" size="0.1 0.1 0.1" mass="0.1" />
+
+
+
+
+  <joint name="${prefix}_x" type="revolute">
+    <parent link="${parent}"/>
+    <child link="${prefix}_x"/>
+    <origin xyz="0 0 0.0" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-1.57" upper="1.57" effort="10" velocity="1.0"/>
+  </joint>
+
+  <joint name="${prefix}_y" type="revolute">
+    <parent link="${prefix}_x"/>
+    <child link="${prefix}_y"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.57" upper="1.57" effort="10" velocity="1.0"/>
+  </joint>
+
+  <joint name="${prefix}_z" type="continuous">
+    <parent link="${prefix}_y"/>
+    <child link="${prefix}_z"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+  </xacro:macro>
+
+ </robot>

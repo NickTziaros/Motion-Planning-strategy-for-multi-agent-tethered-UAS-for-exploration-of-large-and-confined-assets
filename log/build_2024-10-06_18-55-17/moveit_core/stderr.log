@@ -1,0 +1,26 @@
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:[m[K In member function ‘[01m[Kvirtual kinematic_constraints::ConstraintEvaluationResult kinematic_constraints::VisibilityConstraint::decide(const moveit::core::RobotState&, bool) const[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:1146:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcollision_detection::World::addToObject(const char [5], shapes::ShapeConstPtr&)[m[K’
+ 1146 |   [01;31m[Kcollision_env_->getWorld()->addToObject("box1", box_shape)[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/collision_env.h:44[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:42[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:37[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/world.h:181:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid collision_detection::World::addToObject(const string&, const Isometry3d&, const std::vector<std::shared_ptr<const shapes::Shape> >&, const vector_Isometry3d&)[m[K’
+  181 |   void [01;36m[KaddToObject[m[K(const std::string& object_id, const Eigen::Isometry3d& pose,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/world.h:181:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 2 provided
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/world.h:187:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid collision_detection::World::addToObject(const string&, const std::vector<std::shared_ptr<const shapes::Shape> >&, const vector_Isometry3d&)[m[K’
+  187 |   void [01;36m[KaddToObject[m[K(const std::string& object_id, const std::vector<shapes::ShapeConstPtr>& shapes,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/world.h:187:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/world.h:198:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid collision_detection::World::addToObject(const string&, const Isometry3d&, const ShapeConstPtr&, const Isometry3d&)[m[K’
+  198 |   void [01;36m[KaddToObject[m[K(const std::string& object_id, const Eigen::Isometry3d& pose, const shapes::ShapeConstPtr& shape,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/world.h:198:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 2 provided
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/world.h:209:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid collision_detection::World::addToObject(const string&, const ShapeConstPtr&, const Isometry3d&)[m[K’
+  209 |   void [01;36m[KaddToObject[m[K(const std::string& object_id, const shapes::ShapeConstPtr& shape, const Eigen::Isometry3d& shape_pose)
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/world.h:209:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+gmake[2]: *** [kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/build.make:76: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1123: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

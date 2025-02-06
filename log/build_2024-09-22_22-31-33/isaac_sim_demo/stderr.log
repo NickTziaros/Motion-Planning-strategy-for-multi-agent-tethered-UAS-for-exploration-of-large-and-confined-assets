@@ -1,0 +1,6 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:35:49:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kcallback_fn[m[K’
+   35 | bool moveit::core::GroupStateValidityCallbackFn [01;31m[Kcallback_fn[m[K = [](moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values) {
+      |                                                 [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

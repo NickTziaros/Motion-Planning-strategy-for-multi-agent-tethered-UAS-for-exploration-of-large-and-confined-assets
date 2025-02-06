@@ -1,0 +1,112 @@
+[0.005s] Invoking command in '/home/ubuntu/ros2_ws/build/isaac_sim_demo': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2_ws/src/isaac_sim_demo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/isaac_sim_demo
+[0.036s] -- The C compiler identification is GNU 11.4.0
+[0.071s] -- The CXX compiler identification is GNU 11.4.0
+[0.075s] -- Detecting C compiler ABI info
+[0.113s] -- Detecting C compiler ABI info - done
+[0.118s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.118s] -- Detecting C compile features
+[0.118s] -- Detecting C compile features - done
+[0.120s] -- Detecting CXX compiler ABI info
+[0.166s] -- Detecting CXX compiler ABI info - done
+[0.171s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.171s] -- Detecting CXX compile features
+[0.172s] -- Detecting CXX compile features - done
+[0.175s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.273s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.344s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.383s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.389s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.396s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.407s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.423s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.479s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.481s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.544s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.565s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.604s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.613s] -- Looking for pthread.h
+[0.654s] -- Looking for pthread.h - found
+[0.655s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.697s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.698s] -- Found Threads: TRUE  
+[0.812s] -- Found ompl: /opt/ros/humble/include/ompl-1.6;/usr/include;/usr/include/eigen3  
+[0.815s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.905s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[0.961s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.102s] -- Found custom_interfaces: 0.0.0 (/home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake)
+[1.147s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.155s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.172s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[1.187s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.188s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.188s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.483s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.552s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.552s] -- Configured cppcheck include dirs: /home/ubuntu/ros2_ws/src/isaac_sim_demo/include;/home/ubuntu/ros2_ws/src/isaac_sim_demo/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces;/home/ubuntu/ros2_ws/src/isaac_sim_demo/include/isaac_sim_demo
+[1.552s] -- Configured cppcheck exclude dirs and/or files: 
+[1.553s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.554s] -- Added test 'lint_cmake' to check CMake code style
+[1.555s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.559s] -- Added test 'uncrustify' to check C / C++ code style
+[1.559s] -- Configured uncrustify additional arguments: 
+[1.560s] -- Added test 'xmllint' to check XML markup files
+[1.560s] -- Configuring done
+[1.583s] -- Generating done
+[1.584s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/isaac_sim_demo
+[1.592s] Invoked command in '/home/ubuntu/ros2_ws/build/isaac_sim_demo' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2_ws/src/isaac_sim_demo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/isaac_sim_demo
+[1.593s] Invoking command in '/home/ubuntu/ros2_ws/build/isaac_sim_demo': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/isaac_sim_demo -- -j24 -l24
+[1.620s] [ 10%] [32mBuilding CXX object CMakeFiles/isaac_sim_demo_library.dir/src/RRT_controller.cpp.o[0m
+[1.620s] [ 20%] [32mBuilding CXX object CMakeFiles/StateSubscriber_node.dir/src/StateSubscriber_node.cpp.o[0m
+[1.620s] [ 30%] [32mBuilding CXX object CMakeFiles/markers_node.dir/src/markers.cpp.o[0m
+[1.620s] [ 40%] [32mBuilding CXX object CMakeFiles/visualization_node.dir/src/visualization.cpp.o[0m
+[4.388s] [ 50%] [32m[1mLinking CXX executable markers_node[0m
+[4.508s] [ 50%] Built target markers_node
+[4.687s] [ 60%] [32m[1mLinking CXX executable visualization_node[0m
+[4.832s] [ 60%] Built target visualization_node
+[6.721s] [ 70%] [32m[1mLinking CXX static library libisaac_sim_demo_library.a[0m
+[6.770s] [ 70%] Built target isaac_sim_demo_library
+[6.781s] [ 80%] [32mBuilding CXX object CMakeFiles/ompl_controller_node.dir/src/ompl_controller_node.cpp.o[0m
+[7.828s] [ 90%] [32m[1mLinking CXX executable StateSubscriber_node[0m
+[8.132s] [ 90%] Built target StateSubscriber_node
+[14.918s] [100%] [32m[1mLinking CXX executable ompl_controller_node[0m
+[15.280s] [100%] Built target ompl_controller_node
+[15.285s] Invoked command in '/home/ubuntu/ros2_ws/build/isaac_sim_demo' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/isaac_sim_demo -- -j24 -l24
+[15.303s] Invoking command in '/home/ubuntu/ros2_ws/build/isaac_sim_demo': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/isaac_sim_demo
+[15.308s] -- Install configuration: ""
+[15.308s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//launch
+[15.308s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//launch/robot_desc.py
+[15.309s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//launch/isaac_sim_demo.py
+[15.309s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config
+[15.309s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/rviz_config.rviz
+[15.310s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//config/robot_desc.rviz
+[15.310s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf
+[15.310s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/link.xacro
+[15.310s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/spherical_joint.xacro
+[15.310s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/twin.urdf
+[15.310s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/two_drones.xacro
+[15.311s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/chain.urdf
+[15.311s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo//urdf/chain.xacro
+[15.311s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/StateSubscriber_node
+[15.315s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/StateSubscriber_node" to ""
+[15.315s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/markers_node
+[15.316s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/markers_node" to ""
+[15.316s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/ompl_controller_node
+[15.318s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/ompl_controller_node" to ""
+[15.318s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/visualization_node
+[15.319s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/isaac_sim_demo/lib/isaac_sim_demo/visualization_node" to ""
+[15.319s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/ament_index/resource_index/package_run_dependencies/isaac_sim_demo
+[15.320s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/ament_index/resource_index/parent_prefix_path/isaac_sim_demo
+[15.320s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/environment/ament_prefix_path.sh
+[15.320s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/environment/ament_prefix_path.dsv
+[15.320s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/environment/path.sh
+[15.320s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/environment/path.dsv
+[15.320s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/local_setup.bash
+[15.320s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/local_setup.sh
+[15.320s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/local_setup.zsh
+[15.320s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/local_setup.dsv
+[15.320s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/package.dsv
+[15.320s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/ament_index/resource_index/packages/isaac_sim_demo
+[15.320s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/cmake/isaac_sim_demoConfig.cmake
+[15.320s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/cmake/isaac_sim_demoConfig-version.cmake
+[15.321s] -- Installing: /home/ubuntu/ros2_ws/install/isaac_sim_demo/share/isaac_sim_demo/package.xml
+[15.322s] Invoked command in '/home/ubuntu/ros2_ws/build/isaac_sim_demo' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/custom_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/isaac_sim_demo

@@ -1,0 +1,8 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:374:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_interface::MotionPlanRequest[m[K’ {aka ‘[01m[Kstruct moveit_msgs::msg::MotionPlanRequest_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kqoal_constraints[m[K’; did you mean ‘[01m[Kgoal_constraints[m[K’?
+  374 |       req.[01;31m[Kqoal_constraints[m[K.decide(robot_state);
+      |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |           [32m[Kgoal_constraints[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

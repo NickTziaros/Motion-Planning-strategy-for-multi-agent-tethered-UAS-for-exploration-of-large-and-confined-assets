@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target joint_space[0m
+[  9%] Built target markers_node
+[ 27%] Built target StateSubscriber_node
+[ 27%] Built target visualization_node
+[ 36%] Built target tf_to_pos_node
+[ 45%] Built target isaac_sim_demo_library
+[ 54%] Built target moveit_test_node
+[ 63%] Built target spawn_scene
+[ 72%] Built target cartesian
+[ 77%] [32mBuilding CXX object CMakeFiles/joint_space.dir/src/joint_space.cpp.o[0m
+[ 95%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kvoid interpolate_path(const SharedPtr&, std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:43:21:[m[K [01;31m[Kerror: [m[Kexpected initializer before numeric constant
+   43 |   double resolution [01;31m[K0.1[m[K;
+      |                     [01;31m[K^~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:48:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaypoints_vec[m[K’ was not declared in this scope; did you mean ‘[01m[Kwaypoints[m[K’?
+   48 |     geometry_msgs::msg::PoseStamped start = [01;31m[Kwaypoints_vec[m[K[i];
+      |                                             [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                             [32m[Kwaypoints[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:56:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kresolution[m[K’ was not declared in this scope
+   56 |     int steps = std::max(1, static_cast<int>(distance / [01;31m[Kresolution[m[K));
+      |                                                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:66:42:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+   66 |         path.poses.push_back(interpolated[01;31m[K[[m[Kj]);
+      |                                          [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

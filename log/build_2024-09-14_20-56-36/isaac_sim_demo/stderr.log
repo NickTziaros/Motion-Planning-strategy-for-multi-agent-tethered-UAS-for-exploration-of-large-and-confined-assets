@@ -1,0 +1,43 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:119:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kplanning_scene::PlanningScene::isStateValid(moveit::core::RobotState&, const moveit::core::JointModelGroup*&)[m[K’
+  119 |   bool isValid = [01;31m[Kplanning_scene.isStateValid(robot_state,joint_model_group)[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_request_adapter/planning_request_adapter.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:9[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:825:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool planning_scene::PlanningScene::isStateValid(const RobotState&, const string&, bool) const[m[K’
+  825 |   bool [01;36m[KisStateValid[m[K(const moveit_msgs::msg::RobotState& state, const std::string& group = "",
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:825:57:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit::core::RobotState[m[K’ to ‘[01m[Kconst RobotState&[m[K’ {aka ‘[01m[Kconst moveit_msgs::msg::RobotState_<std::allocator<void> >&[m[K’}
+  825 |   bool isStateValid([01;36m[Kconst moveit_msgs::msg::RobotState& state[m[K, const std::string& group = "",
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:829:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool planning_scene::PlanningScene::isStateValid(const moveit::core::RobotState&, const string&, bool) const[m[K’
+  829 |   bool [01;36m[KisStateValid[m[K(const moveit::core::RobotState& state, const std::string& group = "", bool verbose = false) const;
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:829:79:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  829 |   bool isStateValid(const moveit::core::RobotState& state, [01;36m[Kconst std::string& group = ""[m[K, bool verbose = false) const;
+      |                                                            [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:833:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool planning_scene::PlanningScene::isStateValid(const RobotState&, const Constraints&, const string&, bool) const[m[K’
+  833 |   bool [01;36m[KisStateValid[m[K(const moveit_msgs::msg::RobotState& state, const moveit_msgs::msg::Constraints& constr,
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:833:57:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit::core::RobotState[m[K’ to ‘[01m[Kconst RobotState&[m[K’ {aka ‘[01m[Kconst moveit_msgs::msg::RobotState_<std::allocator<void> >&[m[K’}
+  833 |   bool isStateValid([01;36m[Kconst moveit_msgs::msg::RobotState& state[m[K, const moveit_msgs::msg::Constraints& constr,
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:838:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool planning_scene::PlanningScene::isStateValid(const moveit::core::RobotState&, const Constraints&, const string&, bool) const[m[K’
+  838 |   bool [01;36m[KisStateValid[m[K(const moveit::core::RobotState& state, const moveit_msgs::msg::Constraints& constr,
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:838:97:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’ to ‘[01m[Kconst Constraints&[m[K’ {aka ‘[01m[Kconst moveit_msgs::msg::Constraints_<std::allocator<void> >&[m[K’}
+  838 |   bool isStateValid(const moveit::core::RobotState& state, [01;36m[Kconst moveit_msgs::msg::Constraints& constr[m[K,
+      |                                                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:843:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool planning_scene::PlanningScene::isStateValid(const moveit::core::RobotState&, const kinematic_constraints::KinematicConstraintSet&, const string&, bool) const[m[K’
+  843 |   bool [01;36m[KisStateValid[m[K(const moveit::core::RobotState& state, const kinematic_constraints::KinematicConstraintSet& constr,
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:843:113:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’ to ‘[01m[Kconst kinematic_constraints::KinematicConstraintSet&[m[K’
+  843 |   bool isStateValid(const moveit::core::RobotState& state, [01;36m[Kconst kinematic_constraints::KinematicConstraintSet& constr[m[K,
+      |                                                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:119:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KisValid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  119 |   bool [01;35m[KisValid[m[K = planning_scene.isStateValid(robot_state,joint_model_group);
+      |        [01;35m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

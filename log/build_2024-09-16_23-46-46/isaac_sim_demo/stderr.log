@@ -1,0 +1,32 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:158:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(robot_trajectory::RobotTrajectoryPtr&)[m[K’
+  158 |           [01;31m[Kvisual_tools.publishTrajectoryLine(res.trajectory_)[m[K
+      |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:16[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:587:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const RobotTrajectory&, const moveit::core::LinkModel*, const moveit::core::JointModelGroup*, const rviz_visual_tools::Colors&)[m[K’
+  587 |   bool [01;36m[KpublishTrajectoryLine[m[K(const moveit_msgs::msg::RobotTrajectory& trajectory_msg,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:587:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:591:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const RobotTrajectoryPtr&, const moveit::core::LinkModel*, const rviz_visual_tools::Colors&)[m[K’
+  591 |   bool [01;36m[KpublishTrajectoryLine[m[K(const robot_trajectory::RobotTrajectoryPtr& robot_trajectory,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:591:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:594:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const robot_trajectory::RobotTrajectory&, const moveit::core::LinkModel*, const rviz_visual_tools::Colors&)[m[K’
+  594 |   bool [01;36m[KpublishTrajectoryLine[m[K(const robot_trajectory::RobotTrajectory& robot_trajectory,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:594:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:606:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const RobotTrajectory&, const moveit::core::JointModelGroup*, const rviz_visual_tools::Colors&)[m[K’
+  606 |   bool [01;36m[KpublishTrajectoryLine[m[K(const moveit_msgs::msg::RobotTrajectory& trajectory_msg,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:606:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:609:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const RobotTrajectoryPtr&, const moveit::core::JointModelGroup*, const rviz_visual_tools::Colors&)[m[K’
+  609 |   bool [01;36m[KpublishTrajectoryLine[m[K(const robot_trajectory::RobotTrajectoryPtr& robot_trajectory,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:609:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:612:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const robot_trajectory::RobotTrajectory&, const moveit::core::JointModelGroup*, const rviz_visual_tools::Colors&)[m[K’
+  612 |   bool [01;36m[KpublishTrajectoryLine[m[K(const robot_trajectory::RobotTrajectory& robot_trajectory,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:612:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

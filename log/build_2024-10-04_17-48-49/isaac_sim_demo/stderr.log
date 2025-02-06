@@ -1,0 +1,30 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:404:29:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::core::RobotState::attachBody(const char [14], Eigen::Isometry3d&, std::vector<std::shared_ptr<const shapes::Shape> >, std::vector<Eigen::Transform<double, 3, 1> >, std::set<std::__cxx11::basic_string<char> >&, const char [7])[m[K’
+  404 |       [01;31m[Krobot_state.attachBody("cylinder_body",cylinder_info.transform,std::vector<shapes::ShapeConstPtr>{cylinder_info.shape},std::vector<Eigen::Isometry3d>{cylinder_info.transform}, touch_links,"Drone3" )[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_scene_monitor/current_state_monitor.h:53[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1594:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::attachBody(std::unique_ptr<moveit::core::AttachedBody>)[m[K’
+ 1594 |   void [01;36m[KattachBody[m[K(std::unique_ptr<AttachedBody> attached_body);
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1594:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1615:64:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::attachBody(moveit::core::AttachedBody*)[m[K’
+ 1615 |   [[deprecated("Deprecated. Pass a unique_ptr instead")]] void [01;36m[KattachBody[m[K(AttachedBody* attached_body);
+      |                                                                [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1615:64:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1634:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::attachBody(const string&, const Isometry3d&, const std::vector<std::shared_ptr<const shapes::Shape> >&, const vector_Isometry3d&, const std::set<std::__cxx11::basic_string<char> >&, const string&, const JointTrajectory&, const FixedTransformsMap&)[m[K’
+ 1634 |   void [01;36m[KattachBody[m[K(const std::string& id, const Eigen::Isometry3d& pose,
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1635:104:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Kstd::vector<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst vector_Isometry3d&[m[K’ {aka ‘[01m[Kconst std::vector<Eigen::Transform<double, 3, 1>, Eigen::aligned_allocator<Eigen::Transform<double, 3, 1> > >&[m[K’}
+ 1635 |                   const std::vector<shapes::ShapeConstPtr>& shapes, [01;36m[Kconst EigenSTL::vector_Isometry3d& shape_poses[m[K,
+      |                                                                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1657:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::attachBody(const string&, const Isometry3d&, const std::vector<std::shared_ptr<const shapes::Shape> >&, const vector_Isometry3d&, const std::vector<std::__cxx11::basic_string<char> >&, const string&, const JointTrajectory&, const FixedTransformsMap&)[m[K’
+ 1657 |   void [01;36m[KattachBody[m[K(const std::string& id, const Eigen::Isometry3d& pose,
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1658:104:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Kstd::vector<Eigen::Transform<double, 3, 1> >[m[K’ to ‘[01m[Kconst vector_Isometry3d&[m[K’ {aka ‘[01m[Kconst std::vector<Eigen::Transform<double, 3, 1>, Eigen::aligned_allocator<Eigen::Transform<double, 3, 1> > >&[m[K’}
+ 1658 |                   const std::vector<shapes::ShapeConstPtr>& shapes, [01;36m[Kconst EigenSTL::vector_Isometry3d& shape_poses[m[K,
+      |                                                                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

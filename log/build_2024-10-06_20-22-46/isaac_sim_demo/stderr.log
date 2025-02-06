@@ -1,0 +1,7 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:532:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kintersect[m[K’ is not a member of ‘[01m[Kfcl[m[K’
+  532 |   bool intersects = fcl::[01;31m[Kintersect[m[K(P1, direction, box);
+      |                          [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

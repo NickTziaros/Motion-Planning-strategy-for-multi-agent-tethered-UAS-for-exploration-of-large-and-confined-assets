@@ -1,0 +1,31 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:22:97:[m[K [01;31m[Kerror: [m[Kstorage class specified for parameter ‘[01m[KLOGGER[m[K’
+   22 | void updateCallback(planning_scene_monitor::PlanningSceneMonitor::SceneUpdateType update_type , [01;31m[Kstatic[m[K const rclcpp::Logger LOGGER)
+      |                                                                                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kvoid updateCallback(...)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:24:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kupdate_type[m[K’ was not declared in this scope
+   24 |     switch ([01;31m[Kupdate_type[m[K)
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:26:60:[m[K [01;31m[Kerror: [m[K‘[01m[KROBOT_STATE[m[K’ is not a member of ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor[m[K’
+   26 |         case planning_scene_monitor::PlanningSceneMonitor::[01;31m[KROBOT_STATE[m[K:
+      |                                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:29:60:[m[K [01;31m[Kerror: [m[K‘[01m[KWORLD[m[K’ is not a member of ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor[m[K’
+   29 |         case planning_scene_monitor::PlanningSceneMonitor::[01;31m[KWORLD[m[K:
+      |                                                            [01;31m[K^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:32:60:[m[K [01;31m[Kerror: [m[K‘[01m[KALL[m[K’ is not a member of ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor[m[K’
+   32 |         case planning_scene_monitor::PlanningSceneMonitor::[01;31m[KALL[m[K:
+      |                                                            [01;31m[K^~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:36:13:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_WARN[m[K’ was not declared in this scope
+   36 |             [01;31m[KROS_WARN[m[K(LOGGER,"Unknown update type.");
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:76:25:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kplanning_scene_monitor::PlanningSceneMonitor::addUpdateCallback(void (&)(...), const rclcpp::Logger&)[m[K’
+   76 |   [01;31m[Kpsm->addUpdateCallback(updateCallback,LOGGER)[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:11[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_scene_monitor/planning_scene_monitor.h:390:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid planning_scene_monitor::PlanningSceneMonitor::addUpdateCallback(const std::function<void(planning_scene_monitor::PlanningSceneMonitor::SceneUpdateType)>&)[m[K’
+  390 |   void [01;36m[KaddUpdateCallback[m[K(const std::function<void(SceneUpdateType)>& fn);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_scene_monitor/planning_scene_monitor.h:390:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

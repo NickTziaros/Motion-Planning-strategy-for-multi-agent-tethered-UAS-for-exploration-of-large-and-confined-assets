@@ -1,0 +1,61 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:172:41:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > > waypoints_vec[m[K’
+  172 |   std::vector<geometry_msgs::msg::Pose> [01;31m[Kwaypoints_vec[m[K;
+      |                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:135:41:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > > waypoints_vec[m[K’ previously declared here
+  135 |   std::vector<geometry_msgs::msg::Pose> [01;36m[Kwaypoints_vec[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:176:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfound_ik[m[K’ was not declared in this scope
+  176 |     [01;31m[Kfound_ik[m[K = new_state.setFromIK(joint_model_group, waypoints_vec[i], timeout);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:176:16:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_state[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  176 |     found_ik = [01;31m[Knew_state[m[K.setFromIK(joint_model_group, waypoints_vec[i], timeout);
+      |                [01;31m[K^~~~~~~~~[m[K
+      |                [32m[Ksetstate[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:176:69:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+  176 |     found_ik = new_state.setFromIK(joint_model_group, waypoints_vec[[01;31m[Ki[m[K], timeout);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:176:73:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimeout[m[K’ was not declared in this scope
+  176 |     found_ik = new_state.setFromIK(joint_model_group, waypoints_vec[i], [01;31m[Ktimeout[m[K);
+      |                                                                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:176:73:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:3[m[K:
+[01m[K/usr/include/c++/11/future:176:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::future_status::timeout[m[K’
+  176 |     [01;36m[Ktimeout[m[K,
+      |     [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/future:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:3[m[K:
+[01m[K/usr/include/c++/11/condition_variable:65:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::cv_status::timeout[m[K’
+   65 |   enum class cv_status { no_timeout, [01;36m[Ktimeout[m[K };
+      |                                      [01;36m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:177:27:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >::push_back(const moveit::core::JointModelGroup*&)[m[K’
+  177 |     [01;31m[Kik_solutions.push_back(joint_model_group)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+                 from [01m[K/usr/include/c++/11/functional:62[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:3[m[K:
+[01m[K/usr/include/c++/11/bits/stl_vector.h:1187:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = std::vector<double, std::allocator<double> >; _Alloc = std::allocator<std::vector<double, std::allocator<double> > >; std::vector<_Tp, _Alloc>::value_type = std::vector<double, std::allocator<double> >][m[K’
+ 1187 |       [01;36m[Kpush_back[m[K(const value_type& __x)
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:1187:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’ to ‘[01m[Kconst value_type&[m[K’ {aka ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’}
+ 1187 |       push_back([01;36m[Kconst value_type& __x[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:1203:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = std::vector<double, std::allocator<double> >; _Alloc = std::allocator<std::vector<double, std::allocator<double> > >; std::vector<_Tp, _Alloc>::value_type = std::vector<double, std::allocator<double> >][m[K’
+ 1203 |       [01;36m[Kpush_back[m[K(value_type&& __x)
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_vector.h:1203:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’ to ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >::value_type&&[m[K’ {aka ‘[01m[Kstd::vector<double, std::allocator<double> >&&[m[K’}
+ 1203 |       push_back([01;36m[Kvalue_type&& __x[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

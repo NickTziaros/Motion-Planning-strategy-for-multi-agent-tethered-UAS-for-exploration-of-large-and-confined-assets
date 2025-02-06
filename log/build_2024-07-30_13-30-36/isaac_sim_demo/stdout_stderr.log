@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_test[0m
+[ 14%] Built target StateSubscriber_node
+[ 57%] Built target markers_node
+[ 57%] Built target tf_to_pos_node
+[ 57%] Built target visualization_node
+[ 71%] Built target isaac_sim_demo_library
+[ 78%] [32mBuilding CXX object CMakeFiles/moveit_test.dir/src/moveit_demo.cpp.o[0m
+[ 92%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:93:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdraw_trajectory_tool_path[m[K’ was not declared in this scope
+   93 |     [01;31m[Kdraw_trajectory_tool_path[m[K(plan.trajectory_);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_test.dir/build.make:76: CMakeFiles/moveit_test.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/moveit_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="isaac_twin">
+
+  <xacro:include filename="$(find isaac_sim_demo)/urdf/spherical_joint.xacro" />
+  <xacro:include filename="$(find isaac_sim_demo)/urdf/link.xacro" />
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 0.1 0"/>
+      </geometry>
+    </collision>
+  </link>
+
+  
+  <xacro:spherical_joint prefix="spherical_1" parent="base_link" />
+
+  <joint name="prismatic_joint_1" type="prismatic">
+    <parent link="spherical_1_z"/>
+    <child link="Drone1"/>
+    <origin xyz="0 0 0.0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="3" effort="10" velocity="1.0"/>
+  </joint>
+
+  <xacro:temp_link name="Drone1" origin_xyz="0 0 0" origin_rpy="0 0 0" size="0.3 0.3 0.1" mass="0.1" />
+
+
+
+  <xacro:spherical_joint prefix="spherical_2" parent="Drone1" />
+
+
+
+
+  <joint name="prismatic_joint_2" type="prismatic">
+    <parent link="spherical_2_z"/>
+    <child link="Drone2"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="3" effort="10" velocity="1.0"/>
+  </joint>
+
+  <xacro:temp_link name="Drone2" origin_xyz="0 0 0" origin_rpy="0 0 0" size="0.3 0.3 0.1" mass="0.1" />
+
+  <xacro:spherical_joint prefix="spherical_3" parent="Drone2" />
+
+
+
+
+  <joint name="prismatic_joint_3" type="prismatic">
+    <parent link="spherical_3_z"/>
+    <child link="Drone3"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="3" effort="10" velocity="1.0"/>
+  </joint>
+
+  <xacro:temp_link name="Drone3" origin_xyz="0 0 0" origin_rpy="0 0 0" size="0.3 0.3 0.1" mass="0.1" />
+
+  <xacro:spherical_joint prefix="spherical_4" parent="Drone3" />
+
+
+
+
+  <joint name="prismatic_joint_4" type="prismatic">
+    <parent link="spherical_4_z"/>
+    <child link="Drone4"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0" upper="3" effort="10" velocity="1.0"/>
+  </joint>
+
+  <xacro:temp_link name="Drone4" origin_xyz="0 0 0" origin_rpy="0 0 0" size="0.1 0.1 0.1" mass="0.1" />
+</robot>

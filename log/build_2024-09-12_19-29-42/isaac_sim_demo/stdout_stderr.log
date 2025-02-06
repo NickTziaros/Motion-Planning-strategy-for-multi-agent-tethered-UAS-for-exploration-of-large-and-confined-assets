@@ -1,0 +1,36 @@
+[ 10%] Built target tf_to_pos_node
+[ 20%] Built target visualization_node
+[ 30%] Built target markers_node
+[ 40%] Built target StateSubscriber_node
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o[0m
+[ 55%] Built target isaac_sim_demo_library
+[ 60%] [32mBuilding CXX object CMakeFiles/spawn_scene.dir/src/spawn_scene.cpp.o[0m
+[ 70%] Built target cpp_demo
+[ 90%] Built target ompl_lifecycle
+[ 90%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:68:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision_object1[m[K’ was not declared in this scope; did you mean ‘[01m[Kcollision_objects[m[K’?
+   68 |     collision_objects.push_back([01;31m[Kcollision_object1[m[K);
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                 [32m[Kcollision_objects[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:69:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision_object2[m[K’ was not declared in this scope; did you mean ‘[01m[Kcollision_objects[m[K’?
+   69 |     collision_objects.push_back([01;31m[Kcollision_object2[m[K);
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                 [32m[Kcollision_objects[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:70:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision_object3[m[K’ was not declared in this scope; did you mean ‘[01m[Kcollision_objects[m[K’?
+   70 |     collision_objects.push_back([01;31m[Kcollision_object3[m[K);
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                 [32m[Kcollision_objects[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:71:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision_object4[m[K’ was not declared in this scope; did you mean ‘[01m[Kcollision_objects[m[K’?
+   71 |     collision_objects.push_back([01;31m[Kcollision_object4[m[K);
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                 [32m[Kcollision_objects[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:72:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision_object5[m[K’ was not declared in this scope; did you mean ‘[01m[Kcollision_objects[m[K’?
+   72 |     collision_objects.push_back([01;31m[Kcollision_object5[m[K);
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                 [32m[Kcollision_objects[m[K
+[ 95%] [32m[1mLinking CXX executable spawn_scene[0m
+[ 95%] Built target spawn_scene
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

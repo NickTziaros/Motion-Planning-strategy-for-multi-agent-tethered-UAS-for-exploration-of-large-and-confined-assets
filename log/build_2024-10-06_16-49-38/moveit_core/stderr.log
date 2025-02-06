@@ -1,0 +1,121 @@
+In file included from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:44[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:37[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:720:61:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  720 |   void processOctomapPtr(const std::shared_ptr<const octomap[01;31m[K::[m[KOcTree>& octree, const Eigen::Isometry3d& t);
+      |                                                             [01;31m[K^~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:720:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  720 |   void processOctomapPtr(const std::shared_ptr<const octomap::OcTree[01;31m[K>[m[K& octree, const Eigen::Isometry3d& t);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:720:61:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  720 |   void processOctomapPtr(const std::shared_ptr<const octomap[01;31m[K::[m[KOcTree>& octree, const Eigen::Isometry3d& t);
+      |                                                             [01;31m[K^~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:720:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  720 |   void processOctomapPtr(const std::shared_ptr<const octomap::OcTree[01;31m[K>[m[K& octree, const Eigen::Isometry3d& t);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:720:61:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  720 |   void processOctomapPtr(const std::shared_ptr<const octomap[01;31m[K::[m[KOcTree>& octree, const Eigen::Isometry3d& t);
+      |                                                             [01;31m[K^~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:720:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  720 |   void processOctomapPtr(const std::shared_ptr<const octomap::OcTree[01;31m[K>[m[K& octree, const Eigen::Isometry3d& t);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:720:32:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+  720 |   void processOctomapPtr(const [01;31m[Kstd[m[K::shared_ptr<const octomap::OcTree>& octree, const Eigen::Isometry3d& t);
+      |                                [01;31m[K^~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:720:61:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  720 |   void processOctomapPtr(const std::shared_ptr<const octomap[01;31m[K::[m[KOcTree>& octree, const Eigen::Isometry3d& t);
+      |                                                             [01;31m[K^~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:720:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+  720 |   void processOctomapPtr(const std::shared_ptr<[01;31m[Kconst[m[K octomap::OcTree>& octree, const Eigen::Isometry3d& t);
+      |                                                [01;31m[K^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:720:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kconst[m[K’
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:720:26:[m[K [01;31m[Kerror: [m[Ktemplate placeholder type ‘[01m[Kconst shared_ptr<...auto...>[m[K’ must be followed by a simple declarator-id
+  720 |   void processOctomapPtr([01;31m[Kconst[m[K std::shared_ptr<const octomap::OcTree>& octree, const Eigen::Isometry3d& t);
+      |                          [01;31m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+                 from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/macros/include/moveit/macros/declare_ptr.h:37[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/macros/include/moveit/macros/class_forward.h:39[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/robot_model/include/moveit/robot_model/robot_model.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:39[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:37[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:319:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Tp> class std::shared_ptr[m[K’ declared here
+  319 |     class [01;36m[Kshared_ptr[m[K;
+      |           [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:44[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:37[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:720:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K,[m[K’ token
+  720 |   void processOctomapPtr[34m[K([m[Kconst std::shared_ptr<const octomap::OcTree>& octree[01;31m[K,[m[K const Eigen::Isometry3d& t);
+      |                         [34m[K~[m[K                                                    [01;31m[K^[m[K
+      |                                                                              [32m[K)[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:720:80:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+  720 |   void processOctomapPtr(const std::shared_ptr<const octomap::OcTree>& octree, [01;31m[Kconst[m[K Eigen::Isometry3d& t);
+      |                                                                                [01;31m[K^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:818:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kkinematic_constraints[m[K’ does not name a type
+  818 |                           const [01;31m[Kkinematic_constraints[m[K::KinematicConstraintSet& constr, bool verbose = false) const;
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:818:78:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  818 |                           const kinematic_constraints::KinematicConstraintSet[01;31m[K&[m[K constr, bool verbose = false) const;
+      |                                                                              [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:818:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  818 |                           const kinematic_constraints::KinematicConstraintSet[01;31m[K&[m[K constr, bool verbose = false) const;
+      |                                                                              [01;31m[K^[m[K
+      |                                                                              [32m[K)[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:817:26:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  817 |   bool isStateConstrained[01;36m[K([m[Kconst moveit_msgs::msg::RobotState& state,
+      |                          [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:818:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  818 |                           const kinematic_constraints::KinematicConstraintSet[01;31m[K&[m[K constr, bool verbose = false) const;
+      |                                                                              [01;31m[K^[m[K
+      |                                                                               [32m[K;[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:818:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstr[m[K’ does not name a type; did you mean ‘[01m[Kconstexpr[m[K’?
+  818 |                           const kinematic_constraints::KinematicConstraintSet& [01;31m[Kconstr[m[K, bool verbose = false) const;
+      |                                                                                [01;31m[K^~~~~~[m[K
+      |                                                                                [32m[Kconstexpr[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:822:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kkinematic_constraints[m[K’ does not name a type
+  822 |                           const [01;31m[Kkinematic_constraints[m[K::KinematicConstraintSet& constr, bool verbose = false) const;
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:822:78:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  822 |                           const kinematic_constraints::KinematicConstraintSet[01;31m[K&[m[K constr, bool verbose = false) const;
+      |                                                                              [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:822:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  822 |                           const kinematic_constraints::KinematicConstraintSet[01;31m[K&[m[K constr, bool verbose = false) const;
+      |                                                                              [01;31m[K^[m[K
+      |                                                                              [32m[K)[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:821:26:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  821 |   bool isStateConstrained[01;36m[K([m[Kconst moveit::core::RobotState& state,
+      |                          [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:822:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  822 |                           const kinematic_constraints::KinematicConstraintSet[01;31m[K&[m[K constr, bool verbose = false) const;
+      |                                                                              [01;31m[K^[m[K
+      |                                                                               [32m[K;[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:821:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool planning_scene::PlanningScene::isStateConstrained(...) &[m[K’ cannot be overloaded with ‘[01m[Kbool planning_scene::PlanningScene::isStateConstrained(...) &[m[K’
+  821 |   bool [01;31m[KisStateConstrained[m[K(const moveit::core::RobotState& state,
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:817:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbool planning_scene::PlanningScene::isStateConstrained(...) &[m[K’
+  817 |   bool [01;36m[KisStateConstrained[m[K(const moveit_msgs::msg::RobotState& state,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:822:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstr[m[K’ does not name a type; did you mean ‘[01m[Kconstexpr[m[K’?
+  822 |                           const kinematic_constraints::KinematicConstraintSet& [01;31m[Kconstr[m[K, bool verbose = false) const;
+      |                                                                                [01;31m[K^~~~~~[m[K
+      |                                                                                [32m[Kconstexpr[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:843:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kkinematic_constraints[m[K’ does not name a type
+  843 |   bool isStateValid(const moveit::core::RobotState& state, const [01;31m[Kkinematic_constraints[m[K::KinematicConstraintSet& constr,
+      |                                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:843:111:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  843 |   bool isStateValid(const moveit::core::RobotState& state, const kinematic_constraints::KinematicConstraintSet[01;31m[K&[m[K constr,
+      |                                                                                                               [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:843:111:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  843 |   bool isStateValid[34m[K([m[Kconst moveit::core::RobotState& state, const kinematic_constraints::KinematicConstraintSet[01;31m[K&[m[K constr,
+      |                    [34m[K~[m[K                                                                                          [01;31m[K^[m[K
+      |                                                                                                               [32m[K)[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:843:111:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  843 |   bool isStateValid(const moveit::core::RobotState& state, const kinematic_constraints::KinematicConstraintSet[01;31m[K&[m[K constr,
+      |                                                                                                               [01;31m[K^[m[K
+      |                                                                                                                [32m[K;[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:843:113:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstr[m[K’ does not name a type; did you mean ‘[01m[Kconstexpr[m[K’?
+  843 |   bool isStateValid(const moveit::core::RobotState& state, const kinematic_constraints::KinematicConstraintSet& [01;31m[Kconstr[m[K,
+      |                                                                                                                 [01;31m[K^~~~~~[m[K
+      |                                                                                                                 [32m[Kconstexpr[m[K
+gmake[2]: *** [kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/build.make:76: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1123: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,36 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:120:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::publishRobotState(const double*&, const moveit::core::JointModelGroup*&, rviz_visual_tools::Colors)[m[K’
+  120 |     [01;31m[Kvisual_tools.publishRobotState(joint_group_variable_values, joint_group, rviz_visual_tools::BLUE)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:16[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:639:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishRobotState(const JointTrajectoryPoint&, const moveit::core::JointModelGroup*, const rviz_visual_tools::Colors&)[m[K’
+  639 |   bool [01;36m[KpublishRobotState[m[K(const trajectory_msgs::msg::JointTrajectoryPoint& trajectory_pt,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:639:76:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst double*[m[K’ to ‘[01m[Kconst JointTrajectoryPoint&[m[K’ {aka ‘[01m[Kconst trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >&[m[K’}
+  639 |   bool publishRobotState([01;36m[Kconst trajectory_msgs::msg::JointTrajectoryPoint& trajectory_pt[m[K,
+      |                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:650:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishRobotState(const std::vector<double>&, const moveit::core::JointModelGroup*, const rviz_visual_tools::Colors&)[m[K’
+  650 |   bool [01;36m[KpublishRobotState[m[K(const std::vector<double>& joint_positions, const moveit::core::JointModelGroup* jmg,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:650:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst double*[m[K’ to ‘[01m[Kconst std::vector<double>&[m[K’
+  650 |   bool publishRobotState([01;36m[Kconst std::vector<double>& joint_positions[m[K, const moveit::core::JointModelGroup* jmg,
+      |                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:661:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishRobotState(const moveit::core::RobotState&, const rviz_visual_tools::Colors&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’
+  661 |   bool [01;36m[KpublishRobotState[m[K(const moveit::core::RobotState& robot_state,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:661:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst double*[m[K’ to ‘[01m[Kconst moveit::core::RobotState&[m[K’
+  661 |   bool publishRobotState([01;36m[Kconst moveit::core::RobotState& robot_state[m[K,
+      |                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:664:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishRobotState(const RobotStatePtr&, const rviz_visual_tools::Colors&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’
+  664 |   bool [01;36m[KpublishRobotState[m[K(const moveit::core::RobotStatePtr& robot_state,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:664:61:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst double*[m[K’ to ‘[01m[Kconst RobotStatePtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<moveit::core::RobotState>&[m[K’}
+  664 |   bool publishRobotState([01;36m[Kconst moveit::core::RobotStatePtr& robot_state[m[K,
+      |                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:667:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit_visual_tools::MoveItVisualTools::publishRobotState(const DisplayRobotState&)[m[K’
+  667 |   void [01;36m[KpublishRobotState[m[K(const moveit_msgs::msg::DisplayRobotState& display_robot_state_msg);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:667:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,8 @@
+[0mCMake Error: The inter-target dependency graph contains the following strongly connected component (cycle):
+  "moveit_kinematic_constraints" of type SHARED_LIBRARY
+    depends on "moveit_planning_scene" (weak)
+  "moveit_planning_scene" of type SHARED_LIBRARY
+    depends on "moveit_kinematic_constraints" (weak)
+At least one of these targets is not a STATIC_LIBRARY.  Cyclic dependencies are allowed only among static libraries.[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:1080: cmake_check_build_system] Error 1

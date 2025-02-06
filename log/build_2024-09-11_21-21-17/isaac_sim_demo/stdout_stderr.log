@@ -1,0 +1,58 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_test_node[0m
+[ 20%] Built target visualization_node
+[ 20%] Built target markers_node
+[ 30%] Built target tf_to_pos_node
+[ 40%] Built target StateSubscriber_node
+[ 50%] Built target isaac_sim_demo_library
+[ 60%] Built target cpp_demo
+[ 70%] Built target spawn_scene
+[ 75%] [32mBuilding CXX object CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o[0m
+[ 85%] Built target ompl_lifecycle
+[ 95%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:110:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+  110 |   waypoints.[01;31m[Kpush_back[m[K(target_pose3);
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:110:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose3[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_pose1[m[K’?
+  110 |   waypoints.push_back([01;31m[Ktarget_pose3[m[K);
+      |                       [01;31m[K^~~~~~~~~~~~[m[K
+      |                       [32m[Ktarget_pose1[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:114:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+  114 |   waypoints.[01;31m[Kpush_back[m[K(target_pose3);
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:118:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+  118 |   waypoints.[01;31m[Kpush_back[m[K(target_pose3);
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:122:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+  122 |   waypoints.[01;31m[Kpush_back[m[K(target_pose3);
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:126:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+  126 |   waypoints.[01;31m[Kpush_back[m[K(target_pose3);
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:130:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+  130 |   waypoints.[01;31m[Kpush_back[m[K(target_pose3);
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:134:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksize[m[K’
+  134 |   for (std::size_t i = 0; i < waypoints.[01;31m[Ksize[m[K(); ++i)
+      |                                         [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:141:71:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(geometry_msgs::msg::Pose {aka geometry_msgs::msg::Pose_<std::allocator<void> >}) (std::size_t&)[m[K’
+  141 |     bool found_ik = start_state.setFromIK(joint_model_group, [01;31m[Kwaypoints(i)[m[K, timeout);
+      |                                                              [01;31m[K~~~~~~~~~^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:3[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:145:80:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(geometry_msgs::msg::Pose {aka geometry_msgs::msg::Pose_<std::allocator<void> >}) (std::size_t&)[m[K’
+  145 |           RCLCPP_INFO(node->get_logger(), "IK for waypoint %f found", [01;31m[Kwaypoints(i)[m[K);
+      |                                                                       [01;31m[K~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

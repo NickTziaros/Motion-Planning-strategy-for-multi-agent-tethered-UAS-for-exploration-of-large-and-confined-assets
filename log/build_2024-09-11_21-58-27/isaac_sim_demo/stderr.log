@@ -1,0 +1,146 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:134:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::core::RobotState::RobotState(moveit::core::RobotStatePtr)[m[K’
+  134 |     moveit::core::RobotState new_state(move_group_interface.getCurrentState()[01;31m[K)[m[K;
+      |                                                                              [01;31m[K^[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:4[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:98:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::core::RobotState::RobotState(const moveit::core::RobotState&)[m[K’
+   98 |   [01;36m[KRobotState[m[K(const RobotState& other);
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:98:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit::core::RobotStatePtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<moveit::core::RobotState>[m[K’} to ‘[01m[Kconst moveit::core::RobotState&[m[K’
+   98 |   RobotState([01;36m[Kconst RobotState& other[m[K);
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:94:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::core::RobotState::RobotState(const RobotModelConstPtr&)[m[K’
+   94 |   [01;36m[KRobotState[m[K(const RobotModelConstPtr& robot_model);
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:94:40:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit::core::RobotStatePtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<moveit::core::RobotState>[m[K’} to ‘[01m[Kconst RobotModelConstPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const moveit::core::RobotModel>&[m[K’}
+   94 |   RobotState([01;36m[Kconst RobotModelConstPtr& robot_model[m[K);
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:135:89:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’ to non-scalar type ‘[01m[Kconst moveit::core::JointModelGroup[m[K’ requested
+  135 |     const moveit::core::JointModelGroup joint_model_group = [01;31m[Knew_state.getJointModelGroup("Group1")[m[K;
+      |                                                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:138:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup&, __gnu_cxx::__alloc_traits<std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > >, geometry_msgs::msg::Pose_<std::allocator<void> > >::value_type&, double&)[m[K’
+  138 |     bool found_ik = [01;31m[Knew_state.setFromIK(joint_model_group, waypoints_vec[i], timeout)[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:4[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:952:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Pose&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const IKCostFn&)[m[K’
+  952 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const geometry_msgs::msg::Pose& pose, double timeout = 0.0,
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:952:41:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst moveit::core::JointModelGroup[m[K’ to ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’
+  952 |   bool setFromIK([01;36m[Kconst JointModelGroup* group[m[K, const geometry_msgs::msg::Pose& pose, double timeout = 0.0,
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:964:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Pose&, const string&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const IKCostFn&)[m[K’
+  964 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const geometry_msgs::msg::Pose& pose, const std::string& tip,
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:964:41:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst moveit::core::JointModelGroup[m[K’ to ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’
+  964 |   bool setFromIK([01;36m[Kconst JointModelGroup* group[m[K, const geometry_msgs::msg::Pose& pose, const std::string& tip,
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:975:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Isometry3d&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const IKCostFn&)[m[K’
+  975 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, double timeout = 0.0,
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:975:41:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst moveit::core::JointModelGroup[m[K’ to ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’
+  975 |   bool setFromIK([01;36m[Kconst JointModelGroup* group[m[K, const Eigen::Isometry3d& pose, double timeout = 0.0,
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:986:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Isometry3d&, const string&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const IKCostFn&)[m[K’
+  986 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, const std::string& tip,
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:986:41:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst moveit::core::JointModelGroup[m[K’ to ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’
+  986 |   bool setFromIK([01;36m[Kconst JointModelGroup* group[m[K, const Eigen::Isometry3d& pose, const std::string& tip,
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:999:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Isometry3d&, const string&, const std::vector<double, std::allocator<double> >&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const IKCostFn&)[m[K’
+  999 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, const std::string& tip,
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:999:8:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 3 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1014:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const vector_Isometry3d&, const std::vector<std::__cxx11::basic_string<char> >&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const IKCostFn&)[m[K’
+ 1014 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const EigenSTL::vector_Isometry3d& poses,
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1014:41:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst moveit::core::JointModelGroup[m[K’ to ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’
+ 1014 |   bool setFromIK([01;36m[Kconst JointModelGroup* group[m[K, const EigenSTL::vector_Isometry3d& poses,
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1030:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const vector_Isometry3d&, const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::vector<double, std::allocator<double> > >&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const IKCostFn&)[m[K’
+ 1030 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const EigenSTL::vector_Isometry3d& poses,
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1030:8:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 3 provided
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:146:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::core::RobotState::copyJointGroupPositions(const moveit::core::JointModelGroup&, std::vector<double, std::allocator<double> >&)[m[K’
+  146 |     [01;31m[Knew_state.copyJointGroupPositions(joint_model_group, joint_values)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:4[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:691:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::copyJointGroupPositions(const string&, std::vector<double, std::allocator<double> >&) const[m[K’
+  691 |   void [01;36m[KcopyJointGroupPositions[m[K(const std::string& joint_group_name, std::vector<double>& gstate) const
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:691:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst moveit::core::JointModelGroup[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  691 |   void copyJointGroupPositions([01;36m[Kconst std::string& joint_group_name[m[K, std::vector<double>& gstate) const
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:704:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::copyJointGroupPositions(const string&, double*) const[m[K’
+  704 |   void [01;36m[KcopyJointGroupPositions[m[K(const std::string& joint_group_name, double* gstate) const
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:704:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst moveit::core::JointModelGroup[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  704 |   void copyJointGroupPositions([01;36m[Kconst std::string& joint_group_name[m[K, double* gstate) const
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:714:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::copyJointGroupPositions(const moveit::core::JointModelGroup*, std::vector<double, std::allocator<double> >&) const[m[K’
+  714 |   void [01;36m[KcopyJointGroupPositions[m[K(const JointModelGroup* group, std::vector<double>& gstate) const
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:714:55:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst moveit::core::JointModelGroup[m[K’ to ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’
+  714 |   void copyJointGroupPositions([01;36m[Kconst JointModelGroup* group[m[K, std::vector<double>& gstate) const
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:723:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::copyJointGroupPositions(const moveit::core::JointModelGroup*, double*) const[m[K’
+  723 |   void [01;36m[KcopyJointGroupPositions[m[K(const JointModelGroup* group, double* gstate) const;
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:723:55:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst moveit::core::JointModelGroup[m[K’ to ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’
+  723 |   void copyJointGroupPositions([01;36m[Kconst JointModelGroup* group[m[K, double* gstate) const;
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:728:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::copyJointGroupPositions(const string&, Eigen::VectorXd&) const[m[K’
+  728 |   void [01;36m[KcopyJointGroupPositions[m[K(const std::string& joint_group_name, Eigen::VectorXd& values) const
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:728:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst moveit::core::JointModelGroup[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  728 |   void copyJointGroupPositions([01;36m[Kconst std::string& joint_group_name[m[K, Eigen::VectorXd& values) const
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:738:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::copyJointGroupPositions(const moveit::core::JointModelGroup*, Eigen::VectorXd&) const[m[K’
+  738 |   void [01;36m[KcopyJointGroupPositions[m[K(const JointModelGroup* group, Eigen::VectorXd& values) const;
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:738:55:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst moveit::core::JointModelGroup[m[K’ to ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’
+  738 |   void copyJointGroupPositions([01;36m[Kconst JointModelGroup* group[m[K, Eigen::VectorXd& values) const;
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:177:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(moveit_msgs::msg::RobotTrajectory&, const moveit::core::JointModelGroup&)[m[K’
+  177 |   [01;31m[Kvisual_tools.publishTrajectoryLine(my_plan.trajectory_, joint_model_group)[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:5[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:587:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const RobotTrajectory&, const moveit::core::LinkModel*, const moveit::core::JointModelGroup*, const rviz_visual_tools::Colors&)[m[K’
+  587 |   bool [01;36m[KpublishTrajectoryLine[m[K(const moveit_msgs::msg::RobotTrajectory& trajectory_msg,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:587:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 2 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:591:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const RobotTrajectoryPtr&, const moveit::core::LinkModel*, const rviz_visual_tools::Colors&)[m[K’
+  591 |   bool [01;36m[KpublishTrajectoryLine[m[K(const robot_trajectory::RobotTrajectoryPtr& robot_trajectory,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:591:74:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::msg::RobotTrajectory[m[K’ {aka ‘[01m[Kmoveit_msgs::msg::RobotTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst RobotTrajectoryPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<robot_trajectory::RobotTrajectory>&[m[K’}
+  591 |   bool publishTrajectoryLine([01;36m[Kconst robot_trajectory::RobotTrajectoryPtr& robot_trajectory[m[K,
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:594:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const robot_trajectory::RobotTrajectory&, const moveit::core::LinkModel*, const rviz_visual_tools::Colors&)[m[K’
+  594 |   bool [01;36m[KpublishTrajectoryLine[m[K(const robot_trajectory::RobotTrajectory& robot_trajectory,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:594:71:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::msg::RobotTrajectory[m[K’ {aka ‘[01m[Kmoveit_msgs::msg::RobotTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst robot_trajectory::RobotTrajectory&[m[K’
+  594 |   bool publishTrajectoryLine([01;36m[Kconst robot_trajectory::RobotTrajectory& robot_trajectory[m[K,
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:606:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const RobotTrajectory&, const moveit::core::JointModelGroup*, const rviz_visual_tools::Colors&)[m[K’
+  606 |   bool [01;36m[KpublishTrajectoryLine[m[K(const moveit_msgs::msg::RobotTrajectory& trajectory_msg,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:607:67:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst moveit::core::JointModelGroup[m[K’ to ‘[01m[Kconst moveit::core::JointModelGroup*[m[K’
+  607 |                              [01;36m[Kconst moveit::core::JointModelGroup* arm_jmg[m[K,
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:609:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const RobotTrajectoryPtr&, const moveit::core::JointModelGroup*, const rviz_visual_tools::Colors&)[m[K’
+  609 |   bool [01;36m[KpublishTrajectoryLine[m[K(const robot_trajectory::RobotTrajectoryPtr& robot_trajectory,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:609:74:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::msg::RobotTrajectory[m[K’ {aka ‘[01m[Kmoveit_msgs::msg::RobotTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst RobotTrajectoryPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<robot_trajectory::RobotTrajectory>&[m[K’}
+  609 |   bool publishTrajectoryLine([01;36m[Kconst robot_trajectory::RobotTrajectoryPtr& robot_trajectory[m[K,
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:612:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const robot_trajectory::RobotTrajectory&, const moveit::core::JointModelGroup*, const rviz_visual_tools::Colors&)[m[K’
+  612 |   bool [01;36m[KpublishTrajectoryLine[m[K(const robot_trajectory::RobotTrajectory& robot_trajectory,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:612:71:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::msg::RobotTrajectory[m[K’ {aka ‘[01m[Kmoveit_msgs::msg::RobotTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst robot_trajectory::RobotTrajectory&[m[K’
+  612 |   bool publishTrajectoryLine([01;36m[Kconst robot_trajectory::RobotTrajectory& robot_trajectory[m[K,
+      |                              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

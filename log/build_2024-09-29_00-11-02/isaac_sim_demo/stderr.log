@@ -1,0 +1,15 @@
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:210:33:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 6 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  210 |             RCLCPP_INFO(LOGGER, [01;35m[K"Link %zu is above Z = 0 with Z = %f"[m[K, i ,[32m[Krobot_state->getGlobalLinkTransform("Drone"+i).translation().z()<0[m[K);
+      |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K     [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                                                           [32m[K|[m[K
+      |                                                                                                                                           [32m[Kint[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:210:68:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  210 |             RCLCPP_INFO(LOGGER, "Link %zu is above Z = 0 with Z = [01;36m[K%f[m[K", i ,robot_state->getGlobalLinkTransform("Drone"+i).translation().z()<0);
+      |                                                                   [01;36m[K~^[m[K
+      |                                                                    [01;36m[K|[m[K
+      |                                                                    [01;36m[Kdouble[m[K
+      |                                                                   [32m[K%d[m[K

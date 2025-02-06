@@ -1,0 +1,33 @@
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:225:20:[m[K [01;31m[Kerror: [m[K‘[01m[KgetLogger[m[K’ was not declared in this scope
+  225 |       RCLCPP_ERROR([01;31m[KgetLogger[m[K(), "No kinematics solver instantiated for group '%s'", joint_model_group->getName().c_str());
+      |                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:225:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  225 |       [01;31m[KRCLCPP_ERROR[m[K(getLogger(), "No kinematics solver instantiated for group '%s'", joint_model_group->getName().c_str());
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:225:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  225 |       [01;31m[KRCLCPP_ERROR[m[K(getLogger(), "No kinematics solver instantiated for group '%s'", joint_model_group->getName().c_str());
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:225:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  225 |       [01;31m[KRCLCPP_ERROR[m[K(getLogger(), "No kinematics solver instantiated for group '%s'", joint_model_group->getName().c_str());
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:230:20:[m[K [01;31m[Kerror: [m[K‘[01m[KgetLogger[m[K’ was not declared in this scope
+  230 |       RCLCPP_ERROR([01;31m[KgetLogger[m[K(), "Kinematics solver instantiated for group '%s'", joint_model_group->getName().c_str());
+      |                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:230:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  230 |       [01;31m[KRCLCPP_ERROR[m[K(getLogger(), "Kinematics solver instantiated for group '%s'", joint_model_group->getName().c_str());
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:230:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  230 |       [01;31m[KRCLCPP_ERROR[m[K(getLogger(), "Kinematics solver instantiated for group '%s'", joint_model_group->getName().c_str());
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:230:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  230 |       [01;31m[KRCLCPP_ERROR[m[K(getLogger(), "Kinematics solver instantiated for group '%s'", joint_model_group->getName().c_str());
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

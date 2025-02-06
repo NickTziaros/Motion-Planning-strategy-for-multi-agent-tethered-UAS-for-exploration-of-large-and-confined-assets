@@ -1,0 +1,41 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_demo[0m
+[ 10%] Built target markers_node
+[ 30%] Built target StateSubscriber_node
+[ 30%] Built target tf_to_pos_node
+[ 40%] Built target visualization_node
+[ 50%] Built target isaac_sim_demo_library
+[ 60%] Built target moveit_test_node
+[ 70%] Built target spawn_scene
+[ 75%] [32mBuilding CXX object CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o[0m
+[ 85%] Built target ompl_lifecycle
+[ 95%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:94:106:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(std::shared_ptr<rclcpp::Node>&, const char [10], const char [17], std::shared_ptr<planning_scene::PlanningScene>&)[m[K’
+   94 |   moveit_visual_tools::MoveItVisualTools visual_tools(node, "base_link","display_contacts",planning_scene[01;31m[K)[m[K;
+      |                                                                                                          [01;31m[K^[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:15[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:97:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(const SharedPtr&, const string&, const string&, moveit::core::RobotModelConstPtr)[m[K’
+   97 |   [01;36m[KMoveItVisualTools[m[K(const rclcpp::Node::SharedPtr& node, const std::string& base_frame,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:99:54:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Kshared_ptr<[01;32m[Kplanning_scene::PlanningScene[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Kconst moveit::core::RobotModel[m[K>[m[K’
+   99 |                     [01;36m[Kmoveit::core::RobotModelConstPtr robot_model = moveit::core::RobotModelConstPtr()[m[K);
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:88:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(const SharedPtr&, const string&, const string&, planning_scene_monitor::PlanningSceneMonitorPtr)[m[K’
+   88 |   [01;36m[KMoveItVisualTools[m[K(const rclcpp::Node::SharedPtr& node, const std::string& base_frame, const std::string& marker_topic,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:89:69:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Kshared_ptr<[01;32m[Kplanning_scene::PlanningScene[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Kplanning_scene_monitor::PlanningSceneMonitor[m[K>[m[K’
+   89 |                     [01;36m[Kplanning_scene_monitor::PlanningSceneMonitorPtr psm[m[K);
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:79:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(const SharedPtr&)[m[K’
+   79 |   [01;36m[KMoveItVisualTools[m[K(const rclcpp::Node::SharedPtr& node);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:79:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:70:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(const moveit_visual_tools::MoveItVisualTools&)[m[K’
+   70 | class [01;36m[KMoveItVisualTools[m[K : public rviz_visual_tools::RvizVisualTools
+      |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:70:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:70:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(moveit_visual_tools::MoveItVisualTools&&)[m[K’
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:70:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

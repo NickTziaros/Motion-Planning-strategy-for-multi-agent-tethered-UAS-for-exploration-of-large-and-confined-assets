@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_demo[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_test_node[0m
+[ 10%] Built target StateSubscriber_node
+[ 20%] Built target visualization_node
+[ 30%] Built target markers_node
+[ 40%] Built target tf_to_pos_node
+[ 50%] Built target isaac_sim_demo_library
+[ 60%] Built target spawn_scene
+[ 65%] [32mBuilding CXX object CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o[0m
+[ 80%] Built target ompl_lifecycle
+[ 90%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:83:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<planning_scene::PlanningScene>[m[K’ has no member named ‘[01m[KgetCurrentState[m[K’
+   83 |               moveit::core::RobotState new_state(planning_scene.[01;31m[KgetCurrentState[m[K());
+      |                                                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[ 95%] [32m[1mLinking CXX executable moveit_test_node[0m
+[ 95%] Built target moveit_test_node
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

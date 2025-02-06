@@ -1,0 +1,26 @@
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:[m[K In member function ‘[01m[Kbool kinematic_constraints::VisibilityConstraint::configure(const VisibilityConstraint&, const moveit::core::Transforms&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:785:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene[m[K’ was not declared in this scope
+  785 |   std::shared_ptr<[01;31m[Kplanning_scene[m[K::PlanningScene> planning_scene = std::make_shared<planning_scene::PlanningScene>(robot_model_);
+      |                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:785:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  785 |   std::shared_ptr<planning_scene::PlanningScene[01;31m[K>[m[K planning_scene = std::make_shared<planning_scene::PlanningScene>(robot_model_);
+      |                                                [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:785:72:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+  785 |   std::shared_ptr<planning_scene::PlanningScene> planning_scene = std::[01;31m[Kmake_shared<planning_scene::PlanningScene>[m[K(robot_model_);
+      |                                                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:785:114:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<planning_scene>(moveit::core::RobotModelConstPtr&)[m[K’
+  785 |   std::shared_ptr<planning_scene::PlanningScene> planning_scene = [01;31m[Kstd::make_shared<planning_scene::PlanningScene>(robot_model_)[m[K;
+      |                                                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/macros/include/moveit/macros/declare_ptr.h:37[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/macros/include/moveit/macros/class_forward.h:39[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/robot_model/include/moveit/robot_model/robot_model.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:39[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:37[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+gmake[2]: *** [kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/build.make:76: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1123: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_test_node[0m
+[ 10%] Built target visualization_node
+[ 20%] Built target markers_node
+[ 30%] Built target tf_to_pos_node
+[ 40%] Built target StateSubscriber_node
+[ 50%] Built target isaac_sim_demo_library
+[ 60%] Built target cpp_demo
+[ 70%] Built target spawn_scene
+[ 75%] [32mBuilding CXX object CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o[0m
+[ 85%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:124:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess[m[K’ was not declared in this scope; did you mean ‘[01m[Keaccess[m[K’?
+  124 |   [01;31m[Ksuccess[m[K = (move_group_interface.plan(my_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |   [01;31m[K^~~~~~~[m[K
+      |   [32m[Keaccess[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:127:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct moveit::planning_interface::MoveGroupInterface::Plan[m[K’ has no member named ‘[01m[Ktrajectory[m[K’; did you mean ‘[01m[Ktrajectory_[m[K’?
+  127 |   visual_tools.publishTrajectoryLine(my_plan.[01;31m[Ktrajectory[m[K, joint_model_group);
+      |                                              [01;31m[K^~~~~~~~~~[m[K
+      |                                              [32m[Ktrajectory_[m[K
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

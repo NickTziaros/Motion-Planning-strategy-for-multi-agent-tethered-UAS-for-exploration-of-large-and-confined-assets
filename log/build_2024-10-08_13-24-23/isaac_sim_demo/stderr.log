@@ -1,0 +1,10 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kvoid configure_bullet(std::shared_ptr<planning_scene::PlanningScene>, moveit::core::RobotState&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:113:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::__cxx11::basic_string<char>[m[K’ has no member named ‘[01m[Kfirst[m[K’
+  113 |       const std::string& object_id = object_entry.[01;31m[Kfirst[m[K;
+      |                                                   [01;31m[K^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:114:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::__cxx11::basic_string<char>[m[K’ has no member named ‘[01m[Ksecond[m[K’
+  114 |       const collision_detection::World::ObjectConstPtr& object = object_entry.[01;31m[Ksecond[m[K;
+      |                                                                               [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

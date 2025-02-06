@@ -1,0 +1,17 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:178:16:[m[K [01;31m[Kerror: [m[K‘[01m[KConstraints[m[K’ is not a member of ‘[01m[Kmoveit_msgs[m[K’; did you mean ‘[01m[Kmoveit_msgs::msg::Constraints[m[K’?
+  178 |   moveit_msgs::[01;31m[KConstraints[m[K path_constraints;
+      |                [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/constraints.hpp:7[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:46[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp:180:7:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit_msgs::msg::Constraints[m[K’ declared here
+  180 | using [01;36m[KConstraints[m[K =
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:181:111:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_constraints[m[K’ was not declared in this scope; did you mean ‘[01m[Kkinematic_constraints[m[K’?
+  181 |   double fraction = move_group_interface.computeCartesianPath(waypoints, eef_step, jump_threshold, trajectory,[01;31m[Kpath_constraints[m[K,avoid_collisions);
+      |                                                                                                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                                                                                               [32m[Kkinematic_constraints[m[K
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,20 @@
+[ 10%] Built target StateSubscriber_node
+[ 30%] Built target visualization_node
+[ 30%] Built target markers_node
+[ 40%] Built target tf_to_pos_node
+[ 50%] Built target isaac_sim_demo_library
+[ 60%] Built target spawn_scene
+[ 65%] [32mBuilding CXX object CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o[0m
+[ 75%] Built target cpp_demo
+[ 95%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:50:80:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   50 |       new planning_scene_monitor::PlanningSceneMonitor(node, robot_model_loader[01;31m[K)[m[K);
+      |                                                                                [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:63:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K->[m[K’ token
+   63 |   moveit::core::RobotModelPtr robot_model = robot_model_loader[01;31m[K->[m[KgetModel();
+      |                                                               [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

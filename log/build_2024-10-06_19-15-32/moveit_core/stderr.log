@@ -1,0 +1,14 @@
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:[m[K In member function ‘[01m[Kbool kinematic_constraints::VisibilityConstraint::configure(const VisibilityConstraint&, const moveit::core::Transforms&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:791:28:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kcollision_detection::World[m[K’ to ‘[01m[Kconst WorldPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<collision_detection::World>&[m[K’}
+  791 |   collision_env_->setWorld([01;31m[KWorld[m[K)
+      |                            [01;31m[K^~~~~[m[K
+      |                            [01;31m[K|[m[K
+      |                            [01;31m[Kcollision_detection::World[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:42[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:37[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/collision_env.h:237:41:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvirtual void collision_detection::CollisionEnv::setWorld(const WorldPtr&)[m[K’
+  237 |   virtual void setWorld([01;36m[Kconst WorldPtr& world[m[K);
+      |                         [01;36m[K~~~~~~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/build.make:76: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1123: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

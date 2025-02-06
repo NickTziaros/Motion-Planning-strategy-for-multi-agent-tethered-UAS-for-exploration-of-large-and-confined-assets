@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_test_node[0m
+[ 10%] Built target StateSubscriber_node
+[ 20%] Built target markers_node
+[ 30%] Built target visualization_node
+[ 40%] Built target tf_to_pos_node
+[ 50%] Built target isaac_sim_demo_library
+[ 60%] Built target cpp_demo
+[ 70%] Built target spawn_scene
+[ 75%] [32mBuilding CXX object CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o[0m
+[ 95%] Built target ompl_lifecycle
+[ 95%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:179:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kcolor[m[K’ was not declared in this scope
+  179 |     visual_tools.publishRobotState(joint_values,joint_model_group,[01;31m[Kcolor[m[K=BLUE);
+      |                                                                   [01;31m[K^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:179:73:[m[K [01;31m[Kerror: [m[K‘[01m[KBLUE[m[K’ was not declared in this scope; did you mean ‘[01m[Krviz_visual_tools::BLUE[m[K’?
+  179 |     visual_tools.publishRobotState(joint_values,joint_model_group,color=[01;31m[KBLUE[m[K);
+      |                                                                         [01;31m[K^~~~[m[K
+      |                                                                         [32m[Krviz_visual_tools::BLUE[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:38[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/rviz_visual_tools/rviz_visual_tools.hpp:85:3:[m[K [01;36m[Knote: [m[K‘[01m[Krviz_visual_tools::BLUE[m[K’ declared here
+   85 |   [01;36m[KBLUE[m[K = 2,
+      |   [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

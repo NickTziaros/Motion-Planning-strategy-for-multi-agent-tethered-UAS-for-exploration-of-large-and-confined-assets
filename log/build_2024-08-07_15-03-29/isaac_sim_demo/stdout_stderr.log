@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target ompl_lifecycle[0m
+[ 12%] Built target StateSubscriber_node
+[ 37%] Built target visualization_node
+[ 37%] Built target markers_node
+[ 50%] Built target tf_to_pos_node
+[ 62%] Built target isaac_sim_demo_library
+[ 75%] Built target moveit_test
+[ 81%] [32mBuilding CXX object CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o[0m
+[ 93%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:[m[K In member function ‘[01m[Kvoid LifecycleTalker::publish()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:66:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kis_activated[m[K’
+   66 |     if (!publisher_->[01;31m[Kis_activated[m[K()) {
+      |                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn LifecycleTalker::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:116:56:[m[K [01;31m[Kerror: [m[K‘[01m[Klc_node[m[K’ has not been declared
+  116 |         ""+Quadrotor_num+"/state/pose", 10, std::bind(&[01;31m[Klc_node[m[K::pose_callback, this, std::placeholders::_1));
+      |                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:118:56:[m[K [01;31m[Kerror: [m[K‘[01m[Klc_node[m[K’ has not been declared
+  118 |         "/"+Quadrotor_num+"/goal_pose", 10, std::bind(&[01;31m[Klc_node[m[K::goal_callback, this, std::placeholders::_1));
+      |                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:122:27:[m[K [01;31m[Kerror: [m[K‘[01m[Klc_node[m[K’ has not been declared
+  122 |         800ms, std::bind(&[01;31m[Klc_node[m[K::timer_callback,this));
+      |                           [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ompl_lifecycle.dir/build.make:76: CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/ompl_lifecycle.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

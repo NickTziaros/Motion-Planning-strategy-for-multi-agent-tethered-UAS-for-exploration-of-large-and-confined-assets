@@ -1,0 +1,10 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:[m[K In member function ‘[01m[Kvoid LifecycleTalker::publish()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:91:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanner_[m[K’ was not declared in this scope
+   91 |     ompl::geometric::SimpleSetup ss_p = [01;31m[Kplanner_[m[K.configure(quad_pose,goal_pose,client_);
+      |                                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:91:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   91 |     ompl::geometric::SimpleSetup ss_p = planner_.configure(quad_pose,goal_pose,[01;31m[Kclient_[m[K);
+      |                                                                                [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ompl_lifecycle.dir/build.make:76: CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/ompl_lifecycle.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

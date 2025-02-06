@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_demo[0m
+[ 11%] Built target StateSubscriber_node
+[ 22%] Built target markers_node
+[ 33%] Built target visualization_node
+[ 44%] Built target tf_to_pos_node
+[ 55%] Built target isaac_sim_demo_library
+[ 66%] Built target moveit_test
+[ 72%] [32mBuilding CXX object CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o[0m
+[ 83%] Built target ompl_lifecycle
+[ 94%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:89:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ was not declared in this scope
+   89 |                                                       [01;31m[Kmove_group_interface[m[K.getRobotModel());
+      |                                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

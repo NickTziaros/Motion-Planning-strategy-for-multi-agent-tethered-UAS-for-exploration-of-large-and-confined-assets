@@ -1,0 +1,27 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:50:38:[m[K [01;31m[Kerror: [m[K‘[01m[KCollisionObject[m[K’ is not a member of ‘[01m[Kmoveit_msgs[m[K’; did you mean ‘[01m[Kmoveit_msgs::msg::CollisionObject[m[K’?
+   50 |   std::map<std::string, moveit_msgs::[01;31m[KCollisionObject[m[K> objects = planning_scene_interface.getObjects();
+      |                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__struct.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp:7[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:44[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__struct.hpp:300:7:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit_msgs::msg::CollisionObject[m[K’ declared here
+  300 | using [01;36m[KCollisionObject[m[K =
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:50:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+   50 |   std::map<std::string, moveit_msgs::CollisionObject[01;31m[K>[m[K objects = planning_scene_interface.getObjects();
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:50:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:50:100:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, moveit_msgs::msg::CollisionObject_<std::allocator<void> > >[m[K’ to ‘[01m[Kint[m[K’ in initialization
+   50 |   std::map<std::string, moveit_msgs::CollisionObject> objects = [01;31m[Kplanning_scene_interface.getObjects()[m[K;
+      |                                                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+      |                                                                                                    [01;31m[K|[m[K
+      |                                                                                                    [01;31m[Kstd::map<std::__cxx11::basic_string<char>, moveit_msgs::msg::CollisionObject_<std::allocator<void> > >[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:50:55:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kobjects[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   50 |   std::map<std::string, moveit_msgs::CollisionObject> [01;35m[Kobjects[m[K = planning_scene_interface.getObjects();
+      |                                                       [01;35m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

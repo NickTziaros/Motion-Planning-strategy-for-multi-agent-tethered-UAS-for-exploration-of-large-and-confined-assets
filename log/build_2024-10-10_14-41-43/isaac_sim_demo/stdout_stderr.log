@@ -1,0 +1,67 @@
+[35m[1mConsolidate compiler generated dependencies of target drone_marker_publisher[0m
+[  8%] Built target markers_node
+[ 25%] Built target visualization_node
+[ 25%] Built target tf_to_pos_node
+[ 33%] Built target StateSubscriber_node
+[ 37%] [32mBuilding CXX object CMakeFiles/drone_marker_publisher.dir/src/drone_marker_publisher.cpp.o[0m
+[ 45%] Built target moveit_test_node
+[ 54%] Built target spawn_scene
+[ 62%] Built target cartesian
+[ 70%] Built target isaac_sim_demo_library
+[ 79%] Built target joint_space
+[ 95%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/drone_marker_publisher.cpp:95:48:[m[K [01;31m[Kerror: [m[K‘[01m[KMarkerArray[m[K’ is not a member of ‘[01m[Kvisualization_msgs::msg[m[K’
+   95 |     rclcpp::Publisher<visualization_msgs::msg::[01;31m[KMarkerArray[m[K>::SharedPtr marker_pub_;
+      |                                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/drone_marker_publisher.cpp:95:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   95 |     rclcpp::Publisher<visualization_msgs::msg::MarkerArray[01;31m[K>[m[K::SharedPtr marker_pub_;
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/drone_marker_publisher.cpp:95:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   95 |     rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::[01;31m[KSharedPtr[m[K marker_pub_;
+      |                                                              [01;31m[K^~~~~~~~~[m[K
+      |                                                                       [32m[K;[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/drone_marker_publisher.cpp:95:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ does not name a type
+   95 |     rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr [01;31m[Kmarker_pub_[m[K;
+      |                                                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/drone_marker_publisher.cpp:[m[K In constructor ‘[01m[KDroneMarkerPublisher::DroneMarkerPublisher()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/drone_marker_publisher.cpp:19:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+   19 |         [01;31m[Kmarker_pub_[m[K = this->create_publisher<visualization_msgs::msg::MarkerArray>("drone_markers", 10);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/drone_marker_publisher.cpp:19:71:[m[K [01;31m[Kerror: [m[K‘[01m[KMarkerArray[m[K’ is not a member of ‘[01m[Kvisualization_msgs::msg[m[K’
+   19 |         marker_pub_ = this->create_publisher<visualization_msgs::msg::[01;31m[KMarkerArray[m[K>("drone_markers", 10);
+      |                                                                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/drone_marker_publisher.cpp:19:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDroneMarkerPublisher::create_publisher<<expression error> >(const char [14], int)[m[K’
+   19 |         marker_pub_ = [01;31m[Kthis->create_publisher<visualization_msgs::msg::MarkerArray>("drone_markers", 10)[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/drone_marker_publisher.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/drone_marker_publisher.cpp:19:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   19 |         marker_pub_ = [01;31m[Kthis->create_publisher<visualization_msgs::msg::MarkerArray>("drone_markers", 10)[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/drone_marker_publisher.cpp:[m[K In member function ‘[01m[Kvoid DroneMarkerPublisher::publishMarkers()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/drone_marker_publisher.cpp:28:34:[m[K [01;31m[Kerror: [m[K‘[01m[KMarkerArray[m[K’ is not a member of ‘[01m[Kvisualization_msgs::msg[m[K’
+   28 |         visualization_msgs::msg::[01;31m[KMarkerArray[m[K marker_array;
+      |                                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/drone_marker_publisher.cpp:82:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_array[m[K’ was not declared in this scope
+   82 |                 geometry_msgs::msg::Point prev_point = [01;31m[Kmarker_array[m[K.markers.back().points.back();
+      |                                                        [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/drone_marker_publisher.cpp:88:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_array[m[K’ was not declared in this scope
+   88 |             [01;31m[Kmarker_array[m[K.markers.push_back(line_marker);
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/drone_marker_publisher.cpp:92:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmarker_id[m[K’?
+   92 |         [01;31m[Kmarker_pub_[m[K->publish(marker_array);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+      |         [32m[Kmarker_id[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/drone_marker_publisher.cpp:92:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_array[m[K’ was not declared in this scope
+   92 |         marker_pub_->publish([01;31m[Kmarker_array[m[K);
+      |                              [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/drone_marker_publisher.dir/build.make:76: CMakeFiles/drone_marker_publisher.dir/src/drone_marker_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/drone_marker_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

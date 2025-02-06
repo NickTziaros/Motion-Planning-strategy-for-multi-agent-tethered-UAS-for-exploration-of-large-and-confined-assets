@@ -1,0 +1,16 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:344:37:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kshape_msgs::msg::SolidPrimitive box[m[K’
+  344 |     shape_msgs::msg::SolidPrimitive [01;31m[Kbox[m[K;
+      |                                     [01;31m[K^~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:327:37:[m[K [01;36m[Knote: [m[K‘[01m[Kshape_msgs::msg::SolidPrimitive box[m[K’ previously declared here
+  327 |     shape_msgs::msg::SolidPrimitive [01;36m[Kbox[m[K;
+      |                                     [01;36m[K^~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:347:37:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kgeometry_msgs::msg::PoseStamped box_pose[m[K’
+  347 |     geometry_msgs::msg::PoseStamped [01;31m[Kbox_pose[m[K;
+      |                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:330:39:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped box_pose[m[K’ previously declared here
+  330 |       geometry_msgs::msg::PoseStamped [01;36m[Kbox_pose[m[K;
+      |                                       [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

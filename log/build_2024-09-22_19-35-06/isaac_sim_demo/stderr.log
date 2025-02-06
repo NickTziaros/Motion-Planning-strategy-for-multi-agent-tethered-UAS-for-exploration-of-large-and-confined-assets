@@ -1,0 +1,10 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kbool myStateValidityCallback(moveit::core::RobotState*, const moveit::core::JointModelGroup*, const double*)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:27:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | bool myStateValidityCallback([01;35m[Kmoveit::core::RobotState* robot_state[m[K,
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:28:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kjoint_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   28 |                              [01;35m[Kconst moveit::core::JointModelGroup* joint_group[m[K,
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:29:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kjoint_group_variable_values[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   29 |                              [01;35m[Kconst double* joint_group_variable_values[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_demo[0m
+[ 10%] Built target tf_to_pos_node
+[ 20%] Built target StateSubscriber_node
+[ 30%] Built target visualization_node
+[ 40%] Built target markers_node
+[ 60%] Built target spawn_scene
+[ 60%] Built target moveit_test_node
+[ 70%] Built target isaac_sim_demo_library
+[ 75%] [32mBuilding CXX object CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o[0m
+[ 95%] Built target ompl_lifecycle
+[ 95%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:159:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::move(moveit_msgs::msg::MotionPlanResponse_<std::allocator<void> >::_trajectory_type&)[m[K’
+  159 |           if ([01;31m[Kmove_group_interface.move(msg.trajectory)[m[K == true) {
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:20[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:715:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::core::MoveItErrorCode moveit::planning_interface::MoveGroupInterface::move()[m[K’
+  715 |   moveit::core::MoveItErrorCode [01;36m[Kmove[m[K();
+      |                                 [01;36m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:715:33:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

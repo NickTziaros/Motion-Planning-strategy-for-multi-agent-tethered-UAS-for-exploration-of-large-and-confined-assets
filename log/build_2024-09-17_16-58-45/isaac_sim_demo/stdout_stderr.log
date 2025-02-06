@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_demo[0m
+[ 30%] Built target StateSubscriber_node
+[ 30%] Built target tf_to_pos_node
+[ 30%] Built target visualization_node
+[ 40%] Built target markers_node
+[ 50%] Built target moveit_test_node
+[ 60%] Built target isaac_sim_demo_library
+[ 70%] Built target spawn_scene
+[ 75%] [32mBuilding CXX object CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o[0m
+[ 95%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kvoid compute_path(const SharedPtr&, std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:29:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath[m[K’ is not a member of ‘[01m[Knav_msgs[m[K’; did you mean ‘[01m[Krcpputils::fs::path[m[K’?
+   29 |   nav_msgs::[01;31m[Kpath[m[K path;
+      |             [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:76:7:[m[K [01;36m[Knote: [m[K‘[01m[Krcpputils::fs::path[m[K’ declared here
+   76 | class [01;36m[Kpath[m[K
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:30:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath[m[K’ was not declared in this scope; did you mean ‘[01m[Krcpputils::fs::path[m[K’?
+   30 |   [01;31m[Kpath[m[K.header.frame_id = "base_link";
+      |   [01;31m[K^~~~[m[K
+      |   [32m[Krcpputils::fs::path[m[K
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:76:7:[m[K [01;36m[Knote: [m[K‘[01m[Krcpputils::fs::path[m[K’ declared here
+   76 | class [01;36m[Kpath[m[K
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:31:37:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ is not a member of ‘[01m[Krclcpp::Time[m[K’
+   31 |   path.header.stamp = rclcpp::Time::[01;31m[Know[m[K();
+      |                                     [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

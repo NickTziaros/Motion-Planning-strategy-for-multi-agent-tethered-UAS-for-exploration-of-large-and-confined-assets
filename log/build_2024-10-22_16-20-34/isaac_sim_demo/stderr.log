@@ -1,0 +1,29 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:522:8:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto start_time[m[K’
+  522 |   auto [01;31m[Kstart_time[m[K = node->now();
+      |        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:195:8:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Krclcpp::Time start_time[m[K’
+  195 |   auto [01;36m[Kstart_time[m[K = node->now();
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:523:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_time[m[K’ was not declared in this scope
+  523 |   rclcpp::Duration execution_duration = [01;31m[Kend_time[m[K - start_time;
+      |                                         [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:524:35:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  524 |   RCLCPP_INFO(node->get_logger(), [01;35m[K"Execution took %ld seconds and %ld nanoseconds."[m[K,
+      |                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  525 |                 [32m[Kexecution_duration.seconds()[m[K, execution_duration.nanoseconds());
+      |                 [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                           [32m[K|[m[K
+      |                                           [32m[Kdouble[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:524:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  524 |   RCLCPP_INFO(node->get_logger(), "Execution took [01;36m[K%ld[m[K seconds and %ld nanoseconds.",
+      |                                                   [01;36m[K~~^[m[K
+      |                                                     [01;36m[K|[m[K
+      |                                                     [01;36m[Klong int[m[K
+      |                                                   [32m[K%f[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:341: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

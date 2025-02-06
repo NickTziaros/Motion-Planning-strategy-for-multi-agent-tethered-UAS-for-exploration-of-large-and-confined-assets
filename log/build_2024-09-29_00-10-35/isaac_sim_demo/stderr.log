@@ -1,0 +1,7 @@
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:210:136:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[KEigen::DenseCoeffsBase<Derived, 0>::CoeffReturnType Eigen::DenseCoeffsBase<Derived, 0>::z() const [with Derived = Eigen::Block<const Eigen::Matrix<double, 4, 4>, 3, 1, true>; Eigen::DenseCoeffsBase<Derived, 0>::CoeffReturnType = double][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  210 |             RCLCPP_INFO(LOGGER, "Link %zu is above Z = 0 with Z = %f", i ,[01;31m[Krobot_state->getGlobalLinkTransform("Drone"+i).translation().z[m[K<0);
+      |                                                                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K

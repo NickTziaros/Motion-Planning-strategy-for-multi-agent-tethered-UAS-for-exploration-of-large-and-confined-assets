@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target joint_space[0m
+[  9%] Built target markers_node
+[ 18%] Built target tf_to_pos_node
+[ 27%] Built target visualization_node
+[ 36%] Built target isaac_sim_demo_library
+[ 54%] Built target StateSubscriber_node
+[ 54%] Built target moveit_test_node
+[ 63%] Built target cartesian
+[ 72%] Built target spawn_scene
+[ 77%] [32mBuilding CXX object CMakeFiles/joint_space.dir/src/joint_space.cpp.o[0m
+[ 95%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:288:20:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kkinematic_constraints::VisibilityConstraint::configure(moveit_msgs::msg::VisibilityConstraint&)[m[K’
+  288 |       [01;31m[Kvc->configure(visibility_constraint)[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_request_adapter/planning_request_adapter.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:8[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematic_constraints/kinematic_constraint.h:785:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool kinematic_constraints::VisibilityConstraint::configure(const VisibilityConstraint&, const moveit::core::Transforms&)[m[K’
+  785 |   bool [01;36m[Kconfigure[m[K(const moveit_msgs::msg::VisibilityConstraint& vc, const moveit::core::Transforms& tf);
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematic_constraints/kinematic_constraint.h:785:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

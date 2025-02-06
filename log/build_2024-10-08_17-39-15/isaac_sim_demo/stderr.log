@@ -1,0 +1,25 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kbool checkRayBoxIntersection(moveit::core::RobotState&, btDynamicsWorld*)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:121:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  121 |     return true
+      |                [01;31m[K^[m[K
+      |                [32m[K;[m[K
+  122 |     [32m[K}[m[K
+      |     [32m[K~[m[K           
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:611:42:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[KbtDiscreteDynamicsWorld* configure_bullet(std::shared_ptr<planning_scene::PlanningScene>)[m[K’
+  611 |     auto dynamicsWorld = [01;31m[Kconfigure_bullet(planning_scene,robot_state)[m[K;
+      |                          [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:125:26:[m[K [01;36m[Knote: [m[Kdeclared here
+  125 | btDiscreteDynamicsWorld* [01;36m[Kconfigure_bullet[m[K(std::shared_ptr<planning_scene::PlanningScene> planning_scene)
+      |                          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:613:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+  613 |     [01;31m[KRCLCPP_INFO[m[K(LOGGER,"%s", LoS ? "true" : "false");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

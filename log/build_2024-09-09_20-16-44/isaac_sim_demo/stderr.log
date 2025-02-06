@@ -1,0 +1,14 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:50:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ was not declared in this scope
+   50 |   [01;31m[Krobot_state[m[K->setToDefaultValues();
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:253:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisual_tools[m[K’ was not declared in this scope; did you mean ‘[01m[Krviz_visual_tools[m[K’?
+  253 |   [01;31m[Kvisual_tools[m[K.publishTrajectoryLine(display_trajectory.trajectory.back(), joint_model_group);
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+      |   [32m[Krviz_visual_tools[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:268:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kpsm[m[K’ was not declared in this scope
+  268 |       planning_scene_monitor::LockedPlanningSceneRO lscene([01;31m[Kpsm[m[K);
+      |                                                            [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

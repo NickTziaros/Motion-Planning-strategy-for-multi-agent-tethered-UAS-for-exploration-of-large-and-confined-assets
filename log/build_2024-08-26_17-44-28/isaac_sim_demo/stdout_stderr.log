@@ -1,0 +1,162 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_demo[0m
+[35m[1mConsolidate compiler generated dependencies of target moveit_test[0m
+[ 22%] Built target markers_node
+[ 22%] Built target visualization_node
+[ 33%] Built target tf_to_pos_node
+[ 44%] Built target StateSubscriber_node
+[ 55%] Built target isaac_sim_demo_library
+[ 61%] [32mBuilding CXX object CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o[0m
+[ 72%] Built target moveit_test
+[ 94%] Built target ompl_controller_node
+[ 94%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:35:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kpluginlib[m[K’ was not declared in this scope
+   35 |     std::unique_ptr<[01;31m[Kpluginlib[m[K::ClassLoader<planning_interface::PlannerManager>> planner_plugin_loader;
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:35:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   35 |     std::unique_ptr<pluginlib::ClassLoader<planning_interface::PlannerManager[01;31m[K>>[m[K planner_plugin_loader;
+      |                                                                              [01;31m[K^~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:35:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:37:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotion_planning_api_tutorial_node[m[K’ was not declared in this scope
+   37 |     if (![01;31m[Kmotion_planning_api_tutorial_node[m[K->get_parameter("ompl.planning_plugins", planner_plugin_names))
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:37:84:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanner_plugin_names[m[K’ was not declared in this scope; did you mean ‘[01m[Kplanner_plugin_loader[m[K’?
+   37 |     if (!motion_planning_api_tutorial_node->get_parameter("ompl.planning_plugins", [01;31m[Kplanner_plugin_names[m[K))
+      |                                                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                    [32m[Kplanner_plugin_loader[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:3[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:38:18:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+   38 |     RCLCPP_FATAL([01;31m[KLOGGER[m[K, "Could not find planner plugin names");
+      |                  [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:38:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |     [01;31m[KRCLCPP_FATAL[m[K(LOGGER, "Could not find planner plugin names");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:38:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |     [01;31m[KRCLCPP_FATAL[m[K(LOGGER, "Could not find planner plugin names");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:38:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |     [01;31m[KRCLCPP_FATAL[m[K(LOGGER, "Could not find planner plugin names");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:41:27:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kreset[m[K’ in ‘[01m[Kplanner_plugin_loader[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   41 |     planner_plugin_loader.[01;31m[Kreset[m[K(new pluginlib::ClassLoader<planning_interface::PlannerManager>(
+      |                           [01;31m[K^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:41:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kpluginlib[m[K’ does not name a type
+   41 |     planner_plugin_loader.reset(new [01;31m[Kpluginlib[m[K::ClassLoader<planning_interface::PlannerManager>(
+      |                                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:44:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kpluginlib[m[K’ does not name a type
+   44 |     catch ([01;31m[Kpluginlib[m[K::PluginlibException& ex)
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:44:41:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   44 |     catch (pluginlib::PluginlibException[01;31m[K&[m[K ex)
+      |                                         [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:44:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   44 |     catch [34m[K([m[Kpluginlib::PluginlibException[01;31m[K&[m[K ex)
+      |           [34m[K~[m[K                             [01;31m[K^[m[K
+      |                                         [32m[K)[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:44:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:44:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kex[m[K’ was not declared in this scope; did you mean ‘[01m[Kexp[m[K’?
+   44 |     catch (pluginlib::PluginlibException& [01;31m[Kex[m[K)
+      |                                           [01;31m[K^~[m[K
+      |                                           [32m[Kexp[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:49:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanner_plugin_names[m[K’ was not declared in this scope; did you mean ‘[01m[Kplanner_plugin_loader[m[K’?
+   49 |     if ([01;31m[Kplanner_plugin_names[m[K.empty())
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kplanner_plugin_loader[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:3[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:51:18:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+   51 |     RCLCPP_ERROR([01;31m[KLOGGER[m[K,
+      |                  [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:51:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   51 |     [01;31m[KRCLCPP_ERROR[m[K(LOGGER,
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:51:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   51 |     [01;31m[KRCLCPP_ERROR[m[K(LOGGER,
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:51:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   51 |     [01;31m[KRCLCPP_ERROR[m[K(LOGGER,
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:56:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanner_plugin_names[m[K’ was not declared in this scope; did you mean ‘[01m[Kplanner_plugin_loader[m[K’?
+   56 |     const auto& planner_name = [01;31m[Kplanner_plugin_names[m[K.at(0);
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                [32m[Kplanner_plugin_loader[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:59:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanner_instance[m[K’ was not declared in this scope
+   59 |     [01;31m[Kplanner_instance[m[K.reset(planner_plugin_loader->createUnmanagedInstance(planner_name));
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:59:49:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   59 |     planner_instance.reset(planner_plugin_loader[01;31m[K->[m[KcreateUnmanagedInstance(planner_name));
+      |                                                 [01;31m[K^~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:60:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotion_planning_api_tutorial_node[m[K’ was not declared in this scope
+   60 |     if (!planner_instance->initialize(robot_model, [01;31m[Kmotion_planning_api_tutorial_node[m[K,
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:3[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:62:22:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+   62 |         RCLCPP_FATAL([01;31m[KLOGGER[m[K, "Could not initialize planner instance");
+      |                      [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:62:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   62 |         [01;31m[KRCLCPP_FATAL[m[K(LOGGER, "Could not initialize planner instance");
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:62:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   62 |         [01;31m[KRCLCPP_FATAL[m[K(LOGGER, "Could not initialize planner instance");
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:62:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   62 |         [01;31m[KRCLCPP_FATAL[m[K(LOGGER, "Could not initialize planner instance");
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:63:17:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+   63 |     RCLCPP_INFO([01;31m[KLOGGER[m[K, "Using planning interface '%s'", planner_instance->getDescription().c_str());
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:63:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   63 |     [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Using planning interface '%s'", planner_instance->getDescription().c_str());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:63:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   63 |     [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Using planning interface '%s'", planner_instance->getDescription().c_str());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:63:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   63 |     [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Using planning interface '%s'", planner_instance->getDescription().c_str());
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:65:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kpluginlib[m[K’ does not name a type
+   65 |     catch ([01;31m[Kpluginlib[m[K::PluginlibException& ex)
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:65:41:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   65 |     catch (pluginlib::PluginlibException[01;31m[K&[m[K ex)
+      |                                         [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:65:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   65 |     catch [34m[K([m[Kpluginlib::PluginlibException[01;31m[K&[m[K ex)
+      |           [34m[K~[m[K                             [01;31m[K^[m[K
+      |                                         [32m[K)[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:65:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:75:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotion_planning_api_tutorial_node[m[K’ was not declared in this scope
+   75 |     moveit::planning_interface::MoveGroupInterface move_group([01;31m[Kmotion_planning_api_tutorial_node[m[K, PLANNING_GROUP);
+      |                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

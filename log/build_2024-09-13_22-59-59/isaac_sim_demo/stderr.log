@@ -1,0 +1,16 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:81:90:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfor[m[K’
+   81 |               moveit::core::robotStateMsgToRobotState(robot_state_msg,moveit_robot_state)
+      |                                                                                          [01;31m[K^[m[K
+      |                                                                                          [32m[K;[m[K
+   82 |               [32m[Kfor[m[K (size_t i = 0; i < robot_state_msg.joint_state.name.size(); ++i)
+      |               [32m[K~~~[m[K                                                                         
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:82:34:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+   82 |               for (size_t i = 0; [01;31m[Ki[m[K < robot_state_msg.joint_state.name.size(); ++i)
+      |                                  [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:104:60:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ was not declared in this scope
+  104 |   const moveit::core::JointModelGroup* joint_model_group = [01;31m[Krobot_state[m[K.getJointModelGroup("Group1");
+      |                                                            [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

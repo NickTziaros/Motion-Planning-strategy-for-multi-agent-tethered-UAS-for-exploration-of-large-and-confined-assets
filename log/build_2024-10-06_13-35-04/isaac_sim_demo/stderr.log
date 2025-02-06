@@ -1,0 +1,16 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:427:57:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kkinematic_constraints::ConstraintEvaluationResult result[m[K’
+  427 |       kinematic_constraints::ConstraintEvaluationResult [01;31m[Kresult[m[K = vis_constraint_checker.decide(robot_state,true);
+      |                                                         [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:355:57:[m[K [01;36m[Knote: [m[K‘[01m[Kkinematic_constraints::ConstraintEvaluationResult result[m[K’ previously declared here
+  355 |       kinematic_constraints::ConstraintEvaluationResult [01;36m[Kresult[m[K = vis_constraint_checker.decide(robot_state,true);
+      |                                                         [01;36m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:428:12:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kbool success[m[K’
+  428 |       bool [01;31m[Ksuccess[m[K = result.satisfied;
+      |            [01;31m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:356:12:[m[K [01;36m[Knote: [m[K‘[01m[Kbool success[m[K’ previously declared here
+  356 |       bool [01;36m[Ksuccess[m[K = result.satisfied;
+      |            [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

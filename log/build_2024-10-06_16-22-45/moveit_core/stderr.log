@@ -1,0 +1,18 @@
+[31mCMake Error at CMakeLists.txt:39 (find_package):
+  By not providing "Findplanning_scene.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "planning_scene", but CMake did not find one.
+
+  Could not find a package configuration file provided by "planning_scene"
+  with any of the following names:
+
+    planning_sceneConfig.cmake
+    planning_scene-config.cmake
+
+  Add the installation prefix of "planning_scene" to CMAKE_PREFIX_PATH or set
+  "planning_scene_DIR" to a directory containing one of the above files.  If
+  "planning_scene" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m
+gmake: *** [Makefile:1080: cmake_check_build_system] Error 1

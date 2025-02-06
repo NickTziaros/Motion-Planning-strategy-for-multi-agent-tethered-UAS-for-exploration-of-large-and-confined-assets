@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target joint_space[0m
+[  9%] Built target StateSubscriber_node
+[ 18%] Built target markers_node
+[ 27%] Built target visualization_node
+[ 36%] Built target tf_to_pos_node
+[ 45%] Built target moveit_test_node
+[ 54%] Built target isaac_sim_demo_library
+[ 68%] Built target cartesian
+[ 72%] Built target spawn_scene
+[ 77%] [32mBuilding CXX object CMakeFiles/joint_space.dir/src/joint_space.cpp.o[0m
+[ 86%] Built target ompl_lifecycle
+[ 95%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:616:50:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kboost::function<bool(moveit::core::RobotState*, bool)>[m[K’ to ‘[01m[Kconst StateFeasibilityFn&[m[K’ {aka ‘[01m[Kconst std::function<bool(const moveit::core::RobotState&, bool)>&[m[K’}
+  616 |     planning_scene->setStateFeasibilityPredicate([01;31m[Kfeasible_predicate[m[K) ;
+      |                                                  [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                                  [01;31m[K|[m[K
+      |                                                  [01;31m[Kboost::function<bool(moveit::core::RobotState*, bool)>[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_request_adapter/planning_request_adapter.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:8[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:774:63:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid planning_scene::PlanningScene::setStateFeasibilityPredicate(const StateFeasibilityFn&)[m[K’
+  774 |   void setStateFeasibilityPredicate([01;36m[Kconst StateFeasibilityFn& fn[m[K)
+      |                                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

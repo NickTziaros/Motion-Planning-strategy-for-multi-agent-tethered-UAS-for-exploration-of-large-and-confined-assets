@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000146] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000165] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000176] (-) JobUnselected: {'identifier': 'four_drone_demo'}
+[0.000185] (-) JobUnselected: {'identifier': 'isaac_twin_moveit_config'}
+[0.000194] (-) JobUnselected: {'identifier': 'launch_param_builder'}
+[0.000203] (-) JobUnselected: {'identifier': 'moveit'}
+[0.000212] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.000220] (-) JobUnselected: {'identifier': 'moveit_chomp_optimizer_adapter'}
+[0.000388] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000398] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.000406] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.000415] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.000423] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.000432] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.000507] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.000516] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.000525] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.000593] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.000616] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.000636] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.000645] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.000663] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.000681] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.000698] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.000716] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.000733] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.000758] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.000767] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.000776] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.000785] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.000803] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.000821] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.000836] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.000859] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.000868] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.000911] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.000922] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.000930] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.000939] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.000952] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.000961] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.000974] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.000983] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.000997] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.001046] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.001058] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.001067] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.001076] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.001088] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.001096] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.001106] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.001115] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.001123] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.001140] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.001160] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.001170] (-) JobUnselected: {'identifier': 'rosparam_shortcuts'}
+[0.001203] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.001213] (-) JobUnselected: {'identifier': 'srdfdom'}
+[0.001228] (-) JobUnselected: {'identifier': 'test_moveit_config'}
+[0.001240] (isaac_sim_demo) JobQueued: {'identifier': 'isaac_sim_demo', 'dependencies': OrderedDict([('custom_interfaces', '/home/ubuntu/ros2_ws/install/custom_interfaces'), ('launch_param_builder', '/home/ubuntu/ros2_ws/install/launch_param_builder'), ('moveit_common', '/home/ubuntu/ros2_ws/install/moveit_common'), ('moveit_resources_fanuc_description', '/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description'), ('moveit_resources_panda_description', '/home/ubuntu/ros2_ws/install/moveit_resources_panda_description'), ('moveit_resources_pr2_description', '/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description'), ('moveit_resources_prbt_support', '/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support'), ('srdfdom', '/home/ubuntu/ros2_ws/install/srdfdom'), ('moveit_configs_utils', '/home/ubuntu/ros2_ws/install/moveit_configs_utils'), ('moveit_resources_fanuc_moveit_config', '/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config'), ('moveit_resources_panda_moveit_config', '/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config'), ('moveit_core', '/home/ubuntu/ros2_ws/install/moveit_core'), ('moveit_resources_prbt_ikfast_manipulator_plugin', '/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin'), ('moveit_ros_occupancy_map_monitor', '/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor'), ('moveit_simple_controller_manager', '/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager'), ('pilz_industrial_motion_planner_testutils', '/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils'), ('moveit_ros_planning', '/home/ubuntu/ros2_ws/install/moveit_ros_planning'), ('moveit_kinematics', '/home/ubuntu/ros2_ws/install/moveit_kinematics'), ('moveit_planners_ompl', '/home/ubuntu/ros2_ws/install/moveit_planners_ompl'), ('moveit_ros_robot_interaction', '/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction'), ('moveit_ros_warehouse', '/home/ubuntu/ros2_ws/install/moveit_ros_warehouse'), ('moveit_visual_tools', '/home/ubuntu/ros2_ws/install/moveit_visual_tools'), ('moveit_ros_move_group', '/home/ubuntu/ros2_ws/install/moveit_ros_move_group'), ('moveit_resources_prbt_moveit_config', '/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config'), ('moveit_ros_planning_interface', '/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface'), ('moveit_resources_prbt_pg70_support', '/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support'), ('moveit_ros_visualization', '/home/ubuntu/ros2_ws/install/moveit_ros_visualization'), ('moveit_setup_framework', '/home/ubuntu/ros2_ws/install/moveit_setup_framework'), ('pilz_industrial_motion_planner', '/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner'), ('moveit_planners', '/home/ubuntu/ros2_ws/install/moveit_planners'), ('moveit_setup_app_plugins', '/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins'), ('moveit_setup_controllers', '/home/ubuntu/ros2_ws/install/moveit_setup_controllers'), ('moveit_setup_core_plugins', '/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins'), ('moveit_setup_srdf_plugins', '/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins'), ('moveit_setup_assistant', '/home/ubuntu/ros2_ws/install/moveit_setup_assistant')])}
+[0.001307] (isaac_sim_demo) JobStarted: {'identifier': 'isaac_sim_demo'}
+[0.058443] (isaac_sim_demo) JobProgress: {'identifier': 'isaac_sim_demo', 'progress': 'cmake'}
+[0.059009] (isaac_sim_demo) JobProgress: {'identifier': 'isaac_sim_demo', 'progress': 'build'}
+[0.059522] (isaac_sim_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/isaac_sim_demo', '--', '-j24', '-l24'], 'cwd': '/home/ubuntu/ros2_ws/build/isaac_sim_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'isaacsim-HP-Z2-Tower-G9-Workstation-Desktop-PC'), ('GIT_ASKPASS', '/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass.sh'), ('ISAACSIM_PATH', '/isaac-sim'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_controllers/lib:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins/lib:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner/lib:/home/ubuntu/ros2_ws/install/moveit_setup_framework/lib:/home/ubuntu/ros2_ws/install/moveit_ros_visualization/lib:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/lib:/home/ubuntu/ros2_ws/install/moveit_ros_move_group/lib:/home/ubuntu/ros2_ws/install/moveit_visual_tools/lib:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse/lib:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction/lib:/home/ubuntu/ros2_ws/install/moveit_planners_ompl/lib:/home/ubuntu/ros2_ws/install/moveit_kinematics/lib:/home/ubuntu/ros2_ws/install/moveit_ros_planning/lib:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager/lib:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/ubuntu/ros2_ws/install/moveit_core/lib:/home/ubuntu/ros2_ws/install/srdfdom/lib:/home/ubuntu/ros2_ws/install/custom_interfaces/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core/lib:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface/lib:/home/ubuntu/ros2_ws/install/moveit_setup_assistant/lib:/home/ubuntu/ros2_ws/install/moveit_servo/lib:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning/lib:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks/lib:/home/ubuntu/ros2_ws/install/moveit_ros_perception/lib:/home/ubuntu/ros2_ws/install/moveit_planners_chomp/lib:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/ubuntu/ros2_ws/install/chomp_motion_planner/lib:/home/ubuntu/ros2_ws/install/rviz_marker_tools/lib:/home/ubuntu/ros2_ws/install/rosparam_shortcuts/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-ca0166ca-7dfb-474c-9056-e6a2c290bbf1.sock'), ('MIN_DRIVER_VERSION', '525.60.11'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-21eb6ed5-a8bb-490d-8b9f-a5fd6a696463.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/ubuntu/ros2_ws/install/moveit_core/bin:/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('VK_DRIVER_FILES', '/etc/vulkan/icd.d/nvidia_icd.json'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-21eb6ed5-a8bb-490d-8b9f-a5fd6a696463.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7a75ec24d6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-21eb6ed5-a8bb-490d-8b9f-a5fd6a696463.sock'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/home/ubuntu/ros2_ws/install/test_moveit_config:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/ubuntu/ros2_ws/install/moveit_runtime:/home/ubuntu/ros2_ws/install/moveit2_tutorials:/home/ubuntu/ros2_ws/install/moveit:/home/ubuntu/ros2_ws/install/isaac_twin_moveit_config:/home/ubuntu/ros2_ws/install/four_drone_demo:/home/ubuntu/ros2_ws/install/chain_moveit_config:/home/ubuntu/ros2_ws/install/4_drone_demo:/home/ubuntu/ros2_ws/install/isaac_sim_demo:/home/ubuntu/ros2_ws/install/moveit_planners:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner:/home/ubuntu/ros2_ws/install/moveit_visual_tools:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface:/home/ubuntu/ros2_ws/install/moveit_plugins:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager:/home/ubuntu/ros2_ws/install/moveit_setup_assistant:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_controllers:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_framework:/home/ubuntu/ros2_ws/install/moveit_servo:/home/ubuntu/ros2_ws/install/moveit_ros:/home/ubuntu/ros2_ws/install/moveit_ros_visualization:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction:/home/ubuntu/ros2_ws/install/moveit_ros_perception:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/ubuntu/ros2_ws/install/moveit_ros_move_group:/home/ubuntu/ros2_ws/install/moveit_planners_ompl:/home/ubuntu/ros2_ws/install/moveit_ros_planning:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ubuntu/ros2_ws/install/moveit_planners_chomp:/home/ubuntu/ros2_ws/install/moveit_kinematics:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/ubuntu/ros2_ws/install/chomp_motion_planner:/home/ubuntu/ros2_ws/install/moveit_core:/home/ubuntu/ros2_ws/install/srdfdom:/home/ubuntu/ros2_ws/install/rviz_marker_tools:/home/ubuntu/ros2_ws/install/rosparam_shortcuts:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support:/home/ubuntu/ros2_ws/install/moveit_resources:/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description:/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_panda_description:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description:/home/ubuntu/ros2_ws/install/moveit_common:/home/ubuntu/ros2_ws/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OMNI_PASS', 'admin'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ACCEPT_EULA', 'Y'), ('OMNI_SERVER', 'http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/2023.1.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/ros2_ws/build/isaac_sim_demo'), ('OMNI_USER', 'admin'), ('PYTHONPATH', '/home/ubuntu/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('PRIVACY_CONSENT', 'Y'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/moveit_setup_assistant:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_controllers:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins:/home/ubuntu/ros2_ws/install/moveit_planners:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner:/home/ubuntu/ros2_ws/install/moveit_setup_framework:/home/ubuntu/ros2_ws/install/moveit_ros_visualization:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/ubuntu/ros2_ws/install/moveit_ros_move_group:/home/ubuntu/ros2_ws/install/moveit_visual_tools:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction:/home/ubuntu/ros2_ws/install/moveit_planners_ompl:/home/ubuntu/ros2_ws/install/moveit_kinematics:/home/ubuntu/ros2_ws/install/moveit_ros_planning:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ubuntu/ros2_ws/install/moveit_core:/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/ubuntu/ros2_ws/install/srdfdom:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support:/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description:/home/ubuntu/ros2_ws/install/moveit_resources_panda_description:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description:/home/ubuntu/ros2_ws/install/moveit_common:/home/ubuntu/ros2_ws/install/custom_interfaces:/home/ubuntu/ros2_ws/install/test_moveit_config:/home/ubuntu/ros2_ws/install/moveit_runtime:/home/ubuntu/ros2_ws/install/moveit2_tutorials:/home/ubuntu/ros2_ws/install/moveit:/home/ubuntu/ros2_ws/install/isaac_twin_moveit_config:/home/ubuntu/ros2_ws/install/four_drone_demo:/home/ubuntu/ros2_ws/install/chain_moveit_config:/home/ubuntu/ros2_ws/install/4_drone_demo:/home/ubuntu/ros2_ws/install/isaac_sim_demo:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface:/home/ubuntu/ros2_ws/install/moveit_plugins:/home/ubuntu/ros2_ws/install/moveit_servo:/home/ubuntu/ros2_ws/install/moveit_ros:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks:/home/ubuntu/ros2_ws/install/moveit_ros_perception:/home/ubuntu/ros2_ws/install/moveit_planners_chomp:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/ubuntu/ros2_ws/install/chomp_motion_planner:/home/ubuntu/ros2_ws/install/rviz_marker_tools:/home/ubuntu/ros2_ws/install/rosparam_shortcuts:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs:/home/ubuntu/ros2_ws/install/moveit_resources:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[0.099813] (-) TimerEvent: {}
+[0.108865] (isaac_sim_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_demo\x1b[0m\n'}
+[0.116702] (isaac_sim_demo) StdoutLine: {'line': b'[ 11%] Built target StateSubscriber_node\n'}
+[0.117302] (isaac_sim_demo) StdoutLine: {'line': b'[ 22%] Built target markers_node\n'}
+[0.117598] (isaac_sim_demo) StdoutLine: {'line': b'[ 33%] Built target visualization_node\n'}
+[0.117719] (isaac_sim_demo) StdoutLine: {'line': b'[ 44%] Built target tf_to_pos_node\n'}
+[0.124658] (isaac_sim_demo) StdoutLine: {'line': b'[ 66%] Built target moveit_test_node\n'}
+[0.124784] (isaac_sim_demo) StdoutLine: {'line': b'[ 66%] Built target isaac_sim_demo_library\n'}
+[0.136075] (isaac_sim_demo) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o\x1b[0m\n'}
+[0.159262] (isaac_sim_demo) StdoutLine: {'line': b'[ 94%] Built target ompl_controller_node\n'}
+[0.159495] (isaac_sim_demo) StdoutLine: {'line': b'[ 94%] Built target ompl_lifecycle\n'}
+[0.199918] (-) TimerEvent: {}
+[0.300174] (-) TimerEvent: {}
+[0.400438] (-) TimerEvent: {}
+[0.500739] (-) TimerEvent: {}
+[0.601022] (-) TimerEvent: {}
+[0.701291] (-) TimerEvent: {}
+[0.801569] (-) TimerEvent: {}
+[0.901844] (-) TimerEvent: {}
+[1.002132] (-) TimerEvent: {}
+[1.102424] (-) TimerEvent: {}
+[1.202759] (-) TimerEvent: {}
+[1.303002] (-) TimerEvent: {}
+[1.403256] (-) TimerEvent: {}
+[1.503522] (-) TimerEvent: {}
+[1.603754] (-) TimerEvent: {}
+[1.704014] (-) TimerEvent: {}
+[1.804265] (-) TimerEvent: {}
+[1.904504] (-) TimerEvent: {}
+[2.004739] (-) TimerEvent: {}
+[2.104982] (-) TimerEvent: {}
+[2.205242] (-) TimerEvent: {}
+[2.305491] (-) TimerEvent: {}
+[2.405726] (-) TimerEvent: {}
+[2.505964] (-) TimerEvent: {}
+[2.606207] (-) TimerEvent: {}
+[2.706486] (-) TimerEvent: {}
+[2.806722] (-) TimerEvent: {}
+[2.906968] (-) TimerEvent: {}
+[3.007228] (-) TimerEvent: {}
+[3.107488] (-) TimerEvent: {}
+[3.207730] (-) TimerEvent: {}
+[3.307994] (-) TimerEvent: {}
+[3.408245] (-) TimerEvent: {}
+[3.508515] (-) TimerEvent: {}
+[3.608749] (-) TimerEvent: {}
+[3.709001] (-) TimerEvent: {}
+[3.809228] (-) TimerEvent: {}
+[3.909482] (-) TimerEvent: {}
+[4.009733] (-) TimerEvent: {}
+[4.110032] (-) TimerEvent: {}
+[4.210301] (-) TimerEvent: {}
+[4.310540] (-) TimerEvent: {}
+[4.410784] (-) TimerEvent: {}
+[4.511035] (-) TimerEvent: {}
+[4.611264] (-) TimerEvent: {}
+[4.655507] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.655666] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:31:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.655709] (isaac_sim_demo) StderrLine: {'line': b'   31 |       new planning_scene_monitor::PlanningSceneMonitor(robot_model_loader\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[4.655743] (isaac_sim_demo) StderrLine: {'line': b'      |                                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.655779] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:44:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.655813] (isaac_sim_demo) StderrLine: {'line': b'   44 |   moveit::core::RobotModelPtr robot_model = robot_model_loader\x1b[01;31m\x1b[K->\x1b[m\x1b[KgetModel();\n'}
+[4.655847] (isaac_sim_demo) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.655965] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:56:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kplanning_pipeline\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.656001] (isaac_sim_demo) StderrLine: {'line': b'   56 |   \x1b[01;31m\x1b[Kplanning_pipeline\x1b[m\x1b[K::PlanningPipelinePtr planning_pipeline(\n'}
+[4.656035] (isaac_sim_demo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.664589] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:59:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kplanning_pipeline\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kplanning_scene\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.664770] (isaac_sim_demo) StderrLine: {'line': b'   59 |   const std::string planner_name = \x1b[01;31m\x1b[Kplanning_pipeline\x1b[m\x1b[K->getPlannerPluginName()\n'}
+[4.664838] (isaac_sim_demo) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.664899] (isaac_sim_demo) StderrLine: {'line': b'      |                                    \x1b[32m\x1b[Kplanning_scene\x1b[m\x1b[K\n'}
+[4.664955] (isaac_sim_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h:42\x1b[m\x1b[K,\n'}
+[4.665011] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:42\x1b[m\x1b[K,\n'}
+[4.665067] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45\x1b[m\x1b[K,\n'}
+[4.665128] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/robot_model_loader/robot_model_loader.h:40\x1b[m\x1b[K,\n'}
+[4.665183] (isaac_sim_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:4\x1b[m\x1b[K:\n'}
+[4.665236] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:60:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kwhile\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.665290] (isaac_sim_demo) StderrLine: {'line': b'   60 |   \x1b[01;31m\x1b[KRCLCPP_WARN\x1b[m\x1b[K(LOGGER, "Exception while creating planning plugin loader %s", planner_name);\n'}
+[4.665342] (isaac_sim_demo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.665396] (isaac_sim_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:54:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kjoint_model_group\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.665452] (isaac_sim_demo) StderrLine: {'line': b'   54 |   const moveit::core::JointModelGroup* \x1b[01;35m\x1b[Kjoint_model_group\x1b[m\x1b[K = robot_state->getJointModelGroup("Group1");\n'}
+[4.665508] (isaac_sim_demo) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.711364] (-) TimerEvent: {}
+[4.811646] (-) TimerEvent: {}
+[4.911952] (-) TimerEvent: {}
+[5.012256] (-) TimerEvent: {}
+[5.112494] (-) TimerEvent: {}
+[5.212769] (-) TimerEvent: {}
+[5.313018] (-) TimerEvent: {}
+[5.413297] (-) TimerEvent: {}
+[5.513581] (-) TimerEvent: {}
+[5.613856] (-) TimerEvent: {}
+[5.714134] (-) TimerEvent: {}
+[5.814410] (-) TimerEvent: {}
+[5.914702] (-) TimerEvent: {}
+[6.014989] (-) TimerEvent: {}
+[6.115265] (-) TimerEvent: {}
+[6.215541] (-) TimerEvent: {}
+[6.315826] (-) TimerEvent: {}
+[6.416213] (-) TimerEvent: {}
+[6.432595] (isaac_sim_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1\n'}
+[6.432911] (isaac_sim_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/cpp_demo.dir/all] Error 2\n'}
+[6.433095] (isaac_sim_demo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.434353] (isaac_sim_demo) CommandEnded: {'returncode': 2}
+[6.516331] (-) TimerEvent: {}
+[6.547844] (isaac_sim_demo) JobEnded: {'identifier': 'isaac_sim_demo', 'rc': 2}
+[6.558321] (-) EventReactorShutdown: {}

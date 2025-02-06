@@ -1,0 +1,13 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:439:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _object_type = struct moveit_msgs::msg::CollisionObject_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct moveit_msgs::msg::CollisionObject_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kobject[m[K’
+  439 |         collision_object.object.[01;31m[Kobject[m[K.operation = attached_object.object.ADD;
+      |                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:439:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kattached_object[m[K’ was not declared in this scope
+  439 |         collision_object.object.object.operation = [01;31m[Kattached_object[m[K.object.ADD;
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:440:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _object_type = struct moveit_msgs::msg::CollisionObject_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct moveit_msgs::msg::CollisionObject_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktouch_links[m[K’
+  440 |         collision_object.object.[01;31m[Ktouch_links[m[K = std::vector<std::string>{ "Drone3", "Drone4" };
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,13 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:179:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<double, std::allocator<double> >[m[K’ to ‘[01m[Kconst std::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >&[m[K’
+  179 |     visual_tools.publishIKSolutions([01;31m[Kjoint_values[m[K,joint_model_group,5);
+      |                                     [01;31m[K^~~~~~~~~~~~[m[K
+      |                                     [01;31m[K|[m[K
+      |                                     [01;31m[Kstd::vector<double, std::allocator<double> >[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:5[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:287:90:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::publishIKSolutions(const std::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >&, const moveit::core::JointModelGroup*, double)[m[K’
+  287 |   bool publishIKSolutions([01;36m[Kconst std::vector<trajectory_msgs::msg::JointTrajectoryPoint>& ik_solutions[m[K,
+      |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,34 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:117:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KisValid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  117 |   bool [01;35m[KisValid[m[K = planning_scene->isStateValid(robot_state,"Group1");
+      |        [01;35m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:150:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_names[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  150 |   const std::vector<std::string>& [01;35m[Kjoint_names[m[K = joint_model_group->getVariableNames();
+      |                                   [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:75:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+   75 |               [01;35m[Kplanning_scene->usePlanningSceneMsg(response->scene)[m[K;
+      |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_request_adapter/planning_request_adapter.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:9[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:702:8:[m[K [01;36m[Knote: [m[Kin a call to non-static member function ‘[01m[Kbool planning_scene::PlanningScene::usePlanningSceneMsg(const PlanningScene&)[m[K’
+  702 |   bool [01;36m[KusePlanningSceneMsg[m[K(const moveit_msgs::msg::PlanningScene& scene);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:117:46:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+  117 |   bool isValid = [01;35m[Kplanning_scene->isStateValid(robot_state,"Group1")[m[K;
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_request_adapter/planning_request_adapter.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:9[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:829:8:[m[K [01;36m[Knote: [m[Kin a call to non-static member function ‘[01m[Kbool planning_scene::PlanningScene::isStateValid(const moveit::core::RobotState&, const string&, bool) const[m[K’
+  829 |   bool [01;36m[KisStateValid[m[K(const moveit::core::RobotState& state, const std::string& group = "", bool verbose = false) const;
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:122:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthis[m[K’ pointer is null [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-Wnonnull]8;;[m[K]
+  122 |     bool isValid = [01;35m[Kplanning_scene->isStateValid(robot_state,"Group1")[m[K;
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_request_adapter/planning_request_adapter.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:9[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:829:8:[m[K [01;36m[Knote: [m[Kin a call to non-static member function ‘[01m[Kbool planning_scene::PlanningScene::isStateValid(const moveit::core::RobotState&, const string&, bool) const[m[K’
+  829 |   bool [01;36m[KisStateValid[m[K(const moveit::core::RobotState& state, const std::string& group = "", bool verbose = false) const;
+      |        [01;36m[K^~~~~~~~~~~~[m[K

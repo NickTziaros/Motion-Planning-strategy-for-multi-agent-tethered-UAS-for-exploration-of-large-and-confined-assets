@@ -1,0 +1,26 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:393:15:[m[K [01;31m[Kerror: [m[Kduplicate ‘[01m[Kconst[m[K’
+  393 |         const [01;31m[Kconst[m[K moveit::core::RobotState robot = robot_state
+      |               [01;31m[K^~~~~[m[K
+      |               [31m[K-----[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:394:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kbool[m[K’
+  394 |         [01;31m[Kbool[m[K LoS = checkRayBoxIntersection(robot,dynamicsWorld);
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:395:13:[m[K [01;31m[Kerror: [m[K‘[01m[KLoS[m[K’ was not declared in this scope
+  395 |         if ([01;31m[KLoS[m[K)
+      |             [01;31m[K^~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:399:19:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  399 |         else false[01;35m[K;[m[K
+      |                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:401:34:[m[K [01;31m[Kerror: [m[K‘[01m[KLoS[m[K’ was not declared in this scope
+  401 |         RCLCPP_INFO(LOGGER,"%s", [01;31m[KLoS[m[K ? "true" : "false");
+      |                                  [01;31m[K^~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:402:7:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  402 |       [01;35m[K}[m[K;
+      |       [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

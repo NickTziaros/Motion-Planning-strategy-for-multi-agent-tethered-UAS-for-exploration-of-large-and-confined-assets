@@ -1,0 +1,43 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/RRT_controller.cpp:101:30:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kompl::geometric::SimpleSetup RRT_controller::ompl_controller::configure(std::vector<double*>, std::vector<double, std::allocator<double> >)[m[K’
+  101 | ompl::geometric::SimpleSetup [01;31m[Kompl_controller[m[K::configure(std::vector<double*> quad_poses, std::vector<double> goal_pose){
+      |                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/RRT_controller.cpp:4[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/include/isaac_sim_demo/RRT_controller.hpp:62:34:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kompl::geometric::SimpleSetup RRT_controller::ompl_controller::configure(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)[m[K’
+   62 |     ompl::geometric::SimpleSetup [01;36m[Kconfigure[m[K(std::vector<double> quad_poses, std::vector<double> goal_pose);
+      |                                  [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/include/isaac_sim_demo/RRT_controller.hpp:44:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass RRT_controller::ompl_controller[m[K’ defined here
+   44 | class [01;36m[Kompl_controller[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/isaac_sim_demo_library.dir/build.make:76: CMakeFiles/isaac_sim_demo_library.dir/src/RRT_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/isaac_sim_demo_library.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o: warning: relocation against `_ZTVN4ompl9geometric13PathGeometricE' in read-only section `.text._ZN15LifecycleTalker7publishEv[_ZN15LifecycleTalker7publishEv]'
+/usr/bin/ld: CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o: in function `ompl::geometric::PathGeometric::~PathGeometric()':
+ompl_lifecycle.cpp:(.text._ZN4ompl9geometric13PathGeometricD2Ev[_ZN4ompl9geometric13PathGeometricD5Ev]+0x8): undefined reference to `vtable for ompl::geometric::PathGeometric'
+/usr/bin/ld: ompl_lifecycle.cpp:(.text._ZN4ompl9geometric13PathGeometricD2Ev[_ZN4ompl9geometric13PathGeometricD5Ev]+0x18): undefined reference to `ompl::geometric::PathGeometric::freeMemory()'
+/usr/bin/ld: CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o: in function `ompl::geometric::PathGeometric::~PathGeometric()':
+ompl_lifecycle.cpp:(.text._ZN4ompl9geometric13PathGeometricD0Ev[_ZN4ompl9geometric13PathGeometricD5Ev]+0x9): undefined reference to `vtable for ompl::geometric::PathGeometric'
+/usr/bin/ld: ompl_lifecycle.cpp:(.text._ZN4ompl9geometric13PathGeometricD0Ev[_ZN4ompl9geometric13PathGeometricD5Ev]+0x19): undefined reference to `ompl::geometric::PathGeometric::freeMemory()'
+/usr/bin/ld: CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o: in function `ompl::geometric::SimpleSetup::~SimpleSetup()':
+ompl_lifecycle.cpp:(.text._ZN4ompl9geometric11SimpleSetupD2Ev[_ZN4ompl9geometric11SimpleSetupD5Ev]+0x7): undefined reference to `vtable for ompl::geometric::SimpleSetup'
+/usr/bin/ld: CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o: in function `LifecycleTalker::publish()':
+ompl_lifecycle.cpp:(.text._ZN15LifecycleTalker7publishEv[_ZN15LifecycleTalker7publishEv]+0x232): undefined reference to `RRT_controller::ompl_controller::configure(std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)'
+/usr/bin/ld: ompl_lifecycle.cpp:(.text._ZN15LifecycleTalker7publishEv[_ZN15LifecycleTalker7publishEv]+0x27f): undefined reference to `vtable for ompl::geometric::SimpleSetup'
+/usr/bin/ld: ompl_lifecycle.cpp:(.text._ZN15LifecycleTalker7publishEv[_ZN15LifecycleTalker7publishEv]+0x3a3): undefined reference to `RRT_controller::ompl_controller::planPath(ompl::geometric::SimpleSetup)'
+/usr/bin/ld: ompl_lifecycle.cpp:(.text._ZN15LifecycleTalker7publishEv[_ZN15LifecycleTalker7publishEv]+0x420): undefined reference to `RRT_controller::ompl_controller::extractPath(ompl::geometric::PathGeometric*)'
+/usr/bin/ld: ompl_lifecycle.cpp:(.text._ZN15LifecycleTalker7publishEv[_ZN15LifecycleTalker7publishEv]+0x553): undefined reference to `vtable for ompl::geometric::PathGeometric'
+/usr/bin/ld: ompl_lifecycle.cpp:(.text._ZN15LifecycleTalker7publishEv[_ZN15LifecycleTalker7publishEv]+0x560): undefined reference to `ompl::geometric::PathGeometric::freeMemory()'
+/usr/bin/ld: CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o: in function `ompl::geometric::SimpleSetup::~SimpleSetup()':
+ompl_lifecycle.cpp:(.text._ZN4ompl9geometric11SimpleSetupD0Ev[_ZN4ompl9geometric11SimpleSetupD5Ev]+0x7): undefined reference to `vtable for ompl::geometric::SimpleSetup'
+/usr/bin/ld: CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o: in function `LifecycleTalker::~LifecycleTalker()':
+ompl_lifecycle.cpp:(.text._ZN15LifecycleTalkerD2Ev[_ZN15LifecycleTalkerD5Ev]+0x1e): undefined reference to `RRT_controller::ompl_controller::~ompl_controller()'
+/usr/bin/ld: CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o: in function `LifecycleTalker::LifecycleTalker(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool)':
+ompl_lifecycle.cpp:(.text._ZN15LifecycleTalkerC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb[_ZN15LifecycleTalkerC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb]+0x44e): undefined reference to `RRT_controller::ompl_controller::ompl_controller()'
+/usr/bin/ld: ompl_lifecycle.cpp:(.text._ZN15LifecycleTalkerC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb[_ZN15LifecycleTalkerC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb]+0x614): undefined reference to `RRT_controller::ompl_controller::~ompl_controller()'
+/usr/bin/ld: CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o: in function `LifecycleTalker::~LifecycleTalker()':
+ompl_lifecycle.cpp:(.text._ZN15LifecycleTalkerD0Ev[_ZN15LifecycleTalkerD5Ev]+0x1e): undefined reference to `RRT_controller::ompl_controller::~ompl_controller()'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/ompl_lifecycle.dir/build.make:217: ompl_lifecycle] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/ompl_lifecycle.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

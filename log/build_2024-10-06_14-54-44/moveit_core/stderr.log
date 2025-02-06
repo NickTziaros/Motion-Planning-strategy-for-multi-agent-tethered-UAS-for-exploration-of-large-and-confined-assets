@@ -1,0 +1,38 @@
+In file included from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/collision_plugin.h:39[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/collision_plugin_cache.h:38[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/src/collision_plugin_cache.cpp:35[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:785:109:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene[m[K’ does not name a type
+  785 |   bool configure(const moveit_msgs::msg::VisibilityConstraint& vc, const moveit::core::Transforms& tf,const [01;31m[Kplanning_scene[m[K::PlanningScene planning_scene);
+      |                                                                                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/collision_plugin.h:39[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/collision_plugin_cache.h:38[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/src/collision_plugin_cache.cpp:35[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:785:139:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kplanning_scene[m[K’
+  785 | nfigure(const moveit_msgs::msg::VisibilityConstraint& vc, const moveit::core::Transforms& tf,const planning_scene::PlanningScene [01;31m[Kplanning_scene[m[K);
+      |                                                                                                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:785:138:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kplanning_scene[m[K’
+  785 | onfigure[34m[K([m[Kconst moveit_msgs::msg::VisibilityConstraint& vc, const moveit::core::Transforms& tf,const planning_scene::PlanningScene[01;31m[K [m[K[32m[Kplanning_scene[m[K);
+      |         [34m[K~[m[K                                                                                                                        [01;31m[K^[m[K[32m[K~~~~~~~~~~~~~~[m[K
+      |                                                                                                                                  [32m[K)[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/collision_plugin.h:39[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/collision_plugin_cache.h:38[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/src/collision_plugin_cache.cpp:35[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:785:125:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  785 |   bool configure(const moveit_msgs::msg::VisibilityConstraint& vc, const moveit::core::Transforms& tf,const planning_scene::[01;31m[KPlanningScene[m[K planning_scene);
+      |                                                                                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                                                                                                          [32m[K;[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/collision_plugin.h:39[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/collision_plugin_cache.h:38[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/src/collision_plugin_cache.cpp:35[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:785:139:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene[m[K’ does not name a type
+  785 | nfigure(const moveit_msgs::msg::VisibilityConstraint& vc, const moveit::core::Transforms& tf,const planning_scene::PlanningScene [01;31m[Kplanning_scene[m[K);
+      |                                                                                                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [collision_detection/CMakeFiles/moveit_collision_detection.dir/build.make:188: collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_plugin_cache.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:2186: collision_detection/CMakeFiles/moveit_collision_detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

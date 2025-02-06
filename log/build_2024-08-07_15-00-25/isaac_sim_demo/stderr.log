@@ -1,0 +1,24 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:[m[K In member function ‘[01m[Kvoid LifecycleTalker::publish()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:66:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+   66 |     if (![01;31m[Kpub_[m[K->is_activated()) {
+      |          [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:78:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+   78 |     [01;31m[Kpub_[m[K->publish(std::move(msg));
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn LifecycleTalker::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:116:56:[m[K [01;31m[Kerror: [m[K‘[01m[KPathPublisher[m[K’ has not been declared
+  116 |         ""+Quadrotor_num+"/state/pose", 10, std::bind(&[01;31m[KPathPublisher[m[K::pose_callback, this, std::placeholders::_1));
+      |                                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:118:56:[m[K [01;31m[Kerror: [m[K‘[01m[KPathPublisher[m[K’ has not been declared
+  118 |         "/"+Quadrotor_num+"/goal_pose", 10, std::bind(&[01;31m[KPathPublisher[m[K::goal_callback, this, std::placeholders::_1));
+      |                                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:122:27:[m[K [01;31m[Kerror: [m[K‘[01m[KPathPublisher[m[K’ has not been declared
+  122 |         800ms, std::bind(&[01;31m[KPathPublisher[m[K::timer_callback,this));
+      |                           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn LifecycleTalker::on_cleanup(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:220:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+  220 |     [01;31m[Kpub_[m[K.reset();
+      |     [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/ompl_lifecycle.dir/build.make:76: CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/ompl_lifecycle.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

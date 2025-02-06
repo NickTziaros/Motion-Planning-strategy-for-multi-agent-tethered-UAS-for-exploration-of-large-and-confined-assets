@@ -1,0 +1,8 @@
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+  ament_target_dependencies() the passed package name 'planning_scene' was
+  not found before
+Call Stack (most recent call first):
+  kinematic_constraints/CMakeLists.txt:16 (ament_target_dependencies)
+
+[0m
+gmake: *** [Makefile:1080: cmake_check_build_system] Error 1

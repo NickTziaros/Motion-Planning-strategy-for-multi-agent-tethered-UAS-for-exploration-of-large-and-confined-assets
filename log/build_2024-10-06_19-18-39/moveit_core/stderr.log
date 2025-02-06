@@ -1,0 +1,7 @@
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:[m[K In member function ‘[01m[Kvirtual kinematic_constraints::ConstraintEvaluationResult kinematic_constraints::VisibilityConstraint::decide(const moveit::core::RobotState&, bool) const[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:1117:3:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kcollision_env_[m[K’
+ 1117 |   [01;31m[Kcollision_env_[m[K->setWorld(world_ptr)
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/build.make:76: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1123: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

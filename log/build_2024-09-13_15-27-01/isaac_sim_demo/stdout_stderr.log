@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_test_node[0m
+[ 10%] Built target visualization_node
+[ 20%] Built target StateSubscriber_node
+[ 30%] Built target tf_to_pos_node
+[ 40%] Built target markers_node
+[ 50%] Built target isaac_sim_demo_library
+[ 60%] Built target spawn_scene
+[ 70%] Built target cpp_demo
+[ 75%] [32mBuilding CXX object CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o[0m
+[ 95%] Built target ompl_lifecycle
+[ 95%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:179:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kviz_visual_tools[m[K’ has not been declared
+  179 |     visual_tools.publishRobotState(joint_values,joint_model_group,[01;31m[Kviz_visual_tools[m[K::BLUE);
+      |                                                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

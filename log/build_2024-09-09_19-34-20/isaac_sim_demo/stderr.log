@@ -1,0 +1,33 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:71:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KrobotStateMsgToRobotState(const RobotState&, moveit::core::RobotStatePtr&)[m[K’
+   71 |               [01;31m[Kmoveit::core::robotStateMsgToRobotState(robot_state_msg, robot_state)[m[K;
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:8[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/conversions.h:63:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::robotStateMsgToRobotState(const moveit::core::Transforms&, const RobotState&, moveit::core::RobotState&, bool)[m[K’
+   63 | bool [01;36m[KrobotStateMsgToRobotState[m[K(const Transforms& tf, const moveit_msgs::msg::RobotState& robot_state, RobotState& state,
+      |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/conversions.h:63:6:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 2 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/conversions.h:73:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::robotStateMsgToRobotState(const RobotState&, moveit::core::RobotState&, bool)[m[K’
+   73 | bool [01;36m[KrobotStateMsgToRobotState[m[K(const moveit_msgs::msg::RobotState& robot_state, RobotState& state,
+      |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/conversions.h:73:93:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kmoveit::core::RobotStatePtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<moveit::core::RobotState>[m[K’} to ‘[01m[Kmoveit::core::RobotState&[m[K’
+   73 | bool robotStateMsgToRobotState(const moveit_msgs::msg::RobotState& robot_state, [01;36m[KRobotState& state[m[K,
+      |                                                                                 [01;36m[K~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:79:41:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Krobot_state[m[K’?
+   79 | moveit::core::robotStateMsgToRobotState([01;31m[Krobot_state_msg[m[K, robot_state);
+      |                                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                         [32m[Krobot_state[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/robot_model_loader/robot_model_loader.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:7[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:146:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_effector_state[m[K’ was not declared in this scope
+  146 |   RCLCPP_INFO_STREAM(LOGGER, "Translation: \n" << [01;31m[Kend_effector_state[m[K.translation().x()+0.1 << "\n");
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:165:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_effector_state[m[K’ was not declared in this scope
+  165 |   pose.pose.position.x = [01;31m[Kend_effector_state[m[K.translation().x()+0.1;
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

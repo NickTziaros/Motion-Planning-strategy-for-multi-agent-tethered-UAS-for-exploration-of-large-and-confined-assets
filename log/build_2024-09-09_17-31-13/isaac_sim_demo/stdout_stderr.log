@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_demo[0m
+[ 10%] Built target StateSubscriber_node
+[ 20%] Built target tf_to_pos_node
+[ 30%] Built target visualization_node
+[ 40%] Built target markers_node
+[ 50%] Built target moveit_test_node
+[ 60%] Built target isaac_sim_demo_library
+[ 70%] Built target spawn_scene
+[ 75%] [32mBuilding CXX object CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o[0m
+[ 85%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:71:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ does not name a type
+   71 |   const [01;31m[Krobot_state[m[K::RobotState& robot_state = psm->getCurrentState();
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:75:60:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ was not declared in this scope
+   75 |   const moveit::core::JointModelGroup* joint_model_group = [01;31m[Krobot_state[m[K->getJointModelGroup("Group1");
+      |                                                            [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

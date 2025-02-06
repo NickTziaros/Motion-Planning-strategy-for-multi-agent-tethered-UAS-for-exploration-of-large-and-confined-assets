@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_interfaces/srv/PlannerWorkspace.srv
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "PlannerWorkspace.srv")
+    struct PlannerWorkspace_Request {
+      @verbatim (language="comment", text=
+        "ompl planner workspace dimentions")
+      float upper;
+
+      float lower;
+    };
+    struct PlannerWorkspace_Response {
+      boolean success;
+    };
+  };
+};

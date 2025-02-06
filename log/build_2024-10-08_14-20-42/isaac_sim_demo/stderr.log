@@ -1,0 +1,10 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kvoid configure_bullet(std::shared_ptr<planning_scene::PlanningScene>, moveit::core::RobotState&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:117:55:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kvector<Transform<[...],[...],[01;32m[K1[m[K>,aligned_allocator<Transform<[...],[...],[01;32m[K1[m[K>>>[m[K’ to non-scalar type ‘[01m[Kvector<Transform<[...],[...],[01;32m[K2[m[K>,aligned_allocator<Transform<[...],[...],[01;32m[K2[m[K>>>[m[K’ requested
+  117 |       EigenSTL::vector_Affine3d object_pose = [01;31m[Kobject->shape_poses_[m[K
+      |                                               [01;31m[K~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:121:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kbox_shape[m[K’ was not declared in this scope
+  121 |       std::cout << [01;31m[Kbox_shape[m[K->size[1] << std::endl;
+      |                    [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

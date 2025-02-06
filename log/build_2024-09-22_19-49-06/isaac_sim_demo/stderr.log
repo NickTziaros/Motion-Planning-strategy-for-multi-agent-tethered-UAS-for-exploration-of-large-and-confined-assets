@@ -1,0 +1,28 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:107:78:[m[K [01;31m[Kerror: [m[K‘[01m[KRobotState[m[K’ has not been declared
+  107 |   moveit::core::GroupStateValidityCallbackFn callback_fn = [custom_argument]([01;31m[KRobotState[m[K* robot_state, const JointModelGroup* joint_group, const double* joint_group_variable_values) {
+      |                                                                              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:107:109:[m[K [01;31m[Kerror: [m[K‘[01m[KJointModelGroup[m[K’ does not name a type
+  107 |   moveit::core::GroupStateValidityCallbackFn callback_fn = [custom_argument](RobotState* robot_state, const [01;31m[KJointModelGroup[m[K* joint_group, const double* joint_group_variable_values) {
+      |                                                                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:114:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  114 |   }[01;31m[K;[m[K
+      |    [01;31m[K^[m[K
+      |    [32m[K)[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:107:77:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  107 |   moveit::core::GroupStateValidityCallbackFn callback_fn = [custom_argument][01;36m[K([m[KRobotState* robot_state, const JointModelGroup* joint_group, const double* joint_group_variable_values) {
+      |                                                                             [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:114:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+  114 |   }[01;31m[K;[m[K
+      |    [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:107:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  107 |   moveit::core::GroupStateValidityCallbackFn callback_fn = [custom_argument]([01;35m[KRobotState* robot_state[m[K, const JointModelGroup* joint_group, const double* joint_group_variable_values) {
+      |                                                                              [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:114:4:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kmain(int, char**)::<lambda(int*, int)>[m[K’ to non-scalar type ‘[01m[Kmoveit::core::GroupStateValidityCallbackFn[m[K’ {aka ‘[01m[Kstd::function<bool(moveit::core::RobotState*, const moveit::core::JointModelGroup*, const double*)>[m[K’} requested
+  114 |   }[01;31m[K;[m[K
+      |    [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

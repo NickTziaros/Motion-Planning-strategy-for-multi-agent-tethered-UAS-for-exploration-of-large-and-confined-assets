@@ -1,0 +1,50 @@
+[35m[1mConsolidate compiler generated dependencies of target joint_space[0m
+[ 13%] Built target StateSubscriber_node
+[ 18%] Built target visualization_node
+[ 27%] Built target markers_node
+[ 36%] Built target tf_to_pos_node
+[ 45%] Built target isaac_sim_demo_library
+[ 54%] Built target spawn_scene
+[ 63%] Built target cartesian
+[ 72%] Built target moveit_test_node
+[ 77%] [32mBuilding CXX object CMakeFiles/joint_space.dir/src/joint_space.cpp.o[0m
+[ 95%] Built target ompl_lifecycle
+[ 95%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:297:24:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+  297 |       box.dimensions =[[01;31m[K0.2[m[K];  // Box dimensions (x, y, z)
+      |                        [01;31m[K^~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:297:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+  297 |       box.dimensions =[0.2][01;31m[K;[m[K  // Box dimensions (x, y, z)
+      |                            [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:297:28:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kshape_msgs::msg::SolidPrimitive_<std::allocator<void> >::_dimensions_type[m[K’ {aka ‘[01m[Krosidl_runtime_cpp::BoundedVector<double, 3, std::allocator<double> >[m[K’} and ‘[01m[Kmain(int, char**)::<lambda()>[m[K’)
+In file included from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__struct.hpp:14[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp:7[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model.h:44[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp:208:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krosidl_runtime_cpp::BoundedVector<Tp, UpperBound, Alloc>& rosidl_runtime_cpp::BoundedVector<Tp, UpperBound, Alloc>::operator=(const rosidl_runtime_cpp::BoundedVector<Tp, UpperBound, Alloc>&) [with Tp = double; long unsigned int UpperBound = 3; Alloc = std::allocator<double>][m[K’
+  208 |   [01;36m[Koperator[m[K=(const BoundedVector & x)
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp:208:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmain(int, char**)::<lambda()>[m[K’ to ‘[01m[Kconst rosidl_runtime_cpp::BoundedVector<double, 3, std::allocator<double> >&[m[K’
+  208 |   operator=([01;36m[Kconst BoundedVector & x[m[K)
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krosidl_runtime_cpp::BoundedVector<Tp, UpperBound, Alloc>& rosidl_runtime_cpp::BoundedVector<Tp, UpperBound, Alloc>::operator=(rosidl_runtime_cpp::BoundedVector<Tp, UpperBound, Alloc>&&) [with Tp = double; long unsigned int UpperBound = 3; Alloc = std::allocator<double>][m[K’
+  219 |   [01;36m[Koperator[m[K=(BoundedVector && x)
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp:219:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmain(int, char**)::<lambda()>[m[K’ to ‘[01m[Krosidl_runtime_cpp::BoundedVector<double, 3, std::allocator<double> >&&[m[K’
+  219 |   operator=([01;36m[KBoundedVector && x[m[K)
+      |             [01;36m[K~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp:238:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krosidl_runtime_cpp::BoundedVector<Tp, UpperBound, Alloc>& rosidl_runtime_cpp::BoundedVector<Tp, UpperBound, Alloc>::operator=(std::initializer_list<typename std::vector<Tp, Alloc>::value_type>) [with Tp = double; long unsigned int UpperBound = 3; Alloc = std::allocator<double>; typename std::vector<Tp, Alloc>::value_type = double][m[K’
+  238 |   [01;36m[Koperator[m[K=(std::initializer_list<typename Base::value_type> l)
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp:238:62:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmain(int, char**)::<lambda()>[m[K’ to ‘[01m[Kstd::initializer_list<double>[m[K’
+  238 |   operator=([01;36m[Kstd::initializer_list<typename Base::value_type> l[m[K)
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

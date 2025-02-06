@@ -1,0 +1,13 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:323:80:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kmoveit_msgs::msg::MotionPlanRequest_<std::allocator<void> >::_goal_constraints_type[m[K’ {aka ‘[01m[Kstd::vector<moveit_msgs::msg::Constraints_<std::allocator<void> >, std::allocator<moveit_msgs::msg::Constraints_<std::allocator<void> > > >[m[K’} to ‘[01m[Kconst Constraints&[m[K’ {aka ‘[01m[Kconst moveit_msgs::msg::Constraints_<std::allocator<void> >&[m[K’}
+  323 |     auto sampler = sampler_manager.selectSampler(planning_scene, "Group1", [01;31m[Kreq.goal_constraints[m[K);
+      |                                                                            [01;31m[K~~~~^~~~~~~~~~~~~~~~[m[K
+      |                                                                                [01;31m[K|[m[K
+      |                                                                                [01;31m[Kmoveit_msgs::msg::MotionPlanRequest_<std::allocator<void> >::_goal_constraints_type {aka std::vector<moveit_msgs::msg::Constraints_<std::allocator<void> >, std::allocator<moveit_msgs::msg::Constraints_<std::allocator<void> > > >}[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:25[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/constraint_samplers/constraint_sampler_manager.h:95:75:[m[K [01;36m[Knote: [m[K  initializing argument 3 of ‘[01m[Kconstraint_samplers::ConstraintSamplerPtr constraint_samplers::ConstraintSamplerManager::selectSampler(const PlanningSceneConstPtr&, const string&, const Constraints&) const[m[K’
+   95 |                                      [01;36m[Kconst moveit_msgs::msg::Constraints& constr[m[K) const;
+      |                                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

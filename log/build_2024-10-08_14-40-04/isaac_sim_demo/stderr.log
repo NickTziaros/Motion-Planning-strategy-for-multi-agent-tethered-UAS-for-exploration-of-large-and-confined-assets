@@ -1,0 +1,15 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kvoid configure_bullet(std::shared_ptr<planning_scene::PlanningScene>, moveit::core::RobotState&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:124:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+  124 |       std::cout <<  [01;31m[K<<[m[K std::endl;
+      |                     [01;31m[K^~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:129:66:[m[K [01;31m[Kerror: [m[K‘[01m[KboxMotionState[m[K’ was not declared in this scope; did you mean ‘[01m[KbtMotionState[m[K’?
+  129 |       btRigidBody::btRigidBodyConstructionInfo boxRigidBodyCI(0, [01;31m[KboxMotionState[m[K, boxShape, btVector3(0, 0, 0));
+      |                                                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                                                  [32m[KbtMotionState[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:129:82:[m[K [01;31m[Kerror: [m[K‘[01m[KboxShape[m[K’ was not declared in this scope; did you mean ‘[01m[Kbox_shape[m[K’?
+  129 |       btRigidBody::btRigidBodyConstructionInfo boxRigidBodyCI(0, boxMotionState, [01;31m[KboxShape[m[K, btVector3(0, 0, 0));
+      |                                                                                  [01;31m[K^~~~~~~~[m[K
+      |                                                                                  [32m[Kbox_shape[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

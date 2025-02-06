@@ -1,0 +1,33 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:279:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_pose[m[K’ was not declared in this scope
+  279 |         [01;31m[Ksensor_pose[m[K.header.frame_id = "Drone3";
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:299:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisibility_constraint[m[K’ was not declared in this scope
+  299 |         [01;31m[Kvisibility_constraint[m[K.sensor_view_direction = 0
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:308:120:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kkinematic_constraints::VisibilityConstraint::VisibilityConstraint(moveit::core::RobotState&, const moveit::core::JointModelGroup*&, double&, double&)[m[K’
+  308 |             kinematic_constraints::VisibilityConstraint(goal_state, joint_model_group, tolerance_above, tolerance_below[01;31m[K)[m[K;
+      |                                                                                                                        [01;31m[K^[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_request_adapter/planning_request_adapter.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:8[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematic_constraints/kinematic_constraint.h:771:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kkinematic_constraints::VisibilityConstraint::VisibilityConstraint(const RobotModelConstPtr&)[m[K’
+  771 |   [01;36m[KVisibilityConstraint[m[K(const moveit::core::RobotModelConstPtr& model);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematic_constraints/kinematic_constraint.h:771:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematic_constraints/kinematic_constraint.h:760:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kkinematic_constraints::VisibilityConstraint::VisibilityConstraint(const kinematic_constraints::VisibilityConstraint&)[m[K’
+  760 | class [01;36m[KVisibilityConstraint[m[K : public KinematicConstraint
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematic_constraints/kinematic_constraint.h:760:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematic_constraints/kinematic_constraint.h:760:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kkinematic_constraints::VisibilityConstraint::VisibilityConstraint(kinematic_constraints::VisibilityConstraint&&)[m[K’
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematic_constraints/kinematic_constraint.h:760:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:311:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _path_constraints_type = struct moveit_msgs::msg::Constraints_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct moveit_msgs::msg::Constraints_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpush_back[m[K’
+  311 |         req.path_constraints.[01;31m[Kpush_back[m[K(vis_const)
+      |                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:317:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+  317 |         [01;31m[Kelse[m[K
+      |         [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

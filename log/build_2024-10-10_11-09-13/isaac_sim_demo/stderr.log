@@ -1,0 +1,38 @@
+In file included from [01m[K/usr/include/boost/function/detail/maybe_include.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/function/detail/function_iterate.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:57[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:70[m[K,
+                 from [01m[K/usr/include/boost/signals2/signal.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/signals2.hpp:19[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_scene_monitor/current_state_monitor.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5[m[K:
+/usr/include/boost/function/function_template.hpp: In instantiation of ‘[01m[Kstatic R boost::detail::function::function_obj_invoker2<FunctionObj, R, T0, T1>::invoke(boost::detail::function::function_buffer&, T0, T1) [with FunctionObj = main(int, char**)::<lambda(moveit::core::RobotState*, bool)>; R = bool; T0 = const moveit::core::RobotState*; T1 = bool][m[K’:
+[01m[K/usr/include/boost/function/function_template.hpp:940:38:[m[K   required from ‘[01m[Kvoid boost::function2<R, T1, T2>::assign_to(Functor) [with Functor = main(int, char**)::<lambda(moveit::core::RobotState*, bool)>; R = bool; T0 = const moveit::core::RobotState*; T1 = bool][m[K’
+[01m[K/usr/include/boost/function/function_template.hpp:720:22:[m[K   required from ‘[01m[Kboost::function2<R, T1, T2>::function2(Functor, typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type) [with Functor = main(int, char**)::<lambda(moveit::core::RobotState*, bool)>; R = bool; T0 = const moveit::core::RobotState*; T1 = bool; typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type = int][m[K’
+[01m[K/usr/include/boost/function/function_template.hpp:1086:16:[m[K   required from ‘[01m[Kboost::function<R(T0, T1)>::function(Functor, typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type) [with Functor = main(int, char**)::<lambda(moveit::core::RobotState*, bool)>; R = bool; T0 = const moveit::core::RobotState*; T1 = bool; typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type = int][m[K’
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:615:5:[m[K   required from here
+[01m[K/usr/include/boost/function/function_template.hpp:137:22:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(main(int, char**)::<lambda(moveit::core::RobotState*, bool)>) (const moveit::core::RobotState*, bool)[m[K’
+  137 |           return [01;31m[K(*f)(BOOST_FUNCTION_ARGS)[m[K;
+      |                  [01;31m[K~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:612:87:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmain(int, char**)::<lambda(moveit::core::RobotState*, bool)>[m[K’ (near match)
+  612 |     boost::function<bool(const moveit::core::RobotState*, bool)> feasible_predicate = [01;36m[K[[m[Knode,dynamicsWorld](moveit::core::RobotState* robot_state,bool){
+      |                                                                                       [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:612:87:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+In file included from [01m[K/usr/include/boost/function/detail/maybe_include.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/function/detail/function_iterate.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:57[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:70[m[K,
+                 from [01m[K/usr/include/boost/signals2/signal.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/signals2.hpp:19[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_scene_monitor/current_state_monitor.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5[m[K:
+[01m[K/usr/include/boost/function/function_template.hpp:137:23:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst moveit::core::RobotState*[m[K’ to ‘[01m[Kmoveit::core::RobotState*[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  137 |           return (*f)([01;31m[KBOOST_FUNCTION_ARGS[m[K);
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                       [01;31m[K|[m[K
+      |                       [01;31m[Kconst moveit::core::RobotState*[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

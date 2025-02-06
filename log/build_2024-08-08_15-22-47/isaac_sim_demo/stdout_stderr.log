@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target tf_to_pos_node[0m
+[ 12%] Built target StateSubscriber_node
+[ 37%] Built target markers_node
+[ 37%] Built target visualization_node
+[ 43%] [32mBuilding CXX object CMakeFiles/tf_to_pos_node.dir/src/tf_to_pos.cpp.o[0m
+[ 56%] Built target moveit_test
+[ 68%] Built target isaac_sim_demo_library
+[ 81%] Built target ompl_lifecycle
+[ 93%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/tf_to_pos.cpp:[m[K In member function ‘[01m[Kvoid TransformListenerNode::timer_callback()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/tf_to_pos.cpp:31:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kn[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+   31 |         publish_pose([01;31m[Kn[m[K"base_lik", "base_lik", pub_drone);
+      |                      [01;31m[K^[m[K
+      |                      [32m[Kyn[m[K
+gmake[2]: *** [CMakeFiles/tf_to_pos_node.dir/build.make:76: CMakeFiles/tf_to_pos_node.dir/src/tf_to_pos.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:281: CMakeFiles/tf_to_pos_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

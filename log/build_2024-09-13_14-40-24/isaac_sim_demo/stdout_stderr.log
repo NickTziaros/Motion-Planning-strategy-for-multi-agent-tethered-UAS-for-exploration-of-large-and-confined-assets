@@ -1,0 +1,38 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_test_node[0m
+[ 10%] Built target markers_node
+[ 20%] Built target visualization_node
+[ 30%] Built target StateSubscriber_node
+[ 40%] Built target tf_to_pos_node
+[ 60%] Built target cpp_demo
+[ 60%] Built target spawn_scene
+[ 70%] Built target isaac_sim_demo_library
+[ 75%] [32mBuilding CXX object CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o[0m
+[ 85%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:3[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:185:19:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+  185 |       RCLCPP_INFO([01;31m[KLOGGER[m[K, "Joint %s: %f", joint_names[i].c_str(), joint_values[i]);
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:185:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  185 |       [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Joint %s: %f", joint_names[i].c_str(), joint_values[i]);
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:185:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  185 |       [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Joint %s: %f", joint_names[i].c_str(), joint_values[i]);
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:185:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  185 |       [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Joint %s: %f", joint_names[i].c_str(), joint_values[i]);
+      |       [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

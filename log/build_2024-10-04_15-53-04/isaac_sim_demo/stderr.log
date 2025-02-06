@@ -1,0 +1,15 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:315:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kkinematic_constraints::VisibilityConstraint::decide()[m[K’
+  315 |       if ([01;31m[Kvis_constraint_checker.decide()[m[K)
+      |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_request_adapter/planning_request_adapter.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:8[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematic_constraints/kinematic_constraint.h:830:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual kinematic_constraints::ConstraintEvaluationResult kinematic_constraints::VisibilityConstraint::decide(const moveit::core::RobotState&, bool) const[m[K’
+  830 |   ConstraintEvaluationResult [01;36m[Kdecide[m[K(const moveit::core::RobotState& state, bool verbose = false) const override;
+      |                              [01;36m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematic_constraints/kinematic_constraint.h:830:30:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

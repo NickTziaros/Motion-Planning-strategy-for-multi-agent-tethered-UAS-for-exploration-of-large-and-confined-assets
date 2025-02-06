@@ -1,0 +1,166 @@
+In file included from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/collision_plugin.h:39[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/include/moveit/collision_detection/collision_plugin_cache.h:38[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/collision_detection/src/collision_plugin_cache.cpp:35[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:230:42:[m[K [01;31m[Kerror: [m[K‘[01m[KJointConstraint[m[K’ in namespace ‘[01m[Kmoveit_msgs::msg[m[K’ does not name a type
+  230 |   bool configure(const moveit_msgs::msg::[01;31m[KJointConstraint[m[K& jc);
+      |                                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:378:42:[m[K [01;31m[Kerror: [m[K‘[01m[KOrientationConstraint[m[K’ in namespace ‘[01m[Kmoveit_msgs::msg[m[K’ does not name a type
+  378 |   bool configure(const moveit_msgs::msg::[01;31m[KOrientationConstraint[m[K& oc, const moveit::core::Transforms& tf);
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:547:42:[m[K [01;31m[Kerror: [m[K‘[01m[KPositionConstraint[m[K’ in namespace ‘[01m[Kmoveit_msgs::msg[m[K’ does not name a type
+  547 |   bool configure(const moveit_msgs::msg::[01;31m[KPositionConstraint[m[K& pc, const moveit::core::Transforms& tf);
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:786:42:[m[K [01;31m[Kerror: [m[K‘[01m[KVisibilityConstraint[m[K’ in namespace ‘[01m[Kmoveit_msgs::msg[m[K’ does not name a type
+  786 |   bool configure(const moveit_msgs::msg::[01;31m[KVisibilityConstraint[m[K& vc, const moveit::core::Transforms& tf);
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:905:36:[m[K [01;31m[Kerror: [m[K‘[01m[KConstraints[m[K’ in namespace ‘[01m[Kmoveit_msgs::msg[m[K’ does not name a type
+  905 |   bool add(const moveit_msgs::msg::[01;31m[KConstraints[m[K& c, const moveit::core::Transforms& tf);
+      |                                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:914:48:[m[K [01;31m[Kerror: [m[K‘[01m[KJointConstraint[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg[m[K’; did you mean ‘[01m[Kkinematic_constraints::JointConstraint[m[K’?
+  914 |   bool add(const std::vector<moveit_msgs::msg::[01;31m[KJointConstraint[m[K>& jc);
+      |                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:203:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkinematic_constraints::JointConstraint[m[K’ declared here
+  203 | class [01;36m[KJointConstraint[m[K : public KinematicConstraint
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:914:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  914 |   bool add(const std::vector<moveit_msgs::msg::JointConstraint[01;31m[K>[m[K& jc);
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:914:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:923:48:[m[K [01;31m[Kerror: [m[K‘[01m[KPositionConstraint[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg[m[K’; did you mean ‘[01m[Kkinematic_constraints::PositionConstraint[m[K’?
+  923 |   bool add(const std::vector<moveit_msgs::msg::[01;31m[KPositionConstraint[m[K>& pc, const moveit::core::Transforms& tf);
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:515:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkinematic_constraints::PositionConstraint[m[K’ declared here
+  515 | class [01;36m[KPositionConstraint[m[K : public KinematicConstraint
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:923:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  923 |   bool add(const std::vector<moveit_msgs::msg::PositionConstraint[01;31m[K>[m[K& pc, const moveit::core::Transforms& tf);
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:923:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:923:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool kinematic_constraints::KinematicConstraintSet::add(const int&, const moveit::core::Transforms&)[m[K’ cannot be overloaded with ‘[01m[Kbool kinematic_constraints::KinematicConstraintSet::add(const int&, const moveit::core::Transforms&)[m[K’
+  923 |   bool [01;31m[Kadd[m[K(const std::vector<moveit_msgs::msg::PositionConstraint>& pc, const moveit::core::Transforms& tf);
+      |        [01;31m[K^~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:905:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbool kinematic_constraints::KinematicConstraintSet::add(const int&, const moveit::core::Transforms&)[m[K’
+  905 |   bool [01;36m[Kadd[m[K(const moveit_msgs::msg::Constraints& c, const moveit::core::Transforms& tf);
+      |        [01;36m[K^~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:932:48:[m[K [01;31m[Kerror: [m[K‘[01m[KOrientationConstraint[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg[m[K’; did you mean ‘[01m[Kkinematic_constraints::OrientationConstraint[m[K’?
+  932 |   bool add(const std::vector<moveit_msgs::msg::[01;31m[KOrientationConstraint[m[K>& oc, const moveit::core::Transforms& tf);
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:348:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkinematic_constraints::OrientationConstraint[m[K’ declared here
+  348 | class [01;36m[KOrientationConstraint[m[K : public KinematicConstraint
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:932:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  932 |   bool add(const std::vector<moveit_msgs::msg::OrientationConstraint[01;31m[K>[m[K& oc, const moveit::core::Transforms& tf);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:932:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:932:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool kinematic_constraints::KinematicConstraintSet::add(const int&, const moveit::core::Transforms&)[m[K’ cannot be overloaded with ‘[01m[Kbool kinematic_constraints::KinematicConstraintSet::add(const int&, const moveit::core::Transforms&)[m[K’
+  932 |   bool [01;31m[Kadd[m[K(const std::vector<moveit_msgs::msg::OrientationConstraint>& oc, const moveit::core::Transforms& tf);
+      |        [01;31m[K^~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:905:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbool kinematic_constraints::KinematicConstraintSet::add(const int&, const moveit::core::Transforms&)[m[K’
+  905 |   bool [01;36m[Kadd[m[K(const moveit_msgs::msg::Constraints& c, const moveit::core::Transforms& tf);
+      |        [01;36m[K^~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:941:48:[m[K [01;31m[Kerror: [m[K‘[01m[KVisibilityConstraint[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg[m[K’; did you mean ‘[01m[Kkinematic_constraints::VisibilityConstraint[m[K’?
+  941 |   bool add(const std::vector<moveit_msgs::msg::[01;31m[KVisibilityConstraint[m[K>& vc, const moveit::core::Transforms& tf);
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:761:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkinematic_constraints::VisibilityConstraint[m[K’ declared here
+  761 | class [01;36m[KVisibilityConstraint[m[K : public KinematicConstraint
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:941:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  941 |   bool add(const std::vector<moveit_msgs::msg::VisibilityConstraint[01;31m[K>[m[K& vc, const moveit::core::Transforms& tf);
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:941:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:941:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool kinematic_constraints::KinematicConstraintSet::add(const int&, const moveit::core::Transforms&)[m[K’ cannot be overloaded with ‘[01m[Kbool kinematic_constraints::KinematicConstraintSet::add(const int&, const moveit::core::Transforms&)[m[K’
+  941 |   bool [01;31m[Kadd[m[K(const std::vector<moveit_msgs::msg::VisibilityConstraint>& vc, const moveit::core::Transforms& tf);
+      |        [01;31m[K^~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:905:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbool kinematic_constraints::KinematicConstraintSet::add(const int&, const moveit::core::Transforms&)[m[K’
+  905 |   bool [01;36m[Kadd[m[K(const moveit_msgs::msg::Constraints& c, const moveit::core::Transforms& tf);
+      |        [01;36m[K^~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1007:39:[m[K [01;31m[Kerror: [m[K‘[01m[KPositionConstraint[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg[m[K’; did you mean ‘[01m[Kkinematic_constraints::PositionConstraint[m[K’?
+ 1007 |   const std::vector<moveit_msgs::msg::[01;31m[KPositionConstraint[m[K>& getPositionConstraints() const
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:515:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkinematic_constraints::PositionConstraint[m[K’ declared here
+  515 | class [01;36m[KPositionConstraint[m[K : public KinematicConstraint
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1007:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ 1007 |   const std::vector<moveit_msgs::msg::PositionConstraint[01;31m[K>[m[K& getPositionConstraints() const
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1007:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1018:39:[m[K [01;31m[Kerror: [m[K‘[01m[KOrientationConstraint[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg[m[K’; did you mean ‘[01m[Kkinematic_constraints::OrientationConstraint[m[K’?
+ 1018 |   const std::vector<moveit_msgs::msg::[01;31m[KOrientationConstraint[m[K>& getOrientationConstraints() const
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:348:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkinematic_constraints::OrientationConstraint[m[K’ declared here
+  348 | class [01;36m[KOrientationConstraint[m[K : public KinematicConstraint
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1018:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ 1018 |   const std::vector<moveit_msgs::msg::OrientationConstraint[01;31m[K>[m[K& getOrientationConstraints() const
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1018:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1029:39:[m[K [01;31m[Kerror: [m[K‘[01m[KJointConstraint[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg[m[K’; did you mean ‘[01m[Kkinematic_constraints::JointConstraint[m[K’?
+ 1029 |   const std::vector<moveit_msgs::msg::[01;31m[KJointConstraint[m[K>& getJointConstraints() const
+      |                                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:203:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkinematic_constraints::JointConstraint[m[K’ declared here
+  203 | class [01;36m[KJointConstraint[m[K : public KinematicConstraint
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1029:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ 1029 |   const std::vector<moveit_msgs::msg::JointConstraint[01;31m[K>[m[K& getJointConstraints() const
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1029:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1040:39:[m[K [01;31m[Kerror: [m[K‘[01m[KVisibilityConstraint[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg[m[K’; did you mean ‘[01m[Kkinematic_constraints::VisibilityConstraint[m[K’?
+ 1040 |   const std::vector<moveit_msgs::msg::[01;31m[KVisibilityConstraint[m[K>& getVisibilityConstraints() const
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:761:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkinematic_constraints::VisibilityConstraint[m[K’ declared here
+  761 | class [01;36m[KVisibilityConstraint[m[K : public KinematicConstraint
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1040:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ 1040 |   const std::vector<moveit_msgs::msg::VisibilityConstraint[01;31m[K>[m[K& getVisibilityConstraints() const
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1040:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1051:27:[m[K [01;31m[Kerror: [m[K‘[01m[KConstraints[m[K’ in namespace ‘[01m[Kmoveit_msgs::msg[m[K’ does not name a type
+ 1051 |   const moveit_msgs::msg::[01;31m[KConstraints[m[K& getAllConstraints() const
+      |                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1072:33:[m[K [01;31m[Kerror: [m[K‘[01m[KJointConstraint[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg[m[K’; did you mean ‘[01m[Kkinematic_constraints::JointConstraint[m[K’?
+ 1072 |   std::vector<moveit_msgs::msg::[01;31m[KJointConstraint[m[K> joint_constraints_; /**<  \brief Messages corresponding to all internal
+      |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:203:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkinematic_constraints::JointConstraint[m[K’ declared here
+  203 | class [01;36m[KJointConstraint[m[K : public KinematicConstraint
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1072:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ 1072 |   std::vector<moveit_msgs::msg::JointConstraint[01;31m[K>[m[K joint_constraints_; /**<  \brief Messages corresponding to all internal
+      |                                                [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1072:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1074:33:[m[K [01;31m[Kerror: [m[K‘[01m[KPositionConstraint[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg[m[K’; did you mean ‘[01m[Kkinematic_constraints::PositionConstraint[m[K’?
+ 1074 |   std::vector<moveit_msgs::msg::[01;31m[KPositionConstraint[m[K> position_constraints_; /**<  \brief Messages corresponding to all
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:515:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkinematic_constraints::PositionConstraint[m[K’ declared here
+  515 | class [01;36m[KPositionConstraint[m[K : public KinematicConstraint
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1074:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ 1074 |   std::vector<moveit_msgs::msg::PositionConstraint[01;31m[K>[m[K position_constraints_; /**<  \brief Messages corresponding to all
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1074:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1076:33:[m[K [01;31m[Kerror: [m[K‘[01m[KOrientationConstraint[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg[m[K’; did you mean ‘[01m[Kkinematic_constraints::OrientationConstraint[m[K’?
+ 1076 |   std::vector<moveit_msgs::msg::[01;31m[KOrientationConstraint[m[K> orientation_constraints_; /**<  \brief Messages corresponding to
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:348:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkinematic_constraints::OrientationConstraint[m[K’ declared here
+  348 | class [01;36m[KOrientationConstraint[m[K : public KinematicConstraint
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1076:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ 1076 |   std::vector<moveit_msgs::msg::OrientationConstraint[01;31m[K>[m[K orientation_constraints_; /**<  \brief Messages corresponding to
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1076:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1079:33:[m[K [01;31m[Kerror: [m[K‘[01m[KVisibilityConstraint[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg[m[K’; did you mean ‘[01m[Kkinematic_constraints::VisibilityConstraint[m[K’?
+ 1079 |   std::vector<moveit_msgs::msg::[01;31m[KVisibilityConstraint[m[K> visibility_constraints_;   /**<  \brief Messages corresponding to
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:761:7:[m[K [01;36m[Knote: [m[K‘[01m[Kkinematic_constraints::VisibilityConstraint[m[K’ declared here
+  761 | class [01;36m[KVisibilityConstraint[m[K : public KinematicConstraint
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1079:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ 1079 |   std::vector<moveit_msgs::msg::VisibilityConstraint[01;31m[K>[m[K visibility_constraints_;   /**<  \brief Messages corresponding to
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1079:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h:1082:21:[m[K [01;31m[Kerror: [m[K‘[01m[KConstraints[m[K’ in namespace ‘[01m[Kmoveit_msgs::msg[m[K’ does not name a type
+ 1082 |   moveit_msgs::msg::[01;31m[KConstraints[m[K all_constraints_; /**<  \brief Messages corresponding to all internal constraints */
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [collision_detection/CMakeFiles/moveit_collision_detection.dir/build.make:188: collision_detection/CMakeFiles/moveit_collision_detection.dir/src/collision_plugin_cache.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:2186: collision_detection/CMakeFiles/moveit_collision_detection.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,96 @@
+[0.015s] Invoking command in '/home/ubuntu/ros2_ws/build/moveit_core': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config:/home/ubuntu/ros2_ws/install/srdfdom:/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description:/home/ubuntu/ros2_ws/install/moveit_resources_panda_description:/home/ubuntu/ros2_ws/install/moveit_common:/home/ubuntu/ros2_ws/install/prismatic_moveit_config:/home/ubuntu/ros2_ws/install/test_moveit_config:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/ubuntu/ros2_ws/install/moveit_runtime:/home/ubuntu/ros2_ws/install/moveit2_tutorials:/home/ubuntu/ros2_ws/install/moveit:/home/ubuntu/ros2_ws/install/isaac_twin_moveit_config:/home/ubuntu/ros2_ws/install/four_drone_demo:/home/ubuntu/ros2_ws/install/floating_moveit_config:/home/ubuntu/ros2_ws/install/chain_moveit_config:/home/ubuntu/ros2_ws/install/4_drone_demo:/home/ubuntu/ros2_ws/install/isaac_sim_demo:/home/ubuntu/ros2_ws/install/moveit_planners:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner:/home/ubuntu/ros2_ws/install/pick_ik:/home/ubuntu/ros2_ws/install/moveit_visual_tools:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface:/home/ubuntu/ros2_ws/install/moveit_plugins:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager:/home/ubuntu/ros2_ws/install/moveit_setup_assistant:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_controllers:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_framework:/home/ubuntu/ros2_ws/install/moveit_servo:/home/ubuntu/ros2_ws/install/moveit_ros:/home/ubuntu/ros2_ws/install/moveit_ros_visualization:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction:/home/ubuntu/ros2_ws/install/moveit_ros_perception:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/ubuntu/ros2_ws/install/moveit_ros_move_group:/home/ubuntu/ros2_ws/install/moveit_planners_ompl:/home/ubuntu/ros2_ws/install/moveit_ros_planning:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ubuntu/ros2_ws/install/moveit_planners_chomp:/home/ubuntu/ros2_ws/install/moveit_kinematics:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/ubuntu/ros2_ws/install/chomp_motion_planner:/home/ubuntu/ros2_ws/install/moveit_core:/home/ubuntu/ros2_ws/install/rviz_marker_tools:/home/ubuntu/ros2_ws/install/rosparam_shortcuts:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support:/home/ubuntu/ros2_ws/install/moveit_resources:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description:/home/ubuntu/ros2_ws/install/custom_interfaces:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/srdfdom/lib:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner/lib:/home/ubuntu/ros2_ws/install/pick_ik/lib:/home/ubuntu/ros2_ws/install/moveit_visual_tools/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core/lib:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface/lib:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager/lib:/home/ubuntu/ros2_ws/install/moveit_setup_assistant/lib:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_controllers/lib:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_framework/lib:/home/ubuntu/ros2_ws/install/moveit_servo/lib:/home/ubuntu/ros2_ws/install/moveit_ros_visualization/lib:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning/lib:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/lib:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks/lib:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse/lib:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction/lib:/home/ubuntu/ros2_ws/install/moveit_ros_perception/lib:/home/ubuntu/ros2_ws/install/moveit_ros_move_group/lib:/home/ubuntu/ros2_ws/install/moveit_planners_ompl/lib:/home/ubuntu/ros2_ws/install/moveit_ros_planning/lib:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/ubuntu/ros2_ws/install/moveit_planners_chomp/lib:/home/ubuntu/ros2_ws/install/moveit_kinematics/lib:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/ubuntu/ros2_ws/install/chomp_motion_planner/lib:/home/ubuntu/ros2_ws/install/moveit_core/lib:/home/ubuntu/ros2_ws/install/rviz_marker_tools/lib:/home/ubuntu/ros2_ws/install/rosparam_shortcuts/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/ubuntu/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/moveit_core -- -j24 -l24
+[0.087s] [  2%] Built target moveit_utils
+[0.088s] [  4%] Built target moveit_version
+[0.089s] [  6%] Built target gmock
+[0.091s] [  7%] Built target moveit_kinematics_base
+[0.096s] [ 10%] Built target gmock_main
+[0.096s] [ 10%] Built target moveit_smoothing_base
+[0.096s] [ 10%] Built target gtest
+[0.097s] [ 11%] Built target moveit_transforms
+[0.098s] [ 12%] Built target moveit_exceptions
+[0.100s] [ 13%] Built target moveit_butterworth_parameters
+[0.100s] [ 15%] Built target moveit_distance_field
+[0.103s] [ 16%] Built target gtest_main
+[0.129s] [ 17%] Built target test_transforms
+[0.130s] [ 18%] Built target test_voxel_grid
+[0.132s] [ 25%] Built target moveit_robot_model
+[0.132s] [ 26%] Built target test_distance_field
+[0.160s] [ 28%] Built target moveit_test_utils
+[0.160s] [ 28%] Built target moveit_butterworth_filter
+[0.161s] [ 31%] Built target moveit_robot_state
+[0.201s] [ 32%] Built target test_butterworth_filter
+[0.202s] [ 33%] Built target test_robot_model
+[0.205s] [ 34%] Built target moveit_kinematics_metrics
+[0.205s] [ 35%] Built target moveit_robot_trajectory
+[0.206s] [ 37%] Built target test_robot_state
+[0.210s] [ 38%] Built target test_cartesian_interpolator
+[0.211s] [ 39%] Built target test_robot_state_benchmark
+[0.214s] [ 40%] Built target test_robot_state_complex
+[0.214s] [ 41%] Built target test_aabb
+[0.215s] [ 43%] Built target moveit_dynamics_solver
+[0.220s] [ 49%] Built target moveit_collision_detection
+[0.240s] [ 51%] Built target moveit_planning_interface
+[0.242s] [ 52%] Built target test_robot_trajectory
+[0.243s] [ 56%] Built target moveit_trajectory_processing
+[0.250s] [ 57%] Built target test_world
+[0.252s] [ 59%] Built target test_world_diff
+[0.255s] [ 60%] Built target test_all_valid
+[0.258s] [ 62%] Built target moveit_collision_detection_fcl
+[0.268s] [ 67%] Built target moveit_collision_detection_bullet
+[0.283s] [35m[1mConsolidate compiler generated dependencies of target moveit_kinematic_constraints[0m
+[0.284s] [ 68%] Built target test_ruckig_traj_smoothing
+[0.285s] [ 70%] Built target test_time_optimal_trajectory_generation
+[0.288s] [ 71%] Built target test_time_parameterization
+[0.299s] [ 73%] Built target test_fcl_collision_env
+[0.302s] [ 74%] Built target test_fcl_collision_detection_panda
+[0.306s] [ 75%] Built target test_fcl_collision_detection
+[0.307s] [ 76%] Built target test_bullet_collision_detection_panda
+[0.307s] [ 78%] Built target test_bullet_continuous_collision_checking
+[0.307s] [ 79%] Built target test_bullet_collision_detection
+[0.310s] [ 79%] [32mBuilding CXX object kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o[0m
+[8.760s] [ 80%] [32m[1mLinking CXX shared library libmoveit_kinematic_constraints.so[0m
+[8.894s] [ 81%] Built target moveit_kinematic_constraints
+[8.907s] [35m[1mConsolidate compiler generated dependencies of target test_constraints[0m
+[8.908s] [35m[1mConsolidate compiler generated dependencies of target test_orientation_constraints[0m
+[8.909s] [35m[1mConsolidate compiler generated dependencies of target moveit_planning_scene[0m
+[8.928s] [ 82%] [32m[1mLinking CXX executable test_orientation_constraints[0m
+[8.928s] [ 83%] [32m[1mLinking CXX executable test_constraints[0m
+[8.931s] [ 83%] [32m[1mLinking CXX shared library libmoveit_planning_scene.so[0m
+[9.077s] [ 84%] Built target moveit_planning_scene
+[9.095s] /usr/bin/ld: libmoveit_kinematic_constraints.so.2.5.5: undefined reference to `planning_scene::PlanningScene::~PlanningScene()'
+[9.095s] /usr/bin/ld: libmoveit_kinematic_constraints.so.2.5.5: undefined reference to `planning_scene::PlanningScene::~PlanningScene()'
+[9.096s] /usr/bin/ld: libmoveit_kinematic_constraints.so.2.5.5: undefined reference to `planning_scene::PlanningScene::PlanningScene(std::shared_ptr<moveit::core::RobotModel const> const&, std::shared_ptr<collision_detection::World> const&)'
+[9.096s] /usr/bin/ld: libmoveit_kinematic_constraints.so.2.5.5: undefined reference to `planning_scene::PlanningScene::PlanningScene(std::shared_ptr<moveit::core::RobotModel const> const&, std::shared_ptr<collision_detection::World> const&)'
+[9.101s] [35m[1mConsolidate compiler generated dependencies of target moveit_planning_request_adapter[0m
+[9.104s] [35m[1mConsolidate compiler generated dependencies of target collision_detector_fcl_plugin[0m
+[9.104s] collect2: error: ld returned 1 exit status
+[9.104s] collect2: error: ld returned 1 exit status
+[9.105s] [35m[1mConsolidate compiler generated dependencies of target moveit_collision_distance_field[0m
+[9.105s] [35m[1mConsolidate compiler generated dependencies of target test_planning_scene[0m
+[9.105s] gmake[2]: *** [kinematic_constraints/CMakeFiles/test_orientation_constraints.dir/build.make:298: kinematic_constraints/test_orientation_constraints] Error 1
+[9.106s] gmake[1]: *** [CMakeFiles/Makefile2:1197: kinematic_constraints/CMakeFiles/test_orientation_constraints.dir/all] Error 2
+[9.106s] gmake[1]: *** Waiting for unfinished jobs....
+[9.106s] gmake[2]: *** [kinematic_constraints/CMakeFiles/test_constraints.dir/build.make:298: kinematic_constraints/test_constraints] Error 1
+[9.106s] gmake[1]: *** [CMakeFiles/Makefile2:1160: kinematic_constraints/CMakeFiles/test_constraints.dir/all] Error 2
+[9.106s] [35m[1mConsolidate compiler generated dependencies of target test_multi_threaded[0m
+[9.107s] [35m[1mConsolidate compiler generated dependencies of target test_collision_objects[0m
+[9.107s] [35m[1mConsolidate compiler generated dependencies of target collision_detector_bullet_plugin[0m
+[9.109s] [35m[1mConsolidate compiler generated dependencies of target moveit_constraint_samplers[0m
+[9.121s] [ 85%] [32m[1mLinking CXX shared library libmoveit_planning_request_adapter.so[0m
+[9.132s] [ 86%] [32m[1mLinking CXX executable test_multi_threaded[0m
+[9.133s] [ 86%] [32m[1mLinking CXX executable test_collision_objects[0m
+[9.133s] [ 86%] [32m[1mLinking CXX executable test_planning_scene[0m
+[9.133s] [ 87%] [32m[1mLinking CXX shared library libcollision_detector_fcl_plugin.so[0m
+[9.139s] [ 88%] [32m[1mLinking CXX shared library libcollision_detector_bullet_plugin.so[0m
+[9.143s] [ 89%] [32m[1mLinking CXX shared library libmoveit_collision_distance_field.so[0m
+[9.149s] [ 90%] [32m[1mLinking CXX shared library libmoveit_constraint_samplers.so[0m
+[9.266s] [ 90%] Built target collision_detector_fcl_plugin
+[9.271s] [ 90%] Built target moveit_planning_request_adapter
+[9.280s] [ 90%] Built target collision_detector_bullet_plugin
+[9.297s] [ 92%] Built target moveit_constraint_samplers
+[9.316s] [ 94%] Built target moveit_collision_distance_field
+[9.354s] [ 94%] Built target test_multi_threaded
+[9.367s] [ 95%] Built target test_planning_scene
+[9.369s] [ 96%] Built target test_collision_objects
+[9.370s] gmake: *** [Makefile:146: all] Error 2
+[9.372s] Invoked command in '/home/ubuntu/ros2_ws/build/moveit_core' returned '2': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/moveit_resources_panda_moveit_config:/home/ubuntu/ros2_ws/install/srdfdom:/home/ubuntu/ros2_ws/install/moveit_resources_pr2_description:/home/ubuntu/ros2_ws/install/moveit_resources_panda_description:/home/ubuntu/ros2_ws/install/moveit_common:/home/ubuntu/ros2_ws/install/prismatic_moveit_config:/home/ubuntu/ros2_ws/install/test_moveit_config:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils:/home/ubuntu/ros2_ws/install/moveit_runtime:/home/ubuntu/ros2_ws/install/moveit2_tutorials:/home/ubuntu/ros2_ws/install/moveit:/home/ubuntu/ros2_ws/install/isaac_twin_moveit_config:/home/ubuntu/ros2_ws/install/four_drone_demo:/home/ubuntu/ros2_ws/install/floating_moveit_config:/home/ubuntu/ros2_ws/install/chain_moveit_config:/home/ubuntu/ros2_ws/install/4_drone_demo:/home/ubuntu/ros2_ws/install/isaac_sim_demo:/home/ubuntu/ros2_ws/install/moveit_planners:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner:/home/ubuntu/ros2_ws/install/pick_ik:/home/ubuntu/ros2_ws/install/moveit_visual_tools:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface:/home/ubuntu/ros2_ws/install/moveit_plugins:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager:/home/ubuntu/ros2_ws/install/moveit_setup_assistant:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_controllers:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins:/home/ubuntu/ros2_ws/install/moveit_setup_framework:/home/ubuntu/ros2_ws/install/moveit_servo:/home/ubuntu/ros2_ws/install/moveit_ros:/home/ubuntu/ros2_ws/install/moveit_ros_visualization:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction:/home/ubuntu/ros2_ws/install/moveit_ros_perception:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_pg70_support:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_moveit_config:/home/ubuntu/ros2_ws/install/moveit_ros_move_group:/home/ubuntu/ros2_ws/install/moveit_planners_ompl:/home/ubuntu/ros2_ws/install/moveit_ros_planning:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/ubuntu/ros2_ws/install/moveit_planners_chomp:/home/ubuntu/ros2_ws/install/moveit_kinematics:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter:/home/ubuntu/ros2_ws/install/chomp_motion_planner:/home/ubuntu/ros2_ws/install/moveit_core:/home/ubuntu/ros2_ws/install/rviz_marker_tools:/home/ubuntu/ros2_ws/install/rosparam_shortcuts:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_support:/home/ubuntu/ros2_ws/install/moveit_resources:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/ubuntu/ros2_ws/install/moveit_resources_fanuc_description:/home/ubuntu/ros2_ws/install/custom_interfaces:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/srdfdom/lib:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib:/home/ubuntu/ros2_ws/install/pilz_industrial_motion_planner/lib:/home/ubuntu/ros2_ws/install/pick_ik/lib:/home/ubuntu/ros2_ws/install/moveit_visual_tools/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_demo/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_capabilities/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_core/lib:/home/ubuntu/ros2_ws/install/moveit_ros_control_interface/lib:/home/ubuntu/ros2_ws/install/moveit_simple_controller_manager/lib:/home/ubuntu/ros2_ws/install/moveit_setup_assistant/lib:/home/ubuntu/ros2_ws/install/moveit_setup_srdf_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_core_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_controllers/lib:/home/ubuntu/ros2_ws/install/moveit_setup_app_plugins/lib:/home/ubuntu/ros2_ws/install/moveit_setup_framework/lib:/home/ubuntu/ros2_ws/install/moveit_servo/lib:/home/ubuntu/ros2_ws/install/moveit_ros_visualization/lib:/home/ubuntu/ros2_ws/install/moveit_hybrid_planning/lib:/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/lib:/home/ubuntu/ros2_ws/install/moveit_ros_benchmarks/lib:/home/ubuntu/ros2_ws/install/moveit_ros_warehouse/lib:/home/ubuntu/ros2_ws/install/moveit_ros_robot_interaction/lib:/home/ubuntu/ros2_ws/install/moveit_ros_perception/lib:/home/ubuntu/ros2_ws/install/moveit_ros_move_group/lib:/home/ubuntu/ros2_ws/install/moveit_planners_ompl/lib:/home/ubuntu/ros2_ws/install/moveit_ros_planning/lib:/home/ubuntu/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/ubuntu/ros2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/ubuntu/ros2_ws/install/moveit_planners_chomp/lib:/home/ubuntu/ros2_ws/install/moveit_kinematics/lib:/home/ubuntu/ros2_ws/install/moveit_chomp_optimizer_adapter/lib:/home/ubuntu/ros2_ws/install/chomp_motion_planner/lib:/home/ubuntu/ros2_ws/install/moveit_core/lib:/home/ubuntu/ros2_ws/install/rviz_marker_tools/lib:/home/ubuntu/ros2_ws/install/rosparam_shortcuts/lib:/home/ubuntu/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/ubuntu/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/moveit_core -- -j24 -l24

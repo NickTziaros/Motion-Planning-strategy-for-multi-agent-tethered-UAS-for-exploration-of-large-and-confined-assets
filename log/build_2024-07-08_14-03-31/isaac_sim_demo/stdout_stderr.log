@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target tf_to_pos[0m
+[ 50%] Built target StateSubscriber_node
+[ 50%] Built target markers_node
+[ 50%] Built target visualization_node
+[ 58%] [32mBuilding CXX object CMakeFiles/tf_to_pos.dir/src/tf_to_pos.cpp.o[0m
+[ 75%] Built target isaac_sim_demo_library
+[35m[1mConsolidate compiler generated dependencies of target ompl_controller_node[0m
+[ 91%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/tf_to_pos.cpp:[m[K In constructor ‘[01m[KTransformListenerNode::TransformListenerNode()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/tf_to_pos.cpp:17:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTransformListenerNode::create_wall_timer(int, std::_Bind_helper<false, void (TransformListenerNode::*)(), TransformListenerNode*>::type)[m[K’
+   17 |         timer_ = [01;31m[Kthis->create_wall_timer([m[K
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   18 | [01;31m[K            500, std::bind(&TransformListenerNode::timer_callback, this))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/tf_to_pos.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  238 |   [01;36m[Kcreate_wall_timer[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/tf_to_pos.cpp:17:41:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kint[m[K’
+   17 |         timer_ = [01;36m[Kthis->create_wall_timer([m[K
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   18 | [01;36m[K            500, std::bind(&TransformListenerNode::timer_callback, this))[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/tf_to_pos.dir/build.make:76: CMakeFiles/tf_to_pos.dir/src/tf_to_pos.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/tf_to_pos.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

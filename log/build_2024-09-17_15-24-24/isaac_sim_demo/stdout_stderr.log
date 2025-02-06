@@ -1,0 +1,87 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_demo[0m
+[ 10%] Built target StateSubscriber_node
+[ 20%] Built target visualization_node
+[ 30%] Built target tf_to_pos_node
+[ 40%] Built target markers_node
+[ 50%] Built target moveit_test_node
+[ 60%] Built target isaac_sim_demo_library
+[ 70%] Built target spawn_scene
+[ 75%] [32mBuilding CXX object CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o[0m
+[ 95%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:111:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  111 |   waypoints.[01;31m[Kposition[m[K.x += 0 ;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:112:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  112 |   waypoints.[01;31m[Kposition[m[K.y += 0.5;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:113:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  113 |   waypoints.[01;31m[Kposition[m[K.z += 0;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:116:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  116 |   waypoints.[01;31m[Kposition[m[K.x += 0 ;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:117:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  117 |   waypoints.[01;31m[Kposition[m[K.y += 0.5;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:118:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  118 |   waypoints.[01;31m[Kposition[m[K.z += 0;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:121:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  121 |   waypoints.[01;31m[Kposition[m[K.x += 0 ;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:122:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  122 |   waypoints.[01;31m[Kposition[m[K.y += 0.5;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:123:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  123 |   waypoints.[01;31m[Kposition[m[K.z += 0;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:126:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  126 |   waypoints.[01;31m[Kposition[m[K.x += 0 ;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:127:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  127 |   waypoints.[01;31m[Kposition[m[K.y += 0.5;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:128:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  128 |   waypoints.[01;31m[Kposition[m[K.z += 0;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:131:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  131 |   waypoints.[01;31m[Kposition[m[K.x += 0 ;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:132:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  132 |   waypoints.[01;31m[Kposition[m[K.y += 0.5;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:133:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  133 |   waypoints.[01;31m[Kposition[m[K.z += 0;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:136:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  136 |   waypoints.[01;31m[Kposition[m[K.x += 0 ;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:137:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  137 |   waypoints.[01;31m[Kposition[m[K.y += 0.5;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:138:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  138 |   waypoints.[01;31m[Kposition[m[K.z += 0;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:141:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  141 |   waypoints.[01;31m[Kposition[m[K.x += 0 ;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:142:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  142 |   waypoints.[01;31m[Kposition[m[K.y += 0.5;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:143:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  143 |   waypoints.[01;31m[Kposition[m[K.z += 0;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:146:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  146 |   waypoints.[01;31m[Kposition[m[K.x += 0 ;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:147:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  147 |   waypoints.[01;31m[Kposition[m[K.y += 0;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:148:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseStamped = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kposition[m[K’
+  148 |   waypoints.[01;31m[Kposition[m[K.z += 0.2;
+      |             [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

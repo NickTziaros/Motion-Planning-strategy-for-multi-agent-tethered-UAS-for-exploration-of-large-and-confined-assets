@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_test[0m
+[ 28%] Built target markers_node
+[ 28%] Built target visualization_node
+[ 42%] Built target tf_to_pos_node
+[ 57%] Built target StateSubscriber_node
+[ 71%] Built target isaac_sim_demo_library
+[ 78%] [32mBuilding CXX object CMakeFiles/moveit_test.dir/src/moveit_demo.cpp.o[0m
+[ 92%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:157:58:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  157 |           auto move_group_interface = MoveGroupInterface([01;31m[Knode[m[K, "Group1");
+      |                                                          [01;31m[K^~~~[m[K
+      |                                                          [32m[KNode[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:161:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id[m[K’ was not declared in this scope
+  161 |         collision_object.header.frame_id = [01;31m[Kframe_id[m[K;
+      |                                            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:210:80:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+  210 |     rclcpp::NodeOptions().automatically_declare_parameters_from_overrides(true)
+      |                                                                                [01;31m[K^[m[K
+      |                                                                                [32m[K;[m[K
+  211 |     [32m[Krclcpp[m[K::spin(std::make_shared<MyNode>());
+      |     [32m[K~~~~~~[m[K                                                                      
+gmake[2]: *** [CMakeFiles/moveit_test.dir/build.make:76: CMakeFiles/moveit_test.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/moveit_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

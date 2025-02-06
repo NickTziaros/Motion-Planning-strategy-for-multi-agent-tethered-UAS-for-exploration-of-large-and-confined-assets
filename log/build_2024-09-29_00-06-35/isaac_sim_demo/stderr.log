@@ -1,0 +1,245 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:208:25:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetGlobalLinkTransform[m[K’ in ‘[01m[Krobot_state[m[K’, which is of pointer type ‘[01m[Kmoveit::core::RobotState*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  208 |         if (robot_state.[01;31m[KgetGlobalLinkTransform[m[K("Drone"+i).translation().z<0)
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:210:113:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetGlobalLinkTransform[m[K’ in ‘[01m[Krobot_state[m[K’, which is of pointer type ‘[01m[Kmoveit::core::RobotState*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  210 |             RCLCPP_INFO(rclcpp::get_logger("Link Check"), "Link %zu is above Z = 0 with Z = %f", i ,robot_state.[01;31m[KgetGlobalLinkTransform[m[K("Drone"+i).translation().z<0);
+      |                                                                                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:240:72:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetJointModelGroup[m[K’ in ‘[01m[Krobot_state[m[K’, which is of pointer type ‘[01m[Kmoveit::core::RobotState*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  240 |   const moveit::core::JointModelGroup* joint_model_group = robot_state.[01;31m[KgetJointModelGroup[m[K("Group1");
+      |                                                                        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:241:61:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KgetGlobalLinkTransform[m[K’ in ‘[01m[Krobot_state[m[K’, which is of pointer type ‘[01m[Kmoveit::core::RobotState*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  241 |   const Eigen::Isometry3d& end_effector_state = robot_state.[01;31m[KgetGlobalLinkTransform[m[K("Drone4");
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:313:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ is not captured
+  313 |   nav_msgs::msg::Path path = interpolate_path([01;31m[Kpublisher_[m[K,waypoints_vec);
+      |                                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:86:53:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > >::SharedPtr publisher_[m[K’ declared here
+   86 |   rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr [01;36m[Kpublisher_[m[K;
+      |                                                     [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:316:45:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model[m[K’ is not captured
+  316 |     new planning_pipeline::PlanningPipeline([01;31m[Krobot_model[m[K, node, "ompl"));
+      |                                             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:98:31:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit::core::RobotModelPtr robot_model[m[K’ declared here
+   98 |   moveit::core::RobotModelPtr [01;36m[Krobot_model[m[K = robot_model_loader->getModel();
+      |                               [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:316:58:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ is not captured
+  316 |     new planning_pipeline::PlanningPipeline(robot_model, [01;31m[Knode[m[K, "ompl"));
+      |                                                          [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:84:33:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr<rclcpp::Node> node[m[K’ declared here
+   84 |   std::shared_ptr<rclcpp::Node> [01;36m[Knode[m[K = rclcpp::Node::make_shared("cpp_demo", node_options);
+      |                                 [01;36m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:318:41:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_model[m[K’ is not captured
+  318 |     moveit::core::RobotState goal_state([01;31m[Krobot_model[m[K);
+      |                                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:98:31:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit::core::RobotModelPtr robot_model[m[K’ declared here
+   98 |   moveit::core::RobotModelPtr [01;36m[Krobot_model[m[K = robot_model_loader->getModel();
+      |                               [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:346:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ is not captured
+  346 |       auto future = [01;31m[Kclient_[m[K->async_send_request(request);
+      |                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:97:65:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Client<moveit_msgs::srv::GetPlanningScene>::SharedPtr client_[m[K’ declared here
+   97 |   rclcpp::Client<moveit_msgs::srv::GetPlanningScene>::SharedPtr [01;36m[Kclient_[m[K;
+      |                                                                 [01;36m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:346:49:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ is not captured
+  346 |       auto future = client_->async_send_request([01;31m[Krequest[m[K);
+      |                                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:111:8:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr<moveit_msgs::srv::GetPlanningScene_Request_<std::allocator<void> > > request[m[K’ declared here
+  111 |   auto [01;36m[Krequest[m[K = std::make_shared<moveit_msgs::srv::GetPlanningScene::Request>();
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:347:46:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ is not captured
+  347 |       if (rclcpp::spin_until_future_complete([01;31m[Knode[m[K->get_node_base_interface(), future) == rclcpp::FutureReturnCode::SUCCESS){
+      |                                              [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:84:33:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr<rclcpp::Node> node[m[K’ declared here
+   84 |   std::shared_ptr<rclcpp::Node> [01;36m[Knode[m[K = rclcpp::Node::make_shared("cpp_demo", node_options);
+      |                                 [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:349:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ is not captured
+  349 |         RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "Received planning scene response");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:84:33:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr<rclcpp::Node> node[m[K’ declared here
+   84 |   std::shared_ptr<rclcpp::Node> [01;36m[Knode[m[K = rclcpp::Node::make_shared("cpp_demo", node_options);
+      |                                 [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:349:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ is not captured
+  349 |         RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "Received planning scene response");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:84:33:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr<rclcpp::Node> node[m[K’ declared here
+   84 |   std::shared_ptr<rclcpp::Node> [01;36m[Knode[m[K = rclcpp::Node::make_shared("cpp_demo", node_options);
+      |                                 [01;36m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:351:54:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst moveit::core::RobotState[m[K’ to ‘[01m[Kmoveit::core::RobotState*[m[K’ in assignment
+  351 |         robot_state = [01;31m[Kplanning_scene->getCurrentState()[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+      |                                                      [01;31m[K|[m[K
+      |                                                      [01;31m[Kconst moveit::core::RobotState[m[K
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:354:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ is not captured
+  354 |         RCLCPP_ERROR([01;31m[Knode[m[K->get_logger(), "Failed to call service get_planning_scene");
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:84:33:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr<rclcpp::Node> node[m[K’ declared here
+   84 |   std::shared_ptr<rclcpp::Node> [01;36m[Knode[m[K = rclcpp::Node::make_shared("cpp_demo", node_options);
+      |                                 [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:354:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ is not captured
+  354 |         RCLCPP_ERROR([01;31m[Knode[m[K->get_logger(), "Failed to call service get_planning_scene");
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:84:33:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr<rclcpp::Node> node[m[K’ declared here
+   84 |   std::shared_ptr<rclcpp::Node> [01;36m[Knode[m[K = rclcpp::Node::make_shared("cpp_demo", node_options);
+      |                                 [01;36m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:359:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_fn[m[K’ is not captured
+  359 |       while(!goal_state.setFromIK(joint_model_group, ik_pose, timeout,[01;31m[Kcallback_fn[m[K) && rclcpp::ok()){
+      |                                                                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:133:46:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit::core::GroupStateValidityCallbackFn callback_fn[m[K’ declared here
+  133 |   moveit::core::GroupStateValidityCallbackFn [01;36m[Kcallback_fn[m[K = [planning_scene,&visual_tools](moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:423:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kcallback_fn[m[K’ is not captured
+  423 |     sampler->setGroupStateValidityCallback([01;31m[Kcallback_fn[m[K);
+      |                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:133:46:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit::core::GroupStateValidityCallbackFn callback_fn[m[K’ declared here
+  133 |   moveit::core::GroupStateValidityCallbackFn [01;36m[Kcallback_fn[m[K = [planning_scene,&visual_tools](moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                              [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:427:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ is not captured
+  427 |           RCLCPP_ERROR([01;31m[Knode[m[K->get_logger(), "Failed to create ConstraintSampler");
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:84:33:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr<rclcpp::Node> node[m[K’ declared here
+   84 |   std::shared_ptr<rclcpp::Node> [01;36m[Knode[m[K = rclcpp::Node::make_shared("cpp_demo", node_options);
+      |                                 [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:427:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ is not captured
+  427 |           RCLCPP_ERROR([01;31m[Knode[m[K->get_logger(), "Failed to create ConstraintSampler");
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:84:33:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr<rclcpp::Node> node[m[K’ declared here
+   84 |   std::shared_ptr<rclcpp::Node> [01;36m[Knode[m[K = rclcpp::Node::make_shared("cpp_demo", node_options);
+      |                                 [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:433:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ is not captured
+  433 |         RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "Successfully sampled a robot state that satisfies the constraints");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:84:33:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr<rclcpp::Node> node[m[K’ declared here
+   84 |   std::shared_ptr<rclcpp::Node> [01;36m[Knode[m[K = rclcpp::Node::make_shared("cpp_demo", node_options);
+      |                                 [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:433:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ is not captured
+  433 |         RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "Successfully sampled a robot state that satisfies the constraints");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:84:33:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr<rclcpp::Node> node[m[K’ declared here
+   84 |   std::shared_ptr<rclcpp::Node> [01;36m[Knode[m[K = rclcpp::Node::make_shared("cpp_demo", node_options);
+      |                                 [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:435:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ is not captured
+  435 |         RCLCPP_ERROR([01;31m[Knode[m[K->get_logger(), "Failed to sample a valid state that satisfies the constraints");
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:84:33:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr<rclcpp::Node> node[m[K’ declared here
+   84 |   std::shared_ptr<rclcpp::Node> [01;36m[Knode[m[K = rclcpp::Node::make_shared("cpp_demo", node_options);
+      |                                 [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:435:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ is not captured
+  435 |         RCLCPP_ERROR([01;31m[Knode[m[K->get_logger(), "Failed to sample a valid state that satisfies the constraints");
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:84:33:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::shared_ptr<rclcpp::Node> node[m[K’ declared here
+   84 |   std::shared_ptr<rclcpp::Node> [01;36m[Knode[m[K = rclcpp::Node::make_shared("cpp_demo", node_options);
+      |                                 [01;36m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:456:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ is not captured
+  456 |     if ([01;31m[Kmove_group_interface[m[K.execute(msg.trajectory) == true) {
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:169:97:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+  169 |   moveit::core::GroupStateValidityCallbackFn callback_fn_sampler = [planning_scene,&visual_tools[01;36m[K][m[K(moveit::core::RobotState* robot_state, const moveit::core::JointModelGroup* joint_group, const double* joint_group_variable_values)
+      |                                                                                                 [01;36m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:105:50:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit::planning_interface::MoveGroupInterface move_group_interface[m[K’ declared here
+  105 |   moveit::planning_interface::MoveGroupInterface [01;36m[Kmove_group_interface[m[K(node, PLANNING_GROUP);
+      |                                                  [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:466:10:[m[K [01;31m[Kerror: [m[Kinconsistent types ‘[01m[Kbool[m[K’ and ‘[01m[Kint[m[K’ deduced for lambda return type
+  466 |   return [01;31m[K0[m[K;
+      |          [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:467:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ at end of input
+  467 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:467:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:79:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   79 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

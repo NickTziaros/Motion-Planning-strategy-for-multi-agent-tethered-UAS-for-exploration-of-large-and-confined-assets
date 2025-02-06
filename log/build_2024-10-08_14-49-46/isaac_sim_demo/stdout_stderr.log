@@ -1,0 +1,38 @@
+[35m[1mConsolidate compiler generated dependencies of target joint_space[0m
+[  9%] Built target visualization_node
+[ 18%] Built target StateSubscriber_node
+[ 27%] Built target tf_to_pos_node
+[ 36%] Built target markers_node
+[ 54%] Built target moveit_test_node
+[ 54%] Built target cartesian
+[ 63%] Built target spawn_scene
+[ 72%] Built target isaac_sim_demo_library
+[ 77%] [32mBuilding CXX object CMakeFiles/joint_space.dir/src/joint_space.cpp.o[0m
+[ 95%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kbool checkRayBoxIntersection(btDynamicsWorld*, const btVector3&, const btVector3&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:92:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ksctring[m[K’ was not declared in this scope
+   92 |         std::cout << "Intersection detected between" + [01;31m[Ksctring[m[K(P1) + " and " + sctring(P2)+ "!" << std::endl;
+      |                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kvoid configure_bullet(std::shared_ptr<planning_scene::PlanningScene>, moveit::core::RobotState&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:150:8:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kbool intersects[m[K’
+  150 |   bool [01;31m[Kintersects[m[K = checkRayBoxIntersection(dynamicsWorld, P3, P2);
+      |        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:149:8:[m[K [01;36m[Knote: [m[K‘[01m[Kbool intersects[m[K’ previously declared here
+  149 |   bool [01;36m[Kintersects[m[K = checkRayBoxIntersection(dynamicsWorld, P3, P4);
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:151:8:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kbool intersects[m[K’
+  151 |   bool [01;31m[Kintersects[m[K = checkRayBoxIntersection(dynamicsWorld, P1, P2);
+      |        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:149:8:[m[K [01;36m[Knote: [m[K‘[01m[Kbool intersects[m[K’ previously declared here
+  149 |   bool [01;36m[Kintersects[m[K = checkRayBoxIntersection(dynamicsWorld, P3, P4);
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:152:8:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kbool intersects[m[K’
+  152 |   bool [01;31m[Kintersects[m[K = checkRayBoxIntersection(dynamicsWorld, P4, P3);
+      |        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:149:8:[m[K [01;36m[Knote: [m[K‘[01m[Kbool intersects[m[K’ previously declared here
+  149 |   bool [01;36m[Kintersects[m[K = checkRayBoxIntersection(dynamicsWorld, P3, P4);
+      |        [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

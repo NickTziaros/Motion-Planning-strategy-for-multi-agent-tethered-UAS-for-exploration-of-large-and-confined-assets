@@ -1,0 +1,59 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_demo[0m
+[ 10%] Built target StateSubscriber_node
+[ 20%] Built target visualization_node
+[ 30%] Built target tf_to_pos_node
+[ 40%] Built target markers_node
+[ 50%] Built target moveit_test_node
+[ 60%] Built target isaac_sim_demo_library
+[ 70%] Built target spawn_scene
+[ 75%] [32mBuilding CXX object CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o[0m
+[ 85%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:213:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kplanning_scene::PlanningScene::isPathValid(moveit::core::RobotState&, robot_trajectory::RobotTrajectoryPtr&)[m[K’
+  213 |           [01;31m[Kplanning_scene->isPathValid(robot_state,res.trajectory_)[m[K
+      |           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_request_adapter/planning_request_adapter.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:9[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:847:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool planning_scene::PlanningScene::isPathValid(const RobotState&, const RobotTrajectory&, const string&, bool, std::vector<long unsigned int>*) const[m[K’
+  847 |   bool [01;36m[KisPathValid[m[K(const moveit_msgs::msg::RobotState& start_state, const moveit_msgs::msg::RobotTrajectory& trajectory,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:847:56:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit::core::RobotState[m[K’ to ‘[01m[Kconst RobotState&[m[K’ {aka ‘[01m[Kconst moveit_msgs::msg::RobotState_<std::allocator<void> >&[m[K’}
+  847 |   bool isPathValid([01;36m[Kconst moveit_msgs::msg::RobotState& start_state[m[K, const moveit_msgs::msg::RobotTrajectory& trajectory,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:854:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool planning_scene::PlanningScene::isPathValid(const RobotState&, const RobotTrajectory&, const Constraints&, const string&, bool, std::vector<long unsigned int>*) const[m[K’
+  854 |   bool [01;36m[KisPathValid[m[K(const moveit_msgs::msg::RobotState& start_state, const moveit_msgs::msg::RobotTrajectory& trajectory,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:854:8:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 2 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:861:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool planning_scene::PlanningScene::isPathValid(const RobotState&, const RobotTrajectory&, const Constraints&, const Constraints&, const string&, bool, std::vector<long unsigned int>*) const[m[K’
+  861 |   bool [01;36m[KisPathValid[m[K(const moveit_msgs::msg::RobotState& start_state, const moveit_msgs::msg::RobotTrajectory& trajectory,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:861:8:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 2 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:869:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool planning_scene::PlanningScene::isPathValid(const RobotState&, const RobotTrajectory&, const Constraints&, const std::vector<moveit_msgs::msg::Constraints_<std::allocator<void> >, std::allocator<moveit_msgs::msg::Constraints_<std::allocator<void> > > >&, const string&, bool, std::vector<long unsigned int>*) const[m[K’
+  869 |   bool [01;36m[KisPathValid[m[K(const moveit_msgs::msg::RobotState& start_state, const moveit_msgs::msg::RobotTrajectory& trajectory,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:869:8:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 2 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:877:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool planning_scene::PlanningScene::isPathValid(const robot_trajectory::RobotTrajectory&, const Constraints&, const std::vector<moveit_msgs::msg::Constraints_<std::allocator<void> >, std::allocator<moveit_msgs::msg::Constraints_<std::allocator<void> > > >&, const string&, bool, std::vector<long unsigned int>*) const[m[K’
+  877 |   bool [01;36m[KisPathValid[m[K(const robot_trajectory::RobotTrajectory& trajectory,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:877:8:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 2 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:885:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool planning_scene::PlanningScene::isPathValid(const robot_trajectory::RobotTrajectory&, const Constraints&, const Constraints&, const string&, bool, std::vector<long unsigned int>*) const[m[K’
+  885 |   bool [01;36m[KisPathValid[m[K(const robot_trajectory::RobotTrajectory& trajectory,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:885:8:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 2 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:892:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool planning_scene::PlanningScene::isPathValid(const robot_trajectory::RobotTrajectory&, const Constraints&, const string&, bool, std::vector<long unsigned int>*) const[m[K’
+  892 |   bool [01;36m[KisPathValid[m[K(const robot_trajectory::RobotTrajectory& trajectory,
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:892:61:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit::core::RobotState[m[K’ to ‘[01m[Kconst robot_trajectory::RobotTrajectory&[m[K’
+  892 |   bool isPathValid([01;36m[Kconst robot_trajectory::RobotTrajectory& trajectory[m[K,
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:897:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool planning_scene::PlanningScene::isPathValid(const robot_trajectory::RobotTrajectory&, const string&, bool, std::vector<long unsigned int>*) const[m[K’
+  897 |   bool [01;36m[KisPathValid[m[K(const robot_trajectory::RobotTrajectory& trajectory, const std::string& group = "",
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_scene/planning_scene.h:897:61:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit::core::RobotState[m[K’ to ‘[01m[Kconst robot_trajectory::RobotTrajectory&[m[K’
+  897 |   bool isPathValid([01;36m[Kconst robot_trajectory::RobotTrajectory& trajectory[m[K, const std::string& group = "",
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,4 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:556:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdrone3_transform[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  556 |     Eigen::Isometry3d [01;35m[Kdrone3_transform[m[K = robot_state.getFrameTransform("Drone3");
+      |                       [01;35m[K^~~~~~~~~~~~~~~~[m[K

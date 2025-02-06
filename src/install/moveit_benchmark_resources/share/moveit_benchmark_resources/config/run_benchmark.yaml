@@ -1,0 +1,17 @@
+# A detailed description for all parameters can be found in BenchmarkOptions.h
+
+parameters:
+    name: FullBenchmark
+    runs: 50
+    group: Group1      # Required
+    timeout: 1.5
+    output_directory: /tmp/moveit_benchmarks/
+    start_states_regex: ready
+planning_pipelines:
+  # Benchmark tool
+  pipelines: [OMPL_RRTC, CHOMP, PILZ_LIN]
+  OMPL_RRTC:
+    name: ompl_rrtc
+    planners:
+      - RRTConnectkConfigDefault
+

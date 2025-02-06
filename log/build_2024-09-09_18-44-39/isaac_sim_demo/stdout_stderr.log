@@ -1,0 +1,35 @@
+[ 10%] Built target StateSubscriber_node
+[ 40%] Built target visualization_node
+[ 40%] Built target markers_node
+[ 40%] Built target tf_to_pos_node
+[ 70%] Built target spawn_scene
+[ 70%] Built target moveit_test_node
+[ 70%] Built target isaac_sim_demo_library
+[ 75%] [32mBuilding CXX object CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o[0m
+[ 95%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:69:8:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto robot_state[m[K’
+   69 |   auto [01;31m[Krobot_state[m[K = planning_scene->getCurrentState();
+      |        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:62:31:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kmoveit::core::RobotStatePtr robot_state[m[K’
+   62 |   moveit::core::RobotStatePtr [01;36m[Krobot_state[m[K(
+      |                               [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:73:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::core::RobotStatePtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<moveit::core::RobotState>[m[K’} has no member named ‘[01m[KgetJointModelGroup[m[K’
+   73 |   const moveit::core::JointModelGroup* joint_model_group = robot_state.[01;31m[KgetJointModelGroup[m[K("Group1");
+      |                                                                        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:80:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::core::RobotStatePtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<moveit::core::RobotState>[m[K’} has no member named ‘[01m[KcopyJointGroupPositions[m[K’
+   80 |   robot_state.[01;31m[KcopyJointGroupPositions[m[K(joint_model_group, joint_values);
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:87:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::core::RobotStatePtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<moveit::core::RobotState>[m[K’} has no member named ‘[01m[KgetGlobalLinkTransform[m[K’
+   87 |   const Eigen::Isometry3d& end_effector_state = robot_state.[01;31m[KgetGlobalLinkTransform[m[K("Drone4");
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:93:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::core::RobotStatePtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<moveit::core::RobotState>[m[K’} has no member named ‘[01m[KsetFromIK[m[K’
+   93 |   bool found_ik = robot_state.[01;31m[KsetFromIK[m[K(joint_model_group, new_transform, timeout);
+      |                               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:96:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::core::RobotStatePtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<moveit::core::RobotState>[m[K’} has no member named ‘[01m[KcopyJointGroupPositions[m[K’
+   96 |     robot_state.[01;31m[KcopyJointGroupPositions[m[K(joint_model_group, joint_values);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

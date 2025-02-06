@@ -1,0 +1,25 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:93:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdraw_trajectory_tool_path[m[K’ was not declared in this scope
+   93 |     [01;31m[Kdraw_trajectory_tool_path[m[K(plan.trajectory_);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:94:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   94 |     moveit_visual_tools[01;31m[K.[m[Ktrigger();
+      |                        [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:95:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprompt[m[K’ was not declared in this scope
+   95 |     [01;31m[Kprompt[m[K("Press 'Next' in the RvizVisualToolsGui window to execute");
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:96:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdraw_title[m[K’ was not declared in this scope
+   96 |     [01;31m[Kdraw_title[m[K("Executing");
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:97:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   97 |     moveit_visual_tools[01;31m[K.[m[Ktrigger();
+      |                        [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:100:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdraw_title[m[K’ was not declared in this scope
+  100 |     [01;31m[Kdraw_title[m[K("Planning Failed!");
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:101:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+  101 |     moveit_visual_tools[01;31m[K.[m[Ktrigger();
+      |                        [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/moveit_test.dir/build.make:76: CMakeFiles/moveit_test.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/moveit_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

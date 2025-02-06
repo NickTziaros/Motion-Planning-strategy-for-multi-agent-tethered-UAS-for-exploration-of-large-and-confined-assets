@@ -1,0 +1,97 @@
+[35m[1mConsolidate compiler generated dependencies of target ompl_lifecycle[0m
+[ 12%] Built target markers_node
+[ 37%] Built target visualization_node
+[ 37%] Built target tf_to_pos_node
+[ 50%] Built target StateSubscriber_node
+[ 75%] Built target isaac_sim_demo_library
+[ 75%] Built target moveit_test
+[ 81%] [32mBuilding CXX object CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o[0m
+[ 93%] Built target ompl_controller_node
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:24[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:335:15:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[Kboost::unordered::detail::node[m[K’?
+  335 |   RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "Configuring node...");
+      |               [01;31m[K^~~~[m[K
+In file included from [01m[K/usr/include/boost/unordered/detail/set.hpp:6[m[K,
+                 from [01m[K/usr/include/boost/unordered/unordered_set.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/unordered_set.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/graph/adjacency_list.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/multilevel/datastructures/BundleSpaceGraph.h:53[m[K,
+                 from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/multilevel/datastructures/BundleSpaceSequenceImpl.h:44[m[K,
+                 from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/multilevel/datastructures/BundleSpaceSequence.h:152[m[K,
+                 from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/multilevel/planners/qrrt/QRRT.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/include/isaac_sim_demo/RRT_controller.hpp:18[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:33[m[K:
+[01m[K/usr/include/boost/unordered/detail/implementation.hpp:230:48:[m[K [01;36m[Knote: [m[K‘[01m[Kboost::unordered::detail::node[m[K’ declared here
+  230 |       template <typename A, typename T> struct [01;36m[Knode[m[K;
+      |                                                [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:24[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:335:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  335 |   [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Configuring node...");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:335:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  335 |   [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Configuring node...");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:335:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  335 |   [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Configuring node...");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:336:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[Kboost::unordered::detail::node[m[K’?
+  336 |   [01;31m[Knode[m[K->configure();
+      |   [01;31m[K^~~~[m[K
+      |   [32m[Kboost::unordered::detail::node[m[K
+In file included from [01m[K/usr/include/boost/unordered/detail/set.hpp:6[m[K,
+                 from [01m[K/usr/include/boost/unordered/unordered_set.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/unordered_set.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/graph/adjacency_list.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/multilevel/datastructures/BundleSpaceGraph.h:53[m[K,
+                 from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/multilevel/datastructures/BundleSpaceSequenceImpl.h:44[m[K,
+                 from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/multilevel/datastructures/BundleSpaceSequence.h:152[m[K,
+                 from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/multilevel/planners/qrrt/QRRT.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/include/isaac_sim_demo/RRT_controller.hpp:18[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:33[m[K:
+[01m[K/usr/include/boost/unordered/detail/implementation.hpp:230:48:[m[K [01;36m[Knote: [m[K‘[01m[Kboost::unordered::detail::node[m[K’ declared here
+  230 |       template <typename A, typename T> struct [01;36m[Knode[m[K;
+      |                                                [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:24[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:340:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  340 |   [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Activating node...");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:340:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  340 |   [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Activating node...");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:340:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  340 |   [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Activating node...");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ompl_lifecycle.dir/build.make:76: CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/ompl_lifecycle.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

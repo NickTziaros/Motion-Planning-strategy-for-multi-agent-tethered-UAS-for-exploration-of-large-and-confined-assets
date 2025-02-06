@@ -1,0 +1,38 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:53:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::core::RobotState::RobotState(robot_model_loader::RobotModelLoaderPtr&)[m[K’
+   53 |   moveit::core::RobotState robot_state(robot_model_loader[01;31m[K)[m[K;
+      |                                                          [01;31m[K^[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/conversions.h:39[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:8[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:98:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::core::RobotState::RobotState(const moveit::core::RobotState&)[m[K’
+   98 |   [01;36m[KRobotState[m[K(const RobotState& other);
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:98:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krobot_model_loader::RobotModelLoaderPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<robot_model_loader::RobotModelLoader>[m[K’} to ‘[01m[Kconst moveit::core::RobotState&[m[K’
+   98 |   RobotState([01;36m[Kconst RobotState& other[m[K);
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:94:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::core::RobotState::RobotState(const RobotModelConstPtr&)[m[K’
+   94 |   [01;36m[KRobotState[m[K(const RobotModelConstPtr& robot_model);
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:94:40:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krobot_model_loader::RobotModelLoaderPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<robot_model_loader::RobotModelLoader>[m[K’} to ‘[01m[Kconst RobotModelConstPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const moveit::core::RobotModel>&[m[K’}
+   94 |   RobotState([01;36m[Kconst RobotModelConstPtr& robot_model[m[K);
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:106:71:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kmoveit::core::RobotState[m[K’
+  106 |   const moveit::core::JointModelGroup* joint_model_group = robot_state[01;31m[K->[m[KgetJointModelGroup("Group1");
+      |                                                                       [01;31m[K^~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:113:14:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kmoveit::core::RobotState[m[K’
+  113 |   robot_state[01;31m[K->[m[KcopyJointGroupPositions(joint_model_group, joint_values);
+      |              [01;31m[K^~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/robot_model_loader/robot_model_loader.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:7[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:140:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_effector_state[m[K’ was not declared in this scope
+  140 |   RCLCPP_INFO_STREAM(LOGGER, "Translation: \n" << [01;31m[Kend_effector_state[m[K.translation().x()+0.1 << "\n");
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:159:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_effector_state[m[K’ was not declared in this scope
+  159 |   pose.pose.position.x = [01;31m[Kend_effector_state[m[K.translation().x()+0.1;
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

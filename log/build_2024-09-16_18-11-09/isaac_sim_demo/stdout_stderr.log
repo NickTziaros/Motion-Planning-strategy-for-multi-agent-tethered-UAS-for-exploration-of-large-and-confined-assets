@@ -1,0 +1,54 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_demo[0m
+[ 10%] Built target markers_node
+[ 20%] Built target tf_to_pos_node
+[ 30%] Built target StateSubscriber_node
+[ 40%] Built target visualization_node
+[ 50%] Built target isaac_sim_demo_library
+[ 70%] Built target spawn_scene
+[ 70%] Built target moveit_test_node
+[ 75%] [32mBuilding CXX object CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o[0m
+[ 95%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:26:26:[m[K [01;31m[Kerror: [m[K‘[01m[KRobotState[m[K’ was not declared in this scope
+   26 | bool customValidityCheck([01;31m[KRobotState[m[K* robot_state,
+      |                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:26:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/conversions.h:39[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:8[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:89:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmoveit::core::RobotState[m[K’
+   89 | class [01;36m[KRobotState[m[K
+      |       [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp:7[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/conversions.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/robot_state__struct.hpp:169:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmoveit_msgs::msg::RobotState[m[K’
+  169 | using [01;36m[KRobotState[m[K =
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:26:38:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ was not declared in this scope
+   26 | bool customValidityCheck(RobotState* [01;31m[Krobot_state[m[K,
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:27:26:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+   27 |                          [01;31m[Kconst[m[K JointModelGroup* joint_group,
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:28:26:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+   28 |                          [01;31m[Kconst[m[K double* joint_group_variable_values)
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:28:67:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   28 |                          const double* joint_group_variable_values[01;31m[K)[m[K
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:74:3:[m[K [01;31m[Kerror: [m[K‘[01m[KGroupStateValidityCallbackFn[m[K’ was not declared in this scope; did you mean ‘[01m[Kmoveit::core::GroupStateValidityCallbackFn[m[K’?
+   74 |   [01;31m[KGroupStateValidityCallbackFn[m[K validity_fn = &customValidityCheck;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |   [32m[Kmoveit::core::GroupStateValidityCallbackFn[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/conversions.h:39[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:8[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:70:5:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit::core::GroupStateValidityCallbackFn[m[K’ declared here
+   70 |     [01;36m[KGroupStateValidityCallbackFn[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:163:85:[m[K [01;31m[Kerror: [m[K‘[01m[Kvalidity_fn[m[K’ was not declared in this scope
+  163 |     found_ik = robot_state.setFromIK(joint_model_group, waypoints, attempts,timeout,[01;31m[Kvalidity_fn[m[K);
+      |                                                                                     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

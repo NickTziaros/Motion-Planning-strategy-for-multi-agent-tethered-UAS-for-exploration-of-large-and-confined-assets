@@ -1,0 +1,20 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:52:60:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ was not declared in this scope
+   52 |   const moveit::core::JointModelGroup* joint_model_group = [01;31m[Krobot_state[m[K->getJointModelGroup("Group1");
+      |                                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:75:15:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Ksize_t[m[K’
+   75 |               [01;31m[Ksize_t[m[K num_world_objects = response->scene.world.collision_objects.size();
+      |               [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:76:96:[m[K [01;31m[Kerror: [m[K‘[01m[Knum_world_objects[m[K’ was not declared in this scope
+   76 |               RCLCPP_INFO(node->get_logger(), "Number of collision objects in the scene: %ld", [01;31m[Knum_world_objects[m[K);
+      |                                                                                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:82:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_values[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_value[m[K’?
+   82 |                   [01;31m[Kjoint_values[m[K.push_back(joint_value)
+      |                   [01;31m[K^~~~~~~~~~~~[m[K
+      |                   [32m[Kjoint_value[m[K
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

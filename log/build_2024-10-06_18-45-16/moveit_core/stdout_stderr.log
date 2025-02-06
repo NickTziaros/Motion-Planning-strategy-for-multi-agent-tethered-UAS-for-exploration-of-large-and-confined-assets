@@ -1,0 +1,57 @@
+[  2%] Built target moveit_version
+[  4%] Built target gmock
+[  5%] Built target gtest
+[  6%] Built target moveit_butterworth_parameters
+[  8%] Built target moveit_utils
+[  9%] Built target gtest_main
+[ 10%] Built target moveit_exceptions
+[ 11%] Built target gmock_main
+[ 13%] Built target moveit_distance_field
+[ 14%] Built target moveit_smoothing_base
+[ 15%] Built target moveit_kinematics_base
+[ 16%] Built target moveit_transforms
+[ 17%] Built target test_voxel_grid
+[ 18%] Built target test_transforms
+[ 19%] Built target test_distance_field
+[ 26%] Built target moveit_robot_model
+[ 27%] Built target moveit_test_utils
+[ 28%] Built target moveit_butterworth_filter
+[ 31%] Built target moveit_robot_state
+[ 33%] Built target moveit_dynamics_solver
+[ 34%] Built target test_robot_model
+[ 35%] Built target test_butterworth_filter
+[ 37%] Built target test_robot_state
+[ 38%] Built target moveit_kinematics_metrics
+[ 39%] Built target test_aabb
+[ 45%] Built target moveit_collision_detection
+[ 46%] Built target moveit_robot_trajectory
+[ 47%] Built target test_robot_state_benchmark
+[ 48%] Built target test_robot_state_complex
+[ 49%] Built target test_cartesian_interpolator
+[ 50%] Built target test_world
+[ 52%] Built target test_world_diff
+[ 54%] Built target moveit_collision_detection_fcl
+[ 55%] Built target test_all_valid
+[ 60%] Built target moveit_planning_interface
+[ 61%] Built target moveit_trajectory_processing
+[ 62%] Built target test_robot_trajectory
+[ 67%] Built target moveit_collision_detection_bullet
+[35m[1mConsolidate compiler generated dependencies of target moveit_kinematic_constraints[0m
+[ 69%] Built target test_fcl_collision_env
+[ 70%] Built target test_fcl_collision_detection
+[ 71%] Built target test_time_parameterization
+[ 73%] Built target test_time_optimal_trajectory_generation
+[ 74%] Built target test_fcl_collision_detection_panda
+[ 75%] Built target test_bullet_collision_detection
+[ 76%] Built target test_bullet_collision_detection_panda
+[ 77%] Built target test_ruckig_traj_smoothing
+[ 79%] Built target test_bullet_continuous_collision_checking
+[ 79%] [32mBuilding CXX object kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o[0m
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:[m[K In member function ‘[01m[Kvirtual kinematic_constraints::ConstraintEvaluationResult kinematic_constraints::VisibilityConstraint::decide(const moveit::core::RobotState&, bool) const[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/moveit2/moveit_core/kinematic_constraints/src/kinematic_constraint.cpp:1146:51:[m[K [01;31m[Kerror: [m[K‘[01m[Ksbox_shape[m[K’ was not declared in this scope; did you mean ‘[01m[Kbox_shape[m[K’?
+ 1146 |   collision_env_->getWorld()->addToObject("box1", [01;31m[Ksbox_shape[m[K, Eigen::Isometry3d::Identity());
+      |                                                   [01;31m[K^~~~~~~~~~[m[K
+      |                                                   [32m[Kbox_shape[m[K
+gmake[2]: *** [kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/build.make:76: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/src/kinematic_constraint.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:1123: kinematic_constraints/CMakeFiles/moveit_kinematic_constraints.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

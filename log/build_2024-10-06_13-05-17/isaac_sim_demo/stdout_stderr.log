@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target joint_space[0m
+[ 18%] Built target StateSubscriber_node
+[ 18%] Built target markers_node
+[ 27%] Built target tf_to_pos_node
+[ 36%] Built target visualization_node
+[ 45%] Built target isaac_sim_demo_library
+[ 54%] Built target moveit_test_node
+[ 72%] Built target cartesian
+[ 72%] Built target spawn_scene
+[ 77%] [32mBuilding CXX object CMakeFiles/joint_space.dir/src/joint_space.cpp.o[0m
+[ 86%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:446:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<planning_scene::PlanningScene>[m[K’ has no member named ‘[01m[Kworld[m[K’
+  446 |     planning_scene.[01;31m[Kworld[m[K.collision_objects.push_back(attached_object.object);
+      |                    [01;31m[K^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:446:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kattached_object[m[K’ was not declared in this scope
+  446 |     planning_scene.world.collision_objects.push_back([01;31m[Kattached_object[m[K.object);
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:447:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<planning_scene::PlanningScene>[m[K’ has no member named ‘[01m[Kis_diff[m[K’
+  447 |     planning_scene.[01;31m[Kis_diff[m[K = true;
+      |                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:448:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene_diff_publisher[m[K’ was not declared in this scope
+  448 |     [01;31m[Kplanning_scene_diff_publisher[m[K->publish(planning_scene);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

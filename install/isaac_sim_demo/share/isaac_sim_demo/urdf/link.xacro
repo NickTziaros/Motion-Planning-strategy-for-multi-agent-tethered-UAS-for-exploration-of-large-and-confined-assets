@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="temp_link" params="name origin_xyz origin_rpy size mass ">
+
+    <xacro:property name="dim" value="${size.split(' ')}"/>
+    <xacro:property name="L" value="${dim[0]}"/>
+    <xacro:property name="W" value="${dim[1]}"/>
+    <xacro:property name="H" value="${dim[2]}"/>
+
+    <!-- Calculate inertia tensor components -->
+    <xacro:property name="Ixx" value="${(1/12.0) * mass * (W*W + H*H)}"/>
+    <xacro:property name="Iyy" value="${(1/12.0) * mass * (L*L + H*H)}"/>
+    <xacro:property name="Izz" value="${(1/12.0) * mass * (L*L + W*W)}"/>
+
+
+
+
+
+    <link name="${name}">
+      <inertial>
+        <mass value="${mass}" />
+        <origin rpy="${origin_rpy}" xyz="${origin_xyz}" />
+        <inertia ixx="${Ixx}" ixy="0" ixz="0" iyy="${Iyy}" iyz="0" izz="${Izz}" />
+      </inertial>
+      <collision>
+        <origin rpy="${origin_rpy}" xyz="${origin_xyz}" />
+        <geometry>
+          <box size="${size}"/> 
+        </geometry>
+      </collision>
+      <visual>
+        <origin rpy="${origin_rpy}" xyz="${origin_xyz}" />
+        <geometry>
+          <box size="${size}"/> 
+        </geometry>
+      </visual>
+    </link>
+  </xacro:macro>
+
+</robot>

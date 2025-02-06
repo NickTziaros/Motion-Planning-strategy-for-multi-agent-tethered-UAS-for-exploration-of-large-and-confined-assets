@@ -1,0 +1,24 @@
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:303:24:[m[K [01;31m[Kerror: [m[K‘[01m[Knoce[m[K’ was not declared in this scope; did you mean ‘[01m[Knode[m[K’?
+  303 |           RCLCPP_ERROR([01;31m[Knoce[m[K->get_logger(), "Failed to configure visibility constraint.");
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:303:11:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  303 |           [01;31m[KRCLCPP_ERROR[m[K(noce->get_logger(), "Failed to configure visibility constraint.");
+      |           [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:303:11:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  303 |           [01;31m[KRCLCPP_ERROR[m[K(noce->get_logger(), "Failed to configure visibility constraint.");
+      |           [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:303:11:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  303 |           [01;31m[KRCLCPP_ERROR[m[K(noce->get_logger(), "Failed to configure visibility constraint.");
+      |           [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:304:11:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  304 |           [01;31m[Kreturn[m[K; // Exit if configuration fails
+      |           [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,14 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:[m[K In member function ‘[01m[Kvoid LifecycleTalker::publish()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:91:60:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kvector<[01;32m[Kdouble[m[K,allocator<[01;32m[Kdouble[m[K>>[m[K’ to ‘[01m[Kvector<[01;32m[Kdouble*[m[K,allocator<[01;32m[Kdouble*[m[K>>[m[K’
+   91 |     ompl::geometric::SimpleSetup ss_p = planner_.configure([01;31m[Kquad_pose[m[K,goal_pose);
+      |                                                            [01;31m[K^~~~~~~~~[m[K
+      |                                                            [01;31m[K|[m[K
+      |                                                            [01;31m[Kvector<double,allocator<double>>[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:33[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/include/isaac_sim_demo/RRT_controller.hpp:62:65:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kompl::geometric::SimpleSetup RRT_controller::ompl_controller::configure(std::vector<double*>, std::vector<double, std::allocator<double> >)[m[K’
+   62 |     ompl::geometric::SimpleSetup configure([01;36m[Kstd::vector<double*> quad_poses[m[K, std::vector<double> goal_pose);
+      |                                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ompl_lifecycle.dir/build.make:76: CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/ompl_lifecycle.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,50 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:78:60:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kmoveit::core::RobotState[m[K’
+   78 |   const Eigen::Isometry3d& end_effector_state = start_state[01;31m[K->[m[KgetGlobalLinkTransform("Drone4");
+      |                                                            [01;31m[K^~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:80:19:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ was not declared in this scope
+   80 |   bool found_ik = [01;31m[Krobot_state[m[K->setFromIK(joint_model_group, new_transform, timeout);
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:80:61:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_transform[m[K’ was not declared in this scope; did you mean ‘[01m[Ktf2_Transform_H[m[K’?
+   80 |   bool found_ik = robot_state->setFromIK(joint_model_group, [01;31m[Knew_transform[m[K, timeout);
+      |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                             [32m[Ktf2_Transform_H[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:3[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:86:19:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+   86 |       RCLCPP_INFO([01;31m[KLOGGER[m[K, "Joint %s: %f", joint_names[i].c_str(), joint_values[i]);
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:86:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   86 |       [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Joint %s: %f", joint_names[i].c_str(), joint_values[i]);
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:86:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   86 |       [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Joint %s: %f", joint_names[i].c_str(), joint_values[i]);
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:86:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   86 |       [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Joint %s: %f", joint_names[i].c_str(), joint_values[i]);
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:78:28:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kend_effector_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   78 |   const Eigen::Isometry3d& [01;35m[Kend_effector_state[m[K = start_state->getGlobalLinkTransform("Drone4");
+      |                            [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:52:60:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ was not declared in this scope
+   52 |   const moveit::core::JointModelGroup* joint_model_group = [01;31m[Krobot_state[m[K->getJointModelGroup("Group1");
+      |                                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:116:7:[m[K [01;31m[Kerror: [m[K‘[01m[KGet[m[K’ was not declared in this scope
+  116 |       [01;31m[KGet[m[K the robot state from the locked planning scene
+      |       [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

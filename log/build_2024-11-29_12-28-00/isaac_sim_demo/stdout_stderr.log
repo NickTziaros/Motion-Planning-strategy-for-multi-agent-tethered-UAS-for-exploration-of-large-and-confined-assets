@@ -1,0 +1,61 @@
+[  8%] Built target markers_node
+[ 16%] Built target tf_to_pos_node
+[35m[1mConsolidate compiler generated dependencies of target joint_space[0m
+[ 25%] Built target visualization_node
+[ 33%] Built target StateSubscriber_node
+[ 41%] Built target moveit_test_node
+[ 50%] Built target spawn_scene
+[ 58%] Built target drone_marker_publisher
+[ 75%] Built target isaac_sim_demo_library
+[ 75%] Built target cartesian
+[ 79%] [32mBuilding CXX object CMakeFiles/joint_space.dir/src/joint_space.cpp.o[0m
+[ 87%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:373:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kgeometry_msgs[m[K’
+  373 |       counter++
+      |                [01;31m[K^[m[K
+      |                [32m[K;[m[K
+  374 |       [32m[Kgeometry_msgs[m[K::msg::Pose ik_pose;
+      |       [32m[K~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:376:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kik_pose[m[K’ was not declared in this scope; did you mean ‘[01m[Kee_pose[m[K’?
+  376 |       [01;31m[Kik_pose[m[K = path.poses[i].pose;
+      |       [01;31m[K^~~~~~~[m[K
+      |       [32m[Kee_pose[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:491:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  491 |         fail_counter++
+      |                       [01;31m[K^[m[K
+      |                       [32m[K;[m[K
+  492 | 
+  493 |       [32m[K}[m[K
+      |       [32m[K~[m[K                
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:532:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  532 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Float1: %.2f, Float2: %.3f", counter, rate);
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:532:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:532:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  532 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Float1: %.2f, Float2: %.3f", counter, rate);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:532:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  532 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Float1: %.2f, Float2: %.3f", counter, rate);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:532:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  532 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Float1: %.2f, Float2: %.3f", counter, rate);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:532:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  532 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Float1: %.2f, Float2: %.3f", counter, rate);
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:532:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  532 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Float1: %.2f, Float2: %.3f", counter, rate);
+      |               [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:341: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target cpp_demo[0m
+[ 10%] Built target StateSubscriber_node
+[ 20%] Built target visualization_node
+[ 30%] Built target markers_node
+[ 40%] Built target tf_to_pos_node
+[ 50%] Built target isaac_sim_demo_library
+[ 60%] Built target spawn_scene
+[ 70%] Built target moveit_test_node
+[ 75%] [32mBuilding CXX object CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o[0m
+[ 95%] Built target ompl_lifecycle
+[ 95%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:64:72:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ was not declared in this scope; did you mean ‘[01m[Krobot_state_msg[m[K’?
+   64 |               moveit::core::robotStateMsgToRobotState(robot_state_msg, [01;31m[Krobot_state[m[K);
+      |                                                                        [01;31m[K^~~~~~~~~~~[m[K
+      |                                                                        [32m[Krobot_state_msg[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:106:60:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_state[m[K’ was not declared in this scope
+  106 |   const moveit::core::JointModelGroup* joint_model_group = [01;31m[Krobot_state[m[K->getJointModelGroup("Group1");
+      |                                                            [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/robot_model_loader/robot_model_loader.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:7[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:140:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_effector_state[m[K’ was not declared in this scope
+  140 |   RCLCPP_INFO_STREAM(LOGGER, "Translation: \n" << [01;31m[Kend_effector_state[m[K.translation().x()+0.1 << "\n");
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:159:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_effector_state[m[K’ was not declared in this scope
+  159 |   pose.pose.position.x = [01;31m[Kend_effector_state[m[K.translation().x()+0.1;
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

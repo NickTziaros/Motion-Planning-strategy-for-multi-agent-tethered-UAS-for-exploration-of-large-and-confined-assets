@@ -1,0 +1,15 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:558:23:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::Isometry3d drone3_transform[m[K’
+  558 |     Eigen::Isometry3d [01;31m[Kdrone3_transform[m[K = robot_state.getFrameTransform("Drone2");
+      |                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:557:23:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Isometry3d drone3_transform[m[K’ previously declared here
+  557 |     Eigen::Isometry3d [01;36m[Kdrone3_transform[m[K = robot_state.getFrameTransform("Drone3");
+      |                       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:561:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrone2_transform[m[K’ was not declared in this scope; did you mean ‘[01m[Kdrone3_transform[m[K’?
+  561 |     btVector3 P3([01;31m[Kdrone2_transform[m[K.translation().x(), drone2_transform.translation().y(), drone2_transform.translation().z());    // End point of the line
+      |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                  [32m[Kdrone3_transform[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,8 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/tf_to_pos.cpp:[m[K In member function ‘[01m[Kvoid TransformListenerNode::timer_callback()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/tf_to_pos.cpp:29:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kquadrotor_frame[m[K’ was not declared in this scope
+   29 |         publish_pose("base_link", [01;31m[Kquadrotor_frame[m[K, pub_drone);
+      |                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/tf_to_pos_node.dir/build.make:76: CMakeFiles/tf_to_pos_node.dir/src/tf_to_pos.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:281: CMakeFiles/tf_to_pos_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

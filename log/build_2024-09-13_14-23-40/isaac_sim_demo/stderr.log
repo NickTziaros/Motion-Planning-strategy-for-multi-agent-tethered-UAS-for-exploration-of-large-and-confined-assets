@@ -1,0 +1,14 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:172:41:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > > waypoints_vec[m[K’
+  172 |   std::vector<geometry_msgs::msg::Pose> [01;31m[Kwaypoints_vec[m[K;
+      |                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:135:41:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<geometry_msgs::msg::Pose_<std::allocator<void> > > waypoints_vec[m[K’ previously declared here
+  135 |   std::vector<geometry_msgs::msg::Pose> [01;36m[Kwaypoints_vec[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:177:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_state[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetstate[m[K’?
+  177 |     bool found_ik = [01;31m[Knew_state[m[K.setFromIK(joint_model_group, waypoints, timeout);
+      |                     [01;31m[K^~~~~~~~~[m[K
+      |                     [32m[Ksetstate[m[K
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

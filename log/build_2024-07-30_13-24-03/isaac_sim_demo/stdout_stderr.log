@@ -1,0 +1,40 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_test[0m
+[ 42%] Built target visualization_node
+[ 42%] Built target markers_node
+[ 42%] Built target StateSubscriber_node
+[ 57%] Built target tf_to_pos_node
+[ 71%] Built target isaac_sim_demo_library
+[ 78%] [32mBuilding CXX object CMakeFiles/moveit_test.dir/src/moveit_demo.cpp.o[0m
+[ 92%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:84:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksuccess[m[K’ was not declared in this scope; did you mean ‘[01m[Keaccess[m[K’?
+   84 |   if ([01;31m[Ksuccess[m[K) {
+      |       [01;31m[K^~~~~~~[m[K
+      |       [32m[Keaccess[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:85:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kplan[m[K’ was not declared in this scope
+   85 |     draw_trajectory_tool_path([01;31m[Kplan[m[K.trajectory_);
+      |                               [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:85:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdraw_trajectory_tool_path[m[K’ was not declared in this scope
+   85 |     [01;31m[Kdraw_trajectory_tool_path[m[K(plan.trajectory_);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:86:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   86 |     moveit_visual_tools[01;31m[K.[m[Ktrigger();
+      |                        [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:87:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprompt[m[K’ was not declared in this scope
+   87 |     [01;31m[Kprompt[m[K("Press 'Next' in the RvizVisualToolsGui window to execute");
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:88:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdraw_title[m[K’ was not declared in this scope
+   88 |     [01;31m[Kdraw_title[m[K("Executing");
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:89:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   89 |     moveit_visual_tools[01;31m[K.[m[Ktrigger();
+      |                        [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:92:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdraw_title[m[K’ was not declared in this scope
+   92 |     [01;31m[Kdraw_title[m[K("Planning Failed!");
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:93:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   93 |     moveit_visual_tools[01;31m[K.[m[Ktrigger();
+      |                        [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/moveit_test.dir/build.make:76: CMakeFiles/moveit_test.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/moveit_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

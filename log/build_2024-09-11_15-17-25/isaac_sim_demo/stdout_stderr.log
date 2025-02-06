@@ -1,0 +1,20 @@
+[ 10%] Built target markers_node
+[ 20%] Built target visualization_node
+[ 30%] Built target tf_to_pos_node
+[ 40%] Built target StateSubscriber_node
+[ 50%] Built target spawn_scene
+[ 60%] Built target cpp_demo
+[ 65%] [32mBuilding CXX object CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o[0m
+[ 75%] Built target isaac_sim_demo_library
+[ 95%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:95:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktarget_pose1[m[K’
+   95 |   target_pose1.position.y = end_effector_state.translation().y()+0.5
+      |                                                                     [01;31m[K^[m[K
+      |                                                                     [32m[K;[m[K
+   96 |   [32m[Ktarget_pose1[m[K.position.z = end_effector_state.translation().z()+0.2;
+      |   [32m[K~~~~~~~~~~~~[m[K                                                       
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

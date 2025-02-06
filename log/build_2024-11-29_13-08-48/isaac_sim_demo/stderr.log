@@ -1,0 +1,10 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:542:41:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst JointTrajectory&[m[K’ {aka ‘[01m[Kconst trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >&[m[K’} from expression of type ‘[01m[Kmoveit_msgs::msg::MotionPlanResponse_<std::allocator<void> >::_trajectory_type[m[K’ {aka ‘[01m[Kmoveit_msgs::msg::RobotTrajectory_<std::allocator<void> >[m[K’}
+  542 |           calculate_joint_distances([01;31m[Kmsg.trajectory[m[K,node)
+      |                                     [01;31m[K~~~~^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:168:92:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Kstd::vector<double> calculate_joint_distances(const JointTrajectory&, rclcpp::Logger)[m[K’
+  168 | std::vector<double> calculate_joint_distances([01;36m[Kconst trajectory_msgs::msg::JointTrajectory &trajectory[m[K, rclcpp::Logger logger) {
+      |                                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:341: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

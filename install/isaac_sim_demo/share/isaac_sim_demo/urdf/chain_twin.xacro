@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="isaac_twin">
+
+  <xacro:include filename="$(find isaac_sim_demo)/urdf/spherical_joint.xacro" />
+  <xacro:include filename="$(find isaac_sim_demo)/urdf/link.xacro" />
+  
+  <!-- Include the cylinder macro -->
+  <xacro:include filename="cylinder_macro.xacro" />
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0"/>
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 0.1 0"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <xacro:spherical_joint prefix="spherical_1" parent="base_link" />
+
+  <!-- Replace prismatic_joint_1 with a cylinder -->
+  <xacro:cylinder_link parent_link="spherical_1_z" child_link="Drone1" prefix="cylinder1" cylinder_radius="0.02" cylinder_length="2"/>
+
+  <xacro:temp_link name="Drone1" origin_xyz="0 0 0" origin_rpy="0 0 0" size="0.1 0.1 0.1" mass="0.1" />
+
+  <xacro:spherical_joint prefix="spherical_2" parent="Drone1" />
+
+  <!-- Replace prismatic_joint_2 with a cylinder -->
+  <xacro:cylinder_link parent_link="spherical_2_z" child_link="Drone2" prefix="cylinder2" cylinder_radius="0.02" cylinder_length="2"/>
+
+  <xacro:temp_link name="Drone2" origin_xyz="0 0 0" origin_rpy="0 0 0" size="0.1 0.1 0.1" mass="0.1" />
+
+  <xacro:spherical_joint prefix="spherical_3" parent="Drone2" />
+
+  <!-- Replace prismatic_joint_3 with a cylinder -->
+  <xacro:cylinder_link parent_link="spherical_3_z" child_link="Drone3" prefix="cylinder3" cylinder_radius="0.02" cylinder_length="2"/>
+
+  <xacro:temp_link name="Drone3" origin_xyz="0 0 0" origin_rpy="0 0 0" size="0.1 0.1 0.1" mass="0.1" />
+
+  <xacro:spherical_joint prefix="spherical_4" parent="Drone3" />
+
+  <!-- Replace prismatic_joint_4 with a cylinder -->
+  <xacro:cylinder_link parent_link="spherical_4_z" child_link="Drone4" prefix="cylinder4" cylinder_radius="0.02" cylinder_length="2"/>
+
+  <xacro:temp_link name="Drone4" origin_xyz="0 0 0" origin_rpy="0 0 0" size="0.1 0.1 0.1" mass="0.1" />
+
+</robot>

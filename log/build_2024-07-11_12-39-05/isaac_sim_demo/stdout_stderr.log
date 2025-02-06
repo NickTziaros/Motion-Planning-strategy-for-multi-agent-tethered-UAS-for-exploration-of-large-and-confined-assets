@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target tf_to_pos_node[0m
+[ 16%] Built target markers_node
+[ 33%] Built target visualization_node
+[ 50%] Built target StateSubscriber_node
+[ 58%] [32mBuilding CXX object CMakeFiles/tf_to_pos_node.dir/src/tf_to_pos.cpp.o[0m
+[ 75%] Built target isaac_sim_demo_library
+[ 91%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/tf_to_pos.cpp:[m[K In member function ‘[01m[Kvoid TransformListenerNode::publish_pose(const string&, const string&, const SharedPtr&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/tf_to_pos.cpp:39:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[KtfBuffer[m[K’
+   39 |         if [01;31m[KtfBuffer[m[K.canTransform(to_frame, from_frame, tf2::TimePointZero, timeout)
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/tf_to_pos.cpp:53:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kcatch[m[K’
+   53 |         [01;31m[Kcatch[m[K (tf2::TransformException &ex)
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/tf_to_pos.cpp:37:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfrom_frame[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   37 |     void publish_pose([01;35m[Kconst std::string &from_frame[m[K, const std::string &to_frame, const rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr &publisher)
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/tf_to_pos.cpp:37:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kto_frame[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   37 |     void publish_pose(const std::string &from_frame, [01;35m[Kconst std::string &to_frame[m[K, const rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr &publisher)
+      |                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/tf_to_pos.cpp:37:152:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpublisher[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   37 |     void publish_pose(const std::string &from_frame, const std::string &to_frame, [01;35m[Kconst rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr &publisher[m[K)
+      |                                                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/tf_to_pos_node.dir/build.make:76: CMakeFiles/tf_to_pos_node.dir/src/tf_to_pos.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/tf_to_pos_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

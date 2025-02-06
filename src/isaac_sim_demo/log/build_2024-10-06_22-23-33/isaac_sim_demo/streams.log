@@ -1,0 +1,126 @@
+[0.010s] Invoking command in '/home/ubuntu/ros2_ws/src/isaac_sim_demo/build/isaac_sim_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/isaac_sim_demo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/src/isaac_sim_demo/install/isaac_sim_demo
+[0.020s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.115s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.137s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.138s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.142s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.149s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.181s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.183s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.299s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.333s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.360s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.393s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.394s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.394s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.565s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[0.586s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.625s] -- Found custom_interfaces: 0.0.0 (/home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake)
+[0.644s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.677s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.687s] -- Found moveit_ros_planning_interface: 2.5.5 (/home/ubuntu/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[0.771s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.910s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.994s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.037s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.078s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.198s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.344s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.373s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.400s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.414s] -- Found moveit_visual_tools: 4.1.0 (/home/ubuntu/ros2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake)
+[1.510s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.537s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.538s] -- Found OGRE
+[1.538s] --   static     : OFF
+[1.538s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.538s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.538s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.538s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.538s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.539s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.539s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.539s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.539s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.539s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.539s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.562s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.571s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.664s] -- Found X11: /usr/include   
+[1.664s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.724s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.725s] -- Looking for gethostbyname
+[1.781s] -- Looking for gethostbyname - found
+[1.781s] -- Looking for connect
+[1.836s] -- Looking for connect - found
+[1.836s] -- Looking for remove
+[1.891s] -- Looking for remove - found
+[1.891s] -- Looking for shmat
+[1.945s] -- Looking for shmat - found
+[1.945s] -- Looking for IceConnectionNumber in ICE
+[2.001s] -- Looking for IceConnectionNumber in ICE - found
+[2.110s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[2.117s] -- Found four_drone_demo: 0.3.0 (/home/ubuntu/ros2_ws/install/four_drone_demo/share/four_drone_demo/cmake)
+[2.117s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.241s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.242s] -- Configured cppcheck include dirs: /home/ubuntu/ros2_ws/src/isaac_sim_demo/include;/home/ubuntu/ros2_ws/src/isaac_sim_demo/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces;/home/ubuntu/ros2_ws/src/isaac_sim_demo/include/isaac_sim_demo
+[2.242s] -- Configured cppcheck exclude dirs and/or files: 
+[2.244s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.247s] -- Added test 'lint_cmake' to check CMake code style
+[2.249s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.255s] -- Added test 'uncrustify' to check C / C++ code style
+[2.255s] -- Configured uncrustify additional arguments: 
+[2.257s] -- Added test 'xmllint' to check XML markup files
+[2.260s] -- Configuring done
+[2.389s] -- Generating done
+[2.391s] -- Build files have been written to: /home/ubuntu/ros2_ws/src/isaac_sim_demo/build/isaac_sim_demo
+[2.403s] Invoked command in '/home/ubuntu/ros2_ws/src/isaac_sim_demo/build/isaac_sim_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/isaac_sim_demo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/src/isaac_sim_demo/install/isaac_sim_demo
+[2.403s] Invoking command in '/home/ubuntu/ros2_ws/src/isaac_sim_demo/build/isaac_sim_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/isaac_sim_demo/build/isaac_sim_demo -- -j24 -l24
+[2.460s] [  4%] [32mBuilding CXX object CMakeFiles/StateSubscriber_node.dir/src/StateSubscriber_node.cpp.o[0m
+[2.467s] [  9%] [32mBuilding CXX object CMakeFiles/markers_node.dir/src/markers.cpp.o[0m
+[2.468s] [ 13%] [32mBuilding CXX object CMakeFiles/visualization_node.dir/src/visualization.cpp.o[0m
+[2.469s] [ 18%] [32mBuilding CXX object CMakeFiles/isaac_sim_demo_library.dir/src/RRT_controller.cpp.o[0m
+[2.469s] [ 22%] [32mBuilding CXX object CMakeFiles/joint_space.dir/src/joint_space.cpp.o[0m
+[2.470s] [ 27%] [32mBuilding CXX object CMakeFiles/spawn_scene.dir/src/spawn_scene.cpp.o[0m
+[2.470s] [ 31%] [32mBuilding CXX object CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o[0m
+[2.470s] [ 36%] [32mBuilding CXX object CMakeFiles/cartesian.dir/src/cartesian.cpp.o[0m
+[2.471s] [ 40%] [32mBuilding CXX object CMakeFiles/tf_to_pos_node.dir/src/tf_to_pos.cpp.o[0m
+[5.417s] [ 45%] [32m[1mLinking CXX executable markers_node[0m
+[5.594s] [ 45%] Built target markers_node
+[5.639s] [ 50%] [32m[1mLinking CXX executable tf_to_pos_node[0m
+[5.779s] [ 54%] [32m[1mLinking CXX executable visualization_node[0m
+[5.793s] [ 54%] Built target tf_to_pos_node
+[5.948s] [ 54%] Built target visualization_node
+[8.600s] [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.600s] [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:558:23:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::Isometry3d drone3_transform[m[K’
+[8.600s]   558 |     Eigen::Isometry3d [01;31m[Kdrone3_transform[m[K = robot_state.getFrameTransform("Drone2");
+[8.600s]       |                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[8.600s] [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:557:23:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Isometry3d drone3_transform[m[K’ previously declared here
+[8.600s]   557 |     Eigen::Isometry3d [01;36m[Kdrone3_transform[m[K = robot_state.getFrameTransform("Drone3");
+[8.600s]       |                       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[8.613s] [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:561:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrone2_transform[m[K’ was not declared in this scope; did you mean ‘[01m[Kdrone3_transform[m[K’?
+[8.613s]   561 |     btVector3 P3([01;31m[Kdrone2_transform[m[K.translation().x(), drone2_transform.translation().y(), drone2_transform.translation().z());    // End point of the line
+[8.613s]       |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[8.613s]       |                  [32m[Kdrone3_transform[m[K
+[8.723s] [ 59%] [32m[1mLinking CXX static library libisaac_sim_demo_library.a[0m
+[8.793s] [ 59%] Built target isaac_sim_demo_library
+[8.815s] [ 68%] [32mBuilding CXX object CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o[0m
+[8.815s] [ 68%] [32mBuilding CXX object CMakeFiles/ompl_controller_node.dir/src/ompl_controller_node.cpp.o[0m
+[9.657s] [ 72%] [32m[1mLinking CXX executable spawn_scene[0m
+[9.677s] [ 77%] [32m[1mLinking CXX executable StateSubscriber_node[0m
+[9.964s] [ 77%] Built target spawn_scene
+[10.030s] [ 77%] Built target StateSubscriber_node
+[10.253s] [ 81%] [32m[1mLinking CXX executable moveit_test_node[0m
+[10.595s] [ 81%] Built target moveit_test_node
+[11.379s] gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+[11.379s] gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+[11.379s] gmake[1]: *** Waiting for unfinished jobs....
+[11.727s] [ 86%] [32m[1mLinking CXX executable cartesian[0m
+[12.192s] [ 86%] Built target cartesian
+[17.663s] [ 90%] [32m[1mLinking CXX executable ompl_lifecycle[0m
+[17.994s] [ 95%] [32m[1mLinking CXX executable ompl_controller_node[0m
+[18.285s] [ 95%] Built target ompl_lifecycle
+[18.657s] [ 95%] Built target ompl_controller_node
+[18.658s] gmake: *** [Makefile:146: all] Error 2
+[18.659s] Invoked command in '/home/ubuntu/ros2_ws/src/isaac_sim_demo/build/isaac_sim_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/isaac_sim_demo/build/isaac_sim_demo -- -j24 -l24

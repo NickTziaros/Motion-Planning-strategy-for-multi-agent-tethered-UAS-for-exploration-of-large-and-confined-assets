@@ -1,0 +1,45 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:101:30:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kmoveit::core::RobotState[m[K’
+  101 |   bool found_ik = start_state[01;31m[K->[m[KsetFromIK(joint_model_group, target_pose1, timeout);
+      |                              [01;31m[K^~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:105:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kmoveit::core::RobotState[m[K’
+  105 |     start_state[01;31m[K->[m[KcopyJointGroupPositions(joint_model_group, joint_values);
+      |                [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:3[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:108:19:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+  108 |       RCLCPP_INFO([01;31m[KLOGGER[m[K, "Joint %s: %f", joint_names[i].c_str(), joint_values[i]);
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:108:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  108 |       [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Joint %s: %f", joint_names[i].c_str(), joint_values[i]);
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:108:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  108 |       [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Joint %s: %f", joint_names[i].c_str(), joint_values[i]);
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:108:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  108 |       [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Joint %s: %f", joint_names[i].c_str(), joint_values[i]);
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:113:17:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+  113 |     RCLCPP_INFO([01;31m[KLOGGER[m[K, "Did not find IK solution");
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:113:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  113 |     [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Did not find IK solution");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:113:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  113 |     [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Did not find IK solution");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:113:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  113 |     [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Did not find IK solution");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_test_node.dir/build.make:76: CMakeFiles/moveit_test_node.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:311: CMakeFiles/moveit_test_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

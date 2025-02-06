@@ -1,0 +1,81 @@
+[35m[1mConsolidate compiler generated dependencies of target joint_space[0m
+[ 18%] Built target StateSubscriber_node
+[ 18%] Built target markers_node
+[ 27%] Built target tf_to_pos_node
+[ 36%] Built target visualization_node
+[ 45%] Built target isaac_sim_demo_library
+[ 54%] Built target moveit_test_node
+[ 63%] Built target cartesian
+[ 72%] Built target spawn_scene
+[ 77%] [32mBuilding CXX object CMakeFiles/joint_space.dir/src/joint_space.cpp.o[0m
+[ 86%] Built target ompl_controller_node
+[ 95%] Built target ompl_lifecycle
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:313:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} and ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’})
+  313 |       ik_pose = path.poses[i].[01;31m[Kpose[m[K; ;
+      |                               [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/motion_plan_request__struct.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/motion_plan_request.hpp:7[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_interface/planning_request.h:39[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/planning_interface/planning_interface.h:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:39[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:38:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >& geometry_msgs::msg::PoseStamped_<std::allocator<void> >::operator=(const geometry_msgs::msg::PoseStamped_<std::allocator<void> >&)[m[K’
+   38 | struct [01;36m[KPoseStamped_[m[K
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:38:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst geometry_msgs::msg::PoseStamped_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:38:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >& geometry_msgs::msg::PoseStamped_<std::allocator<void> >::operator=(geometry_msgs::msg::PoseStamped_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:38:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >&&[m[K’
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:331:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*&, geometry_msgs::msg::PoseStamped&, double&, moveit::core::GroupStateValidityCallbackFn&)[m[K’
+  331 |       while(![01;31m[Kgoal_state.setFromIK(joint_model_group, ik_pose, timeout,callback_fn)[m[K && rclcpp::ok()){
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_scene_monitor/current_state_monitor.h:53[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:41[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:5[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:952:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Pose&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const IKCostFn&)[m[K’
+  952 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const geometry_msgs::msg::Pose& pose, double timeout = 0.0,
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:952:80:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+  952 |   bool setFromIK(const JointModelGroup* group, [01;36m[Kconst geometry_msgs::msg::Pose& pose[m[K, double timeout = 0.0,
+      |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:964:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Pose&, const string&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const IKCostFn&)[m[K’
+  964 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const geometry_msgs::msg::Pose& pose, const std::string& tip,
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:964:80:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&[m[K’}
+  964 |   bool setFromIK(const JointModelGroup* group, [01;36m[Kconst geometry_msgs::msg::Pose& pose[m[K, const std::string& tip,
+      |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:975:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Isometry3d&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const IKCostFn&)[m[K’
+  975 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, double timeout = 0.0,
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:975:73:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+  975 |   bool setFromIK(const JointModelGroup* group, [01;36m[Kconst Eigen::Isometry3d& pose[m[K, double timeout = 0.0,
+      |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:986:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Isometry3d&, const string&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const IKCostFn&)[m[K’
+  986 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, const std::string& tip,
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:986:73:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+  986 |   bool setFromIK(const JointModelGroup* group, [01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& tip,
+      |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:999:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Isometry3d&, const string&, const std::vector<double>&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const IKCostFn&)[m[K’
+  999 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, const std::string& tip,
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:999:73:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+  999 |   bool setFromIK(const JointModelGroup* group, [01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& tip,
+      |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1014:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const vector_Isometry3d&, const std::vector<std::__cxx11::basic_string<char> >&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const IKCostFn&)[m[K’
+ 1014 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const EigenSTL::vector_Isometry3d& poses,
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1014:83:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kconst vector_Isometry3d&[m[K’ {aka ‘[01m[Kconst std::vector<Eigen::Transform<double, 3, 1>, Eigen::aligned_allocator<Eigen::Transform<double, 3, 1> > >&[m[K’}
+ 1014 |   bool setFromIK(const JointModelGroup* group, [01;36m[Kconst EigenSTL::vector_Isometry3d& poses[m[K,
+      |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1030:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const vector_Isometry3d&, const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::vector<double> >&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const IKCostFn&)[m[K’
+ 1030 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const EigenSTL::vector_Isometry3d& poses,
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_core/include/moveit/robot_state/robot_state.h:1030:83:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kconst vector_Isometry3d&[m[K’ {aka ‘[01m[Kconst std::vector<Eigen::Transform<double, 3, 1>, Eigen::aligned_allocator<Eigen::Transform<double, 3, 1> > >&[m[K’}
+ 1030 |   bool setFromIK(const JointModelGroup* group, [01;36m[Kconst EigenSTL::vector_Isometry3d& poses[m[K,
+      |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_test[0m
+[ 42%] Built target markers_node
+[ 42%] Built target StateSubscriber_node
+[ 42%] Built target visualization_node
+[ 57%] Built target tf_to_pos_node
+[ 71%] Built target isaac_sim_demo_library
+[ 78%] [32mBuilding CXX object CMakeFiles/moveit_test.dir/src/moveit_demo.cpp.o[0m
+[ 92%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:160:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ was not declared in this scope
+  160 |                                     [01;31m[Kmove_group_interface[m[K.getPlanningFrame()] {
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In lambda function:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:162:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_id[m[K’ was not declared in this scope
+  162 |       collision_object.header.frame_id = [01;31m[Kframe_id[m[K;
+      |                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:190:60:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kmoveit::planning_interface::PlanningSceneInterface planning_scene_interface[m[K’
+  190 |         moveit::planning_interface::PlanningSceneInterface [01;31m[Kplanning_scene_interface[m[K;
+      |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:187:58:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit::planning_interface::PlanningSceneInterface planning_scene_interface[m[K’ previously declared here
+  187 |       moveit::planning_interface::PlanningSceneInterface [01;36m[Kplanning_scene_interface[m[K;
+      |                                                          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/moveit_demo.cpp:212:80:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+  212 |     rclcpp::NodeOptions().automatically_declare_parameters_from_overrides(true)
+      |                                                                                [01;31m[K^[m[K
+      |                                                                                [32m[K;[m[K
+  213 |     [32m[Krclcpp[m[K::spin(std::make_shared<MyNode>());
+      |     [32m[K~~~~~~[m[K                                                                      
+gmake[2]: *** [CMakeFiles/moveit_test.dir/build.make:76: CMakeFiles/moveit_test.dir/src/moveit_demo.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/moveit_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

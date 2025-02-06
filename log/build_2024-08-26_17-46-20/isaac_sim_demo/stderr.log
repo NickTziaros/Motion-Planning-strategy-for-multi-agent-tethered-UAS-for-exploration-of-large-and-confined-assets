@@ -1,0 +1,19 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:41:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanner_plugin_names[m[K’ was not declared in this scope; did you mean ‘[01m[Kplanner_plugin_loader[m[K’?
+   41 |     if (!node->get_parameter("ompl.planning_plugins", [01;31m[Kplanner_plugin_names[m[K))
+      |                                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                       [32m[Kplanner_plugin_loader[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:53:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanner_plugin_names[m[K’ was not declared in this scope; did you mean ‘[01m[Kplanner_plugin_loader[m[K’?
+   53 |     if ([01;31m[Kplanner_plugin_names[m[K.empty())
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kplanner_plugin_loader[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:60:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanner_plugin_names[m[K’ was not declared in this scope; did you mean ‘[01m[Kplanner_plugin_loader[m[K’?
+   60 |     const auto& planner_name = [01;31m[Kplanner_plugin_names[m[K.at(0);
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                [32m[Kplanner_plugin_loader[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:63:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanner_instance[m[K’ was not declared in this scope
+   63 |     [01;31m[Kplanner_instance[m[K.reset(planner_plugin_loader->createUnmanagedInstance(planner_name));
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

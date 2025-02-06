@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target joint_space[0m
+[  9%] Built target StateSubscriber_node
+[ 18%] Built target markers_node
+[ 27%] Built target tf_to_pos_node
+[ 36%] Built target visualization_node
+[ 45%] Built target moveit_test_node
+[ 54%] Built target spawn_scene
+[ 63%] Built target isaac_sim_demo_library
+[ 72%] Built target cartesian
+[ 77%] [32mBuilding CXX object CMakeFiles/joint_space.dir/src/joint_space.cpp.o[0m
+[ 95%] Built target ompl_lifecycle
+[ 95%] Built target ompl_controller_node
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:278:7:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Ktransforms[m[K’
+  278 |       [01;31m[Ktransforms[m[K.setTransform(robot_state.getFrameTransform("Drone4"));
+      |       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:279:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisibility_constraint[m[K’ was not declared in this scope
+  279 |       vis_constraint_checker.configure([01;31m[Kvisibility_constraint[m[K, transforms);
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/joint_space.cpp:279:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransforms[m[K’ was not declared in this scope; did you mean ‘[01m[KTransformData[m[K’?
+  279 |       vis_constraint_checker.configure(visibility_constraint, [01;31m[Ktransforms[m[K);
+      |                                                               [01;31m[K^~~~~~~~~~[m[K
+      |                                                               [32m[KTransformData[m[K
+gmake[2]: *** [CMakeFiles/joint_space.dir/build.make:76: CMakeFiles/joint_space.dir/src/joint_space.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/joint_space.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,18 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:192:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kplanning_pipeline::PlanningPipeline::generatePlan(std::shared_ptr<planning_scene::PlanningScene>&, planning_interface::MotionPlanRequest&, planning_interface::MotionPlanResponse&, bool)[m[K’
+  192 |         if (![01;31m[Kplanning_pipeline->generatePlan(planning_scene, req, res,true)[m[K || res.error_code_.val != res.error_code_.SUCCESS) {
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/cpp_int.cpp:8[m[K:
+[01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:133:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool planning_pipeline::PlanningPipeline::generatePlan(const PlanningSceneConstPtr&, const MotionPlanRequest&, planning_interface::MotionPlanResponse&) const[m[K’
+  133 |   bool [01;36m[KgeneratePlan[m[K(const planning_scene::PlanningSceneConstPtr& planning_scene,
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:133:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:145:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool planning_pipeline::PlanningPipeline::generatePlan(const PlanningSceneConstPtr&, const MotionPlanRequest&, planning_interface::MotionPlanResponse&, std::vector<long unsigned int>&) const[m[K’
+  145 |   bool [01;36m[KgeneratePlan[m[K(const planning_scene::PlanningSceneConstPtr& planning_scene,
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h:147:47:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Kbool[m[K’ to ‘[01m[Kstd::vector<long unsigned int>&[m[K’
+  147 |                     [01;36m[Kstd::vector<std::size_t>& adapter_added_state_index[m[K) const;
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_demo.dir/build.make:76: CMakeFiles/cpp_demo.dir/src/cpp_int.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:337: CMakeFiles/cpp_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

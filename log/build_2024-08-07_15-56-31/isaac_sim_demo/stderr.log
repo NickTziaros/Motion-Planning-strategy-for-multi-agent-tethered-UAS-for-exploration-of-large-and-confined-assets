@@ -1,0 +1,20 @@
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:[m[K In member function ‘[01m[Kvoid LifecycleTalker::publish()[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/ompl_lifecycle.cpp:91:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   91 |     ompl::geometric::SimpleSetup ss_p = planner_.configure(quad_pose,goal_pose,[01;31m[Kclient_[m[K);
+      |                                                                                [01;31m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/RRT_controller.cpp:101:30:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kompl::geometric::SimpleSetup RRT_controller::ompl_controller::configure(std::vector<double*>, std::vector<double, std::allocator<double> >)[m[K’
+  101 | ompl::geometric::SimpleSetup [01;31m[Kompl_controller[m[K::configure(std::vector<double*> quad_poses, std::vector<double> goal_pose){
+      |                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/src/RRT_controller.cpp:4[m[K:
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/include/isaac_sim_demo/RRT_controller.hpp:62:34:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kompl::geometric::SimpleSetup RRT_controller::ompl_controller::configure(std::vector<double*>, std::vector<double, std::allocator<double> >, rclcpp::Client<custom_interfaces::srv::PlannerWorkspace>::SharedPtr)[m[K’
+   62 |     ompl::geometric::SimpleSetup [01;36m[Kconfigure[m[K(std::vector<double*> quad_poses, std::vector<double> goal_pose,rclcpp::Client<custom_interfaces::srv::PlannerWorkspace>::SharedPtr client_);
+      |                                  [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/isaac_sim_demo/include/isaac_sim_demo/RRT_controller.hpp:44:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass RRT_controller::ompl_controller[m[K’ defined here
+   44 | class [01;36m[Kompl_controller[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/isaac_sim_demo_library.dir/build.make:76: CMakeFiles/isaac_sim_demo_library.dir/src/RRT_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/isaac_sim_demo_library.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/ompl_lifecycle.dir/build.make:76: CMakeFiles/ompl_lifecycle.dir/src/ompl_lifecycle.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/ompl_lifecycle.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
