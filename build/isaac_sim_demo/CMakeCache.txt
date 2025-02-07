@@ -679,6 +679,12 @@ _ogre_overlay_static_library_abs:FILEPATH=/opt/ros/humble/opt/rviz_ogre_vendor/l
 //Path to a library.
 _ogre_overlay_static_library_debug_abs:FILEPATH=_ogre_overlay_static_library_debug_abs-NOTFOUND
 
+//Path to a library.
+_render_system_gl_static_library_abs:FILEPATH=_render_system_gl_static_library_abs-NOTFOUND
+
+//Path to a library.
+_render_system_gl_static_library_debug_abs:FILEPATH=_render_system_gl_static_library_debug_abs-NOTFOUND
+
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
 
@@ -1784,5 +1790,5 @@ pkgcfg_lib_PKG_FONTCONFIG_freetype-ADVANCED:INTERNAL=1
 pkgcfg_lib__OPENSSL_crypto-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_ssl
 pkgcfg_lib__OPENSSL_ssl-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
+prefix_result:INTERNAL=AsynchDNS;GSS-API;HSTS;HTTP2;HTTPS-proxy;IDN;IPv6;Kerberos;Largefile;NTLM;NTLM_WB;PSL;SPNEGO;SSL;TLS-SRP;UnixSockets;alt-svc;brotli;libz;zstd
 

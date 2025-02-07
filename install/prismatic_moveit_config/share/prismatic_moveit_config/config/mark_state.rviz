@@ -3,16 +3,9 @@ Panels:
     Help Height: 70
     Name: Displays
     Property Tree Widget:
-      Expanded:
-        - /MotionPlanning1
-        - /MotionPlanning1/Planning Request1
-        - /MarkerArray1
-        - /Path1
-        - /TF1
-        - /PlanningScene1
-        - /PlanningScene1/Scene Geometry1
+      Expanded: ~
       Splitter Ratio: 0.5
-    Tree Height: 207
+    Tree Height: 440
   - Class: rviz_common/Help
     Name: Help
   - Class: rviz_common/Views
@@ -43,7 +36,7 @@ Visualization Manager:
       Value: true
     - Acceleration_Scaling_Factor: 0.1
       Class: moveit_rviz_plugin/MotionPlanning
-      Enabled: true
+      Enabled: false
       Move Group Namespace: ""
       MoveIt_Allow_Approximate_IK: false
       MoveIt_Allow_External_Program: false
@@ -68,80 +61,15 @@ Visualization Manager:
         Interrupt Display: false
         Links:
           All Links Enabled: true
-          Drone1:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          Drone2:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          Drone3:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          Drone4:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           Expand Joint Details: false
           Expand Link Details: false
           Expand Tree: false
           Link Tree Style: Links in Alphabetic Order
-          base_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          spherical_1_x:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          spherical_1_y:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          spherical_2_x:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          spherical_2_y:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          spherical_3_x:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          spherical_3_y:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          spherical_4_x:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          spherical_4_y:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-        Loop Animation: false
+        Loop Animation: true
         Robot Alpha: 0.5
         Robot Color: 150; 50; 150
         Show Robot Collision: false
-        Show Robot Visual: false
+        Show Robot Visual: true
         Show Trail: false
         State Display Time: 0.05 s
         Trail Step Size: 1
@@ -161,7 +89,7 @@ Visualization Manager:
         Interactive Marker Size: 0
         Joint Violation Color: 255; 0; 255
         Planning Group: Group1
-        Query Goal State: false
+        Query Goal State: true
         Query Start State: false
         Show Workspace: false
         Start State Alpha: 1
@@ -179,79 +107,14 @@ Visualization Manager:
         Attached Body Color: 150; 50; 150
         Links:
           All Links Enabled: true
-          Drone1:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          Drone2:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          Drone3:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          Drone4:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           Expand Joint Details: false
           Expand Link Details: false
           Expand Tree: false
           Link Tree Style: Links in Alphabetic Order
-          base_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          spherical_1_x:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          spherical_1_y:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          spherical_2_x:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          spherical_2_y:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          spherical_3_x:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          spherical_3_y:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          spherical_4_x:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          spherical_4_y:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
         Robot Alpha: 0.5
         Show Robot Collision: false
-        Show Robot Visual: false
-      Value: true
+        Show Robot Visual: true
+      Value: false
       Velocity_Scaling_Factor: 0.1
     - Attached Body Color: 150; 50; 150
       Class: moveit_rviz_plugin/RobotState
@@ -351,13 +214,13 @@ Visualization Manager:
     - Alpha: 1
       Buffer Length: 1
       Class: rviz_default_plugins/Path
-      Color: 0; 0; 0
+      Color: 25; 255; 0
       Enabled: true
       Head Diameter: 0.30000001192092896
       Head Length: 0.20000000298023224
       Length: 0.30000001192092896
       Line Style: Lines
-      Line Width: 0.20000000298023224
+      Line Width: 0.029999999329447746
       Name: Path
       Offset:
         X: 0
@@ -380,7 +243,7 @@ Visualization Manager:
       Enabled: false
       Frame Timeout: 15
       Frames:
-        All Enabled: true
+        All Enabled: false
       Marker Scale: 1
       Name: TF
       Show Arrows: true
@@ -400,7 +263,7 @@ Visualization Manager:
         Scene Alpha: 0.8999999761581421
         Scene Color: 50; 230; 50
         Scene Display Time: 0.009999999776482582
-        Show Scene Geometry: false
+        Show Scene Geometry: true
         Voxel Coloring: Z-Axis
         Voxel Rendering: Occupied Voxels
       Scene Robot:
@@ -498,25 +361,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 14.90884017944336
+      Distance: 7.778342247009277
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 7.132790565490723
-        Y: -0.06815534085035324
-        Z: 3.396930694580078
+        X: 3.6882834434509277
+        Y: 0.4076589345932007
+        Z: 1.2977824211120605
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: -0.06500030308961868
+      Pitch: 0.2749999761581421
       Target Frame: base_link
       Value: Orbit (rviz_default_plugins)
-      Yaw: 4.52701473236084
+      Yaw: 3.9752159118652344
     Saved: ~
 Window Geometry:
   Displays:
@@ -527,12 +390,12 @@ Window Geometry:
   Hide Left Dock: true
   Hide Right Dock: false
   MotionPlanning:
-    collapsed: true
+    collapsed: false
   MotionPlanning - Trajectory Slider:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd0000000100000000000001c9000003a2fc0200000005fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000003f00fffffffb000000100044006900730070006c006100790073000000003b00000150000000c700fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670000000191000001740000016900fffffffb0000000800480065006c0070000000029a0000006e0000006e00fffffffb0000000a00560069006500770073000000030b000000d2000000a000ffffff0000039c000003a200000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000100000000000002b4000003a2fc0200000005fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000003f00fffffffb000000100044006900730070006c006100790073000000003b00000239000000c700fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670000000191000001740000016900fffffffb0000000800480065006c0070000000029a0000006e0000006e00fffffffb0000000a00560069006500770073000000027a00000163000000a000ffffff00000738000003a200000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Views:
     collapsed: true
-  Width: 924
-  X: 996
+  Width: 1848
+  X: 72
   Y: 27

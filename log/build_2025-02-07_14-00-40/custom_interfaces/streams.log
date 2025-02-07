@@ -1,0 +1,194 @@
+[0.014s] Invoking command in '/home/ubuntu/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/custom_interfaces -- -j24 -l24
+[0.066s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.176s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.227s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.259s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.261s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.267s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.295s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.386s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.563s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.864s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.981s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.000s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.019s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.019s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.019s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.084s] -- Added test 'lint_cmake' to check CMake code style
+[1.084s] -- Added test 'xmllint' to check XML markup files
+[1.101s] -- Configuring done
+[1.135s] -- Generating done
+[1.136s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/custom_interfaces
+[1.160s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_c[0m
+[1.170s] [  3%] Built target custom_interfaces__cpp
+[1.171s] [ 12%] Built target custom_interfaces__rosidl_generator_c
+[1.185s] [ 12%] Built target ament_cmake_python_copy_custom_interfaces
+[1.186s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c[0m
+[1.186s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_cpp[0m
+[1.186s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.186s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.186s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.188s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c[0m
+[1.202s] [ 22%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[1.203s] [ 32%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[1.203s] [ 41%] Built target custom_interfaces__rosidl_typesupport_c
+[1.205s] [ 51%] Built target custom_interfaces__rosidl_typesupport_cpp
+[1.205s] [ 61%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[1.207s] [ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.226s] [ 70%] Built target custom_interfaces
+[1.246s] [ 74%] Built target custom_interfaces__py
+[1.256s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_py[0m
+[1.268s] [ 80%] Built target custom_interfaces__rosidl_generator_py
+[1.281s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.281s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c__pyext[0m
+[1.281s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.294s] [ 93%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[1.294s] [ 93%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.294s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.351s] running egg_info
+[1.351s] writing custom_interfaces.egg-info/PKG-INFO
+[1.351s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[1.351s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[1.353s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[1.354s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[1.373s] [100%] Built target ament_cmake_python_build_custom_interfaces_egg
+[1.382s] Invoked command in '/home/ubuntu/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/custom_interfaces -- -j24 -l24
+[1.453s] Invoking command in '/home/ubuntu/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/custom_interfaces
+[1.459s] -- Install configuration: "Release"
+[1.460s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[1.460s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[1.460s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[1.460s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/planner_workspace.h
+[1.460s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[1.460s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__struct.h
+[1.460s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__type_support.h
+[1.460s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__functions.h
+[1.460s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__functions.c
+[1.460s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[1.460s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.460s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[1.461s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[1.461s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[1.461s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[1.461s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[1.461s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[1.461s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[1.461s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__rosidl_typesupport_fastrtps_c.h
+[1.462s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[1.462s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.462s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.462s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[1.462s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[1.462s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[1.462s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/planner_workspace.hpp
+[1.462s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[1.462s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__builder.hpp
+[1.462s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__struct.hpp
+[1.462s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__traits.hpp
+[1.462s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[1.462s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[1.463s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[1.463s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps
+[1.463s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__rosidl_typesupport_fastrtps_cpp.hpp
+[1.463s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[1.463s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.463s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.463s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.463s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[1.463s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[1.463s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[1.463s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__rosidl_typesupport_introspection_c.h
+[1.463s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__type_support.c
+[1.463s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[1.463s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.463s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[1.464s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[1.464s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[1.464s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[1.464s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[1.464s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[1.464s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[1.464s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__rosidl_typesupport_introspection_cpp.hpp
+[1.464s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/planner_workspace__type_support.cpp
+[1.464s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.465s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[1.465s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[1.465s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[1.465s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[1.465s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[1.465s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info
+[1.465s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.465s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.466s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.466s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.466s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces
+[1.466s] -- Up-to-date: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv
+[1.466s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_planner_workspace.py
+[1.466s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py
+[1.466s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_planner_workspace_s.c
+[1.466s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.466s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[1.466s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[1.466s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.466s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[1.466s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.466s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.466s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.492s] Listing '/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[1.492s] Compiling '/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[1.492s] Listing '/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...
+[1.492s] Compiling '/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...
+[1.492s] Compiling '/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_planner_workspace.py'...
+[1.495s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.495s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.495s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.495s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.495s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.496s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.496s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[1.496s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[1.496s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/PlannerWorkspace.idl
+[1.496s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/PlannerWorkspace.srv
+[1.496s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/PlannerWorkspace_Request.msg
+[1.496s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/PlannerWorkspace_Response.msg
+[1.496s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[1.496s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[1.497s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[1.497s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[1.497s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[1.497s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[1.497s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[1.497s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[1.497s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[1.497s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[1.497s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[1.497s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[1.498s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[1.498s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-release.cmake
+[1.498s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.498s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake
+[1.498s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[1.498s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.498s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[1.498s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.498s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+[1.498s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[1.499s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-release.cmake
+[1.499s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.499s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+[1.499s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[1.499s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-release.cmake
+[1.499s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[1.499s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-release.cmake
+[1.499s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.499s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.499s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.499s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.500s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.500s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.500s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.500s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[1.500s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[1.500s] -- Installing: /home/ubuntu/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml
+[1.502s] Invoked command in '/home/ubuntu/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/moveit_configs_utils:/home/ubuntu/ros2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/custom_interfaces
