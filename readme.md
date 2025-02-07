@@ -5,7 +5,7 @@ This repository contains the results of my thesis developed in the Department of
 # Video Demonstration
 
 
-[![Video Demonstration](https://youtu.be/2MsdKgXXRzo.jpg)](https://youtu.be/2MsdKgXXRzo)
+[![Video Demonstration](http://i3.ytimg.com/vi/2MsdKgXXRzo/hqdefault.jpg)](https://youtu.be/2MsdKgXXRzo)
 
 
 ## Running Simulations
