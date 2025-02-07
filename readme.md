@@ -2,6 +2,12 @@
 
 This repository contains the results of my thesis developed in the Department of Electrical and Photonics Engineering at the Danish Technical University (DTU) as part of the Autonomous Systems Master's program.
 
+# Video Demonstration
+
+
+[![Video Demonstration](https://youtu.be/2MsdKgXXRzo.jpg)](https://youtu.be/2MsdKgXXRzo)
+
+
 ## Running Simulations
 
 To run the simulation locally, you need to download and run the corresponding Docker image. This image contains the entire project, including the ROS 2 workspace, as well as Isaac Sim and the Pegasus Simulator.
@@ -74,11 +80,10 @@ ros2 launch isaac_sim_demo environment.launch.py
 
 ### Step 6: Start Path Planning
 
-To initiate the path-planning process, run:
+To initiate the path planning process, run:
 
 ```sh
 ros2 launch isaac_sim_demo environment.launch.py
 ```
 
-Now, your simulation environment is set up and ready for experimentation!
 
