@@ -83,7 +83,7 @@ ros2 launch isaac_sim_demo environment.launch.py
 To initiate the path planning process, run:
 
 ```sh
-ros2 launch isaac_sim_demo environment.launch.py
+ros2 launch path_planning.launch.py
 ```
 
 
